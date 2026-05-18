@@ -1,0 +1,77 @@
+
+{
+  "usdmVersion": "",
+  "systemName": "",
+  "systemVersion": "",
+  "study": {
+    "id": "",
+    "instanceType": "Study",
+    "name": "",
+    "label": "",
+    "description": "",
+    "versions": [
+      {
+        "id": "",
+        "instanceType": "StudyVersion",
+        "versionIdentifier": "",
+        "rationale": "",
+        "dateValues": [],
+        "amendments": [],
+        "businessTherapeuticAreas": [],
+        "studyIdentifiers": [],
+        "referenceIdentifiers": [],
+        "studyDesigns": [
+          {
+            "id": "",
+            "instanceType": "InterventionalStudyDesign",
+            "name": "",
+            "label": "",
+            "description": "",
+            "studyType": {},
+            "studyPhase": {},
+            "therapeuticAreas": [],
+            "characteristics": [],
+            "encounters": [],
+            "activities": [],
+            "arms": [],
+            "studyCells": [],
+            "rationale": "",
+            "epochs": [],
+            "elements": [],
+            "estimands": [],
+            "indications": [],
+            "studyInterventionIds": [],
+            "objectives": [],
+            "population": {
+              "id": "",
+              "instanceType": "StudyDesignPopulation",
+              "name": "",
+              "label": "",
+              "description": "",
+              "includesHealthySubjects": false,
+              "plannedEnrollmentNumber": {},
+              "plannedCompletionNumber": {},
+              "plannedSex": [],
+              "plannedAge": {},
+              "criterionIds": [],
+              "cohorts": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "organizations": [],
+  "administrableProducts": [],
+  "productOrganizationRoles": [],
+  "studyInterventions": [],
+  "analysisPopulations": [],
+  "eligibilityCriteria": [],
+  "scheduleTimelines": [],
+  "conditions": [],
+  "bcCategories": [],
+  "biomedicalConcepts": [],
+  "dictionaries": [],
+  "documentedBy": [],
+  "notes": []
+}

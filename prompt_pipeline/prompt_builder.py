@@ -121,36 +121,36 @@ def build_messages(section_name,
 # TEST
 # =========================================================
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    sample_chunk = """
-OBJECTIVES
+#     sample_chunk = """
+# OBJECTIVES
 
-Primary Objective:
-To evaluate efficacy of Drug X compared to placebo.
+# Primary Objective:
+# To evaluate efficacy of Drug X compared to placebo.
 
-Secondary Objective:
-To assess safety and tolerability.
-"""
+# Secondary Objective:
+# To assess safety and tolerability.
+# """
 
-    sample_schema = {
-        "study": {
-            "versions": [
-                {
-                    "studyDesigns": [
-                        {
-                            "objectives": []
-                        }
-                    ]
-                }
-            ]
-        }
-    }
+#     sample_schema = {
+#         "study": {
+#             "versions": [
+#                 {
+#                     "studyDesigns": [
+#                         {
+#                             "objectives": []
+#                         }
+#                     ]
+#                 }
+#             ]
+#         }
+#     }
 
-    messages = build_messages(
-        section_name="objectives",
-        chunk_text=sample_chunk,
-        subschema=sample_schema
-    )
+#     messages = build_messages(
+#         section_name="objectives",
+#         chunk_text=sample_chunk,
+#         subschema=sample_schema
+#     )
 
-    print(messages[1]["content"])
+#     print(messages[1]["content"])

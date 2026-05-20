@@ -1,0 +1,597 @@
+{
+  "studyVersion": "1.0",
+  "studyTitle": "A Phase 2 Single-Arm, Multicenter, Exploratory Safety and Efficacy Study of IF001 to Remove Long-Term Immunosuppression from Prior Living Donor Kidney Transplant Recipients (RELIEF)",
+  "studyIdentifier": "IF001-CL201",
+  "studyDesign": "Phase 2, multicenter, open-label, single-arm proof-of-concept study",
+  "interventionalStudyDesign": {
+    "id": "ISD-001",
+    "name": null,
+    "description": "Phase 2, multicenter, open-label, single-arm proof-of-concept study to demonstrate the safety and efficacy of IF001 in adult participants 3 to 62 months following transplantation of a kidney from a living donor",
+    "therapeuticAreas": [],
+    "trialType": "INTERVENTIONAL",
+    "trialIntents": [],
+    "interventionModel": "SINGLE_GROUP",
+    "isAdaptive": false,
+    "hasMultipleArms": false,
+    "masking": {
+      "id": "MSK-001",
+      "name": null,
+      "description": "Not applicable as this is an open-label study",
+      "roles": []
+    },
+    "population": null,
+    "arms": [
+      {
+        "id": "ARM-001",
+        "name": null,
+        "description": "IF001 and initial tacrolimus plus MMF, with elimination of IS after 12 months",
+        "type": "EXPERIMENTAL",
+        "originId": null,
+        "originType": null
+      }
+    ],
+    "epochs": [],
+    "estimands": [],
+    "objectives": [],
+    "encounters": [],
+    "activities": [],
+    "biomedicalConcepts": [],
+    "bcCategories": [],
+    "bcSurrogates": [],
+    "studyCells": [],
+    "workflows": []
+  },
+  "indication": "kidney transplant recipients with stable renal allograft function who received a kidney transplant from a partially or fully HLA-matched living donor 3 to 62 months prior to signing informed consent",
+  "objective": "to evaluate the proportion of recipients free from IS (without BPAR) 24 months post-transplant",
+  "endpoint": [
+    {
+      "id": "END-001",
+      "name": "Change in renal function (eGFR by CKD-EPI 2021) from Day −9 (prior to the first dose of transplantation conditioning) to Month 15",
+      "level": null,
+      "purpose": null,
+      "text": "Change in renal function (eGFR by CKD-EPI 2021) from Day −9 (prior to the first dose of transplantation conditioning) to Month 15"
+    },
+    {
+      "id": "END-002",
+      "name": "The incidence of donor chimerism (> 50% T cell) and the level of chimerism by visit",
+      "level": null,
+      "purpose": null,
+      "text": "The incidence of donor chimerism (> 50% T cell) and the level of chimerism by visit"
+    },
+    {
+      "id": "END-003",
+      "name": "Change in participant-perceived quality of life",
+      "level": null,
+      "purpose": null,
+      "text": "Change in participant-perceived quality of life"
+    },
+    {
+      "id": "END-004",
+      "name": "The incidence of composite endpoint of BPAR, graft loss (renal), or death",
+      "level": null,
+      "purpose": null,
+      "text": "The incidence of composite endpoint of BPAR, graft loss (renal), or death"
+    }
+  ],
+  "studyArm": [
+    {
+      "id": "ARM-001",
+      "name": "Single-arm IF001 treatment",
+      "description": "Adult participants 3 to 62 months following transplantation of a kidney from a living donor who will receive IF001 product generated from the same living kidney donor through G-CSF mobilization and apheresis",
+      "type": {
+        "code": "experimental",
+        "decode": "Experimental"
+      },
+      "armSequence": 1
+    }
+  ],
+  "eligibilityCriterion": [
+    {
+      "id": "INC-001",
+      "name": null,
+      "label": null,
+      "description": "Written informed consent must be obtained from participants before any assessment is performed",
+      "text": "Written informed consent must be obtained from participants before any assessment is performed",
+      "category": {
+        "code": "01",
+        "decode": "Inclusion"
+      },
+      "identifier": "1",
+      "nextId": null,
+      "previousId": null,
+      "contextId": null
+    },
+    {
+      "id": "INC-002",
+      "name": null,
+      "label": null,
+      "description": "Participant age 18 to 50 years old",
+      "text": "Participant age 18 to 50 years old",
+      "category": {
+        "code": "01",
+        "decode": "Inclusion"
+      },
+      "identifier": "2",
+      "nextId": null,
+      "previousId": null,
+      "contextId": null
+    },
+    {
+      "id": "INC-003",
+      "name": null,
+      "label": null,
+      "description": "Donor age 18 to 50 years old",
+      "text": "Donor age 18 to 50 years old",
+      "category": {
+        "code": "01",
+        "decode": "Inclusion"
+      },
+      "identifier": "3",
+      "nextId": null,
+      "previousId": null,
+      "contextId": null
+    },
+    {
+      "id": "INC-004",
+      "name": null,
+      "label": null,
+      "description": "Participant must have received a kidney transplant from partially or fully HLA-matched living donor 3 to 62 months prior to signing informed consent",
+      "text": "Participant must have received a kidney transplant from partially or fully HLA-matched living donor 3 to 62 months prior to signing informed consent",
+      "category": {
+        "code": "01",
+        "decode": "Inclusion"
+      },
+      "identifier": "4",
+      "nextId": null,
+      "previousId": null,
+      "contextId": null
+    },
+    {
+      "id": "INC-005",
+      "name": null,
+      "label": null,
+      "description": "The participant must be matched with the kidney donor for at least 4 alleles of the following 4 HLA genes: HLA-A, HLA-B, HLA-C, and HLA-DRB1.  The participant must be matched with the kidney donor for at least one allele of the HLA-DRB1 gene.",
+      "text": "The participant must be matched with the kidney donor for at least 4 alleles of the following 4 HLA genes: HLA-A, HLA-B, HLA-C, and HLA-DRB1.  The participant must be matched with the kidney donor for at least one allele of the HLA-DRB1 gene.",
+      "category": {
+        "code": "01",
+        "decode": "Inclusion"
+      },
+      "identifier": "5",
+      "nextId": null,
+      "previousId": null,
+      "contextId": null
+    },
+    {
+      "id": "INC-006",
+      "name": null,
+      "label": null,
+      "description": "Stable renal allograft function ≥45 mL/min/1.73 m2 prior to screening (defined as <25% decrease in eGFR by the CKD-EPI 2021 formula [Inker 2021]) between the last 2 consecutive visits and per investigator judgement",
+      "text": "Stable renal allograft function ≥45 mL/min/1.73 m2 prior to screening (defined as <25% decrease in eGFR by the CKD-EPI 2021 formula [Inker 2021]) between the last 2 consecutive visits and per investigator judgement",
+      "category": {
+        "code": "01",
+        "decode": "Inclusion"
+      },
+      "identifier": "6",
+      "nextId": null,
+      "previousId": null,
+      "contextId": null
+    },
+    {
+      "id": "INC-007",
+      "name": null,
+      "label": null,
+      "description": "Must be willing and able to comply with protocol-required",
+      "text": "Must be willing and able to comply with protocol-required",
+      "category": {
+        "code": "01",
+        "decode": "Inclusion"
+      },
+      "identifier": "7",
+      "nextId": null,
+      "previousId": null,
+      "contextId": null
+    }
+  ],
+  "studyIntervention": [
+    {
+      "id": "INT-001",
+      "name": "IF001",
+      "description": null,
+      "label": null,
+      "interventionModel": null,
+      "studyInterventionType": "INVESTIGATIONAL_PRODUCT",
+      "codes": [],
+      "minimumAge": null,
+      "maximumAge": null,
+      "administrationDuration": null,
+      "washoutPeriod": null,
+      "factors": []
+    },
+    {
+      "id": "INT-002",
+      "name": "Thymoglobulin",
+      "description": "Days −9 (0.5 mg/kg intravenously [IV] over 6 hours), −8 (2 mg/kg IV over 4 hours), and −7 (2 mg/kg IV over 4 hours); preparations of anti-thymocyte globulin (ATG) other than Thymoglobulin are excluded",
+      "label": null,
+      "interventionModel": null,
+      "studyInterventionType": "OTHER",
+      "codes": [],
+      "minimumAge": null,
+      "maximumAge": null,
+      "administrationDuration": null,
+      "washoutPeriod": null,
+      "factors": []
+    },
+    {
+      "id": "INT-003",
+      "name": "Fludarabine",
+      "description": "Days −6, −5, −4, −3 and −2 (30 mg/m2 IV daily, dose adjusted for kidney function)",
+      "label": null,
+      "interventionModel": null,
+      "studyInterventionType": "OTHER",
+      "codes": [],
+      "minimumAge": null,
+      "maximumAge": null,
+      "administrationDuration": null,
+      "washoutPeriod": null,
+      "factors": []
+    },
+    {
+      "id": "INT-004",
+      "name": "Bacterial Prophylaxis",
+      "description": "Bacterial prophylaxis must be provided at least from Day 1 until the absolute neutrophil count (ANC) is >500 cells/µL. Specific antibacterials may be given according to center practice. An example is moxifloxacin 400 mg per day.",
+      "label": null,
+      "interventionModel": null,
+      "studyInterventionType": "OTHER",
+      "codes": [],
+      "minimumAge": null,
+      "maximumAge": null,
+      "administrationDuration": null,
+      "washoutPeriod": null,
+      "factors": []
+    },
+    {
+      "id": "INT-005",
+      "name": "Fungal Prophylaxis",
+      "description": "Fungal prophylaxis must be provided from Day 1 until the ANC is >500 cells/µL. Specific antifungals may be given according to center practice and investigator judgement but must include coverage of molds such as Aspergillus. An example is posaconazole 300 mg daily.",
+      "label": null,
+      "interventionModel": null,
+      "studyInterventionType": "OTHER",
+      "codes": [],
+      "minimumAge": null,
+      "maximumAge": null,
+      "administrationDuration": null,
+      "washoutPeriod": null,
+      "factors": []
+    },
+    {
+      "id": "INT-006",
+      "name": "Viral Prophylaxis",
+      "description": "Herpes simplex virus and varicella zoster virus prophylaxis must be provided from Day 1 until Day 183 and is recommended until Month 12. Specific antivirals may be given according to center practice and investigator judgement. An example is valacyclovir 500 mg twice a day.",
+      "label": null,
+      "interventionModel": null,
+      "studyInterventionType": "OTHER",
+      "codes": [],
+      "minimumAge": null,
+      "maximumAge": null,
+      "administrationDuration": null,
+      "washoutPeriod": null,
+      "factors": []
+    },
+    {
+      "id": "INT-007",
+      "name": "CMV Prophylaxis",
+      "description": "for participants who are immunoglobulin G (IgG) (+) for CMV and participants who are IgG (−) for CMV but who received a kidney from a donor who is IgG (+), it is recommended that CMV prophylaxis be provided from Day 1 until Day 92. Specific antiviral medications may be given according to center practice and investigator judgement. An example is letermovir 480 mg once daily.",
+      "label": null,
+      "interventionModel": null,
+      "studyInterventionType": "OTHER",
+      "codes": [],
+      "minimumAge": null,
+      "maximumAge": null,
+      "administrationDuration": null,
+      "washoutPeriod": null,
+      "factors": []
+    },
+    {
+      "id": "INT-008",
+      "name": "Pneumocystis Prophylaxis",
+      "description": "Pneumocystis prophylaxis (Pneumocystis jirovecii pneumonia/pneumocystis carinii pneumonia) must be provided starting on Day 22 or after the ANC is >500 cells/µL, whichever occurs later. Trimethoprim/sulfamethoxazole 1 single strength tablet daily is the preferred example, with atovaquone 1500 mg once daily or dapsone 100 mg once daily as alternatives.",
+      "label": null,
+      "interventionModel": null,
+      "studyInterventionType": "OTHER",
+      "codes": [],
+      "minimumAge": null,
+      "maximumAge": null,
+      "administrationDuration": null,
+      "washoutPeriod": null,
+      "factors": []
+    }
+  ],
+  "substance": [
+    {
+      "id": "SUB-001",
+      "name": "IF001",
+      "substanceType": {
+        "code": null,
+        "decode": "Investigational cryopreserved allogeneic somatic cell therapy, derived from donor mobilized peripheral blood mononuclear cells"
+      },
+      "codes": []
+    }
+  ],
+  "analysisPopulation": [
+    {
+      "id": "AP-001",
+      "name": "Full Analysis Set",
+      "label": "FAS",
+      "description": "The FAS consists of all participants who initiate the conditioning regimen. This set will include follow-up until Month 15.",
+      "condition": null,
+      "compoundSetOperator": null,
+      "subjectEnrollmentGroupIds": null
+    },
+    {
+      "id": "AP-002",
+      "name": "Per Protocol Analysis Set",
+      "label": "PPAS",
+      "description": "The PPAS consists of all participants in the FAS who complete the IF001 infusion, comply with",
+      "condition": null,
+      "compoundSetOperator": null,
+      "subjectEnrollmentGroupIds": null
+    },
+    {
+      "id": "AP-003",
+      "name": "Extended Analysis Set",
+      "label": "EAS",
+      "description": null,
+      "condition": null,
+      "compoundSetOperator": null,
+      "subjectEnrollmentGroupIds": null
+    }
+  ],
+  "Organization": [
+    {
+      "id": "ORG-001",
+      "name": "ImmunoFree, Inc.",
+      "identifier": null,
+      "identifierScheme": null,
+      "organizationType": {
+        "code": null,
+        "decode": "Sponsor"
+      },
+      "legalAddress": null
+    },
+    {
+      "id": "ORG-002",
+      "name": "Emmes",
+      "identifier": null,
+      "identifierScheme": null,
+      "organizationType": {
+        "code": null,
+        "decode": "Contractor"
+      },
+      "legalAddress": null
+    },
+    {
+      "id": "ORG-003",
+      "name": "Center for International Blood and Marrow Transplant Research",
+      "identifier": "CIBMTR",
+      "identifierScheme": null,
+      "organizationType": {
+        "code": null,
+        "decode": null
+      },
+      "legalAddress": null
+    }
+  ],
+  "address": "585 West Putnam Avenue Greenwich CT 06830 United States",
+  "GeographicScope": "United States",
+  "statisticalAnalysis": {
+    "id": "STA-001",
+    "name": null,
+    "label": null,
+    "description": "Statistical methods were not taken into consideration in determining the sample size. Because this is a proof-of-concept study, no hypothesis tests will be conducted on the primary safety endpoint. The primary safety endpoint will be summarized using a point estimate along with its 95% confidence interval (CI) (exact binomial). Because this is a proof-of-concept study, no hypothesis tests will be conducted on the key secondary efficacy endpoint.",
+    "primaryModel": "exact binomial",
+    "analysisSet": null,
+    "sampleSizeJustification": {
+      "id": "SSJ-001",
+      "plannedEnrollment": null,
+      "dropoutRate": null,
+      "assumptions": [],
+      "powerEstimates": []
+    }
+  },
+  "randomization": {
+    "id": "RND-001",
+    "name": null,
+    "label": null,
+    "description": "Recipients were to be randomized 2:1 to the following arms",
+    "ratio": "2:1",
+    "ratioDescription": null,
+    "type": null,
+    "blindingSchema": null,
+    "blindingNotes": null,
+    "stratificationFactors": []
+  },
+  "concomitantMedications": {
+    "id": "CONMED-001",
+    "name": "Concomitant Medications",
+    "label": null,
+    "description": "The investigator should instruct the participant to notify the study site about any new medications, including non-prescription supplements, he/she takes after study enrollment. All medications, procedures, and significant non-drug therapies (including physical therapy and blood transfusions) administered after the participant has signed the study informed consent form (ICF) will be recorded on the relevant case report form (CRF).",
+    "generalWashoutRule": null,
+    "permitted": [],
+    "taperedBeforeBaseline": [
+      {
+        "id": "TAPER-001",
+        "name": "Prednisone or equivalent corticosteroid",
+        "description": "If a participant was taking daily corticosteroids for >90 days prior to study enrollment, weaning of corticosteroids to prevent adrenal insufficiency is allowed per institutional standard or clinical judgement, provided that corticosteroids are withdrawn prior to Month 9.",
+        "taperSupervisor": null,
+        "minimumWashout": null
+      }
+    ],
+    "suspendedBeforeDosing": [],
+    "prohibited": [
+      {
+        "id": "PROHIB-001",
+        "name": "Preparations of ATG other than Thymoglobulin",
+        "description": null,
+        "washoutRule": null
+      },
+      {
+        "id": "PROHIB-002",
+        "name": "Pegfilgrastim (Neulasta)",
+        "description": null,
+        "washoutRule": null
+      },
+      {
+        "id": "PROHIB-003",
+        "name": "Granulocyte-macrophage-CSF",
+        "description": null,
+        "washoutRule": null
+      }
+    ]
+  },
+  "dataMonitoringCommittee": {
+    "id": "DMC-001",
+    "name": "data safety monitoring board",
+    "label": "DSMB",
+    "description": "An independent data safety monitoring board (DSMB) will oversee the safety and risk/benefit of the study. The DSMB will critically assess the sponsor and investigators on matters relating to the safety and conduct of the study.",
+    "type": "independent",
+    "mandate": "will oversee the safety and risk/benefit of the study",
+    "composition": null,
+    "charter": "The DSMB will be governed by a charter that will include meeting frequency, stopping rules, and event triggers necessitating an unscheduled review",
+    "reviewFrequency": null
+  },
+  "documentClassification": {
+    "id": "DOC-001",
+    "confidentialityLevel": "Confidential",
+    "label": "DRAFT",
+    "notes": null
+  },
+  "cellTherapyManufacturing": [
+    {
+      "id": "CTM-001",
+      "name": "IF001",
+      "label": null,
+      "description": "an investigational cell therapy product containing defined doses of CD34+ HSCs and αβ TCR cells for induction of transplantation tolerance in recipients of kidney transplants from the same donor",
+      "productId": "IF001",
+      "productName": "IF001",
+      "collectionProcedure": "granulocyte colony-stimulating factor (G-CSF) mobilization and apheresis",
+      "collectionTiming": null,
+      "collectionArms": [],
+      "targetAntigen": null,
+      "vectorType": null,
+      "minimumStemCellYield": "a minimum of 3 million CD34+ cells per kg of recipient IBW",
+      "manufacturingNotes": "The cryopreserved product contains a minimum of 3 million CD34+ cells per kg of recipient IBW (no maximum) and a target of 10 million αβ TCR cells per kg of recipient IBW (range 8-12 million per kg). Freshly harvested donor stem cells will be immediately transported to the manufacturing center where the IF001 product will be manufactured, cryopreserved, and stored prior to shipping to the study center for thawing and infusion into the participant."
+    }
+  ],
+  "lymphodepletingChemotherapy": [
+    {
+      "id": "LDC-001",
+      "name": "Reduced Intensity Conditioning Regimen",
+      "label": "RIC regimen",
+      "description": "Nine days prior to IF001 infusion, participants will begin a reduced intensity conditioning regimen",
+      "applicableArms": [],
+      "timing": "Days −9 through Day −1",
+      "agents": [
+        {
+          "id": "AGT-001",
+          "interventionId": null,
+          "name": "Thymoglobulin®",
+          "dose": "0.5 mg/kg intravenously [IV] over 6 hours on Day −9, 2 mg/kg IV over 4 hours on Day −8, 2 mg/kg IV over 4 hours on Day −7",
+          "frequency": "Days −9, −8, and −7",
+          "durationDays": 3
+        },
+        {
+          "id": "AGT-002",
+          "interventionId": null,
+          "name": "Fludarabine",
+          "dose": "30 mg/m2 IV daily, dose adjusted for kidney function",
+          "frequency": "Days −6, −5, −4, −3 and −2",
+          "durationDays": 5
+        },
+        {
+          "id": "AGT-003",
+          "interventionId": null,
+          "name": "Cyclophosphamide",
+          "dose": "14.5 mg/kg IV daily on Day −6, Day −5",
+          "frequency": "Day −6, Day −5",
+          "durationDays": 2
+        },
+        {
+          "id": "AGT-004",
+          "interventionId": null,
+          "name": "Total body irradiation",
+          "dose": "200 cGY for the HLA-matched cohort and 400 cGy for the partially HLA-matched cohort",
+          "frequency": "A single fraction on Day −1",
+          "durationDays": 1
+        }
+      ]
+    }
+  ],
+  "immuneMediatedToxicityMonitoring": [
+    {
+      "id": "IMT-001",
+      "name": "Acute GVHD Monitoring",
+      "label": null,
+      "description": "Characterize the incidence and grade of acute GVHD by Day 120",
+      "toxicityType": "acute GVHD",
+      "gradingSystem": null,
+      "endpointId": null,
+      "monitoringPeriod": "Day 120",
+      "applicableInterventions": [
+        "IF001"
+      ],
+      "notes": null
+    },
+    {
+      "id": "IMT-002",
+      "name": "Chronic GVHD Monitoring",
+      "label": null,
+      "description": "Characterize the severity of chronic GVHD by one-year post-IF001 infusion",
+      "toxicityType": "chronic GVHD",
+      "gradingSystem": null,
+      "endpointId": null,
+      "monitoringPeriod": "one-year post-IF001 infusion",
+      "applicableInterventions": [
+        "IF001"
+      ],
+      "notes": null
+    }
+  ],
+  "stemCellCollectionRequirements": [
+    {
+      "id": "SCR-001",
+      "name": "CD34+ HSCs Collection",
+      "label": null,
+      "description": null,
+      "collectionType": null,
+      "minimumYield": "3 million CD34+ cells per kg of recipient IBW",
+      "minimumYieldNumeric": 3000000,
+      "minimumYieldUnit": "cells/kg",
+      "rationaleForMinimum": null,
+      "timing": null,
+      "linkedCriterionId": null
+    },
+    {
+      "id": "SCR-002",
+      "name": "αβ TCR cells Collection",
+      "label": null,
+      "description": null,
+      "collectionType": null,
+      "minimumYield": "10 million αβ TCR cells per kg of recipient IBW (range 8-12 million per kg)",
+      "minimumYieldNumeric": 10000000,
+      "minimumYieldUnit": "cells/kg",
+      "rationaleForMinimum": "The dose of 10 ± 2 million αβ TCR cells/kg in the RELIEF trial was chosen to minimize the incidence of severe acute or chronic GVHD while simultaneously reducing the incidence of graft failure and opportunistic infection",
+      "timing": null,
+      "linkedCriterionId": null
+    }
+  ],
+  "siteManagement": {
+    "id": null,
+    "name": null,
+    "label": null,
+    "targetNumberOfSites": null,
+    "targetNumberOfSitesLabel": null,
+    "accrualPeriod": null,
+    "siteType": "Multiple centers in the United States",
+    "notes": null
+  }
+}

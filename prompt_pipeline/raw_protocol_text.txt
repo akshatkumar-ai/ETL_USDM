@@ -1,0 +1,4878 @@
+
+
+===== PAGE 1 =====
+
+ 
+ 
+IF001 
+IF001-CL201 
+ 
+ 
+Protocol Title: 
+A Phase 2 Single-Arm, Multicenter, Exploratory Safety and 
+Efficacy Study of IF001 to Remove Long-Term 
+Immunosuppression from Prior Living Donor Kidney 
+Transplant Recipients (RELIEF) 
+Indication Studied: 
+Prevention of living donor kidney allograft rejection in adult 
+recipients following discontinuation of pharmacologic 
+immunosuppression 
+Phase: 
+2 
+IND Number: 
+16834 
+Sponsor Address: 
+ImmunoFree, Inc.​
+585 West Putnam Avenue 
+Greenwich CT 06830 United States 
+Protocol Version/Date: 
+1.0, DD MMM 2025 DRAFT 
+ 
+ 
+This study will be conducted in compliance with the protocol, Good Clinical Practice, and all 
+other applicable regulatory requirements, including the archiving of essential documents. 
+ 
+ 
+Confidential Information 
+The information in this document contains trade and commercial information that is privileged or 
+confidential and may not be disclosed unless such disclosure is required by federal or state law or 
+Confidential DRAFT 17 Sept 2025Page 1 of 94 
+
+
+
+===== PAGE 2 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+regulations.  In any event, persons to whom the information is disclosed must be informed that 
+the information is privileged or confidential and may not be further disclosed by them.  These 
+restrictions on disclosure will apply equally to all future information supplied to you which is 
+indicated as privileged or confidential. 
+ 
+SYNOPSIS 
+Name of Sponsor/Company: ImmunoFree, Inc. 
+Name of Investigational Product: IF001 
+Name of Active Ingredient: Investigational cryopreserved allogeneic somatic cell therapy, derived 
+from donor mobilized peripheral blood mononuclear cells 
+Title of Study: A Phase 2 Single-Arm, Multicenter, Exploratory Safety and Efficacy Study of IF001 
+to Remove Long-Term Immunosuppression from Prior Living Donor Kidney Transplant Recipients 
+(RELIEF) 
+Study center(s): Multiple centers in the United States 
+Study period (years):  
+Estimated date first patient enrolled: Day Month Year 
+Estimated date last participant completed: Day Month Year 
+Phase of development: 2 
+ 
+Objectives: ​
+Safety 
+Primary: 
+●​ Determine the safety and tolerability of IF001 in previously transplanted recipients of a 
+kidney from a living donor 
+Secondary: 
+●​ Characterize the incidence and severity of acute graft-versus-host disease (GVHD) by 
+Day 120 and of chronic GVHD by one-year post-IF001 infusion 
+●​ Characterize the incidence of BK viremia, viruria, infection, and nephropathy by 15 months 
+post-IF001 infusion 
+●​ Characterize the incidence of proteinuria, neurotoxicity, anemia, diabetes, hypertension, 
+dyslipidemia, major adverse cardiovascular events, and malignancies 
+●​ Describe: 
+o​
+The time from IF001 infusion to neutrophil recovery (>500/µL) and platelet recovery 
+(>20K/µL) 
+o​
+The number of blood component transfusions 
+o​
+The incidence of engraftment syndrome 
+o​
+The incidence of primary and secondary hematopoietic graft failure 
+o​
+The incidence and severity of bacterial, fungal, and viral infections 
+Efficacy: 
+Primary: 
+●​ Evaluate the efficacy of IF001 in preventing graft loss and biopsy-proven acute rejection (BPAR) 
+following removal of pharmacologic immunosuppression (IS) 
+Secondary: 
+Confidential DRAFT 17 Sept 2025Page 2 of 94​
+​
+ 
+
+
+
+===== PAGE 3 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+●​ Evaluate changes in renal function (estimated glomerular filtration rate [eGFR] by Chronic 
+Kidney Disease Epidemiology Collaboration (CKD-EPI 2021) from Day −9, prior to the first 
+dose of transplantation conditioning, to Month 15 
+●​ Evaluate the time to the event for the composite of BPAR, graft loss, death, or lost to follow-up 
+and each component 
+ 
+●​ Describe: 
+o​ The correlation of donor chimerism with meeting the primary efficacy endpoint 
+o​ The incidence of donor chimerism (> 50% T cell) and the level of chimerism by visit 
+o​ Change in participant-perceived quality of life 
+●​ To evaluate outcomes (de novo donor-specific antibodies [DSA], graft and participant survival, 
+eGFR at 6, 12, and 15 months) in participants who are only transiently chimeric 
+●​ To evaluate the incidence of acute rejection (BPAR), death, renal graft loss, and lost to follow-up 
+in participants who did not achieve durable chimerism as well as the ability to wean or remain off 
+IS 
+Methodology: This is a multicenter, open-label, single-arm proof-of-concept study to demonstrate 
+the safety and efficacy of IF001 in adult participants 3 to 62 months following transplantation of a 
+kidney from a living donor.  The same living kidney donor will undergo granulocyte 
+colony-stimulating factor (G-CSF) mobilization and apheresis to generate the IF001 product.  Study 
+participants will receive chemotherapy and radiation therapy prior to IF001 cell therapy, then GVHD 
+prophylaxis with high-dose, post-IF001 infusion cyclophosphamide, prednisone, tacrolimus, and 
+mycophenolate mofetil (MMF, or equivalent).  Tacrolimus will be withdrawn and discontinued 
+according to weaning criteria. 
+The study will enroll 15 participants, with no more than 6 who are HLA-matched, to meet a target of 
+12 participants with complete follow-up. 
+The sponsor has contracted with the National Marrow Donor Program (NMDP) to manage the 
+donation process and donor follow-up.  Donors will undergo stem cell mobilization, stem cell 
+collection, and follow-up according to NMDP standard procedures. 
+Participant conditioning regimen 
+Participants will complete their last dose of MMF on Day −10 and last dose of tacrolimus on Day −4 
+prior to IF001 infusion.  Nine days prior to IF001 infusion, participants will begin a reduced intensity 
+conditioning regimen comprising:  
+●​ Thymoglobulin® on Days −9 (0.5 mg/kg intravenously [IV] over 6 hours), −8 (2 mg/kg IV over 
+4 hours), and −7 (2 mg/kg IV over 4 hours); preparations of anti-thymocyte globulin other than 
+Thymoglobulin are excluded 
+●​ Fludarabine on Days −6, −5, −4, −3 and −2 (30 mg/m2 IV daily, dose adjusted for kidney 
+function) 
+●​ Cyclophosphamide on Day −6, Day −5 (14.5 mg/kg IV daily), and Days 4 and 5 (50 mg/kg IV 
+daily) 
+●​ A single fraction of total body irradiation (TBI) treatment on Day −1 (200 cGY for the 
+HLA-matched cohort and 400 cGy for the partially HLA-matched cohort) 
+Immunosuppressive therapy 
+Tacrolimus should be started on Day 6 (24 hours after the completion of post-transplantation 
+cyclophosphamide) and administered as per institutional standards to target a level of 8 to 12 ng/mL. 
+Confidential DRAFT 17 Sept 2025Page 3 of 94​
+​
+ 
+
+
+
+===== PAGE 4 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+If tacrolimus is not tolerated, cyclosporine may be substituted IV or orally starting on Day 6 and 
+administered per institutional standards to maintain a level of 200 to 400 ng/mL (high-pressure liquid 
+chromatography method) or 250 to 500 ng/mL (immunoassay method).  Recommended starting doses 
+range from 3 to 6 mg/kg/day IV bolus dosing every12 hours or 6 mg/kg/day orally divided twice 
+daily.  The calcineurin inhibitor will be continued at therapeutic doses until at minimum Month 6 
+(Day 183) or longer per institutional preference.  Sirolimus with a target concentration of 10 ng/ml 
+may be substituted for participants intolerant of or experiencing unacceptable toxicity from 
+calcineurin inhibitors. 
+The MMF dose will be 15 mg/kg of actual body weight (ABW) orally 3 times daily (TID) up to 1 g 
+TID (or IV equivalent) or an equimolar dose of mycophenolic acid sodium.  The MMF dose will be 
+discontinued after the last dose on Day 36 or may continue if active GVHD is present.  Prednisone 
+10 mg orally daily will be initiated on Day 6 with the last dose on Day 36. 
+Filgrastim (G-CSF) or a biosimilar will be given IV or subcutaneously starting on Day 6 for IF001 
+recipients at 5 µg/kg/day of ABW (rounded to nearest vial size) until the absolute neutrophil count is 
+>1000/µl for 3 days.  Additional G-CSF may be administered as warranted.  Pegfilgrastim 
+(Neulasta®) and granulocyte-macrophage-CSF are not permitted. 
+Participant IS (tacrolimus or sirolimus or cyclosporine) may be tapered as early as Day 183 provided 
+all the following criteria are met: 
+●​ T cell chimerism on Day 160 (±7 days) is >50% 
+●​ No active GVHD, and the participant has been off all drugs to treat GVHD (eg, corticosteroids, 
+ruxolitinib) for >30 days without recurrence of GVHD 
+●​ No evidence of de novo DSA 
+●​ Absence of BPAR of the transplanted kidney 
+In the event of tacrolimus intolerance or based on clinical judgement of the investigator, dose 
+reduction and/or conversion to other primary agents may be necessary and is allowed. 
+Safety monitoring 
+An independent data safety monitoring board (DSMB) will oversee the safety and risk/benefit of the 
+study.  The DSMB will follow stopping rules as defined in the DSMB Charter.  The DSMB will 
+critically assess the background and clinical course of events leading to the study’s temporary halt as 
+soon as possible. 
+Number of participants (planned): Assuming a 20% dropout rate, it is anticipated that 
+15 participants will be enrolled, with no more than 6 who are fully HLA-matched, to meet the target 
+of 12 participants with complete follow-up 
+Diagnosis and main criteria for inclusion:  
+Written informed consent must be obtained from participants before any assessment is performed.  
+Eligible participants will be 18 to 50 years old and must have received a kidney transplant from a 
+partially or fully HLA-matched living donor 3 to 62 months prior to signing informed consent.  The 
+participant must be matched with the kidney donor for at least 4 alleles of the following 4 HLA 
+genes: HLA-A, HLA-B, HLA-C, and HLA-DRB1 and at least being a matched allele of the 
+HLA-DRB-1 gene.  Participants must have stable renal allograft function ≥ 45 mL/min/1.73 m2 prior 
+to screening, defined as <25% decrease in eGFR by the CKD-EPI 2021 formula between the last 
+2 consecutive visits and per investigator judgement.   
+Participants must have a living donor who is 18 to 50 years of age, willing to undergo mobilization 
+and apheresis, and must meet all local standard eligibility criteria to donate stem cells for allogeneic 
+transplantation. 
+Confidential DRAFT 17 Sept 2025Page 4 of 94​
+​
+ 
+
+
+
+===== PAGE 5 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+The NMDP criteria for stem cell transplantation must be met for all donors and all participants must 
+meet the clinical site criteria for stem cell transplantation. 
+Investigational product, dosage, and mode of administration: IF001 is a cell therapy product 
+containing defined doses of CD34+ hematopoietic stem cells and alpha/beta positive T-cell receptor 
+(αβ TCR) cells for induction of transplantation tolerance in recipients of kidney transplants from the 
+same donor.  The cryopreserved product contains a minimum of 3 million CD34+ cells per kg of 
+recipient IBW (no maximum) and a target of 10 million αβ TCR cells per kg of recipient IBW (range 
+8-12 million per kg). 
+The cellular product is infused intravenously through a large bore central venous catheter. 
+Duration of treatment: IF001 is a one-time infusion administered 3 to 62 months after living donor 
+kidney transplant.  Study participation will last approximately 27 months (Screening through 
+Follow-up). 
+Reference therapy, dosage, and mode of administration: Not applicable. 
+Criteria for evaluation: Evaluation of all study participants will commence at signing of the 
+informed consent form.  The primary and final analysis will occur when all participants have 
+completed the Month 15 visit or have permanently discontinued from the study; cohorts will be 
+analyzed separately. 
+Primary endpoints: 
+Safety:  
+●​ The incidence and severity of adverse events (AEs; including infections), serious adverse events 
+(SAEs), and AEs leading to study and/or regimen discontinuation 
+Efficacy: 
+●​ The proportion of participants who are alive and free from IS, without graft loss or BPAR, at 
+15 months post-IF001 infusion 
+Secondary endpoints: 
+Safety: 
+●​ The incidence of and grade of acute GVHD at Day 120 
+●​ The incidence and severity of chronic GVHD at Month 12 
+o​ All Grade >2 acute GVHD or any chronic GVHD will be reported within 24 hours of site 
+awareness as an adverse event of special interest (AESI) 
+●​ Evaluation at Day 183, Month 12, and Month 15: 
+o​ The incidence of BK viremia, viruria, infection, and nephropathy 
+o​ The incidence of AESI according to defined criteria 
+o​ The incidence and grade of acute GVHD 
+o​ The incidence and severity of chronic GVHD 
+o​ Days to neutrophil recovery (>500/µL) 
+o​ Days to platelet recovery (>20K/µL) 
+o​ Number of blood component transfusions 
+o​ The incidence of engraftment syndrome 
+o​ The incidence of primary hematopoietic graft failure 
+o​ The incidence of secondary hematopoietic graft failure 
+Confidential DRAFT 17 Sept 2025Page 5 of 94​
+​
+ 
+
+
+
+===== PAGE 6 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+o​ The incidence and severity of bacterial, fungal, and viral infections 
+Efficacy: 
+●​ Key Secondary Efficacy Endpoint: Change in renal function (eGFR by CKD-EPI 2021) from 
+Day −9 (prior to the first dose of transplantation conditioning) to Month 15 
+●​ Evaluation at Day 183, Month 12, and Month 15: 
+o​ The incidence of composite endpoint of BPAR, graft loss (renal), or death 
+o​ The incidence of composite endpoint of BPAR, graft loss, death, or lost to follow-up 
+o​ The incidence of graft loss 
+o​ The incidence of death 
+o​ The incidence of lost to follow-up 
+o​ The incidence of acute rejection (BPAR) 
+o​ The incidence of treated BPAR by Banff 2022 criteria 
+o​ The incidence of each type of BPAR by Banff 2022 criteria 
+o​ The incidence of steroid-resistant BPAR 
+o​ The incidence of de novo DSA 
+o​ The incidence of full donor chimerism (>50% T cell), correlated with meeting the 
+primary efficacy endpoint 
+o​ The % chimerism at each visit, correlated with meeting the primary efficacy endpoint 
+o​ Change in renal function (eGFR by CKD-EPI 2021) between Day −9 and Day 183 
+o​
+Change in renal function (eGFR by CKD-EPI 2021) between Day −9 and Month 12 
+o​ The incidence or worsening of abnormal histologic findings of cellular or 
+antibody-mediated chronic rejection, chronic glomerulopathy, tubular atrophy and 
+interstitial fibrosis, C4d, calcineurin inhibitor-induced damage, disease recurrence, BK 
+nephropathy between biopsies at Day 160 and Month 15 
+o​ The incidence of renal replacement therapy 
+o​ Participant quality of life according to the 36-Item Short Form Health Survey (SF-36) 
+and End-Stage Renal Disease Symptom Checklist (ESRD-SCL) 
+Extended evaluation 
+●​ Extended Evaluation at Months 18 and 24 (only for events beyond Month 15): 
+o​ The incidence of composite endpoint of BPAR, graft loss (renal), or death 
+o​ The incidence of composite endpoint of BPAR, graft loss, death, or lost to follow-up 
+o​ The incidence of graft loss 
+o​ The incidence of death 
+o​ The incidence of lost to follow-up 
+o​ The incidence of acute rejection (BPAR) 
+o​ The incidence of treated BPAR by Banff 2022 criteria 
+o​ The incidence of each type of BPAR by Banff 2022 criteria 
+o​ The incidence of de novo DSA 
+o​ The incidence of donor chimerism (>50% T cell) and correlation to being off of IS 
+o​ The % chimerism and correlation with remaining off of IS 
+Confidential DRAFT 17 Sept 2025Page 6 of 94​
+​
+ 
+
+
+
+===== PAGE 7 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+o​ The incidence of acute and chronic GVHD 
+o​ The grade of acute and severity of chronic GVHD 
+Statistical methods: Statistical methods were not taken into consideration in determining the sample 
+size. 
+The primary efficacy endpoint will be summarized using a point estimate along with its 95% 
+confidence interval (CI) (exact binomial).  Participants who are not free from IS at Month 15 or 
+having BPAR, or graft loss, or death will be considered non-responders.  Participants who have not 
+died or experienced BPAR or graft loss but are lost to follow-up in the first 15 months after IF001 
+therapy will be included in the analyses of safety and efficacy. 
+The key secondary efficacy variable is the change in renal function (eGFR by CKD-EPI 2021), from 
+baseline (Day −9, prior to the first dose of transplantation conditioning) to Month 15.  Estimated GFR 
+will be derived from local laboratory creatinine values.  Because this is a proof-of-concept study, no 
+hypothesis tests will be conducted on the key secondary efficacy endpoint.  The mean change in 
+eGFR from Day −9 to Month 15 will be summarized using descriptive statistics and a 95% CI (exact 
+binomial) will be constructed based on the full analysis set. 
+Categorical endpoints will be summarized using counts and proportions.  Endpoints with continuous 
+variables will be summarized descriptively (non-missing values, means, standard deviations, 
+medians, 25% and 75% quartiles, minimums, and maximums). 
+ 
+Confidential DRAFT 17 Sept 2025Page 7 of 94​
+​
+ 
+
+
+
+===== PAGE 8 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+TABLE OF CONTENTS 
+SYNOPSIS​ 2 
+TABLE OF CONTENTS​
+8 
+LIST OF TABLES​
+13 
+LIST OF FIGURES​
+13 
+LIST OF ABBREVIATIONS AND DEFINITIONS OF TERMS​
+14 
+1.​
+INTRODUCTION​
+16 
+1.1.​
+Background​
+16 
+1.2.​
+Previous Human Experience​
+17 
+1.2.1.​
+Phase 2 Study FCR001A2201​
+17 
+1.2.2.​
+Phase 3 Study FCR001A2301​
+18 
+1.3.​
+Risk and Benefit Assessment​
+18 
+1.3.1.​
+Risks​
+19 
+1.3.1.1.​
+Conditioning and Stem Cell Transplant/IF001​
+19 
+1.3.1.2.​
+Other Risks​
+19 
+1.3.2.​
+Benefits​
+20 
+1.3.3.​
+Risk-Benefit Summary​
+20 
+2.​
+STUDY OBJECTIVES​
+20 
+2.1.​
+Primary Objectives​
+20 
+2.2.​
+Secondary Objectives​
+21 
+3.​
+INVESTIGATIONAL PLAN​
+21 
+3.1.​
+Overall Study Design​
+21 
+3.2.​
+Study Design Rationale​
+24 
+3.3.​
+Dose Rationale​
+25 
+3.3.1.​
+Processed CD34+ Dose​
+25 
+3.3.2.​
+Processed CD3+ T Cell Dose​
+25 
+4.​
+STUDY POPULATION​
+26 
+4.1.​
+Inclusion Criteria​
+26 
+4.2.​
+Exclusion Criteria​
+26 
+5.​
+STUDY TREATMENTS​
+28 
+5.1.​
+Description of Investigational Product​
+28 
+Confidential DRAFT 17 Sept 2025Page 8 of 94 
+
+
+
+===== PAGE 9 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+5.1.1.​
+Processing, Packaging, and Labeling​
+28 
+5.1.2.​
+Handling and Storage​
+29 
+5.1.3.​
+Investigational Product Accountability​
+29 
+5.2.​
+Participant Numbering​
+29 
+5.3.​
+Treatment Blinding​
+29 
+5.4.​
+Infection Prophylaxis​
+29 
+5.4.1.​
+Bacterial Prophylaxis​
+29 
+5.4.2.​
+Fungal Prophylaxis​
+30 
+5.4.3.​
+Viral Prophylaxis​
+30 
+5.4.4.​
+Pneumocystis Prophylaxis​
+30 
+5.5.​
+Participant Conditioning Regimen​
+30 
+5.6.​
+IF001 Dosage and Administration​
+31 
+5.6.1.​
+IF001 Infusion​
+31 
+5.6.1.1.​
+IF001 Dosage Adjustment or Interruption​
+31 
+5.6.2.​
+Post-infusion Cyclophosphamide​
+32 
+5.6.3.​
+Immunosuppressive Therapy​
+32 
+5.6.3.1.​
+Immunosuppression Dosage Adjustment or Interruption​
+33 
+5.7.​
+Concomitant Medications​
+34 
+5.7.1.​
+Prohibited Concomitant Medications​
+34 
+5.8.​
+Discontinuation of Treatment and Premature Withdrawal​
+34 
+5.8.1.​
+Discontinuation from Study Treatment​
+34 
+5.8.2.​
+Withdrawal of Informed Consent​
+35 
+5.8.3.​
+Lost to Follow-up​
+35 
+5.8.4.​
+Study Completion and Post-study Treatment​
+36 
+5.8.5.​
+Enrollment Pause or Early Termination of the Study​
+36 
+6.​
+STUDY PROCEDURES AND ASSESSMENTS​
+36 
+6.1.​
+Obtaining Informed Consent​
+44 
+6.2.​
+Participant Demographics and Other Baseline Characteristics​
+44 
+6.3.​
+Medical History​
+44 
+6.4.​
+Physical Examination​
+44 
+6.5.​
+Vital Signs Including Height and Weight​
+44 
+Confidential DRAFT 17 Sept 2025Page 9 of 94​
+​
+ 
+
+
+
+===== PAGE 10 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+6.6.​
+Electrocardiogram​
+44 
+6.7.​
+Pulmonary Function Tests​
+44 
+6.8.​
+Revaccination​
+45 
+6.9.​
+Laboratory Assessments​
+45 
+6.10.​
+Renal Function​
+47 
+6.11.​
+Graft-versus-Host-Disease​
+47 
+6.12.​
+Off Immunosuppression​
+47 
+6.13.​
+Acute Rejection​
+47 
+6.14.​
+Graft Loss​
+48 
+6.15.​
+Death​
+48 
+6.16.​
+Renal Allograft Biopsy​
+48 
+6.17.​
+Patient-Reported Outcome Measures​
+48 
+6.18.​
+Appropriateness of Measures​
+49 
+7.​
+ADVERSE EVENTS​
+49 
+7.1.​
+Definition of an Adverse Event​
+49 
+7.1.1.​
+Assessment of Severity​
+49 
+7.1.2.​
+Assessment of Causality​
+49 
+7.1.3.​
+Laboratory Test Abnormalities​
+50 
+7.2.​
+Definition of a Serious Adverse Event​
+50 
+7.3.​
+Following Adverse Events​
+51 
+7.4.​
+Reporting Adverse Events​
+51 
+7.4.1.​
+Adverse Event Reporting Period​
+51 
+7.4.2.​
+Reporting Serious Adverse Events​
+51 
+7.4.3.​
+Adverse Events of Special Interest​
+52 
+7.4.4.​
+Pregnancy​
+52 
+7.4.5.​
+Post-Study Adverse Events​
+52 
+7.4.6.​
+Expedited Reporting​
+52 
+8.​
+STATISTICAL CONSIDERATIONS AND ANALYTICAL PLAN​
+53 
+8.1.​
+Study Endpoints​
+53 
+8.1.1.​
+Primary Endpoints​
+53 
+8.1.2.​
+Secondary Endpoints​
+53 
+Confidential DRAFT 17 Sept 2025Page 10 of 94​
+​
+ 
+
+
+
+===== PAGE 11 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+8.2.​
+General Considerations​
+55 
+8.3.​
+Analysis Sets​
+55 
+8.4.​
+Participant Disposition​
+55 
+8.5.​
+Demographic and Other Baseline Characteristics​
+55 
+8.6.​
+Concomitant Medications​
+56 
+8.7.​
+Safety Analyses​
+56 
+8.7.1.​
+Safety Variables​
+56 
+8.7.2.​
+Primary Safety Analysis​
+56 
+8.7.3.​
+Secondary Safety Analysis​
+56 
+8.7.4.​
+Extent of Exposure​
+57 
+8.8.​
+Efficacy Analyses​
+57 
+8.8.1.​
+Primary Efficacy Analysis​
+57 
+8.8.2.​
+Secondary Efficacy Analysis​
+57 
+8.8.2.1.​
+Renal Function (eGFR by CKD-EPI 2021)​
+57 
+8.8.2.2.​
+Composite Rate of BPAR, Death, Graft Loss (Renal), or Lost to Follow-up​
+58 
+8.8.2.3.​
+Donor Chimerism​
+58 
+8.8.2.4.​
+Biopsy-Proven Acute Rejection​
+58 
+8.8.2.5.​
+Donor-Specific Antibodies​
+58 
+8.8.2.6.​
+Renal Replacement Therapy​
+58 
+8.8.2.7.​
+Quality of Life Measurements and Variables​
+59 
+8.9.​
+Sample Size​
+59 
+8.10.​
+Handling of Missing Data​
+59 
+8.11.​
+Subgroup Analyses​
+59 
+8.12.​
+Interim Analyses​
+59 
+9.​
+DATA SAFETY MONITORING BOARD​
+59 
+10.​
+STUDY ADMINISTRATION​
+60 
+10.1.​
+Inspection of Records​
+60 
+10.2.​
+Site Monitoring​
+60 
+10.2.1.​
+Study Completion and Site Closure​
+60 
+10.3.​
+Access to Information for Audits and Inspections​
+61 
+Confidential DRAFT 17 Sept 2025Page 11 of 94​
+​
+ 
+
+
+
+===== PAGE 12 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+10.4.​
+Retention of Records​
+61 
+10.5.​
+Publication and Data Sharing Policy​
+61 
+11.​
+DATA COLLECTION​
+61 
+11.1.​
+Data System​
+61 
+11.2.​
+Case Report Forms​
+61 
+11.2.1.​
+Criteria for Forms Submission​
+61 
+11.2.2.​
+Reporting Participant Deaths​
+62 
+11.2.3.​
+Center for International Blood and Marrow Transplant Research Data 
+Reporting​
+62 
+12.​
+QUALITY ASSURANCE AND QUALITY CONTROL​
+62 
+12.1.​
+Data Quality Assurance​
+62 
+12.2.​
+Protocol Adherence​
+62 
+12.3.​
+Protocol Amendments​
+63 
+13.​
+ETHICS​
+63 
+13.1.​
+Institutional Review Board​
+63 
+13.2.​
+Informed Consent​
+63 
+13.3.​
+Participant and Data Confidentiality​
+64 
+14.​
+REFERENCES​
+65 
+15.​
+APPENDICES​
+68 
+APPENDIX 1 REVACCINATION SCHEDULE​
+69 
+APPENDIX 2 ACUTE GVHD STAGING (MAGIC CRITERIA)​
+71 
+APPENDIX 3 NIH CHRONIC GVHD DIAGNOSIS AND STAGING CONSENSUS RECOMMENDATIONS​
+72 
+APPENDIX 4 BANFF 2022 CRITERIA​
+75 
+APPENDIX 5 SF-36 RATING SCALE​
+78 
+APPENDIX 6 ESRD-SCL RATING SCALE​
+84 
+APPENDIX 7 INVESTIGATOR’S AGREEMENT​
+88 
+APPENDIX 8 SPONSOR SIGNATURE PAGE​
+89 
+ 
+Confidential DRAFT 17 Sept 2025Page 12 of 94​
+​
+ 
+
+
+
+===== PAGE 13 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+LIST OF TABLES 
+Table 1:​
+Guidance for Weaning of Tacrolimus​
+33 
+Table 2:​
+Example of Corticosteroid Weaning for Participants Previously on Chronic 
+Steroids​
+34 
+Table 3:​
+Schedule of Assessments: Screening and Conditioning​
+37 
+Table 4:​
+Schedule of Assessments: Treatment and Initial Follow-Up​
+39 
+Table 5:​
+Schedule of Assessments: Follow-Up Period​
+41 
+Table 6​
+Clinical Laboratory Assessments​
+46 
+ 
+LIST OF FIGURES 
+Figure 1:​
+Study Design​
+23 
+Figure 2​
+Participant Conditioning Regimen​
+30 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 13 of 94​
+​
+ 
+
+
+
+===== PAGE 14 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+LIST OF ABBREVIATIONS AND DEFINITIONS OF TERMS 
+Abbreviation or 
+Specialist Term 
+Explanation 
+αβ TCR 
+alpha/beta positive T-cell receptor 
+ABW 
+actual body weight 
+AE 
+adverse event 
+AESI 
+adverse event of special interest 
+ANC 
+absolute neutrophil count 
+ATG 
+anti-thymocyte globulin 
+BKV 
+BK virus 
+BMI 
+body mass index 
+BPAR 
+biopsy-proven acute rejection 
+CI 
+confidence interval 
+CIBMTR 
+Center for International Blood and Marrow Transplant Research 
+CKD-EPI 
+Chronic Kidney Disease Epidemiology Collaboration 
+CMV 
+cytomegalovirus 
+CRA 
+Clinical Research Associate 
+CRF 
+case report form 
+CTCAE 
+Common Terminology Criteria for Adverse Events 
+DMSO 
+dimethyl sulfoxide 
+DSA 
+donor-specific antibody 
+DSMB 
+data safety monitoring board 
+EAS 
+Extended Analysis Set 
+eGFR 
+estimated glomerular filtration rate 
+ESRD-SCL 
+End-Stage Renal Disease Symptom Checklist 
+FAS 
+Full Analysis Set 
+FEV1 
+forced expiratory volume in one second 
+FVC 
+forced vital capacity 
+GCP 
+Good Clinical Practice 
+GVHD 
+graft-versus-host disease 
+HCT 
+hematopoietic cell transplantation 
+HCV 
+hepatitis C virus 
+HIV 
+human immunodeficiency virus 
+Confidential DRAFT 17 Sept 2025Page 14 of 94 
+
+
+
+===== PAGE 15 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Abbreviation or 
+Specialist Term 
+Explanation 
+HLA 
+human leukocyte antigen 
+HSC 
+hematopoietic stem cells 
+IBW 
+ideal body weight 
+ICF 
+informed consent form 
+IRB 
+Institutional Review Board 
+IS 
+immunosuppression 
+LDKT 
+living donor kidney transplant 
+MedDRA 
+Medical Dictionary for Regulatory Activities 
+MMF 
+mycophenolate mofetil 
+MPS 
+mycophenolic acid sodium 
+NMDP 
+National Marrow Donor Program 
+PPAS 
+Per-Protocol Analysis Set 
+RIC 
+reduced intensity conditioning 
+SAE 
+serious adverse event 
+SAP 
+statistical analysis plan 
+SF-36 
+36-Item Short Form Health Survey 
+TBI 
+total body irradiation 
+TCR 
+T-cell receptor 
+TID 
+three times daily 
+WOCBP 
+women of childbearing potential 
+This table does not include abbreviations used solely in the tables or figures. 
+Confidential DRAFT 17 Sept 2025Page 15 of 94​
+​
+ 
+
+
+
+===== PAGE 16 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+1.​
+INTRODUCTION 
+1.1.​
+Background 
+Kidney transplantation is the preferred mode of renal replacement therapy for patients with 
+end-stage kidney failure because it provides better quality of life compared with dialysis and 
+prolongs patient survival.  The development of powerful immunosuppressive (IS) medications 
+has reduced the risk of acute rejection and allowed for extended patient and allograft survival.  
+Median graft survival after living donor kidney transplant (LDKT) increased from 12.1 years for 
+transplants in 1995 to 1999 to an estimated 19.2 years for transplants in 2014 to 2017 
+(Poggio 2021).  However, prior kidney transplant failure is now a leading diagnosis for patients 
+on the transplant waiting list as well as a higher proportion of recipients with a previous kidney 
+transplant. 
+Despite these encouraging trends, chronic IS with standard of care medications imposes a 
+tremendous burden on patients, who require life-long daily medication adherence, experience 
+significant adverse medication effects, and face high medication costs.  Adverse events (AEs) 
+related to chronic IS therapy include progression of cardiovascular disease, increased 
+susceptibility to infection, metabolic abnormalities, neurologic disorders, and a greater risk of 
+malignancy.  Patients’ complex multi-drug regimens require close monitoring and frequent dose 
+adjustments, contributing to incomplete adherence and suboptimal outcomes with respect to 
+renal allograft function, graft survival, and patient survival (Denhaerynck 2005; Fine 2009; 
+FDA 2016; Ettenger 2018). 
+Beyond the secondary consequences of chronic IS, from the patient perspective, the most 
+important outcome is long-term patient and allograft survival (Husain 2018).  This is even more 
+relevant when considering the high mortality rate of patients who return to the waiting list after a 
+failed a kidney transplant (Gill 2002).  Conversely, allograft survival is strongly associated with 
+increased patient survival, reduced health care expenditures, and greater likelihood of return to 
+employment. 
+The development of multiple IS drugs and IS regimens has been key to advances in successful 
+allograft function and survival.  Immunosuppressive agents are used for induction (intense IS in 
+the initial days after transplantation), maintenance, and reversal of established rejection 
+(Halloran 2004).  Contemporary IS regimens have reduced the incidence of acute rejection in the 
+first post-transplant year to less than 10%, and one-year allograft survival after LDKT is 
+approximately 97% (Lentine 2022).  This strong short-term success has not translated to similar 
+long-term success.  In fact, late acute cellular rejection, and chronic antibody-mediated rejection 
+(often associated with patient non-adherence to complex IS regimens) is not infrequent and 
+nearly one third of kidney allografts are lost within 10 years (Fine 2009; Ettenger 2018). 
+Contemporary kidney transplant management includes one or more high-dose IS drugs 
+administered in the hospital at the time of transplant (induction therapy), followed by life-long, 
+Confidential DRAFT 17 Sept 2025Page 16 of 94 
+
+
+
+===== PAGE 17 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+daily maintenance treatment (Axelrod 2016).  These medications may result in substantial side 
+effects, including nephrotoxicity, neurotoxicity, and metabolic derangements.  In addition, these 
+medicines often do not completely control damage to the kidney by the recipients' immune 
+system, ultimately contributing to the kidney’s functional decline and, for many, the need for 
+dialysis (graft loss) and retransplant.  Therefore, a need for additional options is warranted to 
+address the continued unmet medical need. 
+1.2.​
+Previous Human Experience 
+IF001 (previously known as FCR001) is an investigational cell therapy product designed to 
+allow engraftment of allogeneic hematopoietic stem cells (HSCs) across human leukocyte 
+antigen (HLA) mismatch barriers after reduced intensity conditioning (RIC), as evidenced by 
+persistent donor chimerism.  IF001 is derived from mobilized peripheral blood cells collected by 
+apheresis from the intended and/or prior kidney donor. 
+The clinical development program has evaluated the potential for IF001 to induce durable 
+allogeneic tolerance in LDKT recipients to their transplanted organ, thereby eliminating the need 
+for chronic IS after approximately 12 months of a LDKT, without rejecting the transplanted 
+organ. 
+The current sponsor has changed the alpha/beta positive T-cell receptor (αβ TCR) and CD34+ 
+cell composition of IF001 to optimize donor cell engraftment and reduce the incidence and 
+severity of acute and chronic graft-versus-host disease (GVHD).  Please see the IF001 
+Investigator’s Brochure for additional information. 
+In addition, revisions have been made to recipient eligibility criteria, including prior kidney 
+transplant from a living donor, donor-recipient HLA matching, graft composition, recipient 
+conditioning, and a GVHD prophylaxis regimen (see Section 3.2 and Section 4). 
+Additional information is provided in the IF001 Investigator’s Brochure. 
+1.2.1.​
+Phase 2 Study FCR001A2201 
+Study FCR001A2201 was a 2-center, open-label, single-arm trial to investigate whether 
+administration of FCR001 induced donor-specific tolerance to a renal allograft in living donor 
+renal transplant recipients receiving NMA conditioning, and substantially reduce or eliminate the 
+requirement for chronic IS agents within 12 months following transplantation (Leventhal 2015; 
+Leventhal 2018). 
+Enrollment ended after 37 participants received FCR001.  The sponsor terminated the 
+FCR001A2201 study on 23 February 2023 because the LDK transplant clinical development 
+program for FCR001 had been discontinued due to the slow pace of subject enrollment in the 
+FREEDOM-1 Phase 3 clinical study (FCR001A2301), preventing achievement of critical 
+program development milestones in a reasonable timeframe. 
+Confidential DRAFT 17 Sept 2025Page 17 of 94​
+​
+ 
+
+
+
+===== PAGE 18 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+The safety profile for study participants was consistent with that expected of the study population 
+(recipient of a kidney transplant and HSC transplant), including all treatments and procedures.  
+There were no events of delayed engraftment or infusion toxicity after FCR001 infusion.   
+Peripheral blood donor T-cell chimerism 1-month post-transplant ranged between 6-100% and 
+was demonstrated in 35/37 recipients (94.6%) treated with FCR001.  Of these, 27 (73%) 
+maintained chimerism >6 months (durable), 8 (21.6%) lost their chimerism (transient), and 2 
+(5.4%) never engrafted. 
+ 
+Two patients (5.4%) had serious adverse events (SAEs) of GVHD, both with GVHD risk factors 
+(an unrelated female donor to male recipient with low level 1-2/6 HLA matching and 
+cytomegalovirus [CMV] infection).  
+Three recipients (8.1%) experienced kidney allograft loss during the study; all were transiently 
+chimeric and maintained on chronic IS. 
+Biopsy-proven allograft rejection occurred only in patients who were either transiently chimeric 
+(6 recipients) or had never engrafted (2 recipients).  All biopsies were performed for cause and 
+the patients remained on chronic IS, except for 3 who experienced subsequent graft loss.  Of 
+these, 2 had a biopsy-proven acute rejection (BPAR) because of IS discontinuation/marked dose 
+reduction required due to persistent/severe infections and the third graft loss occurred 
+immediately after a BPAR and renal artery thrombosis.  The BPAR events in the other 3 patients 
+were successfully treated. 
+There were 4 deaths in the study, 3 of which were considered by the investigators to be 
+unrelated, with causes of death related to GVHD, lung cancer, sepsis, and respiratory failure. 
+Twenty-six of the 37 recipients treated with FCR001 (70.3%) successfully discontinued all IS 
+(tacrolimus and mycophenolate mofetil [MMF]), irrespective of donor/recipient relatedness or 
+level of HLA match.  As of the cutoff date of the 2023 final report, all 26 maintained persistent 
+chimerism and renal function and had not experienced a BPAR or needed to resume IS therapy 
+during their median 8.9 years (range 3.5-14) of follow up after discontinuing IS. 
+1.2.2.​
+Phase 3 Study FCR001A2301 
+The Phase 3 study FCR001A2301 (FREEDOM-1, NCT03995901) was planned as a 5-year 
+multicenter, open-label, randomized, SOC-controlled, safety and efficacy of FCR001 (now 
+IF001) in de novo adult LDKT.  Recipients were to be randomized 2:1 to the following arms: 1) 
+interventional: IF001 and initial tacrolimus plus MMF, with elimination of IS after 12 months, 
+and 2) control standard of care (induction therapy, tacrolimus, and MMF, with or without 
+corticosteroids). 
+The primary objective was to evaluate the proportion of recipients free from IS (without BPAR) 
+24 months post-transplant.  The key secondary objective was to evaluate the change in renal 
+Confidential DRAFT 17 Sept 2025Page 18 of 94​
+​
+ 
+
+
+
+===== PAGE 19 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+function (estimated glomerular filtration rate [eGFR] by Modification of Diet in Renal Disease 4; 
+Levey 2006) from post-transplant baseline (Month 1) to Month 24 in IF001 recipients.  The trial 
+was terminated in February 2023 by the previous sponsor for business reasons due to slow 
+enrollment. 
+As of March 2024, 9 recipient/donor pairs received FCR001 in the FREEDOM-1 clinical study.  
+There was one death due to complications of GVHD, 6 recipients were successfully weaned off 
+IS, one recipient continues to be followed in the IS weaning period, and one recipient continued 
+to receive IS due to ongoing/recurring symptoms of GVHD.  
+1.3.​
+Risk and Benefit Assessment 
+The RELIEF trial is a multicenter, open-label, single-arm study to demonstrate the safety and 
+efficacy of IF001 in adult participants 3 to 62 months following transplantation of a kidney from 
+a living donor.  The same living kidney donor will undergo mobilization and apheresis to 
+generate the IF001 product.  Study participants will receive chemotherapy and radiation therapy 
+prior to IF001 cell therapy, then GVHD prophylaxis with high-dose, post-IF001 infusion 
+cyclophosphamide, prednisone, tacrolimus, and MMF (or equivalent).  Tacrolimus will be 
+withdrawn and discontinued according to weaning criteria.  The study will enroll 2 cohorts, an 
+HLA- matched cohort (6 participants) and a partially HLA-matched cohort (12 participants).  
+Additional information regarding the design is provided in Section 3. 
+Living donor renal transplants have been performed for more than 60 years, and renal transplant 
+IS has become the current standard of care.  The chronic and daily use of IS agents required for 
+post-transplant renal graft survival, depending on the drug, may increase the risk of opportunistic 
+infection and consequent morbidity and mortality, malignancy (particularly skin and lymphoma), 
+nephrotoxic effects, neurotoxic effects, and long-term toxicities such as diabetes, dyslipidemia, 
+and hypertension.  The label of each IS agent provides more detailed information regarding its 
+safety profile. 
+1.3.1.​
+Risks 
+1.3.1.1.​
+Conditioning and Stem Cell Transplant/IF001 
+Conditioning 
+The key risk associated with RIC (consisting of low-dose TBI, cyclophosphamide, and 
+fludarabine) is cytopenia.  Other significant risks associated with RIC are secondary 
+malignancies (TBI, cyclophosphamide), infertility (TBI, cyclophosphamide), infections, and 
+urinary tract and renal toxicity (cyclophosphamide). 
+Neutropenia/Pancytopenia Prior to Engraftment 
+In a Phase 2 trial utilizing the RIC used in this study (described in Section 3.2), median time to 
+neutrophil recovery was 17 days (range 14-88 days) and Day 28 cumulative neutrophil recovery 
+was 96% (95% confidence interval [CI] 87-100).  Median time to platelet recovery was 
+Confidential DRAFT 17 Sept 2025Page 19 of 94​
+​
+ 
+
+
+
+===== PAGE 20 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+25.5 days, with 90% transfusion independence by Day 60.  Median time to red blood cell 
+recovery was 25.5 days, with 90% transfusion independence by Day 60 (DeZern 2023). 
+Bone Marrow Failure 
+In a Phase 2 trial utilizing the RIC regimen, the proportion of patients alive with engraftment at 
+1 year was 89% (95% CI 77-100).  Twenty-four patients (of 27 total) had sustained >95% donor 
+chimerism in both whole blood and CD3 compartments through 1 year (DeZern 2023). 
+Graft-Versus-Host Disease 
+In a Phase 2 study using the RIC regimen, rates of both acute and chronic GVHD were <10% 
+and no patient developed Grade 3 or 4 acute GVHD or moderate/severe chronic GVHD.  The 
+cumulative incidence of Grade 2 or 4 acute GVHD on Day 100 was 7%, and the incidence of 
+chronic GVHD at 2 years was 4% (DeZern 2023). 
+1.3.1.2.​
+Other Risks 
+Renal Graft Loss 
+Graft loss is a known LDKT complication.  The average annual renal graft loss rate for LDKT is 
+2% per year (USDHHS 2025a). 
+Malignancy 
+Malignancy (including premalignant syndromes) is associated with use of IS.  Additionally, 
+within a Phase 2 trial using this RIC regimen, 1 out of 27 patients (4%) developed 
+post-transplant lymphoproliferative disorder. 
+Withdrawal of Immunosuppression 
+While weaning and withdrawal of IS may increase the risk for acute rejection, none of the 
+recipients withdrawn from IS in the previous Phase 2 study using the investigational product 
+developed acute rejection or chronic changes on histology as of June 2022.  In addition, no 
+recipient developed donor-specific antibodies (DSA) and all were reported to have maintained 
+stable renal function 4 to >11 years after withdrawal of IS. 
+Infection 
+In a Phase 2 study using the RIC regimen used in this study, 18 patients (67%) experienced 
+infection.  Most infections were viral reactivation (CMV [11 infections, with 6 requiring therapy] 
+and Epstein-Barr virus [2 infections, with 1 requiring therapy]).  There were also 11 bacterial and 
+4 fungal infections; none were more severe than Grade 2 (DeZern 2023). 
+1.3.2.​
+Benefits 
+By establishing durable donor chimerism, the key benefit of IF001 for the renal transplant 
+recipient is to allow freedom from IS and its consequent toxicities while preserving renal 
+function without rejection, even with a completely HLA-mismatched renal allograft.  This could 
+Confidential DRAFT 17 Sept 2025Page 20 of 94​
+​
+ 
+
+
+
+===== PAGE 21 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+represent fulfillment of a long-standing goal in renal transplantation.  As freedom from IS can 
+potentially be for life, such patients will benefit from the absence of or significant reduction in 
+side effects of IS, improved long-term outcomes, and improved quality of life. 
+1.3.3.​
+Risk-Benefit Summary 
+The clinical data obtained from the earlier Phase 2 FCR001 study supports the use of IF001 for 
+LDKT.  A significant efficacy benefit is expected for the recipients with a manageable safety 
+profile in both recipient and donor.  Overall, the risks are offset by the potential long-term health 
+benefits to the recipient. 
+2.​
+STUDY OBJECTIVES 
+2.1.​
+Primary Objectives 
+Safety: 
+●​ Determine the safety and tolerability of IF001 in previously transplanted recipients of a 
+kidney from a living donor 
+Efficacy: 
+●​ Evaluate the efficacy of IF001 in preventing graft loss and BPAR following removal of 
+pharmacologic IS 
+2.2.​
+Secondary Objectives 
+Safety: 
+●​ Characterize the incidence and grade of acute GVHD by Day 120 and severity of chronic 
+GVHD by one-year post-IF001 infusion  
+●​ Characterize the incidence of BK viremia, viruria, infection, and nephropathy by 15 months 
+post-IF001 infusion  
+●​ Characterize the incidence of proteinuria, neurotoxicity, anemia, diabetes, hypertension, 
+dyslipidemia, major adverse cardiovascular events, and malignancies 
+●​ Describe: 
+o​ The time from IF001 infusion to neutrophil recovery (>500/µL) and platelet recovery 
+(>20K/µL) 
+o​ The number of blood component transfusions 
+o​ The incidence of engraftment syndrome 
+o​ The incidence of primary and secondary hematopoietic graft failure 
+o​ The incidence and severity of bacterial, fungal, and viral infections 
+Efficacy: 
+Confidential DRAFT 17 Sept 2025Page 21 of 94​
+​
+ 
+
+
+
+===== PAGE 22 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+●​ Evaluate changes in renal function (eGFR by Chronic Kidney Disease Epidemiology 
+Collaboration 2021 [CKD-EPI] 2021) (Inker 2021) from Day −9, prior to the first dose of 
+transplantation conditioning, to Month 15 
+●​ Evaluate the time to the event for the composite of BPAR, graft loss, death, or lost to 
+follow-up and each component 
+●​ Describe: 
+o​ The correlation of donor chimerism with meeting the primary efficacy endpoint 
+o​ The incidence of donor chimerism (> 50% T cell) and the level of chimerism by visit 
+o​ Change in participant-perceived quality of life 
+●​ To evaluate outcomes (de novo DSA, graft and participant survival, eGFR at 6, 12, and 
+15 months) in participants who are only transiently chimeric 
+●​ To evaluate the incidence of acute rejection (BPAR), death, renal graft loss, and lost to 
+follow-up in participants who did not achieve durable chimerism as well as the ability to 
+wean or remain off IS 
+Safety and efficacy endpoints are described in Section 8.1. 
+3.​
+INVESTIGATIONAL PLAN 
+3.1.​
+Overall Study Design 
+Study IF001-CL201 is a Phase 2, multicenter, open-label, single-arm proof-of-concept study to 
+demonstrate the safety and efficacy of IF001 in adult participants 3 to 62 months following 
+transplantation of a kidney from a living donor.  The same living kidney donor will undergo 
+G-CSF mobilization and apheresis to generate the IF001 product.  The study will be conducted at 
+multiple centers in the United States. 
+The primary safety endpoint is the incidence and severity of AEs (including infections), SAEs, 
+and AEs leading to study discontinuation and/or discontinuation of immunosuppression wean.  
+The primary efficacy endpoint is the proportion of participants who are alive and free from IS, 
+without graft loss or BPAR, at 15 months post-IF001 infusion. 
+The study design is based on the trial of DeZern et al. (2023) in patients with aplastic anemia 
+(described in Section 3.2), as it is believed that the knowledge gained from that trial is 
+transferable to kidney transplant recipients.  The study will enroll 15 participants, with no more 
+than 6 who are fully HLA-matched, to meet the target of 12 participants with complete 
+follow-up.  Each cohort will be analyzed separately. 
+The study schematic is presented in Figure 1.  Screening evaluations will be performed from 
+Day −90 to Day −10.  Eligible recipients will receive conditioning for 9 days followed by a 
+6-day treatment period.  Participants will be followed until Month 15 for the primary study 
+Confidential DRAFT 17 Sept 2025Page 22 of 94​
+​
+ 
+
+
+
+===== PAGE 23 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+period, with an additional Extended Evaluation after Month 15 until Month 24.  Study 
+participation will last approximately 27 months (Screening through Follow-up). 
+All treatment-related AEs and SAEs will be followed until resolution or stabilization.  The 
+sponsor has contracted with the National Marrow Donor Program (NMDP) to manage the 
+donation process and donor follow-up. 
+Confidential DRAFT 17 Sept 2025Page 23 of 94​
+​
+ 
+
+
+
+===== PAGE 24 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Figure 1:​
+Study Design 
+ 
+Abbreviations: ANC, absolute neutrophil count; ATG, anti-thymocyte globulin; Cy, cyclophosphamide; G-CSF, granulocyte colony-stimulating factor; HLA, 
+human leukocyte antigen; IBW, ideal body weight; IS, immunosuppression; MMF, mycophenolate mofetil; PO, by mouth; SCT, stem cell transplantation; ​
+TID, 3 times daily; TBI, total body irradiation 
+ 
+a​ HLA-matched cohort to receive 200 cGy and partially HLA-matched cohort to receive 400 cGY 
+ 
+Confidential DRAFT 17 Sept 2025Page 24 of 94 
+
+
+
+===== PAGE 25 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+3.2.​
+Study Design Rationale 
+Most of the progress in reducing the toxicity and improving the efficacy of allogeneic 
+hematopoietic cell transplantation (HCT) and in crossing the HLA barrier comes from 
+experience in the treatment of patients with hematologic malignancies and non-malignant 
+hematologic disorders such as aplastic anemia or hemoglobinopathy.   
+DeZern and colleagues enrolled 27 patients with newly diagnosed aplastic anemia, defined as 
+bone marrow hypocellularity and severe peripheral blood cytopenias.  Patients underwent RIC 
+conditioning followed by transplantation of unmanipulated bone marrow from an 
+HLA-haploidentical parent, sibling, child, or second-degree relative.  The first 7 patients 
+received a total body irradiation (TBI) dose of 200 cGy; of these, 3 had graft failures and 
+2 patients died.  The dose of TBI was increased to 400 cGy for the next 20 patients, and all 
+20 are alive and well with >95% donor engraftment in whole blood and CD3 compartments 
+(DeZern 2023).  Participants enrolled in the RELIEF trial will be similar those treated by DeZern 
+et al. in that they will not have received extensive prior therapy with T cell-depleting agents or 
+received multiple rounds of IS chemotherapies.   
+The RELIEF trial is a delayed tolerance protocol.  There are 3 key advantages to delaying the 
+HCT for at least 90 days after kidney transplantation: 
+●​ The trauma of surgery and ischemia and reperfusion of the transplanted kidney induce 
+inflammation, which can interfere with tolerance induction by hematopoietic stem cell 
+transplantation (Chen 2006; Chong 2012; Braza 2016; Todd 2017) 
+●​ Fludarabine used in conditioning for HCT induces severe and potentially lethal neurotoxicity 
+in patients with renal failure (Cheson 1994; Long-Boyle 2011).  Correction of renal function 
+by kidney transplantation allows administration of fludarabine without the need for 
+hemodialysis, reducing the potential for significant fludarabine toxicity. 
+●​ A delayed tolerance protocol extends the potential benefit of tolerance induction through 
+induction of hematopoietic chimerism to patients who have already had a kidney transplant 
+from a living donor.  Expanding the pool of potential patients eligible for tolerance induction 
+allows initial selection of donor-recipient pairs with favorable characteristics for tolerance 
+induction, including close HLA matching. 
+Concern has been expressed that kidney transplantation is a sensitizing event that prevents 
+subsequent induction of tolerance by HCT from the same donor (Koyama 2007).  However, this 
+concern is mitigated by the development of successful protocols for delayed tolerance induction 
+in small and non-human primate animal models (Yamada 2012; Tonsho 2015; Hotta 2018).  HCT 
+performed 11 days after kidney transplantation from the same donor achieved mixed chimerism 
+and IS withdrawal in HLA-matched donor-recipient pairs (Busque 2020).  One patient received 
+an HLA-matched kidney from his sibling for IgA nephropathy and 14 months later achieved 
+delayed tolerance via HCT from the same donor (Lum 2024). 
+Confidential DRAFT 17 Sept 2025Page 25 of 94​
+​
+ 
+
+
+
+===== PAGE 26 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Additionally, a patient with kidney failure received a kidney from a partially HLA-matched 
+living unrelated donor, developed acute myeloid leukemia, and was successfully transplanted 
+with bone marrow from the same donor 127 days after the kidney transplantation.  Six months 
+after bone marrow transplantation the patient successfully discontinued all IS and remained in 
+remission of leukemia with normal renal function at 1-year post-transplant (Yu 2021).  In this 
+first reported case of delayed tolerance induction in an HLA-mismatched donor-recipient pair, 
+the conditioning regimen used for transplantation is similar to that of the RELIEF trial. 
+HLA mismatching between donor and recipient has also been found to be associated with 
+increased incidences of graft failure, GVHD, and non-relapse mortality and decreased overall 
+and event-free survival after related (Anasetti 1989; Anasetti 1990) or unrelated (Lee 2007) 
+donor HCT for hematologic malignancies.  To improve patient safety, the RELIEF trial design 
+requires at least 4 allele matches between donor and recipient from among HLA-A, HLA-B, 
+HLA-C, and HLA-DRB1 genes, with at least one of these matches between donor and recipient 
+at HLA-DRB1.  This criterion ensures that donor and recipient will have at least 2 HLA Class I 
+allele matches and at least one HLA-DRB1 allele match, so that thymic HLA-restricted CD4 and 
+CD8 T cell responses can be generated after transplantation. 
+3.3.​
+Dose Rationale 
+3.3.1.​
+Processed CD34+ Dose 
+The minimum CD34+ dose is set to be above the lowest dose given in the trial of 
+DeZern et al. (2023), in which all 20 patients conditioned with 400 cGy TBI prior to 
+transplantation achieved engraftment and stable long-term donor chimerism, and were able to 
+discontinue all pharmacologic IS.  Among aplastic anemia patients receiving 
+HLA-haploidentical blood or marrow grafts and GVHD prophylaxis incorporating 
+post-transplant cyclophosphamide, the incidence of graft failure was significantly lower for 
+patients receiving grafts with CD34+ cell doses greater than 3.2 million/kg than for patients 
+receiving lower doses of CD34+ cells (11% versus 31%; p=0.02).  Thus, higher CD34+ cell 
+doses are associated with faster neutrophil and platelet recovery and a lower risk of graft failure. 
+This trial has no upper limit to the CD34+ cell dose because increasing CD34 cell doses are 
+associated with faster neutrophil and platelet engraftment (Pedraza 2023) and, when grafts are 
+also depleted of T cells, are not associated with increased incidences of acute or chronic GVHD. 
+3.3.2.​
+Processed CD3+ T Cell Dose 
+Dosing of αβ TCR cells in IF001 must consider the risks of acute and chronic GVHD with high 
+αβ TCR cell doses versus the risks of non-engraftment and infection with low αβ TCR cell doses.  
+In the study of DeZern 2023, patients received a median of 5.1 x 107 CD3+ cells/kg of recipient 
+ideal body weight (IBW) (range of 2.8 x 107 to 8.2 x 107).  Acute Grade 2 GVHD occurred in 7% 
+(2/27) of patients, and chronic GVHD occurred in 4% (1/27) of patients.   
+Confidential DRAFT 17 Sept 2025Page 26 of 94​
+​
+ 
+
+
+
+===== PAGE 27 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+A recent study reported results of a multicenter trial of αβ TCR and CD19-depleted, 
+HLA-haploidentical peripheral blood stem cell transplantation in 30 children and 30 adults with 
+various malignant or non-malignant hematologic disorders (Bethge 2022).  Grafts contained a 
+median of 12.1 million CD34+cells/kg (range 4.0 to 54.9 million/kg) and a median of 
+1.42 x 104 αβ TCR cells/kg (range 0.22 to 6.43 cells/kg).  Graft failure occurred in 9/60 patients 
+(15%), and the cumulative incidence of CMV reactivation in the first 100 days was 46% for the 
+entire cohort.  These results indicate that near complete removal of T cells bearing the αβ 
+receptor can be associated with increasing incidence of graft failure or infection.  The dose of 
+10 ± 2 million αβ TCR cells/kg in the RELIEF trial was chosen to minimize the incidence of 
+severe acute or chronic GVHD while simultaneously reducing the incidence of graft failure and 
+opportunistic infection. 
+4.​
+STUDY POPULATION 
+4.1.​
+Inclusion Criteria 
+All participants and donors must fulfill all the following respective criteria.  In addition, the 
+NMDP criteria for stem cell transplantation must be met for all donors and all participants must 
+meet the clinical site criteria for stem cell transplantation. 
+1.​ Written informed consent must be obtained from participants before any assessment is 
+performed 
+2.​ Participant age 18 to 50 years old 
+3.​ Donor age 18 to 50 years old 
+4.​ Participant must have received a kidney transplant from partially or fully HLA-matched 
+living donor 3 to 62 months prior to signing informed consent 
+5.​ The participant must be matched with the kidney donor for at least 4 alleles of the following 
+4 HLA genes: HLA-A, HLA-B, HLA-C, and HLA-DRB1.  The participant must be matched 
+with the kidney donor for at least one allele of the HLA-DRB1 gene. 
+6.​ Stable renal allograft function ≥45 mL/min/1.73 m2 prior to screening (defined as <25% 
+decrease in eGFR by the CKD-EPI 2021 formula [Inker 2021]) between the last 
+2 consecutive visits and per investigator judgement 
+7.​ Must be willing and able to comply with protocol-required visit schedule and visit 
+requirements 
+8.​ Currently maintained on tacrolimus and mycophenolate IS 
+4.2.​
+Exclusion Criteria 
+1.​ Participant or donor with use of other investigational drugs within 30 days (or within 5 drug 
+half-lives) of signing informed consent 
+Confidential DRAFT 17 Sept 2025Page 27 of 94​
+​
+ 
+
+
+
+===== PAGE 28 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+2.​ Participant with history of hypersensitivity to any of the medications required for the 
+mobilization or conditioning regimens or to drugs of similar chemical classes 
+3.​ Participant and donor who are identical twins 
+4.​ Participant who is a pregnant or nursing (lactating) woman 
+5.​ Participant with history of malignancy or premalignant syndrome (eg, myelodysplastic 
+syndrome) of any organ system (other than localized excised non-melanomatous lesions of 
+the skin or in-situ cervical cancer), treated or untreated, within the past 5 years, regardless of 
+whether there is evidence of local recurrence or metastases 
+6.​ Participant with known bone marrow aplasia 
+7.​ History of multi-organ or prior allogeneic hematopoietic progenitor or mesenchymal stem 
+cell transplant prior to signing informed consent 
+8.​ Proteinuria >0.5 g/g (500 mg/g) on spot protein/creatinine ratio 
+9.​ Participant has presence of DSA (positive DSA defined as a positive crossmatch test of any 
+titer by complement-dependent cytotoxicity or flow cytometric testing or the presence of 
+DSA to HLA-A, B, C, DRB1, DQB1, or DPB1 with mean fluorescence intensity 
+(MFI) >1000 by solid phase immunoassay) 
+10.​History of acute rejection (previously biopsy-proven or suspected and treated) or recurrent 
+kidney disease following living donor kidney transplantation 
+11.​Demonstrated intolerance to maintenance IS with tacrolimus and MMF or mycophenolic acid 
+sodium (MPS) 
+12.​Maintained on oral corticosteroids (prednisone > 10 mg/day or equivalent) 
+13.​History of infection by human immunodeficiency virus (HIV) or hepatitis B virus.  
+Participants with a history of hepatitis C virus (HCV) infection may participate if there is a 
+documented history of treatment with an anti-HCV agent and either one negative polymerase 
+chain reaction (PCR) test at least 3 months after last dose of treatment or 2 negative PCR 
+tests at least 2 weeks apart over a maximum of 4 weeks. 
+14.​Positive for BK virus (BKV), CMV, or Epstein-Barr virus by PCR at screening 
+15.​Active systemic infection or history of recurrent infection (eg, polycystic liver/kidney 
+disease, unless native kidneys removed at time of transplant) 
+16.​Any baseline condition requiring or anticipated will require chronic or intermittent use of 
+systemic steroids or other IS (eg, autoimmune disease, asthma) throughout the course of the 
+study 
+17.​Receipt of live attenuated vaccine administered within 2 months of the start of RIC 
+18.​Body mass index (BMI) <18 or >35 kg/m2 
+Confidential DRAFT 17 Sept 2025Page 28 of 94​
+​
+ 
+
+
+
+===== PAGE 29 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+19.​Requiring systemic anticoagulation, (eg, for hyper-coagulation disorders, deep vein 
+thrombosis, atrial fibrillation) that cannot be temporarily interrupted for possible renal biopsy 
+20.​Prior exposure to TBI 
+21.​Forced expiratory volume in one second (FEV1) <50% or forced vital capacity (FVC) <50% 
+of predicted 
+22.​All women of childbearing potential (WOCBP), defined as all women physiologically 
+capable of becoming pregnant, who do not agree to using highly effective methods of 
+contraception during the study.  For WOCBP who have completely discontinued 
+mycophenolate, contraception may be discontinued after Month 15 provided no 
+mycophenolate is restarted.  Highly effective contraception methods include: 
+a.​ Total abstinence (when this is in line with the preferred and usual lifestyle of the 
+participant).  Periodic abstinence (eg, calendar, ovulation, symptothermal, post-ovulation 
+methods) and withdrawal are not acceptable methods of contraception. 
+b.​ Female sterilization (have had surgical bilateral oophorectomy with or without 
+hysterectomy), total hysterectomy, or tubal ligation at least 6 weeks before investigational 
+product infusion.  In case of oophorectomy alone, only when the reproductive status of 
+the woman has been confirmed by follow up hormone level assessment. 
+c.​ Male sterilization (at least 6 months prior to screening).  For female participants on the 
+study, the vasectomized male partner should be the sole partner. 
+d.​ Use of oral (estrogen and progesterone), injected, or implanted hormonal methods of 
+contraception or placement of an intrauterine device or intrauterine system or other forms 
+of hormonal contraception that have comparable efficacy (failure rate <1%), for example 
+hormone vaginal ring or transdermal hormone contraception. 
+e.​ In case of use of oral contraception women should have been stable on the same 
+medication for a minimum of 3 months before entering study screening 
+f.​ Women are considered post-menopausal and not of childbearing potential if they have 
+had 12 months of natural (spontaneous) amenorrhea with an appropriate clinical profile 
+(eg, age-appropriate, history of vasomotor symptoms) or have had surgical bilateral 
+oophorectomy (with or without hysterectomy) or tubal ligation at least 6 weeks prior to 
+study screening.  In the case of oophorectomy alone, only when the reproductive status of 
+the woman has been confirmed by follow up hormone level assessment if she is 
+considered not of childbearing potential. 
+5.​
+STUDY TREATMENTS 
+Donors will undergo stem cell mobilization, stem cell collection, and follow-up according to 
+NMDP standard procedures. 
+Confidential DRAFT 17 Sept 2025Page 29 of 94​
+​
+ 
+
+
+
+===== PAGE 30 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+5.1.​
+Description of Investigational Product 
+IF001 is an investigational cell therapy product containing defined doses of CD34+ HSCs and 
+αβ TCR cells for induction of transplantation tolerance in recipients of kidney transplants from 
+the same donor.  The cryopreserved product contains a minimum of 3 million CD34+ cells per 
+kg of recipient IBW (no maximum) and a target of 10 million αβ TCR cells per kg of recipient 
+IBW (range 8-12 million per kg). 
+5.1.1.​
+Processing, Packaging, and Labeling 
+Freshly harvested donor stem cells will be immediately transported to the manufacturing center 
+where the IF001 product will be manufactured, cryopreserved, and stored prior to shipping to the 
+study center for thawing and infusion into the participant.  The IF001 product will pass 
+applicable release criteria and be shipped frozen to the treating center prior to Day −9 (the 
+initiation of participant’s conditioning or related procedures).   
+Describe packaging for shipment to the clinical site here. 
+The label will include space to enter the recipient number, content, protocol number, batch 
+number, administration instructions, storage conditions, and cautions.  The contents of the label 
+will be in accordance with all applicable regulatory requirements. 
+5.1.2.​
+Handling and Storage 
+[placeholder for relevant shipping information, such as temperature monitors used during 
+shipping etc.].  For shipments of IF001 received by the clinical sites, the investigator/designee 
+must confirm the following before distribution and use:  
+●​ Appropriate temperature conditions were maintained during transit  
+●​ Any discrepancies are documented, reported, and resolved 
+IF001 should be stored at [storage conditions here] until use.  Refer to the IF001 Investigational 
+Product Manual for additional instructions. 
+Other drugs administered during the study should be handled and stored according to their 
+respective labeling. 
+5.1.3.​
+Investigational Product Accountability 
+The investigator is responsible for investigational product accountability, reconciliation, and 
+record maintenance.  In accordance with all applicable regulatory requirements, the investigator 
+or designated study center personnel must maintain study investigational product accountability 
+records throughout the course of the study.  The amount of investigational product received from 
+the sponsor and the amount infused must be documented.  The inventoried supplies will be 
+returned to the sponsor or destroyed on site, after receiving written sponsor approval to do so. 
+A copy of the final Investigational Product Accountability Log will be provided to the sponsor or 
+designee. 
+Confidential DRAFT 17 Sept 2025Page 30 of 94​
+​
+ 
+
+
+
+===== PAGE 31 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+5.2.​
+Participant Numbering 
+All potential participants must provide informed consent to participate in the study prior to any 
+study assessments or procedures.  A unique identifier will be assigned to each participant at the 
+first screening visit.   
+Patients not meeting the eligibility criteria will be classified as screen failures.  Rescreened 
+participants should be recorded as screen failures under their original identification number and 
+assigned a new identification number when consented for re-screening. 
+5.3.​
+Treatment Blinding 
+Not applicable as this is an open-label study. 
+5.4.​
+Infection Prophylaxis 
+5.4.1.​
+Bacterial Prophylaxis 
+Bacterial prophylaxis must be provided at least from Day 1 until the absolute neutrophil count 
+(ANC) is >500 cells/µL. Specific antibacterials may be given according to center practice.  An 
+example is moxifloxacin 400 mg per day. 
+5.4.2.​
+Fungal Prophylaxis 
+Fungal prophylaxis must be provided from Day 1 until the ANC is >500 cells/µL.  Specific 
+antifungals may be given according to center practice and investigator judgement but must 
+include coverage of molds such as Aspergillus.  An example is posaconazole 300 mg daily. 
+5.4.3.​
+Viral Prophylaxis 
+Herpes simplex virus and varicella zoster virus prophylaxis must be provided from Day 1 until 
+Day 183 and is recommended until Month 12.  Specific antivirals may be given according to 
+center practice and investigator judgement.  An example is valacyclovir 500 mg twice a day.  
+In addition, for participants who are immunoglobulin G (IgG) (+) for CMV and participants who 
+are IgG (−) for CMV but who received a kidney from a donor who is IgG (+), it is recommended 
+that CMV prophylaxis be provided from Day 1 until Day 92.  Specific antiviral medications may 
+be given according to center practice and investigator judgement.  An example is letermovir 
+480 mg once daily. 
+5.4.4.​
+Pneumocystis Prophylaxis 
+Pneumocystis prophylaxis (Pneumocystis jirovecii pneumonia/pneumocystis carinii pneumonia) 
+must be provided starting on Day 22 or after the ANC is >500 cells/µL, whichever occurs later.   
+If the CD4 count at the Day 183 visit is >200 cells/µL, the pneumocystis prophylaxis may be 
+discontinued.  If the CD4 count is ≤ 200 cells/µL, the agent should be continued until the CD4 
+Confidential DRAFT 17 Sept 2025Page 31 of 94​
+​
+ 
+
+
+
+===== PAGE 32 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+count check at Month 12, after which investigator judgement can determine whether to continue 
+or discontinue prophylaxis. 
+Trimethoprim/sulfamethoxazole 1 single strength tablet daily is the preferred example, with 
+atovaquone 1500 mg once daily or dapsone 100 mg once daily as alternatives. 
+5.5.​
+Participant Conditioning Regimen 
+The participant conditioning regimen is illustrated in Figure 2. 
+Figure 2​
+Participant Conditioning Regimen 
+ 
+Participants will complete their last dose of MMF on Day −10 and last dose of tacrolimus on 
+Day −4 prior to IF001 infusion.  Nine days prior to IF001 infusion, participants will begin an 
+RIC regimen:  
+●​ Thymoglobulin® Days −9 (0.5 mg/kg intravenously [IV] over 6 hours), −8 (2 mg/kg IV over 
+4 hours), and −7 (2 mg/kg IV over 4 hours); preparations of anti-thymocyte globulin (ATG) 
+other than Thymoglobulin are excluded 
+●​ Fludarabine Days −6, −5, −4, −3 and −2 (30 mg/m2 IV daily, dose adjusted for kidney 
+function) 
+o​ Fludarabine will be dosed on body surface area based upon the recipient’s actual body 
+weight (ABW) if <125% of IBW.  For participants >125% of IBW, fludarabine will 
+be dosed on body surface area based upon adjusted IBW (adjusted IBW = IBW + 
+0.25[actual – ideal]).  
+o​ For participants who have an estimated or measured creatinine clearance 
+<70 mL/min/1.73 m2, prior brain radiation, or prior intrathecal chemotherapy, the 
+fludarabine dose should be reduced by 20%.  Fludarabine dosing is based on the last 
+creatinine clearance prior to the start of conditioning.  Fludarabine dose should be the 
+same on Days −6 to −2, even if the participant’s creatinine changes. 
+●​ Cyclophosphamide Day −6, Day −5 (14.5 mg/kg IV daily) 
+o​ Pre-transplantation cyclophosphamide will be administered as a 1- to 2-hour infusion 
+(total dose received 29 mg/kg) 
+Confidential DRAFT 17 Sept 2025Page 32 of 94​
+​
+ 
+
+
+
+===== PAGE 33 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+●​ A single fraction of TBI on Day −1 (200 cGY for the HLA-matched cohort and 400 cGy for 
+the partially HLA-matched cohort) 
+5.6.​
+IF001 Dosage and Administration 
+5.6.1.​
+IF001 Infusion 
+On Day 1, IF001 will be administered intravenously through a large bore central venous catheter.  
+A dialysis-specific catheter/shunt should NOT be used for IF001 administration.  See the IF001 
+Investigational Product Manual for detailed instructions regarding thawing, inspection, and 
+infusion.  The thawing procedure, infusion volume, date, and start and stop time will be 
+documented. 
+The recipient should be carefully monitored during and after infusion of IF001 to detect any 
+changes indicative of hypersensitivity and infusion-related reactions.  The infusion will be 
+performed at the recipient’s bedside.  Premedication with corticosteroids (100 mg 
+hydrocortisone), diphenhydramine, and acetaminophen should be performed as prophylaxis 
+against adverse infusion-related side effects per institutional guidelines. 
+Cryopreserved products, including IF001, contain dimethyl sulfoxide (DMSO).  When the 
+product is thawed and infused, DMSO may cause nausea and/or headache.  If reported by the 
+recipient, reduce the rate of infusion and administer ondansetron and/or diphenhydramine (if 
+indicated).  Wait 10-15 minutes before thawing and infusing subsequent bags of donor cells.   
+If a moderate to severe reaction occurs, immediately contact the Medical Monitor. 
+5.6.1.1.​
+IF001 Dosage Adjustment or Interruption 
+Once administered, IF001dose adjustments and/or interruptions are not possible as the living 
+cells are in the recipient. 
+5.6.2.​
+Post-infusion Cyclophosphamide 
+Cyclophosphamide (50 mg/kg IV daily) will be administered on Day 4 and Day 5 for GVHD 
+prophylaxis.  Mesna (sodium 2-mercaptoethane sulfonate) will be administered with 
+cyclophosphamide to minimize potential toxicity of the drug. 
+Cyclophosphamide and Mesna given post-IF001 infusion will be dosed based on IBW, unless 
+ABW is less than IBW, in which case ABW should be used.  If the participant weighs ≥125% 
+IBW, cyclophosphamide will be dosed according to the adjusted IBW. 
+Participants must be given Mesna 10 mg/kg IBW 30 minutes before and 3, 6, and 8 hours before 
+the Day 4 and Day 5 cyclophosphamide doses. 
+5.6.3.​
+Immunosuppressive Therapy 
+Tacrolimus IV or oral (oral immediate-release administration preferred) should be started on 
+Day 6 (at least 24 hours after the completion of post-transplantation cyclophosphamide) and 
+Confidential DRAFT 17 Sept 2025Page 33 of 94​
+​
+ 
+
+
+
+===== PAGE 34 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+administered as per institutional standards to a target level of 8 to 12 ng/mL.  The following 
+considerations should be used when determining a starting dose: 
+●​ The recommended IV starting dose is 0.03 mg/kg/day either as a continuous infusion or 
+divided into 12-hour IV bolus dosing based on ABW.  Oral equivalent dosing is acceptable at 
+a suggested starting dose of 0.05 to 0.1 mg/kg/dose orally twice daily.  If a participant 
+converts from IV to oral once therapeutic levels are achieved, a suggested IV to oral 
+conversion of 1:3 can be used or per institutional standards.  Dose adjustment is strongly 
+suggested in participants taking posaconazole or another significant interacting agent. 
+●​ Pharmacist assessment of interactions and recommendation for dosing is encouraged 
+The MMF dose will be 15 mg/kg of ABW orally 3 times daily (TID) up to 1 g TID (or IV 
+equivalent) or an equimolar dose of MPS (see Section 5.6.3.1).  The MMF dose will be 
+discontinued after the last dose on Day 36 or may continue if active GVHD is present.  
+Prednisone 10 mg orally daily will be initiated on Day 6 with the last dose on Day 36, unless the 
+participant was on chronic oral steroids prior to enrollment (see Section 5.6.3.1). 
+Filgrastim (G-CSF) or a biosimilar will be given IV or subcutaneously starting on Day 6 for 
+IF001 recipients at 5 µg/kg/day of ABW (rounded to nearest vial size) until the ANC is 
+>1000 cells/µl for 3 days.  Additional G-CSF may be administered as warranted.  Pegfilgrastim 
+(Neulasta®) and granulocyte-macrophage-CSF are not permitted. 
+Participant IS (tacrolimus or sirolimus or cyclosporine) may be tapered as early as Day 183 
+provided all the following criteria are met and continue to be met until IS weaning is complete: 
+●​ T cell chimerism on Day 160 (±7 days) is >50% 
+●​ No active GVHD, and the participant has been off all drugs to treat GVHD (eg, 
+corticosteroids, ruxolitinib) for >30 days without recurrence of GVHD 
+●​ No evidence of de novo DSA 
+●​ Absence of BPAR of the transplanted kidney 
+o​ Note: If a biopsy is medically contraindicated or not feasible, discussion with the 
+Medical Monitor must occur to determine ability to initiate IS weaning 
+In the event of tacrolimus intolerance or based on clinical judgement of the investigator, dose 
+reduction and/or conversion to other primary agents may be necessary and is allowed. 
+Table 1:​
+Guidance for Weaning of Tacrolimus 
+Study visit 
+Tacrolimus therapeutic range 
+recommendation 
+Study requirements 
+Day 6 through Day 183 
+8 to 12 ng/mL 
+-- 
+Tapering criteria met to Month 9 
+4 to 6 ng/mL 
+Reduce dose by ≥50% by 
+the end of Month 9 
+Confidential DRAFT 17 Sept 2025Page 34 of 94​
+​
+ 
+
+
+
+===== PAGE 35 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Month 9 to Month 12 
+2 to 4 ng/mL 
+Discontinue at ​
+Month 12 visit 
+Month 12 to end of study 
+Off tacrolimus 
+-- 
+5.6.3.1.​
+Immunosuppression Dosage Adjustment or Interruption 
+If participants are unable to tolerate the protocol-specified IS dosing scheme, dose adjustments 
+and interruptions are permitted if medically necessary, and should be discussed with the Medical 
+Monitor. 
+Tacrolimus 
+If tacrolimus is not tolerated, cyclosporine may be substituted IV or orally starting on Day 6 and 
+administered per institutional standards to maintain a level of 200 to 400 ng/mL (by 
+high-pressure liquid chromatography method) or 250 to 500 ng/mL (immunoassay method).  
+Recommended starting doses range from 3 to 6 mg/kg/day IV bolus dosing every 12 hours or 
+6 mg/kg/day orally divided twice daily.  The calcineurin inhibitor will be continued at 
+therapeutic doses until at a minimum Month 6 (Day 183) or longer per institutional preference.  
+Sirolimus (target concentration of 10 ng/mL) may be substituted for tacrolimus or cyclosporine 
+in case of intolerance of or unacceptable toxicities from calcineurin inhibitors.  If there is no 
+evidence of GVHD, then taper as per institutional standard. 
+MMF 
+Equimolar doses of enteric-coated MPS (Myfortic® or equivalent) may be substituted for MMF.  
+When switching from MMF immediate-release to MPS delayed-release tablets, the equimolar 
+doses of free mycophenolic acid content are: 
+●​ 250 mg MMF = 180 mg MPS 
+●​ 500 mg MMF = 360 mg MPS 
+If neither MMF nor MPS are tolerated, contact the Medical Monitor. 
+Prednisone or equivalent corticosteroid 
+If a participant was taking daily corticosteroids for >90 days prior to study enrollment, weaning 
+of corticosteroids to prevent adrenal insufficiency is allowed per institutional standard or clinical 
+judgement, provided that corticosteroids are withdrawn prior to Month 9.  
+An example of a weaning schedule is provided in Table 2. 
+Table 2:​
+Example of Corticosteroid Weaning for Participants Previously on Chronic 
+Steroids 
+Dose 
+Study days 
+Prednisone 5mg daily 
+Days 36 to 57 
+Prednisone 4mg daily 
+Days 58 to 92 
+Prednisone 3mg daily 
+Days 93 to 120 
+Confidential DRAFT 17 Sept 2025Page 35 of 94​
+​
+ 
+
+
+
+===== PAGE 36 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Prednisone 2mg daily  
+Days 121 to 160 
+Prednisone 1.5mg daily 
+Days 161 to 183 
+Prednisone 1mg daily 
+Days 184 to 210 (no visit) 
+Prednisone 0.5mg daily 
+Days 211 to 240 (no visit) 
+Prednisone 0.5mg every other day 
+Days 241 to Month 9, then discontinue 
+ 
+5.7.​
+Concomitant Medications 
+The investigator should instruct the participant to notify the study site about any new 
+medications, including non-prescription supplements, he/she takes after study enrollment.  All 
+medications, procedures, and significant non-drug therapies (including physical therapy and 
+blood transfusions) administered after the participant has signed the study informed consent form 
+(ICF) will be recorded on the relevant case report form (CRF). 
+5.7.1.​
+Prohibited Concomitant Medications 
+The following medications are not permitted during the study: 
+●​ Preparations of ATG other than Thymoglobulin 
+●​ Pegfilgrastim (Neulasta) 
+●​ Granulocyte-macrophage-CSF 
+5.8.​
+Discontinuation of Treatment and Premature Withdrawal 
+5.8.1.​
+Discontinuation from Study Treatment 
+Participants may voluntarily discontinue study treatment or immunosuppression withdrawal for 
+any reason at any time.  Such discontinuations should be recorded in the appropriate CRF.  The 
+investigator should discontinue other component(s) of the study regimen for a given participant 
+if, on balance, it is believed that continuation would be detrimental to the participant’s 
+well-being. 
+Participants who discontinue study treatment should not be considered withdrawn from the 
+study, and should return for the follow-up assessments as indicated in Table 5.  Every effort 
+should be made to contact participants who do not return for follow-up visits (see Section 5.8.3). 
+5.8.2.​
+Withdrawal of Informed Consent 
+Participants may voluntarily withdraw their consent to participate in the study for any reason at 
+any time.  Withdrawal of consent indicates that the participant does not want to continue in the 
+study, does not want any further visits or assessments, and does not want any further 
+study-related communication.  It may also indicate that biologic material that has already been 
+obtained cannot be analyzed. 
+Confidential DRAFT 17 Sept 2025Page 36 of 94​
+​
+ 
+
+
+
+===== PAGE 37 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+If a participant withdraws consent, the investigator must make every effort (eg, telephone, email, 
+letter) to determine the primary reason for the decision and record this information.  Study 
+participation must be discontinued, and no further assessments conducted.  All biological 
+material that has not been analyzed at the time of withdrawal must not be used.  Further attempts 
+to contact the participant are not allowed unless safety findings require communication or 
+follow-up. 
+5.8.3.​
+Lost to Follow-up 
+Participants will be considered lost to follow-up if they meet the following criteria:  their status is 
+unclear because of missed study visits without stating the intention to withdraw, they have not 
+responded to repeated communication attempts from the investigator, they did not experience 
+BPAR, graft loss, or death after Day 1 (IF001 infusion), and their last day of contact was prior to 
+Month 15 for the primary analysis and after Month 15 until Month 24 for the extended analysis. 
+The investigator must demonstrate due diligence to determine the status of the participant.  The 
+following actions must be taken if a participant fails to return to the clinic for a required study 
+visit: 
+●​ The site must attempt to contact the participant and reschedule the missed visit as soon as 
+possible.  In addition, the investigator should counsel the participant on the importance of 
+maintaining the assigned visit schedule and ascertain whether the participant wishes to 
+continue in the study. 
+●​ Before a participant is considered lost to follow-up, the investigator or designee must make 
+every effort to re-establish contact with the participant (where possible, 3 telephone calls and, 
+if necessary, a certified letter to the participant’s last known mailing address or local 
+equivalent methods).  Contact attempts should be documented in the participant’s medical 
+record. 
+●​ If the participant continues to be unreachable, he/she will be considered to have withdrawn 
+from the study.   
+●​ Site personnel will attempt to collect the vital status of the participant within legal and ethical 
+boundaries for all participants enrolled, including those who did not receive IF001.  Public 
+sources may be searched for vital status information.  If vital status is determined as 
+deceased, this will be documented and the participant will not be considered lost to 
+follow-up.  Sponsor personnel will not be involved in any attempts to collect vital status 
+information. 
+Participants who have not died or experienced BPAR or graft loss but are lost to follow-up in the 
+first 15 months after IF001 therapy will be included in the analyses of safety and efficacy. 
+Confidential DRAFT 17 Sept 2025Page 37 of 94​
+​
+ 
+
+
+
+===== PAGE 38 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+5.8.4.​
+Study Completion and Post-study Treatment 
+Study completion is defined as the point at which all ongoing IF001 recipients have completed 
+the Month 15 visit. 
+The investigator must provide follow-up medical care for all participants who are prematurely 
+withdrawn from the study or must refer them for appropriate ongoing care according to local 
+practice.  This includes reporting to the Center for International Blood and Marrow Transplant 
+Research (CIBMTR) and follow-up in appropriate national registries (eg, United Network for 
+Organ Sharing, etc.). 
+5.8.5.​
+Enrollment Pause or Early Termination of the Study 
+The sponsor can pause enrollment or terminate the study at any time for any reason.  Should this 
+occur, the sponsor will communicate procedures to be followed to protect the participant’s 
+interests.  Investigators will be responsible for notifying the Institutional Review Boards (IRBs) 
+of a pause in enrollment or the study termination. 
+6.​
+STUDY PROCEDURES AND ASSESSMENTS 
+Participant study assessments are provided in Table 3, Table 4, and Table 5.  Results from 
+assessments will be recorded in the source documents and relevant CRFs. 
+Patients who signed the informed consent but failed screening will have completed CRFs for the 
+screening period, demographics, screen failure details (giving the reason for screen failure), 
+eligibility criteria, and any SAE data collected.  Adverse events that are not SAEs will be 
+followed by the investigator and collected only in the source data. 
+Re-screening is allowed for patients who were screen failures during the initial screening 
+window, eg, due to laboratory values out of range (see Section 5.2).  At the investigator’s 
+discretion and following discussion with the Medical Monitor, an extension of screening may be 
+granted under extenuating circumstances such as a death in the family or serious illness. 
+Visit windows are provided to assist in the scheduling of participants.  If a participant misses a 
+visit, it should be rescheduled as close to the original time as possible.  It is expected that 
+participants will remain on study for 15 months after IF001 infusion for the primary study 
+analysis and then complete visits at Months 18 and 24 for an extended follow-up analysis of 
+Months >15 through 24. 
+ 
+Confidential DRAFT 17 Sept 2025Page 38 of 94​
+​
+ 
+
+
+
+===== PAGE 39 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Table 3:​
+Schedule of Assessments: Screening and Conditioning 
+Study phase 
+Screening 
+Conditioning1 
+Time 
+Day −90 through 
+−102 
+Day −9 through Day −1 
+Visit (study day) 
+Screening 
+−10 
+−9 
+−8 
+−7 
+−6 
+−5 
+−4 
+−3 
+−2 
+−1 
+Inclusion/exclusion3 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Demographics 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Medical history 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Physical exam 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Electrocardiogram 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pulmonary function tests 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Height 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vitals including weight4 
+X 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Safety panel5 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Urine protein/creatinine ratio 
+X 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pregnancy test (WOCBP)6 
+X 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vaccine antibody titers7 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+X 
+Baseline reference chimerism8 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+HLA typing 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DSA 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Infectious disease screening9 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Immunosuppression ​
+(MMF)10 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 39 of 94​
+​
+ 
+
+
+
+===== PAGE 40 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Study phase 
+Screening 
+Conditioning1 
+Time 
+Day −90 through 
+−102 
+Day −9 through Day −1 
+Visit (study day) 
+Screening 
+−10 
+−9 
+−8 
+−7 
+−6 
+−5 
+−4 
+−3 
+−2 
+−1 
+Immunosuppression​
+(tacrolimus)10 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+ 
+ 
+PRO assessments11 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Thymoglobulin (ATG) 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+Fludarabine 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+X 
+X 
+X 
+ 
+Cyclophosphamide 14.5 mg/kg 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+ 
+Total body irradiation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+Adverse events 
+ 
+ 
+At each visit 
+Concomitant medications 
+At each visit 
+Abbreviations: ATG, anti-thymocyte globulin; DSA, donor-specific antibody; G-CSF, granulocyte colony-stimulating factor; HLA, human leukocyte antigen; 
+MMF, mycophenolate mofetil; NAT, nucleic acid testing; PRO, patient-reported outcome; WOCBP, women of childbearing potential​
+Note: Assessments with a bold underlined X (X) will be run centrally. 
+1​ Before conditioning can begin, adequate reference donor and participant chimerism samples must be available, the participant must have  a negative local DSA 
+result, and IF001 must have been received at the clinical site. 
+2​ Donor chimerism baseline reference sample must be confirmed adequate prior to initiating conditioning regimen. 
+3​ Participant eligibility to be verified prior to initiating any conditioning assessments.  Latest DSA and cross-match and panel reactive antibodies should be 
+reviewed. 
+4​ Blood pressure will be performed in triplicate (see Section 6.5 for details). 
+5​ Complete blood count with white blood cell differential and comprehensive metabolic panel (see Table 6 for details). 
+6​ Pregnancy tests should be conducted locally (urine or blood) following site standard practice.  A ​urine pregnancy test must be negative for WOCBP before 
+starting filgrastim. 
+7​ Baseline titers to be assessed locally for antibodies, refer to Table 6 for details. 
+8​ At the baseline assessment, 2 aliquots will be drawn in 2 separate ethylenediaminetetraacetic acid tubes.  One aliquot will be retained locally and the other will 
+be sent to the central laboratory to reference for post-treatment testing. 
+9​ Refer to Table 6 for details. 
+10​The last dose of pre-transplantation mycophenolate mofetil is Day −10.  The last dose of pre-transplantation tacrolimus is Day −4. 
+11 Participants will complete the End-Stage Renal Disease Symptom Checklist and the 36-Item Short From Health Survey (SF-36). 
+Confidential DRAFT 17 Sept 2025Page 40 of 94​
+​
+ 
+
+
+
+===== PAGE 41 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Table 4:​
+Schedule of Assessments: Treatment and Initial Follow-Up 
+Study phase 
+Treatment 
+Initial Follow-up 
+Time 
+Days 1 through 6 
+Days 7 through 14 
+Visit (study day) 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+Safety panel1 
+X 
+X  
+Daily until the ANC is >1000 cells/µL for 3 days 
+Urine protein/creatinine ratio 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pregnancy test (WOCBP)2 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bacterial/fungal prophylaxis3 
+X 
+X  
+Daily until the ANC >500 cells/µL 
+Viral prophylaxis4 
+X 
+X  
+Daily 
+IF001 infusion 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cyclophosphamide 50 mg/kg 
+and Mesna 10 mg/kg IBW5 
+ 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Filgrastim administration6 
+ 
+ 
+ 
+ 
+ 
+X  
+Daily until the ANC is >1000 cells/µL for 3days 
+Immunosuppression (MMF 
+and tacrolimus)7 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Prednisone 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+BKV and CMV monitoring8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+Local tacrolimus level9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X  
+Daily until ​
+ANC >1000 cells/µL for 3 days 
+Dialysis 
+As needed 
+Adverse events 
+At each visit 
+Concomitant medications 
+At each visit 
+Abbreviations: ANC, absolute neutrophil count; BKV, BK virus; CMV, cytomegalovirus; G-CSF, granulocyte colony-stimulating factor; GVHD, 
+graft-versus-host disease; IBW, ideal body weight; IgG, immunoglobulin G; IV, intravenously; MMF, mycophenolate mofetil; PCR, polymerase chain reaction; 
+WOCBP, women of childbearing potential 
+Confidential DRAFT 17 Sept 2025Page 41 of 94​
+​
+ 
+
+
+
+===== PAGE 42 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+1​ Complete blood count with white blood cell differential and comprehensive metabolic panel (see Table 6 for details).  Run locally each day until the ANC is 
+>1000 cells/µL for 3 days.  
+2​ Pregnancy tests should be conducted locally (urine or blood) following site standard practice.  A urine pregnancy test must be negative for women of 
+childbearing potential before starting filgrastim. 
+3​ Bacterial and fungal prophylaxis must be provided at least from Day 1 until the ANC >500 cells/µL.  See Sections 5.4.1 and 5.4.2 for additional information. 
+4​ Herpes simplex virus and varicella zoster virus prophylaxis must be provided from Day 1 until Day 183 and is recommended until Month 12.  In addition, for 
+participants who are IgG (+) for CMV and participants who are IgG (−) for CMV but who received a kidney from a donor who is IgG (+), it is recommended 
+that CMV prophylaxis be provided from Day 1 until Day 92.  See Section 5.4.3 for additional information. 
+5​ Mesna 10 mg/kg IBW to be given 30 minutes before and 3, 6, and 8 hours before the Day 4 and Day 5 cyclophosphamide doses.  
+6​ Filgrastim (G-CSF) or a biosimilar will be given intravenously or subcutaneously starting on Day 6 at 5 µg/kg/day (rounded to nearest vial size) until the ANC  
+is >1000 cells/µL for 3 days.  Additional G-CSF may be administered as warranted.  Pegfilgrastim (Neulasta) and GM-CSF are not permitted. 
+7​ Tacrolimus should be started on Day 6 (at least 24 hours after the completion of post-transplantation cyclophosphamide).  The MMF dose will start on Day 6 
+and may be discontinued after the last dose on Day 36.  MMF dosing may continue if active GVHD is present. 
+8​ BKV and CMV infection monitoring is by local measurement of quantitative viral load by a PCR-based method. 
+9​ Beginning on Day 9, the recipient should withhold the morning tacrolimus dose until after the blood draw to obtain a trough level.  Levels should be assessed 
+daily until the ANC is >1000 cells/µL. 
+ 
+Confidential DRAFT 17 Sept 2025Page 42 of 94​
+​
+ 
+
+
+
+===== PAGE 43 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Table 5:​
+Schedule of Assessments: Follow-Up Period 
+Study phase 
+ 
+Follow-Up Period 
+Time 
+ 
+Day 15 through Month 24 
+Visit 
+D15 
+D2
+2 
+D29 D36 
+D4
+3 
+D50 
+D5
+7 
+D92 D120 D160 
+D183 
+M
+9 
+M1
+2 
+M1
+5 
+ET1 
+M182 
+M242 
+Visit window 
+(+/-) 
+2 days 
+3 days 
+7 days 
+14 days 
+21 days 
+Physical exam 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+X 
+ 
+ 
+Bacterial/fungal 
+prophylaxis3 
+Daily until the ANC is >500 cells/µL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Viral prophylaxis4 
+Until Day 183 (until Month 12 recommended) 
+ 
+ 
+ 
+ 
+Pneumocystis 
+prophylaxis5 
+ 
+Start on Day 22 or after the ANC is >500 cells/µL, whichever occurs later 
+ 
+ 
+ 
+ 
+Vital signs 
+including weight6 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+ 
+Safety panel7 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+Urine 
+protein/creatinine 
+ratio 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+X 
+X 
+ 
+ 
+CD4 count 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+X 
+ 
+ 
+ 
+ 
+Immunoglobulins 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+X 
+ 
+ 
+ 
+ 
+Local blood 
+typing8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+DSA9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+X 
+X 
+HAMA sample10 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 43 of 94​
+​
+ 
+
+
+
+===== PAGE 44 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Study phase 
+ 
+Follow-Up Period 
+Time 
+ 
+Day 15 through Month 24 
+Visit 
+D15 
+D2
+2 
+D29 D36 
+D4
+3 
+D50 
+D5
+7 
+D92 D120 D160 
+D183 
+M
+9 
+M1
+2 
+M1
+5 
+ET1 
+M182 
+M242 
+Visit window 
+(+/-) 
+2 days 
+3 days 
+7 days 
+14 days 
+21 days 
+Immunosuppressi
+on (MMF and 
+tacrolimus)11 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+As needed 
+Prednisone 
+X 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Local tacrolimus 
+level12 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+As needed 
+Filgrastim 
+administration13 
+Daily until the ANC is >1000 cells/µL for 
+3days 
+As needed 
+BKV and CMV 
+monitoring14 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+ 
+GVHD 
+assessment15 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+Kidney allograft 
+biopsy16 
+ 
+ 
+ 
+As needed 
+X 
+ 
+As needed 
+X 
+As needed 
+Donor 
+chimerism17 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+X 
+X 
+PRO 
+assessments18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+X 
+ 
+ 
+Adverse events 
+At each visit 
+Concomitant 
+medications 
+At each visit 
+Confidential DRAFT 17 Sept 2025Page 44 of 94​
+​
+ 
+
+
+
+===== PAGE 45 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Abbreviations: BKV, BK virus; CMV, cytomegalovirus; D, day; DSA, donor-specific antibody; ET, early termination; G-CSF, granulocyte colony-stimulating 
+factor; GVHD, graft-versus-host disease; HAMA, human anti-mouse antibody; M, month; MMF, mycophenolate mofetil; PRO, patient-reported outcomes; 
+WOCBP, women of childbearing potential​
+Note: Assessments with a bold underlined X (X) will be run centrally. 
+1​ Early termination procedures will be conducted in participants who prematurely discontinue from the study before Month 15.  See Section 5.8 for additional 
+information. 
+2​ Visits at Month 18 and Month 24 can be conducted virtually for participants who cannot return to the study center.  In these cases safety laboratory samples will 
+be run centrally. 
+3​ Bacterial and fungal prophylaxis must be provided at least from Day 1 until the ANC >500 cells/µL.  See Sections 5.4.1 and 5.4.2 for additional information. 
+4​ Herpes simplex virus and varicella zoster virus prophylaxis must be provided from Day 1 until Day 183 and is recommended until Month 12.  In addition, for 
+participants who are IgG (+) for CMV and participants who are IgG (−) for CMV but who received a kidney from a donor who is IgG (+), it is recommended 
+that CMV prophylaxis be provided from Day 1 until Day 92.  See Section 5.4.3 for additional information. 
+5​ Pneumocystis prophylaxis (Pneumocystis jirovecii pneumonia/pneumocystis carinii pneumonia) must be provided starting on Day 22 or after the ANC is >500 
+cells/µL, whichever occurs later.  Additional information is provided in Section 5.4.4. 
+6​ Blood pressure will be performed in triplicate (see Section 6.5 for details). 
+7​ Complete blood count with white blood cell differential and comprehensive metabolic panel (see Table 6 for details). 
+8​ ABO/Rh blood typing should be performed locally at Month 12 post-IF001 infusion and whenever (prior) a blood transfusion is given. 
+9​ Specimens for DSA should also be drawn and tested locally at the time of any suspected rejection. 
+10A HAMA sample will be collected and analyzed centrally on serum. 
+11After complete weaning of immunosuppression additional serum creatinine should be performed locally weekly for 4 weeks.  
+12​The recipient should withhold the morning tacrolimus dose until after the blood draw to obtain a trough level.  Levels should be assessed daily until the ANC is 
+>1000 cells/µL.  Thereafter tacrolimus levels should be assessed 3 days after any dose adjustment. 
+13​Filgrastim (G-CSF) or a biosimilar given intravenously or subcutaneously 5 µg/kg/day (rounded to nearest vial size) should be administered until the ANC is 
+>1000 cells/µL for 3 days.  Additional G-CSF may be administered as warranted.  Pegfilgrastim (Neulasta) and GM-CSF are not permitted. 
+14​BKV and CMV infection monitoring is by local measurement of quantitative viral load by a PCR-based method.  BK and CMV monitoring are performed more 
+frequently than scheduled visits displayed in this table; see Section 6.9 for details.  
+15​Beginning at Day 22 through Day 92, only acute GVHD assessments will be performed.  At Days 92 and 120, both acute and chronic GVHD assessments will 
+be performed.  Beyond Day 120, chronic GVHD assessments will be performed routinely, but acute GVHD also can be assessed as clinically warranted.  If 
+acute or chronic GVHD is suspected or detected at any time between visits, regardless of location or grade, appropriate GVHD assessment must be performed 
+at an unscheduled visit.  Sites should supplement with weekly telephone contact through Day 183.  All Grade ≥2 acute GVHD or moderate to severe chronic 
+GVHD must be reported within 24 hours of site awareness.  See Section 6.11 for details. 
+16​Kidney allograft protocol biopsies are to be performed and analyzed centrally at Day 160 and at Month 15; see Section 6.16.  Site-specific protocol/surveillance 
+biopsies without suspicion of acute rejection are prohibited.  Additional information regarding acute rejection is provided in Section 6.13. 
+17​Whole blood and T cell chimerism require a whole blood sample. 
+18​Participants will complete the End-Stage Renal Disease Symptom Checklist and the 36-Item Short Form Health Survey (SF-36). 
+ 
+Confidential DRAFT 17 Sept 2025Page 45 of 94​
+​
+ 
+
+
+
+===== PAGE 46 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+6.1.​
+Obtaining Informed Consent  
+Signed informed consent will be obtained from the participant before any study procedures are 
+undertaken.  Details regarding the informed consent process and documentation are provided in 
+Section 13.2. 
+6.2.​
+Participant Demographics and Other Baseline Characteristics 
+Participant and other baseline demographic characteristics are described in Section 8.5. 
+6.3.​
+Medical History 
+Medical history findings (ie, previous diagnoses, diseases, or surgeries) not pertaining to the 
+study indication, started before signing the informed consent and during the screening phase, and 
+considered relevant for the participant’s study eligibility will be collected and captured in the 
+CRF. 
+6.4.​
+Physical Examination 
+Physical examinations will include Karnofsky performance status (Péus 2013), general 
+appearance, head/eyes/ears/nose/throat, lungs, cardiac, abdominal, skin, extremities, lymph 
+nodes, and a neurologic examination.  In addition to the protocol-specified times, physical 
+assessments can be made at the investigator's discretion to evaluate symptoms or AEs. 
+6.5.​
+Vital Signs Including Height and Weight 
+Vital sign assessments (blood pressure and pulse rate) should be performed by the same study 
+site staff member using the same validated device; if a different device is used, please note in 
+source documents. 
+Blood pressure and pulse rate will be assessed in the same arm each time of determination and 
+after the participant has rested in the sitting position (may be supine if during hospitalization) for 
+at least 5 minutes.  The person taking the blood pressure measurement should check whether the 
+participant is calm before taking the reading.  Systolic and diastolic blood pressure will be 
+measured using an automated validated device with an appropriately sized cuff.  The sitting 
+measurements will be repeated at 1- to 2-minute intervals for a total of 3 measurements.  If 
+available cuff sizes are not large enough for the participant’s arm circumference, a 
+sphygmomanometer with an appropriately sized cuff may be used. 
+Participants should be weighed without shoes or coat using the same scale.  Height (without 
+shoes) will be measured only at the first screening visit. The BMI will be calculated at each visit 
+using current weight and height at the first screening visit. 
+6.6.​
+Electrocardiogram 
+A 12-lead electrocardiogram will be conducted at screening for all participants. 
+Confidential DRAFT 17 Sept 2025Page 46 of 94​
+​
+ 
+
+
+
+===== PAGE 47 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+6.7.​
+Pulmonary Function Tests 
+Pulmonary function tests including FEV1 and FVC will be conducted at screening for all 
+participants. 
+6.8.​
+Revaccination 
+The recommendations for vaccination after allogeneic HCT are based on the guidelines of the 
+Infectious Disease Society of America (Rubin 2014) and are summarized in Appendix 1. 
+6.9.​
+Laboratory Assessments 
+Local and central laboratories will be used for analysis of specimens collected as described in the 
+schedules of assessments (Table 3, Table 4, and Table 5).  Clinical laboratory tests can also be 
+performed as medically indicated.  Details regarding collections, shipment of samples, and 
+results reporting will be provided in the Laboratory Manual.  Clinical laboratory assessments are 
+summarized in Table 6. 
+BKV and CMV infection monitoring is by local measurement of quantitative viral load by a 
+PCR-based method.  BK virus and CMV monitoring are performed more frequently than 
+scheduled visits displayed in the schedules of assessments: Weekly through Day 183 (Month 6) 
+(± 1 day through Day 7, ± 2 days through Day 50, ± 3 days through Day 92, and ± 1-2 weeks 
+[per schedule of assessments] through Day 183 [Month 6]), every 2 weeks (± 14 days) thereafter 
+through Month 12, and every 3 months (± 21 days) through Month 15. 
+All laboratory test results considered clinically significant by the investigator will be followed to 
+a satisfactory resolution.  A laboratory test value that requires treatment or requires a participant 
+to be discontinued from treatment or the study will be recorded as an AE (see Section 7.1.3). 
+Confidential DRAFT 17 Sept 2025Page 47 of 94​
+​
+ 
+
+
+
+===== PAGE 48 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Table 6​
+Clinical Laboratory Assessments 
+Complete blood count 
+Comprehensive metabolic panel 
+White blood cell count 
+Albumin 
+Red blood cell count 
+Alanine aminotransferase 
+Hemoglobin 
+Aspartate aminotransferase 
+Hematocrit 
+Alkaline phosphatase 
+Mean corpuscular volume 
+Total bilirubin 
+Mean corpuscular hemoglobin 
+Blood urea nitrogen 
+Mean corpuscular hemoglobin concentration 
+Creatinine 
+Mean platelet volume 
+Calcium 
+Red blood cell distribution width 
+Chloride 
+Platelet count 
+Sodium 
+ 
+Potassium 
+Differential (electronic) 
+Glucose 
+Neutrophils % 
+Total protein 
+Immature granulocytes % 
+Carbon dioxide 
+Lymphocytes % 
+ 
+Monocytes % 
+Infectious disease screening 
+Eosinophils % 
+PCR: 
+Basophils % 
+BKV 
+Absolute neutrophil count 
+CMV 
+Immature granulocytes, absolute 
+EBV 
+Lymphocytes, absolute 
+Hepatitis C virus 
+Monocytes, absolute 
+HIV 
+Eosinophils, absolute 
+Hepatitis B virus testing: 
+Nucleated red blood cell number 
+Hepatitis B core antibody 
+Platelet estimate 
+Hepatitis B surface antibody 
+ 
+Hepatitis B surface antigen 
+Pregnancy 
+ 
+Serum or urine  
+Viral load monitoring (PCR) 
+ 
+BKV 
+Vaccine antibody titers 
+CMV 
+Varicella 
+ 
+Measles 
+Urinalysis 
+Mumps 
+Protein/creatinine ratio 
+Rubella 
+ 
+Hepatitis B virus 
+Other 
+Tetanus 
+HLA typing 
+Diphtheria 
+Donor-specific antibody 
+Meningococcus 
+ABO blood typing and Rh factor 
+Pneumococcus 
+Donor whole blood and blood T cell chimerism 
+ 
+Tacrolimus (trough) 
+Immunoglobulins 
+HAMA sample 
+IgA 
+ 
+IgG 
+ 
+IgM 
+ 
+Confidential DRAFT 17 Sept 2025Page 48 of 94​
+​
+ 
+
+
+
+===== PAGE 49 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Abbreviations: BKV, BK virus; CMV, cytomegalovirus; EBV, Epstein-Barr virus; HAMA, human anti-mouse 
+antibody; HIV, human immunodeficiency virus; HLA, human leukocyte antigen; IgA, immunoglobulin A; IgG, 
+immunoglobulin G; IgM, immunoglobulin M; PCR, polymerase chain reaction 
+6.10.​
+Renal Function 
+Renal function by estimated eGFR using the CKD-EPI 2021 formula will be derived from local 
+laboratory creatinine values.  This will also be the primary method of assessment of renal 
+function with respect to other renal endpoints. 
+6.11.​
+Graft-versus-Host-Disease 
+GVHD is considered an adverse event of special interest (AESI; see Section 7.4.3).  Beginning at 
+Day 22 through Day 92, only acute GVHD assessments will be performed.  At Day 92 and 
+Day 120, both acute and chronic GVHD assessments will be performed.  Beyond Day 120, 
+chronic GVHD assessments will be performed routinely, but acute GVHD also can be assessed 
+as clinically warranted. 
+If acute or chronic GVHD is suspected or detected at any time between visits, regardless of 
+location or grade, appropriate GVHD assessment must be performed at an unscheduled visit.  
+Sites should supplement with weekly telephone contact through Day 183. 
+Acute and chronic GVHD will be managed according to institutional practices.  Grading of 
+GVHD should follow the criteria provided in Appendix 2 for acute GVHD (Harris 2016) and 
+Appendix 3 for chronic GVHD (Jagasia 2015). 
+6.12.​
+Off Immunosuppression 
+A participant will be considered free from IS if they are not currently taking any IS agents and 
+have not taken IS since withdrawal.  An exception will be brief use of systemic corticosteroids 
+for no more than 8 weeks (total duration) if administered for an indication other than rejection 
+prophylaxis or treatment (such as newly developed or recurrent autoimmune diseases, asthma, 
+hypersensitivity reactions).  The date of discontinuation of the last IS agent will be captured on 
+the relevant CRF. 
+6.13.​
+Acute Rejection 
+A BPAR is defined as a biopsy result with either T cell-mediated rejection of Banff Grade ≥1A 
+OR acute/active antibody-mediated rejection (local pathology reading according to the 
+Banff 2022 criteria (Appendix 4; Naesens 2024).  Renal biopsies will be performed for all cases 
+of suspected acute rejection and at specified protocol visits (see Section 6.16).  Site-specific 
+protocol/surveillance biopsies without suspicion of acute rejection are prohibited. 
+Suspicion of acute rejection is deferred to the clinical investigator and local practices.  An 
+example would be: an acute and persistent increase in serum creatinine by ≥20% and/or new 
+onset or worsening proteinuria, with other potential causes ruled out.  Clinicians must discuss 
+findings with the Medical Monitor prior to proceeding to biopsy. 
+Confidential DRAFT 17 Sept 2025Page 49 of 94​
+​
+ 
+
+
+
+===== PAGE 50 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+All episodes of acute rejection must be entered on the relevant CRF(s) preferably within 
+24 hours.  Acute rejections should not generally be considered an AE unless unusually severe in 
+presentation. 
+Acute rejections should be treated with bolus methylprednisolone (other corticosteroids are 
+acceptable at an equivalent dose) according to local practice.  Recommended treatment is a total 
+dose of at least 750 mg methylprednisolone divided into 2 or 3 once-daily IV boluses.  Other 
+anti-rejection therapies (ie, T cell-depleting antibody therapy) should only be used in cases of 
+steroid-resistant rejections, vascular rejections, antibody-mediated rejections, or rejections with a 
+Banff Grade ≥ 2B. 
+All medications used for the treatment of suspected or confirmed acute rejections must be 
+recorded on the relevant CRF. 
+6.14.​
+Graft Loss 
+The allograft will be presumed to be lost on the day the participant starts dialysis and is 
+subsequently unable to be removed from dialysis for 56 consecutive days or if the participant is 
+retransplanted.  If the participant undergoes allograft nephrectomy prior to starting permanent 
+dialysis, then the day of nephrectomy is the day of graft loss.  The reason for graft loss and study 
+discontinuation will be recorded on the relevant CRFs.  Graft loss is considered an SAE and 
+should be reported as described in Section 7.4.2. 
+6.15.​
+Death 
+In the event of a participant’s death, the SAE leading to death should be reported to the sponsor 
+or designee as described in Section 7.4.2 and Section 11.2.2. 
+6.16.​
+Renal Allograft Biopsy 
+Participants who cannot have protocol-specified biopsies for medical reasons should be 
+discussed with the Medical Monitor. 
+Biopsies will be read by the local pathologist according to the updated Banff 2022 criteria 
+(Appendix 4; Naesens 2024) and the results of the recorded on the relevant CRF.  The local 
+results will be used for the management of acute rejection; see Section 6.13 for additional 
+information.  
+Central pathology diagnosis will be used for analysis of efficacy endpoints. 
+6.17.​
+Patient-Reported Outcome Measures 
+The impact of IF001 on the participants’ quality of life will be assessed by the 36-Item Short 
+Form Health Survey (SF-36; RAND 2025, Appendix 5) and the End-Stage Renal Disease 
+Symptom Checklist (ESRD-SCL; Franke 2016, Appendix 6).  The SF-36 is a widely used tool 
+and assesses overall physical function, general health, and social/psychological factors and has 
+Confidential DRAFT 17 Sept 2025Page 50 of 94​
+​
+ 
+
+
+
+===== PAGE 51 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+been validated in the end-stage renal disease population.  The ESRD-SCL was developed 
+specifically for and validated in the end-stage renal disease population. 
+The questionnaires should be completed by participants at the clinic before seeing the study 
+physician.  Participants should be given sufficient instruction, space, time, and privacy to 
+complete the questionnaire.  Study staff should check the questionnaire responses for 
+completeness and encourage the participant to provide any missing responses.  The responses 
+from the paper questionnaire will be entered into the CRF by study staff. 
+Before the clinical examination, completed questionnaires will be reviewed by the investigator 
+for responses that might indicate possible AEs or SAEs.  The investigator should review the 
+responses to the questions as well as any unsolicited comments recorded by the participant.  
+Confirmed AEs or SAEs must be recorded as described in Section 7. 
+6.18.​
+Appropriateness of Measures 
+All assessments used in this study are widely used and generally recognized as reliable, accurate, 
+and relevant. 
+The efficacy endpoints of BPAR, graft loss, death, or loss to follow-up have all been used as 
+endpoints in many previous studies in the kidney transplantation indication and are widely 
+accepted by health authorities for global registration purposes in this indication.  The endpoint of 
+freedom from IS is the target of this therapy, without which efficacy cannot be adequately 
+measured.  In addition, eGFR has been utilized in registration studies as a key secondary or 
+supportive endpoint as a measure of transplanted organ function. 
+7.​
+ADVERSE EVENTS 
+7.1.​
+Definition of an Adverse Event 
+An AE is any untoward medical occurrence (ie, any unfavorable and unintended sign [including 
+abnormal laboratory findings], symptom, or disease) in a participant or clinical investigation 
+participant after providing written informed consent for participation in the study.  Therefore, an 
+AE may or may not be temporally or causally associated with the use of a medicinal 
+(investigational) product. 
+Investigators are responsible for managing the safety of participants and identifying AEs.  The 
+occurrence of AEs should be sought by non-directive questioning of the participant at each study 
+visit.  Adverse events also may be detected when volunteered by the participant during or 
+between visits or through physical examination (or body system assessment), laboratory test, or 
+other assessments. 
+Guidance for the investigator regarding safety and common side effects is provided in the IF001 
+Investigator’s Brochure. 
+Confidential DRAFT 17 Sept 2025Page 51 of 94​
+​
+ 
+
+
+
+===== PAGE 52 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+7.1.1.​
+Assessment of Severity 
+Severity will be assessed per the Common Terminology Criteria for Adverse Events (CTCAE) 
+v 6.0 (USDHHS 2025b) Grade 1 through Grade 5.  If an AE is not specifically graded by 
+CTCAE v6.0, the investigator should use medical judgement to determine AE severity following 
+the general CTCAE v6.0 guidelines of Grade 1 = mild, Grade 2 = moderate, Grade 3 = severe, 
+Grade 4 = life-threatening, or Grade 5 = death. 
+7.1.2.​
+Assessment of Causality 
+The investigator must assess the relationship of each AE/SAE with the use of the investigational 
+product as defined in Section 5.6 using their medical judgement.  The following definitions will 
+be used: 
+Related: There is a reasonable possibility that the event is related to the investigational product 
+IF001 (eg, there is a temporal association between the treatment exposure and onset of the AE, 
+the manifestations of the AE are consistent with the known product profile within the treatment, 
+the event cannot be reasonably explained by alternative causes). 
+The investigator should use their best clinical judgement to determine if the AE is at least 
+possibly related to IF001.  If so, this assessment will be considered “related.”  
+Separately, the investigator will use their best clinical judgement to assess whether the AE is 
+associated with other study interventions such as the RIC regimen and/or IS regimen.  Although 
+the association will be captured, these events will not be considered “related” from a regulatory 
+standpoint since the investigator does not consider them related to the IF001 investigational 
+product. 
+Not related: The AE is related to a concomitant medical condition, concomitant medication(s), 
+or an accident, with no reasonable association with the investigational product IF001. 
+7.1.3.​
+Laboratory Test Abnormalities 
+Abnormal laboratory values or test results constitute AEs only if they fulfill at least one of the 
+following criteria: 
+●​ They induce clinical signs or symptoms 
+●​ They are considered clinically significant 
+●​ They require therapy 
+Clinically significant abnormal laboratory values or test results should be identified through a 
+review of values outside of normal ranges/clinically notable ranges, significant changes from 
+baseline or the previous visit, or values considered to be non-typical in participant with 
+underlying disease.  Liver toxicities should be graded according to CTCAE v6.0. 
+Confidential DRAFT 17 Sept 2025Page 52 of 94​
+​
+ 
+
+
+
+===== PAGE 53 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+7.2.​
+Definition of a Serious Adverse Event 
+An SAE is defined as any AE appearance of (or worsening of any pre-existing) undesirable 
+sign(s), symptom(s), or medical conditions(s) which meets any one of the following criteria: 
+●​ Is fatal 
+●​ Life-threatening 
+●​ Results in persistent or significant disability/incapacity  
+●​ Constitutes a congenital anomaly/birth defect 
+●​ Requires inpatient hospitalization or prolongation of existing hospitalization, unless 
+hospitalization is solely for: 
+o​ Renal allograft biopsy 
+o​ Treatment of acute rejection 
+o​ Routine treatment or monitoring of the studied indication, not associated with any 
+deterioration in condition 
+o​ Elective or pre-planned treatment for a pre-existing condition that is unrelated to the 
+indication under study and has not worsened since signing the informed consent 
+o​ Treatment on an emergency outpatient basis for an event not fulfilling any of the 
+definitions of an SAE given above and not resulting in hospital admission 
+o​ Social reasons and respite care in the absence of any deterioration in the participant’s 
+general condition 
+●​ Is medically significant (ie, defined as an event that jeopardizes the participant or may 
+require medical or surgical intervention) 
+All malignant neoplasms will be assessed as serious under “medically significant” if other 
+seriousness criteria are not met. 
+Hematologic AEs should not be reported as SAEs unless they occur 4 or more weeks after IF001 
+infusion. 
+Life-threatening in the context of an SAE refers to an event in which the participant was at risk 
+of death at the time of the event; it does not refer to an event that hypothetically might have 
+caused death if more severe. 
+Medical and scientific judgement should be exercised in deciding whether other situations should 
+be considered SAEs, such as important medical events that might not be immediately 
+life-threatening or result in death or hospitalization but might jeopardize the participant or might 
+require intervention to prevent one of the other outcomes listed above.  Examples of such events 
+are intensive treatment in an emergency room or at home for allergic bronchospasm, blood 
+Confidential DRAFT 17 Sept 2025Page 53 of 94​
+​
+ 
+
+
+
+===== PAGE 54 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+dyscrasias, or convulsions that do not result in hospitalization or development of dependency or 
+abuse. 
+Any suspected transmission via a medicinal product of an infectious agent is also considered a 
+serious adverse reaction. 
+All SAEs will be reported following the instructions provided in Section 7.4.2. 
+7.3.​
+Following Adverse Events 
+Once an AE is detected, it should be followed until its resolution or until it is judged to be 
+permanent.  An assessment should be made at each visit (or more frequently, if necessary) of any 
+changes in severity, the suspected relationship to the investigational product, the interventions 
+required to treat it, and the outcome. 
+7.4.​
+Reporting Adverse Events 
+7.4.1.​
+Adverse Event Reporting Period 
+After the informed consent has been signed, all AEs and SAEs, regardless of relationship to 
+IF001, will be reported through completion of the last study visit of the primary analysis period 
+(Month 15).  After this period, the investigator should report any SAEs that are believed to be 
+related to IF001 (see Section 7.4.5). 
+7.4.2.​
+Reporting Serious Adverse Events 
+Every SAE, regardless of causality, occurring after the participant has provided informed consent 
+and through completion of the last study visit must be reported to the sponsor or designee within 
+24 hours of learning of its occurrence.  Any SAEs experienced after the last study visit should 
+only be reported to the sponsor or designee if the investigator suspects a causal relationship to 
+IF001 (see Section 7.4.5). 
+Recurrent symptoms of an overlying reported SAE, complications, or progression of the initial 
+SAE must be reported as follow-up to the original episode, regardless of when the event occurs.  
+This report must be submitted within 24 hours of the investigator receiving the follow-up 
+information.  An SAE that is considered completely unrelated to a previously reported one 
+should be reported separately as a new event. 
+All SAEs must be reported to the sponsor or designee within 24 hours of study personnel’s first 
+awareness of the event by filling out the corresponding CRF page.  The investigator must be 
+aware of the SAE reported and verify the accuracy of the information recorded on the CRF with 
+the corresponding source documents.  See Section 11.2.2 for instructions for reporting recipient 
+deaths. 
+If there are network outages, a paper copy of the AE form must be completed and emailed to 
+Emmes (contracted by the sponsor) to initiate sponsor review.  Once the system is available, the 
+event information must be entered into the system as soon as possible.  
+Confidential DRAFT 17 Sept 2025Page 54 of 94​
+​
+ 
+
+
+
+===== PAGE 55 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Additional follow-up information, if required or available, should be communicated to the 
+sponsor or designee within one business day of receipt. 
+It is the Principal Investigator’s responsibility to notify the IRB of all SAEs that occur at his or 
+her site. 
+7.4.3.​
+Adverse Events of Special Interest 
+All Grade ≥2 acute GVHD or moderate to severe chronic GVHD must be reported within 
+24 hours of site awareness.  Other AESI will be detailed in the statistical analysis plan (SAP). 
+7.4.4.​
+Pregnancy 
+Any pregnancy must be reported to the sponsor and/or its designee within 24 hours of learning of 
+its occurrence during the study.  The pregnancy should be followed to determine outcome, 
+including spontaneous or voluntary termination, details of the birth, and the presence or absence 
+of any birth defects, congenital abnormalities, or maternal and/or newborn complications. 
+7.4.5.​
+Post-Study Adverse Events 
+The investigator should instruct each participant to report any new AE beyond the protocol 
+observation period that the participant or their personal physician believes might reasonably be 
+related to IF001.  This information should be recorded in the investigator’s source documents, 
+however, if the AE meets the criteria of an SAE, it must be reported to the sponsor. 
+7.4.6.​
+Expedited Reporting 
+For determination of whether an SAE requires expedited regulatory reporting to relevant health 
+authorities, an AE is considered “unexpected” if it is not listed in the Reference Safety 
+Information section of the current IF001 Investigator’s Brochure. 
+The sponsor is responsible for notifying the relevant regulatory authorities and Data Safety 
+Monitoring Board (DSMB) of certain events.  Investigators will also be notified of all 
+unexpected, serious, investigational product-related events (7-day or 15-day Safety Reports) that 
+occur during the study.  Each Principal Investigator is responsible for notifying the IRB of these 
+additional SAEs. 
+8.​
+STATISTICAL CONSIDERATIONS AND ANALYTICAL PLAN 
+8.1.​
+Study Endpoints 
+8.1.1.​
+Primary Endpoints 
+The primary safety endpoint is the incidence and severity of AEs (including infections), SAEs, 
+and AEs leading to study and/or regimen discontinuation. 
+The primary efficacy endpoint is the proportion of participants who are alive and free from IS, 
+without graft loss or BPAR, at 15 months post-IF001 infusion. 
+Confidential DRAFT 17 Sept 2025Page 55 of 94​
+​
+ 
+
+
+
+===== PAGE 56 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+8.1.2.​
+Secondary Endpoints 
+Safety 
+●​ The incidence of and grade of acute GVHD at Day 120 
+●​ The incidence and severity of chronic GVHD at Month 12 
+o​ o​ All Grade >2 acute GVHD or any chronic GVHD will be reported within 
+24 hours of site awareness as an AESI 
+●​ Evaluation at Day 183, Month 12, and Month 15: 
+o​ The incidence of BK viremia, viruria, infection, and nephropathy 
+o​ The incidence of AESI according to defined criteria 
+o​ The incidence and grade of acute GVHD 
+o​ The incidence and severity of chronic GVHD 
+o​ Days to neutrophil recovery (>500/µL) 
+o​ Days to platelet recovery (>20K/µL) 
+o​ Number of blood component transfusions 
+o​ The incidence of engraftment syndrome 
+o​ The incidence of primary hematopoietic graft failure 
+o​ The incidence of secondary hematopoietic graft failure 
+o​ The incidence and severity of bacterial, fungal, and viral infections 
+Efficacy 
+●​ Key Secondary Efficacy Endpoint: Change in renal function (eGFR by CKD-EPI 2021; 
+[Inker 2021]) from Day −9 to Month 15 
+●​ Evaluation at Day 183, Month 12, and Month 15: 
+o​ The incidence of composite endpoint of BPAR, graft loss (renal), or death 
+o​ The incidence of composite endpoint of BPAR, graft loss, death. or lost to follow-up 
+o​ The incidence of graft loss 
+o​ The incidence of death 
+o​ The incidence of lost to follow-up 
+o​ The incidence of acute rejection (BPAR) 
+o​ The incidence of treated BPAR by Banff 2022 criteria (Naesens 2024) 
+Confidential DRAFT 17 Sept 2025Page 56 of 94​
+​
+ 
+
+
+
+===== PAGE 57 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+o​ The incidence of each type of BPAR by Banff 2022 criteria 
+o​ The incidence of steroid-resistant BPAR 
+o​ The incidence of de novo DSA 
+o​ The incidence of full donor chimerism (>50% T cell), correlated with meeting the 
+primary efficacy endpoint 
+o​ The % chimerism at each visit, correlated with meeting the primary efficacy endpoint 
+o​ Change in renal function (eGFR by CKD-EPI 2021) between Day −9 and Day 183 
+o​ Change in renal function (eGFR by CKD-EPI 2021) between Day −9 and Month 12 
+o​ The incidence or worsening of abnormal histologic findings of cellular or 
+antibody-mediated chronic rejection, chronic glomerulopathy, tubular atrophy and 
+interstitial fibrosis, C4d, calcineurin inhibitor-induced damage, disease recurrence, 
+BK nephropathy between biopsies at Day 160 and Month 15 
+o​ The incidence of renal replacement therapy 
+o​ Participant quality of life according to the SF-36 (RAND 2025) and ESRD-SCL 
+(Franke 2016) 
+Extended evaluation 
+●​ Extended Evaluation at Months 18 and 24 (only for events beyond Month 15): 
+o​ The incidence of composite endpoint of BPAR, graft loss (renal), or death 
+o​ The incidence of composite endpoint of BPAR, graft loss, death, or lost to follow-up 
+o​ The incidence of graft loss 
+o​ The incidence of death 
+o​ The incidence of lost to follow-up 
+o​ The incidence of acute rejection (BPAR) 
+o​ The incidence of treated BPAR by Banff 2022 criteria 
+o​ The incidence of each type of BPAR by Banff 2022 criteria 
+o​ The incidence of de novo DSA 
+o​ The incidence of donor chimerism (>50% T cell) and correlation to being off of IS 
+o​ The % chimerism and correlation with remaining off of IS 
+o​ The incidence of acute and chronic GVHD 
+o​ The grade of acute and severity of chronic GVHD 
+Confidential DRAFT 17 Sept 2025Page 57 of 94​
+​
+ 
+
+
+
+===== PAGE 58 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+8.2.​
+General Considerations 
+The SAP will be finalized and approved prior to the database lock and will include a more 
+technical and detailed description of the statistical analyses described in this section.  Any 
+deviations from the planned statistical analysis will be summarized in the clinical study report. 
+All descriptive statistical analyses will be performed using SAS version 9.4 or higher.  For 
+categorical variables, the number and percentage within each category of the parameter will be 
+calculated (including a category labeled as “missing” when appropriate).  For continuous 
+variables, the number of participants with no missing data (n), mean, median, 25% and 75% 
+quartiles, standard deviation (SD), minimum, and maximum values will be presented. 
+Baseline is defined as the last record prior to treatment. 
+8.3.​
+Analysis Sets 
+The following analysis sets have been defined for this study:  
+●​ Full Analysis Set (FAS): The FAS consists of all participants who initiate the conditioning 
+regimen.  This set will include follow-up until Month 15. 
+●​ Per Protocol Analysis Set (PPAS): The PPAS consists of all participants in the FAS who 
+complete the IF001 infusion, comply with treatment and follow-up as described in the 
+protocol, and either meet an endpoint or complete the 15-month treatment period with no 
+major protocol deviations 
+●​ Extended Analysis Set (EAS): The EAS consists of all participants who have at least one 
+visit between Month >15 and Month 24 
+The FAS will be used as the efficacy analysis set to evaluate both primary and secondary efficacy 
+endpoints of participants.  The FAS will be used for all participant safety analyses, unless 
+otherwise specified.  All efficacy and safety endpoints will also be performed using the PPAS.  
+The EAS will be used for secondary extended follow-up analyses. 
+8.4.​
+Participant Disposition 
+The number of screen failures, participants enrolled, treated (both initiated therapy and 
+completed the entire regimen), prematurely discontinued from the study, participants in each of 
+the analysis sets, and those with major protocol deviations will be summarized.  Major protocol 
+deviations will be summarized and listed by each category.  Participants who experience death, 
+graft loss, or remain in the study through Month 15 will be considered to have completed the 
+study. 
+8.5.​
+Demographic and Other Baseline Characteristics 
+All demographic and baseline characteristics variables will be listed, and summary statistics 
+provided.  Baseline information will be collected during screening.  Participant demographics 
+will include age, gender (with childbearing status for females), race, ethnicity, height, weight, 
+Confidential DRAFT 17 Sept 2025Page 58 of 94​
+​
+ 
+
+
+
+===== PAGE 59 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+and BMI.  Other baseline characteristics include relevant medical history (including date of 
+kidney transplantation), current medical conditions, donor characteristics (eg, age, sex, and race), 
+and donor/recipient relationship and match status.  Other relevant baseline characteristics will be 
+included in the SAP. 
+Summary statistics will be presented for the participants in the FAS, PPAS, and EAS.  Endpoints 
+with continuous variables will be summarized descriptively (non-missing values, means, 
+standard deviations, medians, 25% and 75% quartiles, minimums, and maximums). 
+Categorical endpoints will be summarized using the number and percentage within each category  
+(including a category labeled as “missing” when appropriate). 
+8.6.​
+Concomitant Medications 
+Concomitant medications will be summarized by therapeutic class and preferred term 
+(Anatomical Therapeutic Chemical levels 2 and 5) by presenting the number and percentage of 
+participants taking each medication. 
+8.7.​
+Safety Analyses 
+8.7.1.​
+Safety Variables 
+Adverse events will be summarized overall for all participants from the time of informed consent 
+onwards.  Adverse events will also be summarized by the following study intervals: informed 
+consent to the day prior to IF001 infusion (Day −1), Day 1 to Day 183, and Day 184 to 
+Month 15.  The EAS will be summarized for Month >15 to Month 24. 
+The AE verbatim descriptions (investigator terms from the CRF) will be classified into 
+standardized medical terminology using the Medical Dictionary for Regulatory Activities 
+(MedDRA®) version 28.0 or higher.  The incidence of AEs and death will be summarized by 
+system organ class, preferred terms, severity, and relationship to investigational product.  The 
+incidence and causes of death will be summarized. 
+Vital signs and laboratory data will be listed by participant and visit/time.  If normal ranges are 
+available, abnormalities will be flagged.  Summary statistics will be provided by visit/time. 
+8.7.2.​
+Primary Safety Analysis 
+The primary safety endpoint is incidence and severity of AEs, SAEs, and AEs leading to study 
+and/or regimen discontinuation. 
+Because this is a proof-of-concept study, no hypothesis tests will be conducted on the primary 
+safety endpoint.  The primary safety endpoint will be summarized using a point estimate along 
+with 95% CI (exact binomial).  The primary analysis will be based on the FAS and will also be 
+performed using the PPAS. 
+Confidential DRAFT 17 Sept 2025Page 59 of 94​
+​
+ 
+
+
+
+===== PAGE 60 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+8.7.3.​
+Secondary Safety Analysis 
+Other incidence rates related to participants’ safety profiles will be closely monitored and 
+summarized in DSMB reviews as well as in the final primary analysis.  The exposure- (follow-up 
+time) incidence rates and time to event data will be presented up to Day 183, Month 12, and 
+Month 15 as previously described.  The list includes: 
+●​ The incidence of BK viremia, viruria, infection, and nephropathy 
+●​ The incidence of AESI according to defined criteria 
+●​ Incidence and grade of acute and severity of chronic GVHD 
+●​ Days to neutrophil recovery (>500/µL) and platelet recovery (>20K/µL) 
+●​ Number of blood component transfusions 
+●​ Incidence of engraftment syndrome 
+●​ Incidence of primary and secondary hematopoietic graft failure 
+●​ Incidence and grade of bacterial, fungal, and viral infections 
+8.7.4.​
+Extent of Exposure 
+Extent of exposure to IF001 will be summarized descriptively.  Information that will be 
+summarized include the number of participants exposed as well as total nucleated cells, CD34+ 
+cells and αβ TCR cells in total as well as in million cells per kg of participant IBW.  These 
+results will be reported as mean, median, standard deviation, 25% and 75% quartiles, minimum 
+and maximum both as total dose as well as per kg of IBW dose.  Participant data listings will be 
+provided for all dosing records and for calculated summary statistics. 
+8.8.​
+Efficacy Analyses 
+8.8.1.​
+Primary Efficacy Analysis 
+The primary efficacy endpoint is the proportion (p) of IF001 participants alive and free from all 
+IS, without graft loss or BPAR, at 15 months post-IF001 infusion.  BPAR will be defined based 
+on central pathology with acute cellular ≥1A or antibody-mediated rejection. 
+Because this is a proof-of-concept study, no hypothesis tests will be conducted on the primary 
+efficacy endpoint.  The primary efficacy endpoint will be summarized using a point estimate 
+along with 95% CI (exact binomial). 
+The primary analysis will be based on the FAS and will also be performed using the PPAS.  
+Participants who are alive and free from all IS without having experienced any BPAR, graft loss, 
+or death at Month 15 will be considered responders.  A participant will be deemed to be free 
+from IS at Month 15 if they are not currently taking any IS agents and have not taken IS since 
+complete withdrawal.  An exception will be brief use of systemic corticosteroids as described in 
+Section 6.12. 
+Confidential DRAFT 17 Sept 2025Page 60 of 94​
+​
+ 
+
+
+
+===== PAGE 61 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+8.8.2.​
+Secondary Efficacy Analysis 
+The key secondary efficacy variable is the change in renal function (eGFR by CKD-EPI 2021) 
+from the last result prior to the first dose of transplantation conditioning to Month 15.  
+Because this is a proof-of-concept study, no hypothesis tests will be conducted on the key 
+secondary efficacy endpoint.  The mean change in eGFR from baseline to Month 15 will be 
+summarized using descriptive statistics and a 95% CI (exact binomial) will be constructed based 
+on the FAS. 
+8.8.2.1.​
+Renal Function (eGFR by CKD-EPI 2021) 
+2021  CKD-EPI Creatinine = 142 × (Scr/A)B × 0.9938age × (1.012 if female), where A and B are 
+the following: 
+Female 
+Male 
+Scr ≤0.7 
+A = 0.7 
+B = −0.241 
+Scr ≤0.9 
+A = 0.9 
+B = −0.302 
+Scr >0.7 
+A = 0.7 
+B = −1.2 
+Scr >0.9 
+A = 0.9 
+B = −1.2 
+Abbreviations: Scr, serum creatinine in mg/dL 
+Imputation for Missing eGFR 
+For analysis of eGFR, recipients who lost their renal allograft will be assigned a value of zero for 
+their 15-month eGFR.  In participants who have not lost their renal allograft, eGFR analysis will 
+be based on Complete Case Analysis. 
+Additional Analyses 
+Descriptive summary statistics for eGFR will be repeated and performed for Months 6, 12, 
+and 15. 
+8.8.2.2.​
+Composite Rate of BPAR, Death, Graft Loss (Renal), or Lost to Follow-up 
+The proportion of BPAR, death, graft loss, or lost to follow-up will be calculated with 95% CI at 
+Months 6, 12, and 15.  The incidence of acute rejection, death, renal allograft loss, or lost to 
+follow-up will be calculated with 95% CI (exact binomial) for those that do not meet the primary 
+efficacy endpoint. 
+8.8.2.3.​
+Donor Chimerism 
+The proportion of donor chimerism as defined as ≥50% T-cell chimerism will be calculated with 
+95% CI (exact binomial) for the FAS.  The proportion of participants who were successfully able 
+to wean off IS without BPAR or graft loss at Month 15 among those with donor chimerism will 
+be calculated with 95% CI (exact binomial).  Donor chimerism will also be reported as actual 
+Confidential DRAFT 17 Sept 2025Page 61 of 94​
+​
+ 
+
+
+
+===== PAGE 62 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+percentage for each participant and will be reported for the FAS as mean, median, standard 
+deviation, 25% and 75% quartiles, minimum and maximum, as well as non-missing data (n). 
+8.8.2.4.​
+Biopsy-Proven Acute Rejection 
+The proportion of BPAR will be calculated at months 6, 12, and 15.  The incidence of BPAR will 
+be summarized by severity, anti-rejection treatment, and steroid-resistance. 
+8.8.2.5.​
+Donor-Specific Antibodies 
+The incidence of DSA will be analyzed in the same manner as BPAR. 
+8.8.2.6.​
+Renal Replacement Therapy 
+The incidence and duration of renal replacement therapy (hemodialysis) will be analyzed in the 
+same manner as BPAR. 
+8.8.2.7.​
+Quality of Life Measurements and Variables 
+Change in quality of life according to SF-36 and ESRD-SCL between the baseline assessment 
+and Months 12 and 15 will be described.  Details regarding the approach will be provided in the 
+SAP. 
+8.9.​
+Sample Size 
+The planned sample size of 15 participants was empirically determined and will provide 
+adequate safety, tolerability, and preliminary efficacy data to achieve study objectives while 
+exposing as few participants as possible to the study procedures. 
+8.10.​
+Handling of Missing Data 
+Efforts will be taken to limit premature discontinuations and ensure completeness of data 
+collection.  Analyses will utilize participant data which is collected; no imputation of missing 
+data will be performed except as described in Section 8.8.2.1.  All participants with data for a 
+specific analysis will be included; there are no analyses that will exclude participants regardless 
+of the amount or type of data missing. 
+8.11.​
+Subgroup Analyses 
+No subgroup analyses are planned in this study. 
+8.12.​
+Interim Analyses 
+No interim analyses are planned. 
+9.​
+DATA SAFETY MONITORING BOARD 
+An independent DSMB will be instituted at study initiation and will advise the sponsor and 
+investigators on matters relating to the safety and conduct of the study.  The DSMB will be 
+Confidential DRAFT 17 Sept 2025Page 62 of 94​
+​
+ 
+
+
+
+===== PAGE 63 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+governed by a charter that will include meeting frequency, stopping rules, and event triggers 
+necessitating an unscheduled review.  Further enrollment into the study will be temporarily 
+halted by the sponsor for a full DSMB safety assessment if: 
+●​ Two out of the first 10 participants or ≥20% of participants subsequently at any time during 
+the trial develop severe (ie, Grade 3-4) acute GVHD, or 
+●​ More than 2 out of the first 10 participants or >20% of participants at any time during the 
+trial subsequently experience BPAR (local pathology), or 
+●​ Three out of the first 10 participants or ≥30% of participants subsequently at any time during 
+the study develop: 
+o​ Grade 3-4 infusion reactions to IF001, or 
+o​ Grade 4 neutropenia lasting more than 28 days, or 
+o​ Grade 4 organ toxicity within the first 30 days, or 
+●​ Any death or graft loss occurs 
+The DSMB will critically assess the background and clinical course of events leading to the 
+temporary halt of the study as soon as possible. 
+10.​
+STUDY ADMINISTRATION 
+10.1.​
+Inspection of Records 
+The sponsor will be allowed to conduct site visits to the investigation facilities for the purpose of 
+monitoring any aspect of the study.  The investigator agrees to allow the monitor to inspect the 
+investigational product storage area and accountability records, participant charts, study source 
+documents, and other records relative to study conduct. 
+10.2.​
+Site Monitoring 
+Before the study starts, at a site initiation visit or at an investigator’s meeting, a sponsor 
+representative and/or designee will review the protocol and CRFs with the investigators and their 
+staff.  During the study, the sponsor will ensure compliance with the protocol and Good Clinical 
+Practice (GCP) as well as the quality and integrity of the data at each site.  The Clinical Research 
+Associate (CRA) will visit the site to check the completeness of participant records, the accuracy 
+of entries on the CRFs, the adherence to the protocol, and to GCP, the progress of enrollment, 
+and to ensure that investigational product is being stored, administered, and accounted for 
+according to specifications.   
+Key study personnel must be available to assist the CRA during these visits.  Continuous remote 
+monitoring of each site’s data may be performed in addition to the on-site visits, if allowed by 
+the site.  Additionally, ongoing safety reviews may be performed to identify risks and trends for 
+site operational parameters, and to assist with trial oversight. 
+Confidential DRAFT 17 Sept 2025Page 63 of 94​
+​
+ 
+
+
+
+===== PAGE 64 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+The investigator must maintain source documents for each participant in the study.  These 
+include case and visit notes (hospital or clinic medical records) containing demographic and 
+medical information, laboratory data, ECGs, and the results of any other tests or assessments.  
+All information on CRFs must be traceable to these source documents in the participant files.  
+The investigator must also keep all original informed consent documents signed by the 
+participant (a signed copy is given to the participant; see Section 13.2). 
+The CRA must have access to all relevant source documents to confirm their consistency with 
+the CRF entries.  The study monitoring standards require full verification for the presence of 
+informed consent, adherence to study eligibility criteria, and documentation of SAEs.   
+Monitoring of the source data and CRFs will be performed according to the study-specific 
+monitoring plan.  The monitor will be available between visits if the investigator(s) or other staff 
+need information or advice. 
+10.2.1.​
+Study Completion and Site Closure 
+Upon completion of the study, the monitor will conduct the following activities in conjunction 
+with the investigator or study site personnel, as appropriate: 
+●​ Return of all study data to the sponsor 
+●​ Data queries 
+●​ Accountability and reconciliation of investigational product 
+●​ Review of study records for completeness 
+●​ Reconciliation of Investigator Site File and Trial Master File 
+10.3.​
+Access to Information for Audits and Inspections 
+Authorized representatives of the sponsor, a regulatory authority, or an IRB may visit the site to 
+perform audits or inspections, including source data verification.  The purpose of a sponsor audit 
+or inspection is to systematically and independently examine all study-related activities and 
+documents to determine whether these activities were conducted, and data were recorded, 
+analyzed, and accurately reported according to the protocol, GCP, and any applicable regulatory 
+requirements.  The investigator should contact the sponsor immediately if contacted by a 
+regulatory agency about an inspection. 
+10.4.​
+Retention of Records 
+The Principal Investigator must maintain all documentation relating to the study for a period of 
+2 years after the last marketing application approval, or if not approved, 2 years following the 
+discontinuance of the test article for investigation.  If it becomes necessary for the sponsor or a 
+regulatory authority to review any documentation relating to the study, the investigator must 
+permit access to such records. 
+Confidential DRAFT 17 Sept 2025Page 64 of 94​
+​
+ 
+
+
+
+===== PAGE 65 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+10.5.​
+Publication and Data Sharing Policy 
+No data collected as part of the study will be utilized in any written work, including publications, 
+without the written consent of the sponsor.  The sponsor will post key design elements of this 
+protocol in a publicly accessible database such as clinicaltrials.gov.  Upon study completion and 
+finalization of the study report, the results of the trial will be either submitted for publication 
+and/or posted in a publicly accessible database of clinical trial results. 
+11.​
+DATA COLLECTION 
+11.1.​
+Data System 
+The data system being used for this study is Advantage eClinical® managed by Emmes, 
+contracted by the sponsor.  The Principal Investigator and at least 2 staff from each site will need 
+to complete training requirements and obtain access to this electronic data capture system. 
+11.2.​
+Case Report Forms 
+11.2.1.​
+Criteria for Forms Submission 
+Criteria for timeliness of submission for all study forms are detailed in the eCRF Completion 
+Guide and Advantage eClinical User’s Guide.  Forms that are not entered into Advantage 
+eClinical within the specified time will be considered delinquent.  A missing form will continue 
+to be requested either until the form is entered into Advantage eClinical and integrated into the 
+master database at Emmes, or until an exception is granted by Emmes staff and entered into the 
+Missing Form Exception File, as detailed in the Advantage eClinical User’s Guide.  
+11.2.2.​
+Reporting Participant Deaths 
+Participant death information must be entered into Advantage eClinical within 24 business hours 
+of knowledge of the participant’s death.  If the cause of death is unknown at that time, it does not 
+need to be recorded at that time.  However, once the cause of death is determined, the Death 
+Form must be updated in Advantage eClinical.  See additional SAE reporting information in 
+Section 7.4.2. 
+11.2.3.​
+Center for International Blood and Marrow Transplant Research Data 
+Reporting 
+Centers participating in this study must register pre- and post-HCT outcomes to the CIBMTR.  
+Registration is done using procedures and forms of the Stem Cell Transplant Outcomes 
+Database. (Note: Federal legislation requires submission of these forms for all United States 
+allotransplant recipients).  The CIBMTR forms will be submitted directly to the CIBMTR 
+through routine CIBMTR mechanisms. 
+Confidential DRAFT 17 Sept 2025Page 65 of 94​
+​
+ 
+
+
+
+===== PAGE 66 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+12.​
+QUALITY ASSURANCE AND QUALITY CONTROL 
+12.1.​
+Data Quality Assurance 
+Sponsor staff and/or its designee review the data entered in the CRFs by investigational site staff 
+for completeness and accuracy and instruct the site personnel to make any required corrections or 
+additions.  Site staff are required to respond to any queries received and confirm or correct the 
+data. 
+Concomitant medications entered into the database will be coded using the World Health 
+Organization Drug Reference List, which employs the Anatomical Therapeutic Chemical 
+classification system. 
+Concomitant procedures, non-drug therapies, and AEs will be coded using MedDRA 
+(version 28.0 or higher) terminology. 
+Results from laboratory samples tested centrally will be sent electronically to the sponsor and/or 
+its designee. 
+The occurrence of protocol deviations will be reported.  After these actions have been completed 
+and the database has been declared to be complete and accurate, it will be locked and made 
+available for data analysis.  Any changes to the database after that time can only be made after 
+written agreement by the sponsor clinical team. 
+12.2.​
+Protocol Adherence 
+This protocol defines the study objectives, the study procedures, and the data to be collected on 
+study participants.  Additional assessments required to ensure safety of participants should be 
+conducted if considered necessary on a case-by-case basis.  Under no circumstances should an 
+investigator collect additional data or conduct any additional procedures for any research-related 
+purposes that are not part of standard of care involving any investigational treatments. 
+Investigators ascertain they will apply due diligence to avoid protocol deviations; all significant 
+deviations will be recorded and reported in the clinical study report.  If an investigator believes 
+that a protocol deviation would, for only safety reasons, improve the conduct of the study and 
+would be in the best interest of the participant, this must be considered a protocol amendment.  
+Unless such an amendment is agreed upon by the sponsor and the necessary approvals obtained, 
+it cannot be implemented.  
+12.3.​
+Protocol Amendments 
+Any change or addition to the protocol can only be made in a written protocol amendment that 
+must be approved by the sponsor and the IRB prior to implementation.  Only amendments that 
+are intended to eliminate an apparent immediate hazard to participants can be implemented 
+immediately, provided health authorities are subsequently notified by protocol amendment and 
+the reviewing IRB is notified.  
+Confidential DRAFT 17 Sept 2025Page 66 of 94​
+​
+ 
+
+
+
+===== PAGE 67 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Notwithstanding the need for approval of formal protocol amendments, the investigator is 
+expected to take any immediate action required for the safety of any participant in this study, 
+even if the action represents a deviation from the protocol.  In such cases, the reporting 
+requirements identified in Section 7 should be followed. 
+13.​
+ETHICS 
+This clinical study was designed and will be implemented and reported in accordance with 
+ethical principles that have their origin in the Declaration of Helsinki, International Conference 
+on Harmonization GCP, and all applicable regulatory requirements. 
+13.1.​
+Institutional Review Board 
+Before the study starts, the investigator and institution must obtain IRB approval for the protocol, 
+ICF, recruitment materials and procedures (such as advertisements), and any other written 
+information provided to potential participants.  Written IRB approval must be submitted to the 
+sponsor prior to enrolling a participant into the study.  Initial IRB approval, and all materials 
+approved by the IRB for this study including the participant ICF and recruitment materials must 
+be maintained by the investigator and made available for inspection. 
+Prior to study start, the Principal Investigator must sign the Investigator’s Agreement 
+(Appendix 7).  The Principal Investigator is also responsible for informing the IRB any 
+amendment to the protocol in accordance with local requirements.  The protocol must be 
+re-approved by the IRB upon receipt of amendments and annually, as local regulations require. 
+13.2.​
+Informed Consent 
+The Principal Investigator will ensure that the patient is given full and adequate oral and written 
+information about the nature, purpose, and possible risks and benefits of the study.  Patients must 
+also be notified that they are free to discontinue from the study at any time.  The patient should 
+be given the opportunity to ask questions and allowed time to consider the information provided. 
+Women of childbearing potential should be informed that the study treatment may involve 
+unknown risks to the fetus if pregnancy were to occur during the study and agree that to 
+participate in the study, they must adhere to the contraception requirement as described in 
+Section 4.2.  If there is any question that the patient will not reliably comply, they should not be 
+enrolled in the study. 
+The participant’s signed and dated informed consent must be obtained before conducting any 
+study procedures. 
+The Principal Investigator must maintain the original, signed ICF and give a copy of the signed 
+ICF to the participant.  The process of obtaining informed consent should be documented in the 
+participant source documents.  
+Donor informed consent will be obtained by the NMDP. 
+Confidential DRAFT 17 Sept 2025Page 67 of 94​
+​
+ 
+
+
+
+===== PAGE 68 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+13.3.​
+Participant and Data Confidentiality 
+After the ICF has been signed, each participant will be assigned a unique identifier as described 
+in Section 5.2.  To ensure confidentiality of records and personal data of participants, any 
+participant records or datasets transferred to the sponsor will only include the identifier.  The 
+names of participants or any information that would make the participant identifiable will not be 
+transferred. 
+The participant must be informed that his/her personal study-related data will be used by the 
+sponsor in accordance with local data protection law.  The level of disclosure must also be 
+explained to the participant. 
+The participant must be informed that his/her medical records (eg, CRFs) recorded during the 
+study may be examined by research quality assurance auditors or other authorized personnel 
+appointed by the sponsor, by appropriate IRB members, and by inspectors from regulatory 
+authorities. 
+Placeholder for company-specific wording regarding data protection policies regarding data 
+breaches etc. 
+ 
+Confidential DRAFT 17 Sept 2025Page 68 of 94​
+​
+ 
+
+
+
+===== PAGE 69 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+14.​
+REFERENCES 
+Anasetti C, Amos D, Beatty PG, et al. Effect of HLA compatibility on engraftment of bone 
+marrow transplants in patients with leukemia or lymphoma. N Engl J Med. 
+1989;320(4):197-204. 
+Anasetti C, Beatty PG, Storb R, et al. Effect of HLA incompatibility on graft-versus-host 
+disease, relapse, and survival after marrow transplantation for patients with leukemia or 
+lymphoma. Hum Immunol. 1990 Oct;29(2):79-91. 
+Axelrod DA, Naik AS, Schnitzler MA, et al. National variation in use of immunosuppression for 
+kidney transplantation: A call for evidence-based regimen selection. Am J Transplant. 
+2016;16(8):2453-62. 
+Bethge WA, Eyrich M, Mielke S, et al. Results of a multicenter phase I/II trial of TCRαβ and 
+CD19-depleted haploidentical hematopoietic stem cell transplantation for adult and pediatric 
+patients. Bone Marrow Transplant. 2022;57(3):423-430. 
+Braza F, Brouard S, Chadban S, et al. Role of TLRs and DAMPs in allograft inflammation and 
+transplant outcomes. Nat Rev Nephrol. 2016;12(5):281-90. 
+Busque S, Scandling JD, Lowsky R, et al. Mixed chimerism and acceptance of kidney 
+transplants after immunosuppressive drug withdrawal. Sci Transl Med. 2020;12(528):eaax8863. 
+Chen L, Wang T, Zhou P, et al. TLR engagement prevents transplantation tolerance. Am J 
+Transplant. 2006;6(10):2282-91. 
+Cheson BD, Vena DA, Foss FM, et al. Neurotoxicity of purine analogs: a review. J Clin Oncol. 
+1994;12(10):2216-28. 
+Chong AS, Alegre ML. The impact of infection and tissue damage in solid-organ transplantation. 
+Nat Rev Immunol. 2012;12(6):459-71.  
+Denhaerynck K, Dobbels F, Cleemput I, et al. Prevalence, consequences, and determinants of 
+nonadherence in adult renal transplant patients: a literature review. Transpl Int. 
+2005;18(10):1121-33. 
+DeZern AE, Zahurak M, Symons HJ, et al. Alternative donor BMT with posttransplant 
+cyclophosphamide as initial therapy for acquired severe aplastic anemia. Blood. 
+2023;141(25):3031-8. 
+Ettenger R, Albrecht R, Alloway R, et al. Meeting report: FDA public meeting on 
+patient-focused drug development and medication adherence in solid organ transplant patients. 
+Am J Transplant. 2018;18(3):564-73. 
+Fine RN, Becker Y, De Geest S, et al. Nonadherence consensus conference summary report. Am 
+J Transplant. 2009;9(1):35-41. 
+Franke G, Reimer J, Kohnle M, et al. 2016. English version. ESRD-SCL-TM. End-Stage Renal 
+Disease - Symptom Checklist – Transplantation Module, Test manual. 
+Confidential DRAFT 17 Sept 2025Page 69 of 94​
+​
+ 
+
+
+
+===== PAGE 70 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Gill JS, Abichandani R, Kausz AT, et al. Mortality after kidney transplant failure: the impact of 
+non-immunologic factors. Kidney Int. 2002;62(5):1875-83. 
+Haas M, Loupy A, Lefaucheur C, et al. The Banff 2017 Kidney Meeting Report: Revised 
+diagnostic criteria for chronic active T cell-mediated rejection, antibody-mediated rejection, and 
+prospects for integrative endpoints for next-generation clinical trials. Am J Transplant. 
+2018;18(2):293-307. 
+Halloran PF. Immunosuppressive drugs for kidney transplantation. N Engl J Med. 
+2004;351(26):2715-29. 
+Harris AC, Young R, Devine S, et al. International, Multicenter Standardization of Acute 
+Graft-versus-Host Disease Clinical Data Collection: A Report from the Mount Sinai Acute 
+GVHD International Consortium. Biol Blood Marrow Transplant. 2016 Jan;22(1):4-10. 
+Hotta K, Oura T, Dehnadi A, et al. Long-term nonhuman primate renal allograft survival without 
+ongoing immunosuppression in recipients of delayed donor bone marrow transplantation. 
+Transplantation. 2018;102(4):e128-e136. 
+Husain SA, Brennan C, Michelson A, et al. Patients prioritize waitlist over posttransplant 
+outcomes when evaluating kidney transplant centers. Am J Transplant. 2018;18(11):2781-90. 
+Inker LA, Eneanya ND, Coresh J, et al. New creatinine- and cystatin C-based equations to 
+estimate GFR without race. N Engl J Med. 2021;385(19):1737-49. 
+Jagasia MH, Greinix HT, Arora M, et al. National Institutes of Health Consensus Development 
+Project on Criteria for Clinical Trials in Chronic Graft-versus-Host Disease: I. The 2014 
+Diagnosis and Staging Working Group report. Biol Blood Marrow Transplant. 
+2015;21(3):389-401. 
+Khawaja F, Chemaly RF, Dadwal S, et al. ASH-ASTCT COVID-19 vaccination for HCT and 
+CAR T Cell Recipients: Frequently asked questions, v 5.0, March 2022. Available at: 
+https://www.hematology.org/covid-19/ash-astct-covid-19-vaccination-for-hct-and-car-t-cell-recip
+ients 
+Koyama I, Nadazdin O, Boskovic S, et al. Depletion of CD8 memory T cells for induction of 
+tolerance of a previously transplanted kidney allograft. Am J Transplant. 2007;7(5):1055-61. 
+Lee SJ, Klein J, Haagenson M, et al. High-resolution donor-recipient HLA matching contributes 
+to the success of unrelated donor marrow transplantation. Blood. 2007;110(13):4576-83. 
+Lentine KL, Smith JM, Hart A, et al. OPTN/SRTR 2020 Annual Data Report: Kidney. Am J 
+Transplant. 2022;22 Suppl 2:21-136. 
+Leventhal JR, Elliott MJ, Yolcu ES, et al. Immune reconstitution/immunocompetence in 
+recipients of kidney plus hematopoietic stem/facilitating cell transplants. Transplantation. 
+2015;99(2):288-98. 
+Confidential DRAFT 17 Sept 2025Page 70 of 94​
+​
+ 
+
+
+
+===== PAGE 71 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Leventhal JR, Ildstad ST. Tolerance induction in HLA disparate living donor kidney 
+transplantation by facilitating cell-enriched donor stem cell Infusion: The importance of durable 
+chimerism. Hum Immunol. 2018;79(5):272-6. 
+Levey AS, Coresh J, Greene T, et al. Chronic Kidney Disease Epidemiology Collaboration. 
+Using standardized serum creatinine values in the modification of diet in renal disease study 
+equation for estimating glomerular filtration rate. Ann Intern Med. 2006;145(4):247-54. 
+Long-Boyle JR, Green KG, Brunstein CG, et al. High fludarabine exposure and relationship with 
+treatment-related mortality after nonmyeloablative hematopoietic cell transplantation. Bone 
+Marrow Transplant. 2011;46(1):20-6. 
+Loupy A, Haas M, Roufosse C, et al. The Banff 2019 Kidney Meeting Report (I): Updates on 
+and clarification of criteria for T cell- and antibody-mediated rejection. Am J Transplant. 
+2020;20(9):2318-2331. 
+Lum EL, Nassiri N, Kogut N, et al. Delayed immune tolerance through donor haematopoietic 
+stem cell infusion 14 months after kidney transplantation. Lancet. 2024 Oct 5;404(10460):1346. 
+Naesens M, Roufosse C, Haas M, et al. The Banff 2022 Kidney Meeting Report: Reappraisal of 
+microvascular inflammation and the role of biopsy-based transcript diagnostics. Am J 
+Transplant. 2024;24(3):338-49. 
+Pedraza A, Salas MQ, Rodríguez-Lobato LG, et al. Effect of CD34+ cell dose on the outcomes 
+of allogeneic stem cell transplantation with post-transplantation cyclophosphamide. Transplant 
+Cell Ther. 2023;29(3):181.e1-181.e10. 
+Péus D, Newcomb N, Hofer S. Appraisal of the Karnofsky Performance Status and proposal of a 
+simple algorithmic system for its evaluation. BMC Med Inform Decis Mak. 2013;13:72. 
+Poggio ED, Augustine JJ, Arrigain S, et al. Long-term kidney transplant graft survival-Making 
+progress when most needed. Am J Transplant. 2021;21(8):2824-32. 
+RAND® Corporation, 2025. The 36-Item Short Form Survey Instrument (SF-36).  Available at: 
+https://www.rand.org/health-care/surveys_tools/mos/36-item-short-form/survey-instrument.html. 
+Rubin LG, Levin MJ, Ljungman P, et al. 2013 IDSA clinical practice guideline for vaccination of 
+the immunocompromised host. Clin Infect Dis. 2014;58(3):e44-100. 
+Todd JL, Palmer SM. Danger signals in regulating the immune response to solid organ 
+transplantation. J Clin Invest. 2017;127(7):2464-72. 
+Tonsho M, Lee S, Aoyama A, et al. Tolerance of lung allografts achieved in nonhuman primates 
+via mixed hematopoietic chimerism. Am J Transplant. 2015;15(8):2231-9. 
+United States Department of Health and Human Services, Health Resources and Services 
+Administration, 2025a. Organ Procurement and Transplantation Network (OPTN) and Scientific 
+Registry of Transplant Recipients (SRTR). OPTN/SRTR 2023 Annual Data Report. Available at: 
+https://srtr.transplant.hrsa.gov/ 
+Confidential DRAFT 17 Sept 2025Page 71 of 94​
+​
+ 
+
+
+
+===== PAGE 72 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+United States Department of Health and Human Services, 2025b. Common Terminology Criteria 
+for Adverse Events, v 6.0. July 2025. Available at: 
+https://dctd.cancer.gov/research/ctep-trials/for-sites/adverse-events/ctcae-v6.pdf 
+United States Food and Drug Administration. Public Meeting on Patient-Focused Drug 
+Development for Patients Who Have Received an Organ Transplant, September 2016. Available 
+at: https://www.fda.gov/media/100226/download 
+Yamada Y, Boskovic S, Aoyama A, et al. Overcoming memory T-cell responses for induction of 
+delayed tolerance in nonhuman primates. Am J Transplant. 2012 Feb;12(2):330-40. 
+Yu J, Sherburne B, Chen YB, et al. Acute myeloid leukemia presenting less than 3 weeks after 
+living donor kidney transplant: a case report. Transplant Proc. 2021;53(4):1360-1364. 
+15.​
+APPENDICES 
+ 
+Confidential DRAFT 17 Sept 2025Page 72 of 94​
+​
+ 
+
+
+
+===== PAGE 73 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+APPENDIX 1 REVACCINATION SCHEDULE 
+Confidential DRAFT 17 Sept 2025Page 73 of 94​
+​
+ 
+
+
+
+===== PAGE 74 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+Immunizations After HCT or High-Dose Cyclophosphamide 
+Time after 
+HCT or 
+high-dose 
+Cy​
+(months) 
+COVID-191 
+Influenza 
+(inactivated)2 
+PCV13 
+PPSV233 
+Hib 
+DTaP4 
+HBV5 
+IPV 
+HPV 
+RZV 
+MMR6 
+3 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+ 
+X 
+X 
+ 
+X 
+X 
+ 
+X 
+X 
+ 
+ 
+8 
+ 
+ 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+ 
+ 
+10 
+ 
+ 
+X 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+12 
+ 
+ 
+ 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+ 
+24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+Abbreviations:  COVID-19, Coronavirus disease 2019; Cy, cyclophosphamide; DTaP, diphtheria, tetanus toxoids, and acellular pertussis vaccine; HBV, hepatitis 
+B vaccine; Hib, Haemophilus b conjugate vaccine; HCT, hematopoietic cell transplantation; HPV, human papillomavirus vaccine; IPV, inactivated polio vaccine; 
+IS, immunosuppression; MMR, measles, mumps, and rubella vaccine; Td, diptheria and tetanus toxoid; Tdap, diphtheria, tetanus toxoids, and acellular pertussis 
+vaccine; PCV13, pneumococcal conjugate vaccine (Prevnar®); PPSV23, pneumococcal polysaccharide vaccine (Pneumovax®); RZV, zoster vaccine recombinant 
+vaccine (Shingrix) 
+ 
+1​ Pfizer-BioNTech (SpikeVax) is a 2-dose series given 3 weeks apart; Moderna (Comirnaty) is a 2-dose series given 4 weeks apart; Janssen is given as 1 dose.  
+Follow the current recommendations from the Centers for Disease Control and Prevention regarding booster doses and timing. 
+2​ May be given no sooner than 4 months after HCT or high-dose cyclophosphamide in the event of a community outbreak.  If influenza vaccine was given 
+<6 months after HCT or high-dose cyclophosphamide or if the participant was on IS when first vaccinated, consider an additional dose after the participant is 
+off IS for 2 months. 
+3​ PPSV23 should not be given to participants with chronic GVHD; a fourth dose of PCV13 may be given instead.  PPSV23 must be given 2 months after 
+PCV13. 
+4​ Alternatively, a dose of Tdap should be administered followed by either 2 doses of DT or 2 doses of Td. 
+5​ For participants aged 18 to 45 years. 
+6​ Do not administer to participants with active GHVD or ongoing IS.  Live vaccines should be given 8 to 11 months after the last dose of intravenous 
+immunoglobulin. 
+ 
+Source: Rubin 2014; Khawaja 2022 
+Confidential DRAFT 17 Sept 2025Page 74 of 94​
+​
+ 
+
+
+
+===== PAGE 75 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+Confidential DRAFT 17 Sept 2025Page 75 of 94​
+​
+ 
+
+
+
+===== PAGE 76 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+APPENDIX 2 ACUTE GVHD STAGING (MAGIC CRITERIA) 
+ 
+Source: Table 1, Harris 2016 
+ 
+Confidential DRAFT 17 Sept 2025Page 76 of 94​
+​
+ 
+
+
+
+===== PAGE 77 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+APPENDIX 3 NIH CHRONIC GVHD DIAGNOSIS AND STAGING CONSENSUS 
+RECOMMENDATIONS 
+ 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 77 of 94​
+​
+ 
+
+
+
+===== PAGE 78 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 78 of 94​
+​
+ 
+
+
+
+===== PAGE 79 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+Source: Figure 1, Jagasia 2015 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 79 of 94​
+​
+ 
+
+
+
+===== PAGE 80 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+APPENDIX 4 BANFF 2022 CRITERIA 
+ 
+CATEGORY 1: Normal Biopsy Or Nonspecific Changes  
+Requires exclusion of any diagnosis from the Banff Diagnostic Categories 2-4, 6 below. 
+ 
+CATEGORY 2: Antibody-mediated rejection (AMR) and microvascular inflammation/injury (AMR/MVI) 
+ 
+Active AMR; All 3 criteria must be met for diagnosis 
+1.​ Active lesions* of AMR present, at least 1 of the following: 
+●​ Microvascular inflammation (g > 0 and/or peritubular capillaries [ptc] > 0), in the 
+absence of recurrent or de novo glomerulonephritis, although in the presence of acute T 
+Cell-Mediated Rejection (TCMR), borderline infiltrate, or infection, ptc ≥ 1 alone is 
+not sufficient and g must be ≥ 1 
+●​ Intimal or transmural arteritis (v > 0) 
+●​ Acute thrombotic microangiopathy, in the absence of any other cause 
+2.​ At least 1 or more of the following: 
+●​ Linear C4d staining in peritubular capillaries or medullary vasa recta (C4d2 or C4d3 
+by immunofluorescence (IF) on frozen sections, or C4d > 0 by immunohistochemistry 
+(IHC) on paraffin sections) 
+●​ At least moderate microvascular inflammation ([g + ptc] ≥2) in the absence of 
+recurrent or de novo glomerulonephritis, although in the presence of acute TCMR, 
+borderline infiltrate, or infection, ptc ≥ 2 alone is not sufficient and g must be ≥1 
+●​ Biopsy-based transcript diagnostics for AMR/MVI above a defined threshold, if 
+thoroughly validated for use as substitute for MVI and available 
+3.​ Evidence of circulating donor-specific antibodies (DSA to human leukocyte antigen 
+[HLA] or other antigens). If thorough testing for DSA (anti-HLA or other specificity) has 
+not yet been performed, this should be done, following the STAR guidelines. Detection of 
+non-HLA antibodies (including ABO antibodies in ABO-incompatible transplantation) can 
+be used as serologic Banff criterion for diagnosis of AMR, if the testing protocols are 
+sufficiently standardized and clinically validated for the appropriate clinical context. C4d 
+staining as noted above in Criterion 2 may substitute for DSA. 
+ 
+*Can be observed in AMR and strengthen the diagnosis but not diagnostic in itself: acute tubular injury, in the 
+absence of any other apparent cause 
+ 
+Chronic active AMR; all 3 criteria must be met for diagnosis 
+1.​ Chronic lesions* of AMR present, at least 1 of the following: 
+●​ Transplant glomerulopathy (cg > 0) if no evidence of chronic thrombotic 
+microangiopathy (TMA) or chronic recurrent/de novo glomerulonephritis; includes 
+changes evident by electron microscopy (EM) alone (cg1a) 
+●​ Severe peritubular capillary basement membrane multilayering (requires EM) 
+2.​ Identical to criterion 2 for active AMR, above 
+3.​ Identical to criterion 3 for active AMR, above, including strong recommendation for DSA 
+testing whenever criteria 1 and 2 are met. 
+ 
+Confidential DRAFT 17 Sept 2025Page 80 of 94​
+​
+ 
+
+
+
+===== PAGE 81 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+*Other lesions can be observed in AMR and strengthen the diagnosis but are not diagnostic by themselves: 
+arterial intimal fibrosis (cv) of new onset, excluding other causes; leukocytes within the sclerotic intima favour 
+chronic AMR if there is no prior history of TCMR; 
+ 
+Chronic AMR; all 3 criteria must be met for diagnosis 
+1.​ cg > 0 and/or severe ptcml  
+2.​ Absence of criterion 2 as defined for active and chronic active AMR, above  
+3.​ Prior documented diagnosis of active or chronic active antibody-mediated rejection 
+(ABMR) and/or documented prior (post-transplant) and/or current evidence of DSA (DSA 
+as defined in above criterion 3 for active AMR) 
+ 
+C4d staining without evidence of rejection; all 4 features must be met for diagnosisc 
+1.​ Linear C4d staining in peritubular capillaries (C4d2 or C4d3 by IF on frozen sections, or 
+C4d > 0 by IHC on paraffin sections)  
+2.​ Criterion 1 for active or chronic active AMR not met  
+3.​ Negative biopsy-based transcript diagnostics for AMR/MVI as in criterion 2 for active and 
+chronic active AMR  
+4.​ No acute or chronic active TCMR, or borderline changes 
+ 
+Microvascular inflammation/injury (MVI), DSA-negative and C4d-negative; all 3 criteria must be met for 
+diagnosis 
+1.​ At least moderate microvascular inflammation ([g + ptc] ≥2) in the absence of recurrent or 
+de novo glomerulonephritis, although in the presence of acute TCMR, borderline infiltrate, 
+or infection, ptc ≥ 2 alone is not sufficient and g must be ≥1  
+2.​ No linear C4d staining in peritubular capillaries (C4d0 or C4d1 by IF on frozen sections, 
+or C4d = 0 by IHC on paraffin sections)  
+3.​ No serologic evidence of circulating donor-specific antibodies (DSA to HLA or other 
+antigens, as defined in above criterion 3 for active AMR) 
+ 
+Probable AMR; all 4 criteria must be met for diagnosis 
+1.​ Identical to criterion 1 for active AMR, above  
+2.​ Criterion 1 for chronic active and chronic AMR not met  
+3.​ Absence of criterion 2 defined for active and chronic active AMR, above  
+4.​ Identical to criterion 3 for active AMR, above (but C4d must be negative) 
+C4d staining with acute tubular injury (ATI); all 3 criteria must be met for diagnosis 
+1.​ Acute tubular injury (ATI) is present 
+2.​ Linear C4d staining in peritubular capillaries (C4d2 or C4d3 by IF on frozen sections, or 
+C4d > 0 by IHC on paraffin sections) 
+3.​ Criterion 1 for active or chronic active AMR not met 
+ 
+Clinical scenarios: 
+ 
+●​ Early posttransplant in crossmatch positive DSA sensitised patient -> “Probable AMR” 
+●​ ABO-incompatibility -> “Accommodation” 
+●​ DSA negative in conventional transplants -> “No AMR” 
+ 
+Confidential DRAFT 17 Sept 2025Page 81 of 94​
+​
+ 
+
+
+
+===== PAGE 82 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+CATEGORY 3: Suspicious (Borderline) For Acute TCMR  
+Foci of Banff Lesion Score t>0 AND Banff Lesions Score i=1 OR Foci of Banff Lesion Score t1 AND Banff 
+Lesion Score i ≥ 2 
+CATEGORY 4: TCMR  
+ 
+Acute TCMR IA Banff Lesion Score i ≥ 2 AND Banff Lesion Score t2 
+ 
+Acute TCMR IB Banff Lesion Score i ≥ 2 AND Banff Lesion Score t3  
+ 
+Acute TCMR IIA Banff Lesion Score v1 regardless of Banff Lesion Scores i or t  
+ 
+Acute TCMR IIB Banff Lesion Score v2 regardless of Banff Lesion Scores i or t 
+Acute TCMR III Banff Lesion Score v3 regardless of Banff Lesion Scores i or t  
+ 
+Chronic Active TCMR Grade IA Banff Lesion Score ti ≥ 2 AND Banff Lesion Score i-IFTA ≥ 2, other known 
+causes of i-IFTA (eg, pyelonephritis, BK-virus nephritis etc.) ruled out AND Banff Lesion Score t2  
+ 
+Chronic Active TCMR Grade IB Banff Lesion Score ti ≥ 2 AND Banff Lesion Score i-IFTA ≥ 2, other known 
+causes of i-IFTA ruled out AND Banff Lesion Score t3  
+ 
+Chronic Active TCMR Grade II Arterial intimal fibrosis with mononuclear cell inflammation in fibrosis and 
+formation of neointima 
+ 
+CATEGORY 5: IFTA 
+ 
+Grade I (Mild) Banff Lesion Score ci1 OR Banff Lesion Score ct1  
+Grade II (Moderate) Banff Lesion Score ci2 OR Banff Lesion Score ct2  
+Grade III (Severe) Banff Lesion Score ci3 OR Banff Lesion Score ct3 
+ 
+CATEGORY 6: Other Changes Not Considered To Be Caused By Acute Or Chronic Rejection 
+Polyomavirus Nephropathy, Posttransplant Lymphoproliferative Disorder, Calcineurin Inhibitor Toxicity, Acute 
+Tubular Injury, Recurrent Disease, De Novo Glomerulopathy (Other Than TG), Pyelonephritis, Drug-Induced 
+Interstitial Nephritis 
+ 
+References: Naesens 2024; Loupy 2020; Haas 2018 
+ 
+Confidential DRAFT 17 Sept 2025Page 82 of 94​
+​
+ 
+
+
+
+===== PAGE 83 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+APPENDIX 5 SF-36 RATING SCALE 
+The 36-Item Health Survey was developed at RAND as part of the Medical Outcomes Study 
+(RAND 2025). 
+ 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 83 of 94​
+​
+ 
+
+
+
+===== PAGE 84 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 84 of 94​
+​
+ 
+
+
+
+===== PAGE 85 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 85 of 94​
+​
+ 
+
+
+
+===== PAGE 86 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 86 of 94​
+​
+ 
+
+
+
+===== PAGE 87 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 87 of 94​
+​
+ 
+
+
+
+===== PAGE 88 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 88 of 94​
+​
+ 
+
+
+
+===== PAGE 89 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+APPENDIX 6 ESRD-SCL RATING SCALE 
+Confidential DRAFT 17 Sept 2025Page 89 of 94​
+​
+ 
+
+
+
+===== PAGE 90 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+Confidential DRAFT 17 Sept 2025Page 90 of 94​
+​
+ 
+
+
+
+===== PAGE 91 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+Confidential DRAFT 17 Sept 2025Page 91 of 94​
+​
+ 
+
+
+
+===== PAGE 92 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+Confidential DRAFT 17 Sept 2025Page 92 of 94​
+​
+ 
+
+
+
+===== PAGE 93 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+ 
+APPENDIX 7 INVESTIGATOR’S AGREEMENT 
+ 
+I have read IF001-CL201 protocol version 1.0 and agree to conduct the study as outlined, and in 
+accordance with the guidelines and all applicable government regulations.  I agree to maintain 
+the confidentiality of all information received or developed in connection with this protocol.  
+ 
+ 
+ 
+_____________________________________________________________________________ 
+Printed Name of Investigator 
+ 
+_____________________________________________________________________________ 
+Signature of Investigator 
+ 
+__________________________ 
+Date 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 93 of 94​
+​
+ 
+
+
+
+===== PAGE 94 =====
+
+ImmunoFree, Inc.Protocol Number: IF001-CL201 
+Investigational Product: IF001Protocol Version 1.0 Day Month 2025 
+APPENDIX 8 SPONSOR SIGNATURE PAGE 
+ 
+Sponsor’s Approval 
+The protocol has been approved by ImmunoFree, Inc. 
+ 
+Sponsor’s Authorized Signatory: 
+ 
+Signature/Date: ______________________________________________________________ 
+Ephraim Fuchs, MD​
+Chief Medical Officer​
+ImmunoFree, Inc. 
+ 
+ 
+ 
+ 
+Confidential DRAFT 17 Sept 2025Page 94 of 94​
+​
+ 

@@ -1,0 +1,1799 @@
+{
+  "study": {
+    "id": "IF001-CL201",
+    "name": "A Phase 2 Single-Arm, Multicenter, Exploratory Safety and Efficacy Study of IF001 to Remove Long-Term Immunosuppression from Prior Living Donor Kidney Transplant Recipients (RELIEF)",
+    "label": "RELIEF",
+    "description": "A Phase 2, multicenter, open-label, single-arm proof-of-concept study to demonstrate the safety and efficacy of IF001 in adult participants 3 to 62 months following transplantation of a kidney from a living donor",
+    "studyVersion": {
+      "id": null,
+      "versionIdentifier": "1.0",
+      "rationale": null,
+      "businessTherapeuticAreas": "Prevention of living donor kidney allograft rejection in adult recipients following discontinuation of pharmacologic immunosuppression",
+      "studyDefinitionDocument": {
+        "id": null,
+        "name": null,
+        "label": null,
+        "description": null,
+        "type": null,
+        "templateName": null,
+        "language": null,
+        "studyDefinitionDocumentVersion": {
+          "id": null,
+          "version": "1.0",
+          "status": "DRAFT",
+          "dateValues": [
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "type": null,
+              "dateValue": "DD MMM 2025"
+            }
+          ]
+        }
+      },
+      "studyTitles": [
+        {
+          "id": null,
+          "type": null,
+          "text": "A Phase 2 Single-Arm, Multicenter, Exploratory Safety and Efficacy Study of IF001 to Remove Long-Term Immunosuppression from Prior Living Donor Kidney Transplant Recipients (RELIEF)"
+        },
+        {
+          "id": null,
+          "type": null,
+          "text": null
+        },
+        {
+          "id": null,
+          "type": null,
+          "text": null
+        },
+        {
+          "id": null,
+          "type": null,
+          "text": null
+        },
+        {
+          "id": null,
+          "type": null,
+          "text": null
+        }
+      ],
+      "studyIdentifiers": [
+        {
+          "id": null,
+          "text": "IF001-CL201",
+          "scopeId": null
+        },
+        {
+          "id": null,
+          "text": "16834",
+          "scopeId": null
+        }
+      ],
+      "referenceIdentifiers": [
+        {
+          "id": null,
+          "type": null,
+          "text": null
+        }
+      ],
+      "organizations": [
+        {
+          "id": null,
+          "name": "ImmunoFree, Inc.",
+          "label": null,
+          "type": "Sponsor",
+          "identifier": null,
+          "identifierScheme": null,
+          "legalAddress": {
+            "id": null,
+            "text": "585 West Putnam Avenue Greenwich CT 06830 United States",
+            "lines": [
+              "585 West Putnam Avenue"
+            ],
+            "city": "Greenwich",
+            "state": "CT",
+            "postalCode": "06830",
+            "district": null,
+            "country": "United States"
+          }
+        },
+        {
+          "id": null,
+          "name": "National Marrow Donor Program",
+          "label": "NMDP",
+          "type": "Contract Research Organization",
+          "identifier": null,
+          "identifierScheme": null,
+          "legalAddress": {
+            "id": null,
+            "text": null,
+            "lines": null,
+            "city": null,
+            "state": null,
+            "postalCode": null,
+            "district": null,
+            "country": null
+          }
+        },
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "type": null,
+          "identifier": null,
+          "identifierScheme": null,
+          "legalAddress": null
+        }
+      ],
+      "studyRoles": [
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": null,
+          "code": null
+        }
+      ],
+      "studyInterventions": [
+        {
+          "id": null,
+          "name": "IF001",
+          "label": null,
+          "description": "Investigational cryopreserved allogeneic somatic cell therapy, derived from donor mobilized peripheral blood mononuclear cells",
+          "role": null,
+          "type": "cell therapy product",
+          "codes": null,
+          "minimumResponseDuration": null,
+          "administrations": [
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": "one-time infusion administered intravenously through a large bore central venous catheter",
+              "dose": "minimum of 3 million CD34+ cells per kg of recipient IBW (no maximum) and a target of 10 million \u03b1\u03b2 TCR cells per kg of recipient IBW (range 8-12 million per kg)",
+              "route": "intravenously",
+              "frequency": "one-time infusion",
+              "duration": null
+            }
+          ]
+        },
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": null,
+          "role": null,
+          "type": null,
+          "codes": null,
+          "minimumResponseDuration": null,
+          "administrations": [
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "dose": null,
+              "route": null,
+              "frequency": null,
+              "duration": null
+            }
+          ]
+        }
+      ],
+      "administrableProducts": [
+        {
+          "id": null,
+          "name": "IF001",
+          "label": null,
+          "description": "Investigational cryopreserved allogeneic somatic cell therapy, derived from donor mobilized peripheral blood mononuclear cells",
+          "administrableDoseForm": {
+            "sourcing": null,
+            "productDesignation": null,
+            "pharmacologicClass": null
+          }
+        },
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": null,
+          "administrableDoseForm": {
+            "sourcing": null,
+            "productDesignation": null,
+            "pharmacologicClass": null
+          }
+        }
+      ],
+      "dictionaries": [
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": null,
+          "parameterMaps": [
+            {
+              "id": null,
+              "tag": null,
+              "reference": null
+            },
+            {
+              "id": null,
+              "tag": null,
+              "reference": null
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": null,
+          "text": null,
+          "appliesToIds": null,
+          "contextIds": null
+        },
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": null,
+          "text": null,
+          "appliesToIds": null,
+          "contextIds": null
+        },
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": null,
+          "text": null,
+          "appliesToIds": null,
+          "contextIds": null
+        },
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": null,
+          "text": null,
+          "appliesToIds": null,
+          "contextIds": null
+        },
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": null,
+          "text": null,
+          "appliesToIds": null,
+          "contextIds": null
+        }
+      ],
+      "studyDesigns": [
+        {
+          "id": null,
+          "name": null,
+          "label": null,
+          "description": "Phase 2, multicenter, open-label, single-arm proof-of-concept study to demonstrate the safety and efficacy of IF001 in adult participants 3 to 62 months following transplantation of a kidney from a living donor",
+          "rationale": null,
+          "therapeuticAreas": null,
+          "studyType": "interventional",
+          "studyPhase": "2",
+          "characteristics": null,
+          "interventionalStudyDesign": {
+            "model": "single-arm",
+            "subTypes": null,
+            "blindingSchema": "open-label",
+            "intentTypes": null
+          },
+          "epochs": [
+            {
+              "id": null,
+              "name": "Screening",
+              "label": null,
+              "description": "Screening evaluations will be performed from Day \u221290 to Day \u221210",
+              "type": "screening"
+            },
+            {
+              "id": null,
+              "name": "Conditioning",
+              "label": null,
+              "description": "Eligible recipients will receive conditioning for 9 days followed by a 6-day treatment period",
+              "type": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null
+            }
+          ],
+          "arms": [
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "dataOriginType": null,
+              "dataOriginDescription": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "dataOriginType": null,
+              "dataOriginDescription": null
+            }
+          ],
+          "elements": [
+            {
+              "id": null,
+              "name": "Screening",
+              "label": null,
+              "description": "Screening evaluations will be performed from Day \u221290 to Day \u221210",
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": "Conditioning",
+              "label": null,
+              "description": "Eligible recipients will receive conditioning for 9 days followed by a 6-day treatment period",
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": "Treatment",
+              "label": null,
+              "description": "6-day treatment period",
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            }
+          ],
+          "encounters": [
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "type": null,
+              "environmentalSettings": null,
+              "contactModes": null,
+              "transitionStartRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              },
+              "transitionEndRule": {
+                "id": null,
+                "name": null,
+                "text": null
+              }
+            }
+          ],
+          "scheduleTimelines": [
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "entryCondition": null,
+              "mainTimeline": null,
+              "plannedDuration": "approximately 27 months (Screening through Follow-up)",
+              "timings": [
+                {
+                  "id": null,
+                  "name": "Screening",
+                  "label": null,
+                  "description": "Screening evaluations will be performed from Day \u221290 to Day \u221210",
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": "Day \u221290 to Day \u221210",
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": "Conditioning",
+                  "label": null,
+                  "description": "Eligible recipients will receive conditioning for 9 days followed by a 6-day treatment period",
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": "9 days",
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "entryCondition": null,
+              "mainTimeline": null,
+              "plannedDuration": null,
+              "timings": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "type": null,
+                  "relativeToFrom": null,
+                  "value": null,
+                  "valueLabel": null,
+                  "windowLabel": null,
+                  "windowLower": null,
+                  "windowUpper": null
+                }
+              ]
+            }
+          ],
+          "activities": [
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "definedProcedures": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "definedProcedures": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "definedProcedures": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "definedProcedures": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "definedProcedures": []
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "definedProcedures": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "procedureType": null,
+                  "code": null
+                }
+              ]
+            }
+          ],
+          "objectives": [
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "level": "Primary",
+              "text": "Determine the safety and tolerability of IF001 in previously transplanted recipients of a kidney from a living donor",
+              "endpoints": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": "Primary",
+                  "purpose": "Safety",
+                  "text": "The incidence and severity of adverse events (AEs; including infections), serious adverse events (SAEs), and AEs leading to study and/or regimen discontinuation"
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "level": "Primary",
+              "text": "Evaluate the efficacy of IF001 in preventing graft loss and biopsy-proven acute rejection (BPAR) following removal of pharmacologic immunosuppression (IS)",
+              "endpoints": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "level": null,
+              "text": null,
+              "endpoints": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "level": null,
+              "text": null,
+              "endpoints": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "level": null,
+              "text": null,
+              "endpoints": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "level": null,
+              "text": null,
+              "endpoints": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                },
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "level": null,
+                  "purpose": null,
+                  "text": null
+                }
+              ]
+            }
+          ],
+          "estimands": [
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "populationSummary": null,
+              "analysisPopulationId": null,
+              "interventionIds": null,
+              "variableOfInterestId": null,
+              "intercurrentEvents": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "strategy": null,
+                  "text": null
+                }
+              ]
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "populationSummary": null,
+              "analysisPopulationId": null,
+              "interventionIds": null,
+              "variableOfInterestId": null,
+              "intercurrentEvents": [
+                {
+                  "id": null,
+                  "name": null,
+                  "label": null,
+                  "description": null,
+                  "strategy": null,
+                  "text": null
+                }
+              ]
+            }
+          ],
+          "population": {
+            "id": null,
+            "name": null,
+            "label": null,
+            "description": "Adult participants 3 to 62 months following transplantation of a kidney from a living donor",
+            "plannedSex": null,
+            "includesHealthySubjects": false,
+            "plannedAge": "18 to 50 years old",
+            "plannedEnrollmentNumberQuantity": 15,
+            "plannedCompletionNumberQuantity": 12,
+            "cohorts": [
+              {
+                "id": null,
+                "name": "HLA-matched cohort",
+                "label": null,
+                "description": "HLA-matched cohort to receive 200 cGy",
+                "plannedSex": null,
+                "plannedAge": "18 to 50 years old"
+              }
+            ]
+          },
+          "analysisPopulations": [
+            {
+              "id": null,
+              "name": "Full Analysis Set",
+              "label": "FAS",
+              "description": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": "Per-Protocol Analysis Set",
+              "label": "PPAS",
+              "description": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": "Extended Analysis Set",
+              "label": "EAS",
+              "description": null,
+              "text": null
+            }
+          ],
+          "eligibilityCriteria": [
+            {
+              "id": null,
+              "name": "Inclusion Criteria",
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": "The participant must be matched with the kidney donor for at least 4 alleles of the following 4 HLA genes: HLA-A, HLA-B, HLA-C, and HLA-DRB1. The participant must be matched with the kidney donor for at least one allele of the HLA-DRB1 gene.",
+              "identifier": "5",
+              "category": "Inclusion",
+              "text": "The participant must be matched with the kidney donor for at least 4 alleles of the following 4 HLA genes: HLA-A, HLA-B, HLA-C, and HLA-DRB1. The participant must be matched with the kidney donor for at least one allele of the HLA-DRB1 gene."
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": "Stable renal allograft function \u226545 mL/min/1.73 m2 prior to screening (defined as <25% decrease in eGFR by the CKD-EPI 2021 formula [Inker 2021]) between the last 2 consecutive visits and per investigator judgement",
+              "identifier": "6",
+              "category": "Inclusion",
+              "text": "Stable renal allograft function \u226545 mL/min/1.73 m2 prior to screening (defined as <25% decrease in eGFR by the CKD-EPI 2021 formula [Inker 2021]) between the last 2 consecutive visits and per investigator judgement"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": "Must be willing and able to comply with protocol-required visit schedule and visit requirements",
+              "identifier": "7",
+              "category": "Inclusion",
+              "text": "Must be willing and able to comply with protocol-required visit schedule and visit requirements"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": "Currently maintained on tacrolimus and mycophenolate IS",
+              "identifier": null,
+              "category": "inclusion",
+              "text": "Currently maintained on tacrolimus and mycophenolate IS"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": "exclusion",
+              "text": "Participant or donor with use of other investigational drugs within 30 days (or within 5 drug half-lives) of signing informed consent"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": "exclusion",
+              "text": "Participant with history of hypersensitivity to any of the medications required for the mobilization or conditioning regimens or to drugs of similar chemical classes"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": "exclusion",
+              "text": "Participant and donor who are identical twins"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": "Demonstrated intolerance to maintenance IS with tacrolimus and MMF or mycophenolic acid sodium (MPS)"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": "Maintained on oral corticosteroids (prednisone > 10 mg/day or equivalent)"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": "History of infection by human immunodeficiency virus (HIV) or hepatitis B virus. Participants with a history of hepatitis C virus (HCV) infection may participate if there is a documented history of treatment with an anti-HCV agent and either one negative polymerase chain reaction (PCR) test at least 3 months after last dose of treatment or 2 negative PCR tests at least 2 weeks apart over a maximum of 4 weeks."
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": "Exclusion",
+              "text": "Positive for BK virus (BKV), CMV, or Epstein-Barr virus by PCR at screening"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": "Exclusion",
+              "text": "Active systemic infection or history of recurrent infection (eg, polycystic liver/kidney disease, unless native kidneys removed at time of transplant)"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": "Exclusion",
+              "text": "Any baseline condition requiring or anticipated will require chronic or intermittent use of systemic steroids or other IS (eg, autoimmune disease, asthma) throughout the course of the study"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": "Exclusion",
+              "text": "Receipt of live attenuated vaccine administered within 2 months of the start of RIC"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": "Requiring systemic anticoagulation, (eg, for hyper-coagulation disorders, deep vein thrombosis, atrial fibrillation) that cannot be temporarily interrupted for possible renal biopsy"
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": "All women of childbearing potential (WOCBP), defined as all women physiologically capable of becoming pregnant, who do not agree to using highly effective methods of contraception during the study. For WOCBP who have completely discontinued mycophenolate, contraception may be discontinued after Month 15 provided no mycophenolate is restarted. Highly effective contraception methods include: a. Total abstinence (when this is in line with the preferred and usual lifestyle of the participant). Periodic abstinence (eg, calendar, ovulation, symptothermal, post-ovulation methods) and withdrawal are not acceptable methods of contraception. b. Female sterilization (have had surgical bilateral oophorectomy with or without hysterectomy), total hysterectomy, or tubal ligation at least 6 weeks before investigational product infusion. In case of oophorectomy alone, only when the reproductive status of the woman has been confirmed by follow up hormone level assessment. c. Male sterilization (at least 6 months prior to screening). For female participants on the study, the vasectomized male partner should be the sole partner. d. Use of oral (estrogen and progesterone), injected, or implanted hormonal methods of contraception or placement of an intrauterine device or intrauterine system or other forms of hormonal contraception that have comparable efficacy (failure rate <1%), for example hormone vaginal ring or transdermal hormone contraception. e. In case of use of oral contraception women should have been stable on the same medication for a minimum of 3 months before entering study screening f. Women are considered post-menopausal and not of childbearing potential if they have had 12 months of natural (spontaneous) amenorrhea with an appropriate clinical profile (eg, age-appropriate, history of vasomotor symptoms) or have had surgical bilateral oophorectomy (with or without hysterectomy) or tubal ligation at least 6 weeks prior to study screening. In the case of oophorectomy alone, only when the reproductive status of the woman has been confirmed by follow up hormone level assessment if she is considered not of childbearing potential."
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            },
+            {
+              "id": null,
+              "name": null,
+              "label": null,
+              "description": null,
+              "identifier": null,
+              "category": null,
+              "text": null
+            }
+          ],
+          "indications": [
+            {
+              "id": null,
+              "name": "Prevention of living donor kidney allograft rejection in adult recipients following discontinuation of pharmacologic immunosuppression",
+              "label": null,
+              "description": null,
+              "isRareDisease": null,
+              "codes": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

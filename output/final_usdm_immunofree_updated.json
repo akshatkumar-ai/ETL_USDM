@@ -1,0 +1,1870 @@
+{
+  "study": {
+    "id": "STU-001",
+    "name": "A Phase 2 Single-Arm, Multicenter, Exploratory Safety and Efficacy Study of IF001 to Remove Long-Term Immunosuppression from Prior Living Donor Kidney Transplant Recipients (RELIEF)",
+    "label": "RELIEF Study",
+    "description": "This is a multicenter, open-label, single-arm proof-of-concept study to demonstrate the safety and efficacy of IF001 in adult participants 3 to 62 months following transplantation of a kidney from a living donor. The study will enroll 15 participants, with no more than 6 who are HLA-matched, to meet a target of 12 participants with complete follow-up. Participants will receive chemotherapy and radiation therapy prior to IF001 cell therapy, then GVHD prophylaxis with high-dose, post-IF001 infusion cyclophosphamide, prednisone, tacrolimus, and mycophenolate mofetil. The primary objective is to determine the safety and tolerability of IF001 and evaluate its efficacy in preventing graft loss and biopsy-proven acute rejection following removal of pharmacologic immunosuppression. Study participation will last approximately 27 months from screening through follow-up.",
+    "studyType": null,
+    "studyPhase": "PHASE_2",
+    "studyIdentifiers": [
+      {
+        "id": "SID-001",
+        "studyIdentifier": "IF001-CL201",
+        "studyIdentifierScope": {
+          "id": "SIS-001",
+          "organisationType": "REGULATORY_AUTHORITY",
+          "name": null,
+          "label": "Protocol Number"
+        }
+      }
+    ],
+    "studyProtocolReferences": [],
+    "studyDesigns": [],
+    "studyAmendments": [],
+    "documentedBy": {
+      "id": "ORG-001",
+      "name": "ImmunoFree, Inc.",
+      "label": "Sponsor",
+      "identifierScheme": null,
+      "identifier": null,
+      "identifierScope": null,
+      "legalAddress": null,
+      "organisationType": "SPONSOR"
+    },
+    "versions": [
+      {
+        "id": "VER-001",
+        "versionIdentifier": "1.0",
+        "rationale": null,
+        "effectiveDate": null
+      }
+    ],
+    "titles": [
+      {
+        "id": "TIT-001",
+        "text": "A Phase 2 Single-Arm, Multicenter, Exploratory Safety and Efficacy Study of IF001 to Remove Long-Term Immunosuppression from Prior Living Donor Kidney Transplant Recipients (RELIEF)",
+        "type": "OFFICIAL_STUDY_TITLE"
+      }
+    ],
+    "businessTherapeuticAreas": [],
+    "studyRationale": null,
+    "studyInvestigationalInterventions": [
+      {
+        "id": "SII-001",
+        "interventionModel": "SINGLE_GROUP",
+        "description": "IF001 is a cell therapy product containing defined doses of CD34+ hematopoietic stem cells and alpha/beta positive T-cell receptor (αβ TCR) cells for induction of transplantation tolerance in recipients of kidney transplants from the same donor. The cryopreserved product contains a minimum of 3 million CD34+ cells per kg of recipient IBW (no maximum) and a target of 10 million αβ TCR cells per kg of recipient IBW (range 8-12 million per kg). The cellular product is infused intravenously through a large bore central venous catheter as a one-time infusion administered 3 to 62 months after living donor kidney transplant."
+      }
+    ]
+  },
+  "studyVersion": {
+    "id": "SV-001",
+    "studyId": "IF001-CL201",
+    "studyTitle": "A Phase 2 Single-Arm, Multicenter, Exploratory Safety and Efficacy Study of IF001 to Remove Long-Term Immunosuppression from Prior Living Donor Kidney Transplant Recipients (RELIEF)",
+    "studyVersion": "1.0",
+    "studyType": {
+      "code": "INTERVENTIONAL",
+      "decode": "Interventional"
+    },
+    "studyPhase": {
+      "code": "PHASE2",
+      "decode": "Phase 2"
+    },
+    "studyStatus": {
+      "code": "PLANNED",
+      "decode": "Planned"
+    },
+    "studyTag": "RELIEF",
+    "studyProtocolReferences": [
+      {
+        "id": "SPR-001",
+        "referenceType": {
+          "code": "PROTOCOL",
+          "decode": "Protocol"
+        },
+        "referenceIdentifier": "IF001-CL201",
+        "referenceDocument": {
+          "name": "Protocol Number: IF001-CL201",
+          "label": "Study Protocol",
+          "description": "Phase 2 single-arm, multicenter, exploratory safety and efficacy study protocol for IF001 in kidney transplant recipients. Protocol version 1.0 dated Day Month 2025, conducted by ImmunoFree, Inc. The study evaluates IF001 cell therapy to remove long-term immunosuppression from prior living donor kidney transplant recipients."
+        }
+      }
+    ],
+    "studyDesigns": [
+      {
+        "id": "SD-001",
+        "studyDesignType": {
+          "code": "SINGLE_ARM",
+          "decode": "Single Arm"
+        },
+        "studyDesignBlindingScheme": {
+          "code": "OPEN_LABEL",
+          "decode": "Open Label"
+        },
+        "studyDesignName": "Phase 2 Single-Arm Open-Label Study",
+        "studyDesignDescription": "Multicenter, open-label, single-arm proof-of-concept study to demonstrate the safety and efficacy of IF001 in adult participants 3 to 62 months following transplantation of a kidney from a living donor. The same living kidney donor will undergo G-CSF mobilization and apheresis to generate the IF001 product. Study will enroll 15 participants, with no more than 6 who are fully HLA-matched, to meet target of 12 participants with complete follow-up. Each cohort will be analyzed separately."
+      }
+    ],
+    "studyIndications": [
+      {
+        "id": "SI-001",
+        "indicationType": {
+          "code": "PRIMARY",
+          "decode": "Primary"
+        },
+        "indication": "Kidney transplant recipients requiring immunosuppression removal",
+        "description": "Adult participants 3 to 62 months following transplantation of a kidney from a living donor who are candidates for removal of long-term immunosuppression. Participants must have received a kidney transplant from a partially or fully HLA-matched living donor and have stable renal allograft function ≥ 45 mL/min/1.73 m2 prior to screening."
+      }
+    ],
+    "studyInvestigationalInterventions": [
+      {
+        "id": "SII-001",
+        "interventionType": {
+          "code": "INVESTIGATIONAL_PRODUCT",
+          "decode": "Investigational Product"
+        },
+        "interventionName": "IF001",
+        "interventionDescription": "IF001 is a cell therapy product containing defined doses of CD34+ hematopoietic stem cells and alpha/beta positive T-cell receptor (αβ TCR) cells for induction of transplantation tolerance in recipients of kidney transplants from the same donor. The cryopreserved product contains a minimum of 3 million CD34+ cells per kg of recipient IBW (no maximum) and a target of 10 million αβ TCR cells per kg of recipient IBW (range 8-12 million per kg). The cellular product is infused intravenously through a large bore central venous catheter as a one-time infusion."
+      }
+    ],
+    "description": "Phase 2 single-arm, multicenter, open-label proof-of-concept study evaluating IF001 cell therapy in adult kidney transplant recipients. The study aims to demonstrate safety and efficacy of IF001 in removing long-term immunosuppression from participants 3 to 62 months post-living donor kidney transplant. IF001 is derived from the same living donor through G-CSF mobilization and apheresis. The study will enroll 15 participants across multiple US centers, with no more than 6 fully HLA-matched, targeting 12 participants with complete follow-up. Primary endpoints include safety assessment and proportion of participants alive and free from immunosuppression without graft loss or biopsy-proven acute rejection at 15 months post-IF001 infusion."
+  },
+  "studyTitle": "A Phase 2 Single-Arm, Multicenter, Exploratory Safety and Efficacy Study of IF001 to Remove Long-Term Immunosuppression from Prior Living Donor Kidney Transplant Recipients (RELIEF)",
+  "studyIdentifier": "IF001-CL201",
+  "referenceIdentifier": "IF001-CL201",
+  "studyDesign": {
+    "id": "SD-001",
+    "name": "RELIEF Study Design",
+    "label": "Phase 2 Single-Arm Multicenter Study",
+    "description": "Study IF001-CL201 is a Phase 2, multicenter, open-label, single-arm proof-of-concept study to demonstrate the safety and efficacy of IF001 in adult participants 3 to 62 months following transplantation of a kidney from a living donor. The same living kidney donor will undergo G-CSF mobilization and apheresis to generate the IF001 product. The study will be conducted at multiple centers in the United States. The study will enroll 15 participants, with no more than 6 who are fully HLA-matched, to meet the target of 12 participants with complete follow-up. Each cohort will be analyzed separately. Screening evaluations will be performed from Day −90 to Day −10. Eligible recipients will receive conditioning for 9 days followed by a 6-day treatment period. Participants will be followed until Month 15 for the primary study period, with an additional Extended Evaluation after Month 15 until Month 24. Study participation will last approximately 27 months (Screening through Follow-up).",
+    "studyPhase": {
+      "standardCode": {
+        "id": "C15600",
+        "code": "PHASE_2",
+        "codeSystem": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "codeSystemVersion": "23.03d",
+        "decode": "Phase II Trial"
+      }
+    },
+    "studyType": {
+      "id": "ST-001",
+      "name": "Interventional Study",
+      "label": "Interventional",
+      "description": "This is an interventional study involving administration of IF001 cell therapy product to kidney transplant recipients."
+    },
+    "interventionModel": {
+      "standardCode": {
+        "id": "C142615",
+        "code": "SINGLE_ARM",
+        "codeSystem": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "codeSystemVersion": "23.03d",
+        "decode": "Single Arm Study"
+      }
+    },
+    "trialBlinding": {
+      "standardCode": {
+        "id": "C142633",
+        "code": "OPEN_LABEL",
+        "codeSystem": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "codeSystemVersion": "23.03d",
+        "decode": "Open Label Study"
+      }
+    },
+    "trialIntentType": {
+      "standardCode": {
+        "id": "C15329",
+        "code": "TREATMENT",
+        "codeSystem": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "codeSystemVersion": "23.03d",
+        "decode": "Treatment"
+      }
+    }
+  },
+  "interventionalStudyDesign": {
+    "id": "ISD-001",
+    "label": "Phase 2 Single-Arm Open-Label Study",
+    "description": "This is a Phase 2, multicenter, open-label, single-arm proof-of-concept study to demonstrate the safety and efficacy of IF001 in adult participants 3 to 62 months following transplantation of a kidney from a living donor. The study will enroll 15 participants, with no more than 6 who are fully HLA-matched, to meet the target of 12 participants with complete follow-up. Each cohort will be analyzed separately. The study will be conducted at multiple centers in the United States. Participants will receive conditioning for 9 days followed by a 6-day treatment period. Participants will be followed until Month 15 for the primary study period, with an additional Extended Evaluation after Month 15 until Month 24. Study participation will last approximately 27 months (Screening through Follow-up). The same living kidney donor will undergo G-CSF mobilization and apheresis to generate the IF001 product.",
+    "trialIntentTypes": [
+      {
+        "id": "TIT-001",
+        "code": "C15206",
+        "decode": "Treatment"
+      }
+    ],
+    "trialTypes": [
+      {
+        "id": "TT-001",
+        "code": "C98388",
+        "decode": "Interventional Study"
+      }
+    ],
+    "interventionModel": {
+      "id": "IM-001",
+      "code": "C142615",
+      "decode": "Single Group Assignment"
+    },
+    "primaryPurpose": {
+      "id": "PP-001",
+      "code": "C15206",
+      "decode": "Treatment"
+    },
+    "masking": {
+      "id": "M-001",
+      "code": "C142662",
+      "decode": "Open Label"
+    },
+    "allocation": null,
+    "phase": {
+      "id": "PH-001",
+      "code": "C15601",
+      "decode": "Phase II Trial"
+    }
+  },
+  "indication": {
+    "id": "IND-001",
+    "label": "End-stage kidney failure",
+    "description": "Kidney transplantation is the preferred mode of renal replacement therapy for patients with end-stage kidney failure because it provides better quality of life compared with dialysis and prolongs patient survival. Despite encouraging trends in graft survival, chronic immunosuppression with standard of care medications imposes a tremendous burden on patients, who require life-long daily medication adherence, experience significant adverse medication effects, and face high medication costs. Adverse events related to chronic immunosuppressive therapy include progression of cardiovascular disease, increased susceptibility to infection, metabolic abnormalities, neurologic disorders, and a greater risk of malignancy. Nearly one third of kidney allografts are lost within 10 years due to late acute cellular rejection and chronic antibody-mediated rejection, often associated with patient non-adherence to complex immunosuppressive regimens.",
+    "standardCode": null,
+    "standardCodeSystem": null
+  },
+  "objective": [
+    {
+      "id": "OBJ-001",
+      "label": "Safety - Determine safety and tolerability",
+      "level": "PRIMARY",
+      "description": "Determine the safety and tolerability of IF001 in previously transplanted recipients of a kidney from a living donor. This primary safety objective evaluates the investigational cell therapy product IF001 in adult participants who received their kidney transplant 3 to 62 months prior to study enrollment.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-002",
+      "label": "Efficacy - Prevent graft loss and BPAR",
+      "level": "PRIMARY",
+      "description": "Evaluate the efficacy of IF001 in preventing graft loss and biopsy-proven acute rejection (BPAR) following removal of pharmacologic immunosuppression. This primary efficacy objective assesses whether IF001 can maintain kidney transplant function after withdrawal of chronic immunosuppressive therapy.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-003",
+      "label": "Safety - Characterize GVHD incidence",
+      "level": "SECONDARY",
+      "description": "Characterize the incidence and grade of acute graft-versus-host disease (GVHD) by Day 120 and severity of chronic GVHD by one-year post-IF001 infusion. This secondary safety objective monitors for GVHD complications following the investigational cell therapy.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-004",
+      "label": "Safety - Characterize BK virus complications",
+      "level": "SECONDARY",
+      "description": "Characterize the incidence of BK viremia, viruria, infection, and nephropathy by 15 months post-IF001 infusion. This secondary safety objective monitors for BK virus-related complications that can affect kidney transplant recipients.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-005",
+      "label": "Safety - Characterize medical complications",
+      "level": "SECONDARY",
+      "description": "Characterize the incidence of proteinuria, neurotoxicity, anemia, diabetes, hypertension, dyslipidemia, major adverse cardiovascular events, and malignancies. This secondary safety objective monitors for various medical complications that may occur following IF001 treatment.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-006",
+      "label": "Safety - Describe hematologic recovery",
+      "level": "SECONDARY",
+      "description": "Describe the time from IF001 infusion to neutrophil recovery (>500/µL) and platelet recovery (>20K/µL), the number of blood component transfusions, the incidence of engraftment syndrome, the incidence of primary and secondary hematopoietic graft failure, and the incidence and severity of bacterial, fungal, and viral infections.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-007",
+      "label": "Efficacy - Evaluate renal function changes",
+      "level": "SECONDARY",
+      "description": "Evaluate changes in renal function (eGFR by Chronic Kidney Disease Epidemiology Collaboration 2021 [CKD-EPI] 2021) from Day −9, prior to the first dose of transplantation conditioning, to Month 15. This secondary efficacy objective assesses kidney function over time following IF001 treatment.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-008",
+      "label": "Efficacy - Evaluate composite endpoint",
+      "level": "SECONDARY",
+      "description": "Evaluate the time to the event for the composite of BPAR, graft loss, death, or lost to follow-up and each component. This secondary efficacy objective measures time to various adverse outcomes following IF001 treatment.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-009",
+      "label": "Efficacy - Describe chimerism correlation",
+      "level": "SECONDARY",
+      "description": "Describe the correlation of donor chimerism with meeting the primary efficacy endpoint, the incidence of donor chimerism (> 50% T cell) and the level of chimerism by visit, and change in participant-perceived quality of life. This secondary efficacy objective evaluates the relationship between donor cell engraftment and treatment success.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-010",
+      "label": "Efficacy - Evaluate transient chimerism outcomes",
+      "level": "SECONDARY",
+      "description": "To evaluate outcomes (de novo DSA, graft and participant survival, eGFR at 6, 12, and 15 months) in participants who are only transiently chimeric. This secondary efficacy objective assesses outcomes in participants who lose donor cell engraftment over time.",
+      "endpoints": []
+    },
+    {
+      "id": "OBJ-011",
+      "label": "Efficacy - Evaluate non-durable chimerism outcomes",
+      "level": "SECONDARY",
+      "description": "To evaluate the incidence of acute rejection (BPAR), death, renal graft loss, and lost to follow-up in participants who did not achieve durable chimerism as well as the ability to wean or remain off IS. This secondary efficacy objective assesses outcomes and immunosuppression withdrawal capability in participants without sustained donor cell engraftment.",
+      "endpoints": []
+    }
+  ],
+  "studyArm": [
+    {
+      "id": "ARM-001",
+      "name": "Single Treatment Arm",
+      "label": "IF001 Treatment Arm",
+      "description": "This is a single-arm study where all participants receive the same treatment regimen. Participants are adult recipients of kidney transplants from living donors who received their transplant 3 to 62 months prior to enrollment. All participants undergo reduced intensity conditioning consisting of Thymoglobulin, fludarabine, cyclophosphamide, and total body irradiation, followed by IF001 infusion on Day 1. Post-infusion treatment includes cyclophosphamide for GVHD prophylaxis, tacrolimus, mycophenolate mofetil, prednisone, and filgrastim. The study enrolls 15 participants total, with no more than 6 who are fully HLA-matched, targeting 12 participants with complete follow-up. Participants are divided into two cohorts based on HLA matching: HLA-matched cohort receives 200 cGy TBI and partially HLA-matched cohort receives 400 cGy TBI. Immunosuppression may be tapered starting at Day 183 if specific criteria are met including T cell chimerism >50%, no active GVHD, no de novo donor-specific antibodies, and absence of biopsy-proven acute rejection.",
+      "type": {
+        "id": "C98388",
+        "decode": "Interventional Study Arm"
+      },
+      "origin": null,
+      "epoch": null
+    }
+  ],
+  "studyEpoch": [
+    {
+      "id": "EPO-001",
+      "name": "Screening",
+      "description": "Screening evaluations performed from Day −90 to Day −10. Includes inclusion/exclusion criteria verification, demographics, medical history, physical exam, electrocardiogram, pulmonary function tests, height, vital signs including weight, safety panel, urine protein/creatinine ratio, pregnancy test for women of childbearing potential, vaccine antibody titers, baseline reference chimerism, HLA typing, DSA, infectious disease screening, and immunosuppression with MMF and tacrolimus. Adequate reference donor and participant chimerism samples must be available, participant must have negative local DSA result, and IF001 must be received at clinical site before conditioning can begin.",
+      "label": "Screening Period",
+      "epochType": "SCREENING",
+      "sequenceInStudy": 1,
+      "previousEpochId": null,
+      "nextEpochId": "EPO-002"
+    },
+    {
+      "id": "EPO-002",
+      "name": "Conditioning",
+      "description": "Conditioning period from Day −9 through Day −1. Includes vital signs, safety panel, urine protein/creatinine ratio, pregnancy test, vaccine antibody titers, immunosuppression with MMF and tacrolimus, PRO assessments, thymoglobulin (ATG) on Days −9 through −7, fludarabine on Days −6 through −2, cyclophosphamide 14.5 mg/kg on Days −6 and −5, and total body irradiation on Day −1. Last dose of pre-transplantation MMF is Day −10 and last dose of pre-transplantation tacrolimus is Day −4. Adverse events and concomitant medications monitored at each visit.",
+      "label": "Conditioning Period",
+      "epochType": "TREATMENT",
+      "sequenceInStudy": 2,
+      "previousEpochId": "EPO-001",
+      "nextEpochId": "EPO-003"
+    },
+    {
+      "id": "EPO-003",
+      "name": "Treatment",
+      "description": "Treatment period from Days 1 through 6. Day 1 includes safety panel, urine protein/creatinine ratio, pregnancy test, bacterial/fungal prophylaxis, viral prophylaxis, and IF001 infusion. Days 4-5 include cyclophosphamide 50 mg/kg and Mesna 10 mg/kg IBW. Starting Day 6: filgrastim administration daily until ANC >1000 cells/µL for 3 days, immunosuppression with MMF and tacrolimus, and prednisone. Safety panel performed daily until ANC >1000 cells/µL for 3 days. Dialysis provided as needed. Adverse events and concomitant medications monitored at each visit.",
+      "label": "Treatment Period",
+      "epochType": "TREATMENT",
+      "sequenceInStudy": 3,
+      "previousEpochId": "EPO-002",
+      "nextEpochId": "EPO-004"
+    },
+    {
+      "id": "EPO-004",
+      "name": "Initial Follow-up",
+      "description": "Initial follow-up period from Days 7 through 14. Continues safety panel daily until ANC >1000 cells/µL for 3 days, bacterial/fungal prophylaxis until ANC >500 cells/µL, viral prophylaxis daily, filgrastim administration until ANC >1000 cells/µL for 3 days, immunosuppression with MMF and tacrolimus, prednisone, BKV and CMV monitoring on Day 8, and local tacrolimus level monitoring starting Day 9 daily until ANC >1000 cells/µL for 3 days. Dialysis provided as needed. Adverse events and concomitant medications monitored at each visit.",
+      "label": "Initial Follow-up",
+      "epochType": "FOLLOW_UP",
+      "sequenceInStudy": 4,
+      "previousEpochId": "EPO-003",
+      "nextEpochId": "EPO-005"
+    },
+    {
+      "id": "EPO-005",
+      "name": "Follow-Up Period",
+      "description": "Follow-up period from Day 15 through Month 15 for primary study analysis. Includes physical exams at Months 9, 12, and 15; vital signs including weight; safety panel; urine protein/creatinine ratio; CD4 count and immunoglobulins at Day 183 and Month 12; local blood typing at Month 12; DSA monitoring; HAMA sample at Day 57; immunosuppression with MMF and tacrolimus as needed; local tacrolimus levels; BKV and CMV monitoring; and pneumocystis prophylaxis starting Day 22 or after ANC >500 cells/µL. Visit windows range from ±2 days to ±21 days depending on timepoint.",
+      "label": "Follow-Up Period",
+      "epochType": "FOLLOW_UP",
+      "sequenceInStudy": 5,
+      "previousEpochId": "EPO-004",
+      "nextEpochId": "EPO-006"
+    },
+    {
+      "id": "EPO-006",
+      "name": "Extended Evaluation",
+      "description": "Extended follow-up analysis period after Month 15 until Month 24. Participants complete visits at Months 18 and 24 for extended follow-up analysis of events beyond Month 15 through 24. Evaluates incidence of composite endpoints including BPAR, graft loss, death, or lost to follow-up; acute rejection; treated BPAR by Banff 2022 criteria; de novo DSA; donor chimerism correlation with remaining off immunosuppression; percentage chimerism; and acute and chronic GVHD incidence and severity. Total study participation lasts approximately 27 months from screening through follow-up.",
+      "label": "Extended Evaluation",
+      "epochType": "FOLLOW_UP",
+      "sequenceInStudy": 6,
+      "previousEpochId": "EPO-005",
+      "nextEpochId": null
+    }
+  ],
+  "studyElement": [
+    {
+      "id": "SE-001",
+      "name": "Inspection of Records",
+      "label": "Record Inspection",
+      "description": "The sponsor will be allowed to conduct site visits to the investigation facilities for the purpose of monitoring any aspect of the study. The investigator agrees to allow the monitor to inspect the investigational product storage area and accountability records, participant charts, study source documents, and other records relative to study conduct.",
+      "previousId": null,
+      "nextId": "SE-002"
+    },
+    {
+      "id": "SE-002",
+      "name": "Site Monitoring",
+      "label": "Site Monitoring",
+      "description": "Before the study starts, at a site initiation visit or at an investigator's meeting, a sponsor representative and/or designee will review the protocol and CRFs with the investigators and their staff. During the study, the sponsor will ensure compliance with the protocol and Good Clinical Practice (GCP) as well as the quality and integrity of the data at each site. The Clinical Research Associate (CRA) will visit the site to check the completeness of participant records, the accuracy of entries on the CRFs, the adherence to the protocol, and to GCP, the progress of enrollment, and to ensure that investigational product is being stored, administered, and accounted for according to specifications.",
+      "previousId": "SE-001",
+      "nextId": "SE-003"
+    },
+    {
+      "id": "SE-003",
+      "name": "Study Completion and Site Closure",
+      "label": "Study Completion",
+      "description": "Upon completion of the study, the monitor will conduct activities including return of all study data to the sponsor, data queries, accountability and reconciliation of investigational product, review of study records for completeness, and reconciliation of Investigator Site File and Trial Master File.",
+      "previousId": "SE-002",
+      "nextId": "SE-004"
+    },
+    {
+      "id": "SE-004",
+      "name": "Access to Information for Audits and Inspections",
+      "label": "Audits and Inspections",
+      "description": "Authorized representatives of the sponsor, a regulatory authority, or an IRB may visit the site to perform audits or inspections, including source data verification. The purpose is to systematically and independently examine all study-related activities and documents to determine whether these activities were conducted, and data were recorded, analyzed, and accurately reported according to the protocol, GCP, and any applicable regulatory requirements.",
+      "previousId": "SE-003",
+      "nextId": "SE-005"
+    },
+    {
+      "id": "SE-005",
+      "name": "Retention of Records",
+      "label": "Record Retention",
+      "description": "The Principal Investigator must maintain all documentation relating to the study for a period of 2 years after the last marketing application approval, or if not approved, 2 years following the discontinuance of the test article for investigation. If it becomes necessary for the sponsor or a regulatory authority to review any documentation relating to the study, the investigator must permit access to such records.",
+      "previousId": "SE-004",
+      "nextId": "SE-006"
+    },
+    {
+      "id": "SE-006",
+      "name": "Publication and Data Sharing Policy",
+      "label": "Publication Policy",
+      "description": "No data collected as part of the study will be utilized in any written work, including publications, without the written consent of the sponsor. The sponsor will post key design elements of this protocol in a publicly accessible database such as clinicaltrials.gov. Upon study completion and finalization of the study report, the results of the trial will be either submitted for publication and/or posted in a publicly accessible database of clinical trial results.",
+      "previousId": "SE-005",
+      "nextId": null
+    }
+  ],
+  "studyDesignPopulation": {
+    "id": "POP-001",
+    "name": "Kidney Transplant Recipients",
+    "description": "The study population consists of kidney transplant recipients who will receive IF001, an investigational cell therapy product containing defined doses of CD34+ hematopoietic stem cells and αβ TCR cells for induction of transplantation tolerance. Recipients must have received a kidney transplant from the same donor who will provide the stem cells. The planned sample size is 15 participants, empirically determined to provide adequate safety, tolerability, and preliminary efficacy data while exposing as few participants as possible to study procedures. Participants will undergo a reduced intensity conditioning regimen including Thymoglobulin, fludarabine, cyclophosphamide, and total body irradiation, followed by IF001 infusion and post-infusion cyclophosphamide for GVHD prophylaxis. The study aims to achieve transplantation tolerance allowing participants to be alive and free from immunosuppression without graft loss or biopsy-proven acute rejection at 15 months post-IF001 infusion.",
+    "plannedEnrollmentNumber": 15,
+    "plannedMaximumAge": null,
+    "plannedMinimumAge": null,
+    "plannedSex": null,
+    "populations": []
+  },
+  "encounter": [
+    {
+      "id": "ENC-001",
+      "name": "Screening Visit",
+      "label": "Screening",
+      "description": "Initial screening visit conducted between Day -90 through -10 where participants provide informed consent and undergo comprehensive eligibility assessments. Includes inclusion/exclusion criteria verification, demographics, medical history, physical examination, electrocardiogram, pulmonary function tests, height and weight measurements, safety panel laboratory tests, urine protein/creatinine ratio, pregnancy testing for women of childbearing potential, vaccine antibody titers, baseline reference chimerism, HLA typing, donor-specific antibody testing, and infectious disease screening.",
+      "previousId": null,
+      "nextId": "ENC-002",
+      "epochId": null,
+      "startRule": null,
+      "endRule": null
+    },
+    {
+      "id": "ENC-002",
+      "name": "Conditioning Period Visits",
+      "label": "Conditioning",
+      "description": "Daily visits from Day -9 through Day -1 during participant conditioning regimen. Includes administration of Thymoglobulin on Days -9, -8, -7, fludarabine on Days -6 through -2, cyclophosphamide on Days -6 and -5, and total body irradiation on Day -1. Daily safety panel monitoring, vital signs assessment, vaccine antibody titers on Days -3, -2, -1, and continuation of immunosuppression with MMF through Day -10 and tacrolimus through Day -4.",
+      "previousId": "ENC-001",
+      "nextId": "ENC-003",
+      "epochId": null,
+      "startRule": null,
+      "endRule": null
+    },
+    {
+      "id": "ENC-003",
+      "name": "IF001 Infusion Visit",
+      "label": "Day 1 Infusion",
+      "description": "Day 1 visit for IF001 infusion administered intravenously through large bore central venous catheter with careful monitoring for hypersensitivity and infusion-related reactions. Includes premedication with corticosteroids, diphenhydramine, and acetaminophen. Safety panel and urine protein/creatinine ratio assessment. Initiation of bacterial/fungal prophylaxis and viral prophylaxis that continues daily.",
+      "previousId": "ENC-002",
+      "nextId": "ENC-004",
+      "epochId": null,
+      "startRule": null,
+      "endRule": null
+    },
+    {
+      "id": "ENC-004",
+      "name": "Post-Infusion Treatment Visits",
+      "label": "Days 2-6 Treatment",
+      "description": "Daily visits Days 2-6 for post-infusion monitoring and treatment. Daily safety panel monitoring until ANC >1000 cells/µL for 3 days. Administration of cyclophosphamide 50 mg/kg with Mesna on Days 4 and 5 for GVHD prophylaxis. Initiation of filgrastim, immunosuppression with MMF and tacrolimus, and prednisone starting Day 6. Continuation of bacterial/fungal and viral prophylaxis.",
+      "previousId": "ENC-003",
+      "nextId": "ENC-005",
+      "epochId": null,
+      "startRule": null,
+      "endRule": null
+    },
+    {
+      "id": "ENC-005",
+      "name": "Early Follow-up Visits",
+      "label": "Days 7-14",
+      "description": "Daily visits Days 7-14 for early post-treatment monitoring. Daily safety panel until ANC >1000 cells/µL for 3 days, daily local tacrolimus levels until ANC recovery, continuation of filgrastim until ANC target achieved. BKV and CMV monitoring begins Day 8. Continuation of immunosuppression, prednisone, and prophylactic medications. Daily bacterial/fungal prophylaxis until ANC >500 cells/µL.",
+      "previousId": "ENC-004",
+      "nextId": "ENC-006",
+      "epochId": null,
+      "startRule": null,
+      "endRule": null
+    },
+    {
+      "id": "ENC-006",
+      "name": "Follow-up Period Visits",
+      "label": "Day 15-Month 24",
+      "description": "Scheduled follow-up visits from Day 15 through Month 24 with varying frequencies and visit windows. Includes physical exams at specified visits, vital signs and safety panels at each visit, urine protein/creatinine ratio assessments, immunosuppression monitoring and weaning, GVHD assessments beginning Day 22, protocol kidney biopsies at Day 160 and Month 15, donor chimerism monitoring, and patient-reported outcome assessments at Month 12 and 15. Pneumocystis prophylaxis starts Day 22 or after ANC >500 cells/µL. BKV and CMV monitoring continues with decreasing frequency through Month 15.",
+      "previousId": "ENC-005",
+      "nextId": null,
+      "epochId": null,
+      "startRule": null,
+      "endRule": null
+    }
+  ],
+  "activity": [
+    {
+      "id": "ACT-001",
+      "name": "Physical Examination",
+      "label": "Physical Examination",
+      "description": "Physical examinations will include Karnofsky performance status, general appearance, head/eyes/ears/nose/throat, lungs, cardiac, abdominal, skin, extremities, lymph nodes, and a neurologic examination. In addition to the protocol-specified times, physical assessments can be made at the investigator's discretion to evaluate symptoms or AEs.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-002",
+      "name": "Vital Signs Including Height and Weight",
+      "label": "Vital Signs Assessment",
+      "description": "Vital sign assessments include blood pressure and pulse rate performed by the same study site staff member using the same validated device. Blood pressure and pulse rate will be assessed in the same arm each time after the participant has rested in the sitting position for at least 5 minutes. Systolic and diastolic blood pressure will be measured using an automated validated device with an appropriately sized cuff. The sitting measurements will be repeated at 1- to 2-minute intervals for a total of 3 measurements. Participants should be weighed without shoes or coat using the same scale. Height will be measured only at the first screening visit. The BMI will be calculated at each visit using current weight and height at the first screening visit.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-003",
+      "name": "Electrocardiogram",
+      "label": "12-lead ECG",
+      "description": "A 12-lead electrocardiogram will be conducted at screening for all participants.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-004",
+      "name": "Pulmonary Function Tests",
+      "label": "Pulmonary Function Tests",
+      "description": "Pulmonary function tests including FEV1 and FVC will be conducted at screening for all participants.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-005",
+      "name": "Laboratory Assessments",
+      "label": "Laboratory Assessments",
+      "description": "Local and central laboratories will be used for analysis of specimens collected as described in the schedules of assessments. Clinical laboratory tests can also be performed as medically indicated. Clinical laboratory assessments include complete blood count with white blood cell differential, comprehensive metabolic panel, infectious disease screening, pregnancy testing, viral load monitoring, vaccine antibody titers, urinalysis, HLA typing, donor-specific antibody testing, ABO blood typing and Rh factor, donor whole blood and blood T cell chimerism, tacrolimus trough levels, HAMA sample, and immunoglobulins. All laboratory test results considered clinically significant by the investigator will be followed to a satisfactory resolution.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-006",
+      "name": "BKV and CMV Monitoring",
+      "label": "Viral Load Monitoring",
+      "description": "BKV and CMV infection monitoring is by local measurement of quantitative viral load by a PCR-based method. BK virus and CMV monitoring are performed more frequently than scheduled visits: Weekly through Day 183 (Month 6), every 2 weeks thereafter through Month 12, and every 3 months through Month 15.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-007",
+      "name": "GVHD Assessment",
+      "label": "GVHD Assessment",
+      "description": "Beginning at Day 22 through Day 92, only acute GVHD assessments will be performed. At Day 92 and Day 120, both acute and chronic GVHD assessments will be performed. Beyond Day 120, chronic GVHD assessments will be performed routinely, but acute GVHD also can be assessed as clinically warranted. If acute or chronic GVHD is suspected or detected at any time between visits, regardless of location or grade, appropriate GVHD assessment must be performed at an unscheduled visit. Sites should supplement with weekly telephone contact through Day 183. Acute and chronic GVHD will be managed according to institutional practices. All Grade ≥2 acute GVHD or moderate to severe chronic GVHD must be reported within 24 hours of site awareness.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-008",
+      "name": "Renal Allograft Biopsy",
+      "label": "Kidney Biopsy",
+      "description": "Kidney allograft protocol biopsies are to be performed and analyzed centrally at Day 160 and at Month 15. Site-specific protocol/surveillance biopsies without suspicion of acute rejection are prohibited. Biopsies will be read by the local pathologist according to the updated Banff 2022 criteria and the results recorded on the relevant CRF. The local results will be used for the management of acute rejection. Central pathology diagnosis will be used for analysis of efficacy endpoints. Renal biopsies will be performed for all cases of suspected acute rejection and at specified protocol visits.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-009",
+      "name": "Patient-Reported Outcome Measures",
+      "label": "PRO Assessments",
+      "description": "The impact of IF001 on the participants' quality of life will be assessed by the 36-Item Short Form Health Survey (SF-36) and the End-Stage Renal Disease Symptom Checklist (ESRD-SCL). The questionnaires should be completed by participants at the clinic before seeing the study physician. Participants should be given sufficient instruction, space, time, and privacy to complete the questionnaire. Study staff should check the questionnaire responses for completeness and encourage the participant to provide any missing responses. The responses from the paper questionnaire will be entered into the CRF by study staff. Before the clinical examination, completed questionnaires will be reviewed by the investigator for responses that might indicate possible AEs or SAEs.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-010",
+      "name": "Bacterial/Fungal Prophylaxis",
+      "label": "Antimicrobial Prophylaxis",
+      "description": "Bacterial and fungal prophylaxis must be provided at least from Day 1 until the ANC >500 cells/µL.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-011",
+      "name": "Viral Prophylaxis",
+      "label": "Viral Prophylaxis",
+      "description": "Herpes simplex virus and varicella zoster virus prophylaxis must be provided from Day 1 until Day 183 and is recommended until Month 12. In addition, for participants who are IgG (+) for CMV and participants who are IgG (−) for CMV but who received a kidney from a donor who is IgG (+), it is recommended that CMV prophylaxis be provided from Day 1 until Day 92.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-012",
+      "name": "Pneumocystis Prophylaxis",
+      "label": "PCP Prophylaxis",
+      "description": "Pneumocystis prophylaxis (Pneumocystis jirovecii pneumonia/pneumocystis carinii pneumonia) must be provided starting on Day 22 or after the ANC is >500 cells/µL, whichever occurs later.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-013",
+      "name": "IF001 Infusion",
+      "label": "IF001 Infusion",
+      "description": "IF001 infusion is administered on Day 1 of the treatment phase.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-014",
+      "name": "Cyclophosphamide Administration",
+      "label": "Cyclophosphamide",
+      "description": "Cyclophosphamide 50 mg/kg and Mesna 10 mg/kg IBW are administered on Days 4 and 5. Mesna 10 mg/kg IBW to be given 30 minutes before and 3, 6, and 8 hours before the Day 4 and Day 5 cyclophosphamide doses.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-015",
+      "name": "Filgrastim Administration",
+      "label": "G-CSF Administration",
+      "description": "Filgrastim (G-CSF) or a biosimilar given intravenously or subcutaneously 5 µg/kg/day (rounded to nearest vial size) should be administered until the ANC is >1000 cells/µL for 3 days. Additional G-CSF may be administered as warranted. Pegfilgrastim (Neulasta) and GM-CSF are not permitted.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-016",
+      "name": "Immunosuppression Administration",
+      "label": "Immunosuppression",
+      "description": "Tacrolimus should be started on Day 6 (at least 24 hours after the completion of post-transplantation cyclophosphamide). The MMF dose will start on Day 6 and may be discontinued after the last dose on Day 36. MMF dosing may continue if active GVHD is present. The recipient should withhold the morning tacrolimus dose until after the blood draw to obtain a trough level. Levels should be assessed daily until the ANC is >1000 cells/µL for 3 days. Thereafter tacrolimus levels should be assessed 3 days after any dose adjustment.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-017",
+      "name": "Thymoglobulin Administration",
+      "label": "ATG Administration",
+      "description": "Thymoglobulin (ATG) is administered during the conditioning phase on Days -9, -8, and -7.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-018",
+      "name": "Fludarabine Administration",
+      "label": "Fludarabine",
+      "description": "Fludarabine is administered during the conditioning phase on Days -6, -5, -4, -3, and -2.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-019",
+      "name": "Total Body Irradiation",
+      "label": "TBI",
+      "description": "Total body irradiation is administered during the conditioning phase on Day -1.",
+      "previousId": null,
+      "nextId": null
+    },
+    {
+      "id": "ACT-020",
+      "name": "Revaccination",
+      "label": "Revaccination",
+      "description": "The recommendations for vaccination after allogeneic HCT are based on the guidelines of the Infectious Disease Society of America and are summarized in Appendix 1.",
+      "previousId": null,
+      "nextId": null
+    }
+  ],
+  "scheduleTimeline": [
+    {
+      "id": "SCH-001",
+      "name": "Screening and Conditioning",
+      "label": "Screening and Conditioning Phase",
+      "description": "Screening phase occurs from Day -90 through -10, followed by conditioning from Day -9 through Day -1. Screening includes inclusion/exclusion criteria verification, demographics, medical history, physical exam, electrocardiogram, pulmonary function tests, height, vitals, safety panel, urine protein/creatinine ratio, pregnancy test for WOCBP, vaccine antibody titers, baseline reference chimerism, HLA typing, DSA, infectious disease screening, and immunosuppression management. Conditioning includes thymoglobulin (ATG) on Days -9, -8, -7, fludarabine on Days -6 through -2, cyclophosphamide 14.5 mg/kg on Days -6 and -5, and total body irradiation on Day -1. Last dose of pre-transplantation mycophenolate mofetil is Day -10 and last dose of pre-transplantation tacrolimus is Day -4.",
+      "previousId": null,
+      "nextId": "SCH-002",
+      "entryCondition": null,
+      "entryRule": null,
+      "exitRule": null
+    },
+    {
+      "id": "SCH-002",
+      "name": "Treatment and Initial Follow-Up",
+      "label": "Treatment Phase",
+      "description": "Treatment phase spans Days 1 through 14. Day 1 includes IF001 infusion, safety panel, urine protein/creatinine ratio, pregnancy test for WOCBP, and initiation of bacterial/fungal and viral prophylaxis. Post-transplantation cyclophosphamide 50 mg/kg with Mesna 10 mg/kg IBW is given on Days 4 and 5. Filgrastim administration begins Day 6 and continues daily until ANC >1000 cells/µL for 3 days. Immunosuppression with MMF and tacrolimus restarts Day 6, along with prednisone. Daily safety panels are performed until ANC >1000 cells/µL for 3 days. BKV and CMV monitoring begins Day 8. Local tacrolimus levels are monitored daily starting Day 9 until ANC >1000 cells/µL for 3 days.",
+      "previousId": "SCH-001",
+      "nextId": "SCH-003",
+      "entryCondition": null,
+      "entryRule": null,
+      "exitRule": null
+    },
+    {
+      "id": "SCH-003",
+      "name": "Follow-Up Period",
+      "label": "Follow-Up Period",
+      "description": "Follow-up period extends from Day 15 through Month 24 with specific visit windows. Key visits include D15, D22, D29, D36, D43, D50, D57, D92, D120, D160, D183, M9, M12, M15, ET, M18, and M24. Assessments include physical exams at M12 and M15, vital signs and safety panels at all visits, urine protein/creatinine ratio at specified intervals, CD4 count and immunoglobulins at D183 and M12, DSA testing from D160 onwards, GVHD assessments from D22, kidney allograft biopsies at D160 and M15, donor chimerism monitoring, and PRO assessments at M12 and M15. Prophylaxis continues with bacterial/fungal until ANC >500 cells/µL, viral until Day 183, and pneumocystis starting Day 22. BKV and CMV monitoring occurs weekly through Day 183, then every 2 weeks through Month 12, then every 3 months through Month 15.",
+      "previousId": "SCH-002",
+      "nextId": null,
+      "entryCondition": null,
+      "entryRule": null,
+      "exitRule": null
+    }
+  ],
+  "studyIntervention": [
+    {
+      "id": "INT-001",
+      "name": "IF001",
+      "label": "IF001 Cell Therapy",
+      "description": "IF001 is an investigational cell therapy product containing defined doses of CD34+ hematopoietic stem cells and αβ TCR cells for induction of transplantation tolerance in recipients of kidney transplants from the same donor. The cryopreserved product contains a minimum of 3 million CD34+ cells per kg of recipient ideal body weight (no maximum) and a target of 10 million αβ TCR cells per kg of recipient ideal body weight (range 8-12 million per kg). IF001 is derived from mobilized peripheral blood cells collected by apheresis from the intended kidney donor and is administered intravenously through a large bore central venous catheter on Day 1.",
+      "interventionModel": "SINGLE_GROUP",
+      "status": "PLANNED",
+      "codes": []
+    },
+    {
+      "id": "INT-002",
+      "name": "Reduced Intensity Conditioning",
+      "label": "RIC Regimen",
+      "description": "Nine days prior to IF001 infusion, participants begin a reduced intensity conditioning regimen consisting of: Thymoglobulin on Days -9 (0.5 mg/kg IV over 6 hours), -8 (2 mg/kg IV over 4 hours), and -7 (2 mg/kg IV over 4 hours); Fludarabine on Days -6, -5, -4, -3 and -2 (30 mg/m2 IV daily, dose adjusted for kidney function); Cyclophosphamide on Day -6 and Day -5 (14.5 mg/kg IV daily); and a single fraction of total body irradiation on Day -1 (200 cGy for HLA-matched cohort and 400 cGy for partially HLA-matched cohort).",
+      "interventionModel": "SINGLE_GROUP",
+      "status": "PLANNED",
+      "codes": []
+    },
+    {
+      "id": "INT-003",
+      "name": "Post-infusion Cyclophosphamide",
+      "label": "GVHD Prophylaxis",
+      "description": "Cyclophosphamide (50 mg/kg IV daily) administered on Day 4 and Day 5 for graft-versus-host disease prophylaxis. Mesna (sodium 2-mercaptoethane sulfonate) is administered with cyclophosphamide to minimize potential toxicity. Cyclophosphamide and Mesna are dosed based on ideal body weight, unless actual body weight is less than ideal body weight. Participants must be given Mesna 10 mg/kg ideal body weight 30 minutes before and 3, 6, and 8 hours before the Day 4 and Day 5 cyclophosphamide doses.",
+      "interventionModel": "SINGLE_GROUP",
+      "status": "PLANNED",
+      "codes": []
+    },
+    {
+      "id": "INT-004",
+      "name": "Immunosuppressive Therapy",
+      "label": "IS Regimen",
+      "description": "Tacrolimus IV or oral started on Day 6 and administered to target level of 8 to 12 ng/mL. MMF dose of 15 mg/kg actual body weight orally 3 times daily up to 1 g TID discontinued after Day 36. Prednisone 10 mg orally daily initiated on Day 6 with last dose on Day 36. Filgrastim 5 µg/kg/day actual body weight given IV or subcutaneously starting Day 6 until absolute neutrophil count >1000 cells/µl for 3 days. Participant immunosuppression may be tapered as early as Day 183 provided specific criteria are met including T cell chimerism >50%, no active GVHD, no de novo donor-specific antibodies, and absence of biopsy-proven acute rejection.",
+      "interventionModel": "SINGLE_GROUP",
+      "status": "PLANNED",
+      "codes": []
+    },
+    {
+      "id": "INT-005",
+      "name": "Infection Prophylaxis",
+      "label": "Antimicrobial Prophylaxis",
+      "description": "Bacterial prophylaxis provided from Day 1 until absolute neutrophil count >500 cells/µL (example: moxifloxacin 400 mg daily). Fungal prophylaxis from Day 1 until ANC >500 cells/µL with mold coverage (example: posaconazole 300 mg daily). Herpes simplex virus and varicella zoster virus prophylaxis from Day 1 until Day 183, recommended until Month 12 (example: valacyclovir 500 mg twice daily). CMV prophylaxis recommended from Day 1 until Day 92 for appropriate participants (example: letermovir 480 mg once daily). Pneumocystis prophylaxis starting Day 22 or after ANC >500 cells/µL (example: trimethoprim/sulfamethoxazole 1 single strength tablet daily).",
+      "interventionModel": "SINGLE_GROUP",
+      "status": "PLANNED",
+      "codes": []
+    }
+  ],
+  "administrableProduct": {
+    "id": "AP-001",
+    "label": "IF001",
+    "description": "IF001 is an investigational cryopreserved allogeneic somatic cell therapy product containing defined doses of CD34+ hematopoietic stem cells and αβ TCR cells for induction of transplantation tolerance in recipients of kidney transplants from the same donor. The cryopreserved product contains a minimum of 3 million CD34+ cells per kg of recipient IBW (no maximum) and a target of 10 million αβ TCR cells per kg of recipient IBW (range 8-12 million per kg). The product is derived from donor mobilized peripheral blood mononuclear cells. IF001 is manufactured, cryopreserved, and stored at the manufacturing center prior to shipping frozen to the treating center before Day −9. The cellular product is administered as a one-time intravenous infusion through a large bore central venous catheter on Day 1. Cryopreserved products contain dimethyl sulfoxide (DMSO) which may cause nausea and/or headache when thawed and infused. Premedication with corticosteroids, diphenhydramine, and acetaminophen is recommended as prophylaxis against adverse infusion-related side effects.",
+    "routeOfAdministration": {
+      "id": "ROA-001",
+      "label": "Intravenous",
+      "description": "IF001 is administered intravenously through a large bore central venous catheter. A dialysis-specific catheter/shunt should NOT be used for IF001 administration. The infusion is performed at the recipient's bedside with careful monitoring during and after infusion to detect any changes indicative of hypersensitivity and infusion-related reactions."
+    },
+    "dosageForm": {
+      "id": "DF-001",
+      "label": "Cryopreserved cell suspension",
+      "description": "IF001 is provided as a cryopreserved cell therapy product containing living cells that are frozen and stored prior to thawing and infusion. The product contains dimethyl sulfoxide (DMSO) as a cryopreservative. Detailed instructions for thawing, inspection, and infusion are provided in the IF001 Investigational Product Manual."
+    },
+    "manufacturer": {
+      "id": "MFG-001",
+      "label": "ImmunoFree, Inc.",
+      "description": "ImmunoFree, Inc. is the sponsor and manufacturer of IF001. Freshly harvested donor stem cells are transported to the manufacturing center where the IF001 product is manufactured, cryopreserved, and stored prior to shipping to the study center."
+    },
+    "ingredients": [
+      {
+        "id": "ING-001",
+        "label": "CD34+ hematopoietic stem cells",
+        "description": "CD34+ hematopoietic stem cells are a key active component of IF001, present at a minimum of 3 million cells per kg of recipient ideal body weight with no maximum specified. These cells are derived from donor mobilized peripheral blood mononuclear cells."
+      },
+      {
+        "id": "ING-002",
+        "label": "αβ TCR cells",
+        "description": "Alpha/beta positive T-cell receptor (αβ TCR) cells are the second active component of IF001, present at a target of 10 million cells per kg of recipient ideal body weight (range 8-12 million per kg). These cells are derived from donor mobilized peripheral blood mononuclear cells."
+      },
+      {
+        "id": "ING-003",
+        "label": "Dimethyl sulfoxide (DMSO)",
+        "description": "Dimethyl sulfoxide (DMSO) is present in the cryopreserved IF001 product as a cryopreservative. When the product is thawed and infused, DMSO may cause nausea and/or headache in recipients."
+      }
+    ]
+  },
+  "administration": [
+    {
+      "id": "ADM-001",
+      "label": "IF001 Infusion",
+      "description": "On Day 1, IF001 will be administered intravenously through a large bore central venous catheter. A dialysis-specific catheter/shunt should NOT be used for IF001 administration. The recipient should be carefully monitored during and after infusion to detect any changes indicative of hypersensitivity and infusion-related reactions. The infusion will be performed at the recipient's bedside. Premedication with corticosteroids (100 mg hydrocortisone), diphenhydramine, and acetaminophen should be performed as prophylaxis against adverse infusion-related side effects per institutional guidelines. The thawing procedure, infusion volume, date, and start and stop time will be documented.",
+      "text": "On Day 1, IF001 will be administered intravenously through a large bore central venous catheter. A dialysis-specific catheter/shunt should NOT be used for IF001 administration. See the IF001 Investigational Product Manual for detailed instructions regarding thawing, inspection, and infusion. The thawing procedure, infusion volume, date, and start and stop time will be documented. The recipient should be carefully monitored during and after infusion of IF001 to detect any changes indicative of hypersensitivity and infusion-related reactions. The infusion will be performed at the recipient's bedside. Premedication with corticosteroids (100 mg hydrocortisone), diphenhydramine, and acetaminophen should be performed as prophylaxis against adverse infusion-related side effects per institutional guidelines."
+    },
+    {
+      "id": "ADM-002",
+      "label": "DMSO Reaction Management",
+      "description": "Cryopreserved products, including IF001, contain dimethyl sulfoxide (DMSO). When the product is thawed and infused, DMSO may cause nausea and/or headache. If reported by the recipient, reduce the rate of infusion and administer ondansetron and/or diphenhydramine (if indicated). Wait 10-15 minutes before thawing and infusing subsequent bags of donor cells. If a moderate to severe reaction occurs, immediately contact the Medical Monitor.",
+      "text": "Cryopreserved products, including IF001, contain dimethyl sulfoxide (DMSO). When the product is thawed and infused, DMSO may cause nausea and/or headache. If reported by the recipient, reduce the rate of infusion and administer ondansetron and/or diphenhydramine (if indicated). Wait 10-15 minutes before thawing and infusing subsequent bags of donor cells. If a moderate to severe reaction occurs, immediately contact the Medical Monitor."
+    },
+    {
+      "id": "ADM-003",
+      "label": "Post-infusion Cyclophosphamide",
+      "description": "Cyclophosphamide (50 mg/kg IV daily) will be administered on Day 4 and Day 5 for GVHD prophylaxis. Mesna (sodium 2-mercaptoethane sulfonate) will be administered with cyclophosphamide to minimize potential toxicity of the drug. Cyclophosphamide and Mesna given post-IF001 infusion will be dosed based on IBW, unless ABW is less than IBW, in which case ABW should be used. If the participant weighs ≥125% IBW, cyclophosphamide will be dosed according to the adjusted IBW. Participants must be given Mesna 10 mg/kg IBW 30 minutes before and 3, 6, and 8 hours before the Day 4 and Day 5 cyclophosphamide doses.",
+      "text": "Cyclophosphamide (50 mg/kg IV daily) will be administered on Day 4 and Day 5 for GVHD prophylaxis. Mesna (sodium 2-mercaptoethane sulfonate) will be administered with cyclophosphamide to minimize potential toxicity of the drug. Cyclophosphamide and Mesna given post-IF001 infusion will be dosed based on IBW, unless ABW is less than IBW, in which case ABW should be used. If the participant weighs ≥125% IBW, cyclophosphamide will be dosed according to the adjusted IBW. Participants must be given Mesna 10 mg/kg IBW 30 minutes before and 3, 6, and 8 hours before the Day 4 and Day 5 cyclophosphamide doses."
+    },
+    {
+      "id": "ADM-004",
+      "label": "Tacrolimus Administration",
+      "description": "Tacrolimus IV or oral (oral immediate-release administration preferred) should be started on Day 6 (at least 24 hours after the completion of post-transplantation cyclophosphamide) and administered as per institutional standards to a target level of 8 to 12 ng/mL. The recommended IV starting dose is 0.03 mg/kg/day either as a continuous infusion or divided into 12-hour IV bolus dosing based on ABW. Oral equivalent dosing is acceptable at a suggested starting dose of 0.05 to 0.1 mg/kg/dose orally twice daily. If a participant converts from IV to oral once therapeutic levels are achieved, a suggested IV to oral conversion of 1:3 can be used or per institutional standards.",
+      "text": "Tacrolimus IV or oral (oral immediate-release administration preferred) should be started on Day 6 (at least 24 hours after the completion of post-transplantation cyclophosphamide) and administered as per institutional standards to a target level of 8 to 12 ng/mL. The recommended IV starting dose is 0.03 mg/kg/day either as a continuous infusion or divided into 12-hour IV bolus dosing based on ABW. Oral equivalent dosing is acceptable at a suggested starting dose of 0.05 to 0.1 mg/kg/dose orally twice daily. If a participant converts from IV to oral once therapeutic levels are achieved, a suggested IV to oral conversion of 1:3 can be used or per institutional standards. Dose adjustment is strongly suggested in participants taking posaconazole or another significant interacting agent."
+    },
+    {
+      "id": "ADM-005",
+      "label": "MMF Administration",
+      "description": "The MMF dose will be 15 mg/kg of ABW orally 3 times daily (TID) up to 1 g TID (or IV equivalent) or an equimolar dose of MPS. The MMF dose will be discontinued after the last dose on Day 36 or may continue if active GVHD is present. Equimolar doses of enteric-coated MPS (Myfortic® or equivalent) may be substituted for MMF. When switching from MMF immediate-release to MPS delayed-release tablets, the equimolar doses of free mycophenolic acid content are: 250 mg MMF = 180 mg MPS; 500 mg MMF = 360 mg MPS.",
+      "text": "The MMF dose will be 15 mg/kg of ABW orally 3 times daily (TID) up to 1 g TID (or IV equivalent) or an equimolar dose of MPS (see Section 5.6.3.1). The MMF dose will be discontinued after the last dose on Day 36 or may continue if active GVHD is present. Equimolar doses of enteric-coated MPS (Myfortic® or equivalent) may be substituted for MMF. When switching from MMF immediate-release to MPS delayed-release tablets, the equimolar doses of free mycophenolic acid content are: 250 mg MMF = 180 mg MPS; 500 mg MMF = 360 mg MPS."
+    },
+    {
+      "id": "ADM-006",
+      "label": "Prednisone Administration",
+      "description": "Prednisone 10 mg orally daily will be initiated on Day 6 with the last dose on Day 36, unless the participant was on chronic oral steroids prior to enrollment. If a participant was taking daily corticosteroids for >90 days prior to study enrollment, weaning of corticosteroids to prevent adrenal insufficiency is allowed per institutional standard or clinical judgement, provided that corticosteroids are withdrawn prior to Month 9. An example weaning schedule is provided starting with prednisone 5mg daily on Days 36 to 57, then gradually reducing to 0.5mg every other day from Days 241 to Month 9, then discontinue.",
+      "text": "Prednisone 10 mg orally daily will be initiated on Day 6 with the last dose on Day 36, unless the participant was on chronic oral steroids prior to enrollment (see Section 5.6.3.1). If a participant was taking daily corticosteroids for >90 days prior to study enrollment, weaning of corticosteroids to prevent adrenal insufficiency is allowed per institutional standard or clinical judgement, provided that corticosteroids are withdrawn prior to Month 9."
+    },
+    {
+      "id": "ADM-007",
+      "label": "Filgrastim Administration",
+      "description": "Filgrastim (G-CSF) or a biosimilar will be given IV or subcutaneously starting on Day 6 for IF001 recipients at 5 µg/kg/day of ABW (rounded to nearest vial size) until the ANC is >1000 cells/µl for 3 days. Additional G-CSF may be administered as warranted. Pegfilgrastim (Neulasta®) and granulocyte-macrophage-CSF are not permitted. A urine pregnancy test must be negative for women of childbearing potential before starting filgrastim.",
+      "text": "Filgrastim (G-CSF) or a biosimilar will be given IV or subcutaneously starting on Day 6 for IF001 recipients at 5 µg/kg/day of ABW (rounded to nearest vial size) until the ANC is >1000 cells/µl for 3 days. Additional G-CSF may be administered as warranted. Pegfilgrastim (Neulasta®) and granulocyte-macrophage-CSF are not permitted."
+    },
+    {
+      "id": "ADM-008",
+      "label": "Bacterial Prophylaxis",
+      "description": "Bacterial prophylaxis must be provided at least from Day 1 until the absolute neutrophil count (ANC) is >500 cells/µL. Specific antibacterials may be given according to center practice. An example is moxifloxacin 400 mg per day.",
+      "text": "Bacterial prophylaxis must be provided at least from Day 1 until the absolute neutrophil count (ANC) is >500 cells/µL. Specific antibacterials may be given according to center practice. An example is moxifloxacin 400 mg per day."
+    },
+    {
+      "id": "ADM-009",
+      "label": "Fungal Prophylaxis",
+      "description": "Fungal prophylaxis must be provided from Day 1 until the ANC is >500 cells/µL. Specific antifungals may be given according to center practice and investigator judgement but must include coverage of molds such as Aspergillus. An example is posaconazole 300 mg daily.",
+      "text": "Fungal prophylaxis must be provided from Day 1 until the ANC is >500 cells/µL. Specific antifungals may be given according to center practice and investigator judgement but must include coverage of molds such as Aspergillus. An example is posaconazole 300 mg daily."
+    },
+    {
+      "id": "ADM-010",
+      "label": "Viral Prophylaxis",
+      "description": "Herpes simplex virus and varicella zoster virus prophylaxis must be provided from Day 1 until Day 183 and is recommended until Month 12. Specific antivirals may be given according to center practice and investigator judgement. An example is valacyclovir 500 mg twice a day. In addition, for participants who are immunoglobulin G (IgG) (+) for CMV and participants who are IgG (−) for CMV but who received a kidney from a donor who is IgG (+), it is recommended that CMV prophylaxis be provided from Day 1 until Day 92. An example is letermovir 480 mg once daily.",
+      "text": "Herpes simplex virus and varicella zoster virus prophylaxis must be provided from Day 1 until Day 183 and is recommended until Month 12. Specific antivirals may be given according to center practice and investigator judgement. An example is valacyclovir 500 mg twice a day. In addition, for participants who are immunoglobulin G (IgG) (+) for CMV and participants who are IgG (−) for CMV but who received a kidney from a donor who is IgG (+), it is recommended that CMV prophylaxis be provided from Day 1 until Day 92. Specific antiviral medications may be given according to center practice and investigator judgement. An example is letermovir 480 mg once daily."
+    },
+    {
+      "id": "ADM-011",
+      "label": "Pneumocystis Prophylaxis",
+      "description": "Pneumocystis prophylaxis (Pneumocystis jirovecii pneumonia/pneumocystis carinii pneumonia) must be provided starting on Day 22 or after the ANC is >500 cells/µL, whichever occurs later. If the CD4 count at the Day 183 visit is >200 cells/µL, the pneumocystis prophylaxis may be discontinued. If the CD4 count is ≤ 200 cells/µL, the agent should be continued until the CD4 count check at Month 12, after which investigator judgement can determine whether to continue or discontinue prophylaxis. Trimethoprim/sulfamethoxazole 1 single strength tablet daily is the preferred example, with atovaquone 1500 mg once daily or dapsone 100 mg once daily as alternatives.",
+      "text": "Pneumocystis prophylaxis (Pneumocystis jirovecii pneumonia/pneumocystis carinii pneumonia) must be provided starting on Day 22 or after the ANC is >500 cells/µL, whichever occurs later. If the CD4 count at the Day 183 visit is >200 cells/µL, the pneumocystis prophylaxis may be discontinued. If the CD4 count is ≤ 200 cells/µL, the agent should be continued until the CD4 count check at Month 12, after which investigator judgement can determine whether to continue or discontinue prophylaxis. Trimethoprim/sulfamethoxazole 1 single strength tablet daily is the preferred example, with atovaquone 1500 mg once daily or dapsone 100 mg once daily as alternatives."
+    }
+  ],
+  "substance": [
+    {
+      "id": "SUB-001",
+      "label": "IF001",
+      "description": "IF001 is a cryopreserved allogeneic somatic cell therapy product derived from donor mobilized peripheral blood mononuclear cells. It contains defined doses of CD34+ hematopoietic stem cells and alpha/beta positive T-cell receptor (αβ TCR) cells for induction of transplantation tolerance in recipients of kidney transplants from the same donor. The product contains a minimum of 3 million CD34+ cells per kg of recipient ideal body weight (no maximum) and a target of 10 million αβ TCR cells per kg of recipient ideal body weight (range 8-12 million per kg). The cellular product is infused intravenously through a large bore central venous catheter as a one-time infusion administered 3 to 62 months after living donor kidney transplant.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-002",
+      "label": "Thymoglobulin",
+      "description": "Thymoglobulin (anti-thymocyte globulin) is administered as part of the conditioning regimen on Days -9, -8, and -7. The dosing is 0.5 mg/kg intravenously over 6 hours on Day -9, followed by 2 mg/kg intravenously over 4 hours on Days -8 and -7. Preparations of anti-thymocyte globulin other than Thymoglobulin are excluded from the protocol.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-003",
+      "label": "Fludarabine",
+      "description": "Fludarabine is administered as part of the conditioning regimen on Days -6, -5, -4, -3, and -2 at a dose of 30 mg/m2 intravenously daily, with dose adjustment for kidney function.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-004",
+      "label": "Cyclophosphamide",
+      "description": "Cyclophosphamide is administered at two different doses during the protocol. During conditioning, it is given at 14.5 mg/kg intravenously daily on Days -6 and -5. Post-transplantation, it is administered at 50 mg/kg intravenously daily on Days 4 and 5. Mesna 10 mg/kg ideal body weight is given 30 minutes before and 3, 6, and 8 hours after the Day 4 and Day 5 cyclophosphamide doses.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-005",
+      "label": "Tacrolimus",
+      "description": "Tacrolimus is started on Day 6 (at least 24 hours after completion of post-transplantation cyclophosphamide) and administered per institutional standards to target a level of 8 to 12 ng/mL. The last dose of pre-transplantation tacrolimus is on Day -4. If tacrolimus is not tolerated, cyclosporine may be substituted. The calcineurin inhibitor is continued at therapeutic doses until at minimum Month 6 (Day 183) or longer per institutional preference.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-006",
+      "label": "Mycophenolate mofetil",
+      "description": "Mycophenolate mofetil (MMF) is administered at 15 mg/kg of actual body weight orally three times daily up to 1 g three times daily (or intravenous equivalent) or an equimolar dose of mycophenolic acid sodium. The last dose of pre-transplantation MMF is on Day -10. The MMF dose starts on Day 6 and is discontinued after the last dose on Day 36, or may continue if active graft-versus-host disease is present.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-007",
+      "label": "Prednisone",
+      "description": "Prednisone 10 mg orally daily is initiated on Day 6 with the last dose on Day 36.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-008",
+      "label": "Filgrastim",
+      "description": "Filgrastim (granulocyte colony-stimulating factor) or a biosimilar is given intravenously or subcutaneously starting on Day 6 at 5 µg/kg/day of actual body weight (rounded to nearest vial size) until the absolute neutrophil count is >1000/µL for 3 days. Additional G-CSF may be administered as warranted. Pegfilgrastim (Neulasta) and granulocyte-macrophage colony-stimulating factor are not permitted.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-009",
+      "label": "Mesna",
+      "description": "Mesna is administered at 10 mg/kg ideal body weight given 30 minutes before and 3, 6, and 8 hours after the Day 4 and Day 5 cyclophosphamide doses as a protective agent.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-010",
+      "label": "Cyclosporine",
+      "description": "Cyclosporine may be substituted for tacrolimus if tacrolimus is not tolerated. It is administered intravenously or orally starting on Day 6 per institutional standards to maintain a level of 200 to 400 ng/mL (high-pressure liquid chromatography method) or 250 to 500 ng/mL (immunoassay method). Recommended starting doses range from 3 to 6 mg/kg/day intravenous bolus dosing every 12 hours or 6 mg/kg/day orally divided twice daily.",
+      "codes": null,
+      "substanceType": null
+    },
+    {
+      "id": "SUB-011",
+      "label": "Sirolimus",
+      "description": "Sirolimus with a target concentration of 10 ng/mL may be substituted for participants intolerant of or experiencing unacceptable toxicity from calcineurin inhibitors.",
+      "codes": null,
+      "substanceType": null
+    }
+  ],
+  "BiomedicalConcept": [
+    {
+      "id": "BC-001",
+      "label": "Graft-versus-Host Disease",
+      "description": "GVHD is considered an adverse event of special interest. Beginning at Day 22 through Day 92, only acute GVHD assessments will be performed. At Day 92 and Day 120, both acute and chronic GVHD assessments will be performed. Beyond Day 120, chronic GVHD assessments will be performed routinely, but acute GVHD also can be assessed as clinically warranted. Grading of GVHD should follow the criteria provided in Appendix 2 for acute GVHD (Harris 2016) and Appendix 3 for chronic GVHD (Jagasia 2015). All Grade ≥2 acute GVHD or moderate to severe chronic GVHD must be reported within 24 hours of site awareness.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-002",
+      "label": "Biopsy-Proven Acute Rejection",
+      "description": "A BPAR is defined as a biopsy result with either T cell-mediated rejection of Banff Grade ≥1A OR acute/active antibody-mediated rejection (local pathology reading according to the Banff 2022 criteria). Renal biopsies will be performed for all cases of suspected acute rejection and at specified protocol visits. Suspicion of acute rejection is deferred to the clinical investigator and local practices. An example would be: an acute and persistent increase in serum creatinine by ≥20% and/or new onset or worsening proteinuria, with other potential causes ruled out.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-003",
+      "label": "Renal Function",
+      "description": "Renal function by estimated eGFR using the CKD-EPI 2021 formula will be derived from local laboratory creatinine values. This will also be the primary method of assessment of renal function with respect to other renal endpoints. The 2021 CKD-EPI Creatinine formula is: 142 × (Scr/A)B × 0.9938age × (1.012 if female), where A and B values differ by gender and serum creatinine levels.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-004",
+      "label": "Graft Loss",
+      "description": "The allograft will be presumed to be lost on the day the participant starts dialysis and is subsequently unable to be removed from dialysis for 56 consecutive days or if the participant is retransplanted. If the participant undergoes allograft nephrectomy prior to starting permanent dialysis, then the day of nephrectomy is the day of graft loss. Graft loss is considered an SAE and should be reported as described in Section 7.4.2.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-005",
+      "label": "Donor Chimerism",
+      "description": "Whole blood and T cell chimerism require a whole blood sample. The proportion of donor chimerism as defined as ≥50% T-cell chimerism will be calculated with 95% CI (exact binomial) for the FAS. The proportion of participants who were successfully able to wean off IS without BPAR or graft loss at Month 15 among those with donor chimerism will be calculated with 95% CI (exact binomial).",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-006",
+      "label": "Donor-Specific Antibodies",
+      "description": "DSA specimens should be drawn and tested locally at the time of any suspected rejection. Specimens for DSA should also be drawn and tested locally at specified protocol visits. The incidence of DSA will be analyzed in the same manner as BPAR. The incidence of de novo DSA is evaluated at Day 183, Month 12, and Month 15.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-007",
+      "label": "BK Virus Infection",
+      "description": "BKV infection monitoring is by local measurement of quantitative viral load by a PCR-based method. BK virus monitoring is performed more frequently than scheduled visits: Weekly through Day 183 (Month 6), every 2 weeks thereafter through Month 12, and every 3 months through Month 15. The incidence of BK viremia, viruria, infection, and nephropathy is evaluated at Day 183, Month 12, and Month 15.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-008",
+      "label": "Cytomegalovirus Infection",
+      "description": "CMV infection monitoring is by local measurement of quantitative viral load by a PCR-based method. CMV monitoring is performed more frequently than scheduled visits: Weekly through Day 183 (Month 6), every 2 weeks thereafter through Month 12, and every 3 months through Month 15. For participants who are IgG (+) for CMV and participants who are IgG (−) for CMV but who received a kidney from a donor who is IgG (+), it is recommended that CMV prophylaxis be provided from Day 1 until Day 92.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-009",
+      "label": "Immunosuppression Status",
+      "description": "A participant will be considered free from IS if they are not currently taking any IS agents and have not taken IS since withdrawal. An exception will be brief use of systemic corticosteroids for no more than 8 weeks (total duration) if administered for an indication other than rejection prophylaxis or treatment (such as newly developed or recurrent autoimmune diseases, asthma, hypersensitivity reactions). The date of discontinuation of the last IS agent will be captured on the relevant CRF.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-010",
+      "label": "Adverse Events",
+      "description": "An AE is any untoward medical occurrence (ie, any unfavorable and unintended sign [including abnormal laboratory findings], symptom, or disease) in a participant or clinical investigation participant after providing written informed consent for participation in the study. Severity will be assessed per the Common Terminology Criteria for Adverse Events (CTCAE) v 6.0 Grade 1 through Grade 5. The investigator must assess the relationship of each AE/SAE with the use of the investigational product IF001.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    },
+    {
+      "id": "BC-011",
+      "label": "Serious Adverse Events",
+      "description": "An SAE is defined as any AE which meets any one of the following criteria: Is fatal, life-threatening, results in persistent or significant disability/incapacity, constitutes a congenital anomaly/birth defect, requires inpatient hospitalization or prolongation of existing hospitalization (with specific exceptions), or is medically significant. All malignant neoplasms will be assessed as serious under 'medically significant' if other seriousness criteria are not met. Hematologic AEs should not be reported as SAEs unless they occur 4 or more weeks after IF001 infusion.",
+      "category": null,
+      "conceptId": null,
+      "dictionary": null,
+      "synonyms": []
+    }
+  ],
+  "BiomedicalConceptCategory": [
+    {
+      "id": "BCC-001",
+      "label": "Normal Biopsy",
+      "description": "Category 1 of Banff 2022 criteria representing normal biopsy or nonspecific changes. Requires exclusion of any diagnosis from the Banff Diagnostic Categories 2-4, 6.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-002",
+      "label": "Active AMR",
+      "description": "Active antibody-mediated rejection requiring all 3 criteria: active lesions of AMR (microvascular inflammation g>0 and/or ptc>0, intimal/transmural arteritis v>0, or acute thrombotic microangiopathy), linear C4d staining or moderate microvascular inflammation or transcript diagnostics, and evidence of circulating donor-specific antibodies to HLA or other antigens.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-003",
+      "label": "Chronic Active AMR",
+      "description": "Chronic active antibody-mediated rejection requiring all 3 criteria: chronic lesions of AMR (transplant glomerulopathy cg>0 or severe peritubular capillary basement membrane multilayering), identical to criterion 2 for active AMR, and identical to criterion 3 for active AMR including strong recommendation for DSA testing.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-004",
+      "label": "Chronic AMR",
+      "description": "Chronic antibody-mediated rejection requiring all 3 criteria: cg>0 and/or severe ptcml, absence of criterion 2 as defined for active and chronic active AMR, and prior documented diagnosis of active or chronic active ABMR and/or documented prior/current evidence of DSA.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-005",
+      "label": "C4d Staining Without Rejection",
+      "description": "C4d staining without evidence of rejection requiring all 4 features: linear C4d staining in peritubular capillaries, criterion 1 for active or chronic active AMR not met, negative biopsy-based transcript diagnostics for AMR/MVI, and no acute or chronic active TCMR or borderline changes.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-006",
+      "label": "MVI DSA-negative C4d-negative",
+      "description": "Microvascular inflammation/injury that is DSA-negative and C4d-negative requiring all 3 criteria: at least moderate microvascular inflammation (g+ptc≥2), no linear C4d staining in peritubular capillaries, and no serologic evidence of circulating donor-specific antibodies to HLA or other antigens.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-007",
+      "label": "Probable AMR",
+      "description": "Probable antibody-mediated rejection requiring all 4 criteria: identical to criterion 1 for active AMR, criterion 1 for chronic active and chronic AMR not met, absence of criterion 2 defined for active and chronic active AMR, and identical to criterion 3 for active AMR but C4d must be negative.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-008",
+      "label": "C4d Staining with ATI",
+      "description": "C4d staining with acute tubular injury requiring all 3 criteria: acute tubular injury is present, linear C4d staining in peritubular capillaries, and criterion 1 for active or chronic active AMR not met.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-009",
+      "label": "Borderline Acute TCMR",
+      "description": "Category 3 suspicious (borderline) for acute T-cell mediated rejection defined as foci of Banff Lesion Score t>0 AND Banff Lesions Score i=1 OR foci of Banff Lesion Score t1 AND Banff Lesion Score i≥2.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-010",
+      "label": "Acute TCMR IA",
+      "description": "Acute T-cell mediated rejection grade IA defined by Banff Lesion Score i≥2 AND Banff Lesion Score t2.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-011",
+      "label": "Acute TCMR IB",
+      "description": "Acute T-cell mediated rejection grade IB defined by Banff Lesion Score i≥2 AND Banff Lesion Score t3.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-012",
+      "label": "Acute TCMR IIA",
+      "description": "Acute T-cell mediated rejection grade IIA defined by Banff Lesion Score v1 regardless of Banff Lesion Scores i or t.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-013",
+      "label": "Acute TCMR IIB",
+      "description": "Acute T-cell mediated rejection grade IIB defined by Banff Lesion Score v2 regardless of Banff Lesion Scores i or t.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-014",
+      "label": "Acute TCMR III",
+      "description": "Acute T-cell mediated rejection grade III defined by Banff Lesion Score v3 regardless of Banff Lesion Scores i or t.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-015",
+      "label": "Chronic Active TCMR IA",
+      "description": "Chronic active T-cell mediated rejection grade IA defined by Banff Lesion Score ti≥2 AND Banff Lesion Score i-IFTA≥2 with other known causes of i-IFTA ruled out AND Banff Lesion Score t2.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-016",
+      "label": "Chronic Active TCMR IB",
+      "description": "Chronic active T-cell mediated rejection grade IB defined by Banff Lesion Score ti≥2 AND Banff Lesion Score i-IFTA≥2 with other known causes of i-IFTA ruled out AND Banff Lesion Score t3.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-017",
+      "label": "Chronic Active TCMR II",
+      "description": "Chronic active T-cell mediated rejection grade II defined by arterial intimal fibrosis with mononuclear cell inflammation in fibrosis and formation of neointima.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-018",
+      "label": "IFTA Grade I",
+      "description": "Interstitial fibrosis and tubular atrophy grade I (mild) defined by Banff Lesion Score ci1 OR Banff Lesion Score ct1.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-019",
+      "label": "IFTA Grade II",
+      "description": "Interstitial fibrosis and tubular atrophy grade II (moderate) defined by Banff Lesion Score ci2 OR Banff Lesion Score ct2.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-020",
+      "label": "IFTA Grade III",
+      "description": "Interstitial fibrosis and tubular atrophy grade III (severe) defined by Banff Lesion Score ci3 OR Banff Lesion Score ct3.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    },
+    {
+      "id": "BCC-021",
+      "label": "Other Changes",
+      "description": "Category 6 other changes not considered to be caused by acute or chronic rejection including polyomavirus nephropathy, posttransplant lymphoproliferative disorder, calcineurin inhibitor toxicity, acute tubular injury, recurrent disease, de novo glomerulopathy (other than TG), pyelonephritis, and drug-induced interstitial nephritis.",
+      "dictionary": "BANFF",
+      "conceptIds": []
+    }
+  ],
+  "Procedure": [
+    {
+      "id": "PRO-001",
+      "name": "Physical Examination",
+      "label": "Physical Examination",
+      "description": "Physical examinations will include Karnofsky performance status, general appearance, head/eyes/ears/nose/throat, lungs, cardiac, abdominal, skin, extremities, lymph nodes, and a neurologic examination. In addition to the protocol-specified times, physical assessments can be made at the investigator's discretion to evaluate symptoms or AEs."
+    },
+    {
+      "id": "PRO-002",
+      "name": "Vital Signs Including Height and Weight",
+      "label": "Vital Signs Assessment",
+      "description": "Vital sign assessments (blood pressure and pulse rate) should be performed by the same study site staff member using the same validated device. Blood pressure and pulse rate will be assessed in the same arm each time after the participant has rested in the sitting position for at least 5 minutes. Systolic and diastolic blood pressure will be measured using an automated validated device with an appropriately sized cuff. The sitting measurements will be repeated at 1- to 2-minute intervals for a total of 3 measurements. Participants should be weighed without shoes or coat using the same scale. Height (without shoes) will be measured only at the first screening visit."
+    },
+    {
+      "id": "PRO-003",
+      "name": "Electrocardiogram",
+      "label": "12-lead ECG",
+      "description": "A 12-lead electrocardiogram will be conducted at screening for all participants."
+    },
+    {
+      "id": "PRO-004",
+      "name": "Pulmonary Function Tests",
+      "label": "Pulmonary Function Tests",
+      "description": "Pulmonary function tests including FEV1 and FVC will be conducted at screening for all participants."
+    },
+    {
+      "id": "PRO-005",
+      "name": "Laboratory Assessments",
+      "label": "Laboratory Assessments",
+      "description": "Local and central laboratories will be used for analysis of specimens collected as described in the schedules of assessments. Clinical laboratory tests can also be performed as medically indicated. Clinical laboratory assessments include complete blood count with white blood cell differential, comprehensive metabolic panel, infectious disease screening, pregnancy testing, viral load monitoring, vaccine antibody titers, urinalysis, HLA typing, donor-specific antibody testing, ABO blood typing and Rh factor, donor whole blood and blood T cell chimerism, tacrolimus levels, immunoglobulins, and HAMA sample."
+    },
+    {
+      "id": "PRO-006",
+      "name": "GVHD Assessment",
+      "label": "GVHD Assessment",
+      "description": "Beginning at Day 22 through Day 92, only acute GVHD assessments will be performed. At Day 92 and Day 120, both acute and chronic GVHD assessments will be performed. Beyond Day 120, chronic GVHD assessments will be performed routinely, but acute GVHD also can be assessed as clinically warranted. If acute or chronic GVHD is suspected or detected at any time between visits, regardless of location or grade, appropriate GVHD assessment must be performed at an unscheduled visit. Sites should supplement with weekly telephone contact through Day 183. Grading of GVHD should follow the criteria provided in Appendix 2 for acute GVHD and Appendix 3 for chronic GVHD."
+    },
+    {
+      "id": "PRO-007",
+      "name": "Renal Allograft Biopsy",
+      "label": "Kidney Biopsy",
+      "description": "Kidney allograft protocol biopsies are to be performed and analyzed centrally at Day 160 and at Month 15. Site-specific protocol/surveillance biopsies without suspicion of acute rejection are prohibited. Biopsies will be read by the local pathologist according to the updated Banff 2022 criteria and the results recorded on the relevant CRF. The local results will be used for the management of acute rejection. Central pathology diagnosis will be used for analysis of efficacy endpoints. Renal biopsies will be performed for all cases of suspected acute rejection and at specified protocol visits."
+    },
+    {
+      "id": "PRO-008",
+      "name": "Patient-Reported Outcome Measures",
+      "label": "PRO Assessments",
+      "description": "The impact of IF001 on the participants' quality of life will be assessed by the 36-Item Short Form Health Survey (SF-36) and the End-Stage Renal Disease Symptom Checklist (ESRD-SCL). The questionnaires should be completed by participants at the clinic before seeing the study physician. Participants should be given sufficient instruction, space, time, and privacy to complete the questionnaire. Study staff should check the questionnaire responses for completeness and encourage the participant to provide any missing responses. The responses from the paper questionnaire will be entered into the CRF by study staff."
+    },
+    {
+      "id": "PRO-009",
+      "name": "Revaccination",
+      "label": "Revaccination",
+      "description": "The recommendations for vaccination after allogeneic HCT are based on the guidelines of the Infectious Disease Society of America and are summarized in Appendix 1."
+    },
+    {
+      "id": "PRO-010",
+      "name": "Obtaining Informed Consent",
+      "label": "Informed Consent",
+      "description": "Signed informed consent will be obtained from the participant before any study procedures are undertaken. Details regarding the informed consent process and documentation are provided in Section 13.2."
+    }
+  ],
+  "analysisPopulation": [
+    {
+      "id": "AP-001",
+      "label": "Full Analysis Set",
+      "description": "The FAS consists of all participants who initiate the conditioning regimen. This set will include follow-up until Month 15. The FAS will be used as the efficacy analysis set to evaluate both primary and secondary efficacy endpoints of participants. The FAS will be used for all participant safety analyses, unless otherwise specified.",
+      "condition": null,
+      "dataSubsets": []
+    },
+    {
+      "id": "AP-002",
+      "label": "Per Protocol Analysis Set",
+      "description": "The PPAS consists of all participants in the FAS who complete the IF001 infusion, comply with treatment and follow-up as described in the protocol, and either meet an endpoint or complete the 15-month treatment period with no major protocol deviations. All efficacy and safety endpoints will also be performed using the PPAS.",
+      "condition": null,
+      "dataSubsets": []
+    },
+    {
+      "id": "AP-003",
+      "label": "Extended Analysis Set",
+      "description": "The EAS consists of all participants who have at least one visit between Month >15 and Month 24. The EAS will be used for secondary extended follow-up analyses. The EAS will be summarized for Month >15 to Month 24.",
+      "condition": null,
+      "dataSubsets": []
+    }
+  ],
+  "Organization": [
+    {
+      "id": "ORG-001",
+      "name": "ImmunoFree, Inc.",
+      "label": "Sponsor",
+      "description": "ImmunoFree, Inc. is the sponsor company for this Phase 2 clinical study. The company is developing IF001, an investigational cryopreserved allogeneic somatic cell therapy derived from donor mobilized peripheral blood mononuclear cells for kidney transplant recipients.",
+      "organizationType": {
+        "code": "C70793",
+        "codeSystem": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "codeSystemVersion": "22.03d",
+        "decode": "Sponsor"
+      },
+      "legalAddress": null,
+      "identifiers": []
+    },
+    {
+      "id": "ORG-002",
+      "name": "Emmes",
+      "label": "Data Management CRO",
+      "description": "Emmes is contracted by the sponsor to manage the Advantage eClinical data system being used for this study. They are responsible for the electronic data capture system, training requirements for Principal Investigators and site staff, and maintaining the master database for study forms and data integration.",
+      "organizationType": {
+        "code": "C93452",
+        "codeSystem": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "codeSystemVersion": "22.03d",
+        "decode": "Contract Research Organization"
+      },
+      "legalAddress": null,
+      "identifiers": []
+    },
+    {
+      "id": "ORG-003",
+      "name": "National Marrow Donor Program",
+      "label": "NMDP",
+      "description": "The National Marrow Donor Program (NMDP) has been contracted by the sponsor to manage the donation process and donor follow-up. Donors will undergo stem cell mobilization, stem cell collection, and follow-up according to NMDP standard procedures. The NMDP criteria for stem cell transplantation must be met for all donors.",
+      "organizationType": {
+        "code": "C93452",
+        "codeSystem": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "codeSystemVersion": "22.03d",
+        "decode": "Contract Research Organization"
+      },
+      "legalAddress": null,
+      "identifiers": []
+    },
+    {
+      "id": "ORG-004",
+      "name": "Center for International Blood and Marrow Transplant Research",
+      "label": "CIBMTR",
+      "description": "The Center for International Blood and Marrow Transplant Research (CIBMTR) is a registry organization. Centers participating in this study must register pre- and post-HCT outcomes to the CIBMTR using procedures and forms of the Stem Cell Transplant Outcomes Database. Federal legislation requires submission of these forms for all United States allotransplant recipients.",
+      "organizationType": {
+        "code": "C19206",
+        "codeSystem": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "codeSystemVersion": "22.03d",
+        "decode": "Registry"
+      },
+      "legalAddress": null,
+      "identifiers": []
+    }
+  ],
+  "studyRole": [
+    {
+      "id": "STR-001",
+      "name": "Principal Investigator",
+      "label": "Principal Investigator",
+      "description": "The Principal Investigator must maintain all documentation relating to the study for a period of 2 years after the last marketing application approval, or if not approved, 2 years following the discontinuance of the test article for investigation. The Principal Investigator and at least 2 staff from each site will need to complete training requirements and obtain access to the electronic data capture system. The investigator must maintain source documents for each participant in the study and keep all original informed consent documents signed by the participant.",
+      "sponsorOrganizationId": null,
+      "organizationIds": []
+    },
+    {
+      "id": "STR-002",
+      "name": "Clinical Research Associate",
+      "label": "Clinical Research Associate",
+      "description": "The Clinical Research Associate (CRA) will visit the site to check the completeness of participant records, the accuracy of entries on the CRFs, the adherence to the protocol, and to GCP, the progress of enrollment, and to ensure that investigational product is being stored, administered, and accounted for according to specifications. The CRA must have access to all relevant source documents to confirm their consistency with the CRF entries. The monitor will be available between visits if the investigator(s) or other staff need information or advice.",
+      "sponsorOrganizationId": null,
+      "organizationIds": []
+    },
+    {
+      "id": "STR-003",
+      "name": "Medical Monitor",
+      "label": "Medical Monitor",
+      "description": "At the investigator's discretion and following discussion with the Medical Monitor, an extension of screening may be granted under extenuating circumstances such as a death in the family or serious illness.",
+      "sponsorOrganizationId": null,
+      "organizationIds": []
+    },
+    {
+      "id": "STR-004",
+      "name": "Emmes Staff",
+      "label": "Emmes Staff",
+      "description": "The data system being used for this study is Advantage eClinical managed by Emmes, contracted by the sponsor. A missing form will continue to be requested either until the form is entered into Advantage eClinical and integrated into the master database at Emmes, or until an exception is granted by Emmes staff and entered into the Missing Form Exception File.",
+      "sponsorOrganizationId": null,
+      "organizationIds": []
+    }
+  ],
+  "studySite": [
+    {
+      "id": "SITE-001",
+      "label": "Multiple US Centers",
+      "description": "This is a multicenter study conducted at multiple centers in the United States. The study will enroll 15 participants across these centers, with no more than 6 who are HLA-matched, to meet a target of 12 participants with complete follow-up. Each study center must meet clinical site criteria for stem cell transplantation, and all participants must meet the clinical site criteria for stem cell transplantation. The sponsor has contracted with the National Marrow Donor Program (NMDP) to manage the donation process and donor follow-up at participating sites.",
+      "name": "Multiple centers in the United States",
+      "address": null,
+      "organization": null
+    }
+  ],
+  "GeographicScope": {
+    "id": "GEO-001",
+    "name": "United States",
+    "type": "Country",
+    "code": "US",
+    "description": "Study IF001-CL201 is a Phase 2, multicenter, open-label, single-arm proof-of-concept study conducted at multiple centers in the United States. The study will enroll 15 participants to demonstrate the safety and efficacy of IF001 in adult participants 3 to 62 months following transplantation of a kidney from a living donor. The sponsor has contracted with the National Marrow Donor Program (NMDP) to manage the donation process and donor follow-up. Federal legislation requires submission of CIBMTR forms for all United States allotransplant recipients. Centers participating in this study must register pre- and post-HCT outcomes to the CIBMTR using procedures and forms of the Stem Cell Transplant Outcomes Database."
+  },
+  "narrativeContent": [
+    {
+      "id": "NAR-001",
+      "name": "Data Collection System",
+      "description": "The data system being used for this study is Advantage eClinical® managed by Emmes, contracted by the sponsor. The Principal Investigator and at least 2 staff from each site will need to complete training requirements and obtain access to this electronic data capture system.",
+      "sectionNumber": "11.1",
+      "sectionTitle": "Data System"
+    },
+    {
+      "id": "NAR-002",
+      "name": "Case Report Forms Submission Criteria",
+      "description": "Criteria for timeliness of submission for all study forms are detailed in the eCRF Completion Guide and Advantage eClinical User's Guide. Forms that are not entered into Advantage eClinical within the specified time will be considered delinquent. A missing form will continue to be requested either until the form is entered into Advantage eClinical and integrated into the master database at Emmes, or until an exception is granted by Emmes staff and entered into the Missing Form Exception File.",
+      "sectionNumber": "11.2.1",
+      "sectionTitle": "Criteria for Forms Submission"
+    },
+    {
+      "id": "NAR-003",
+      "name": "Participant Death Reporting",
+      "description": "Participant death information must be entered into Advantage eClinical within 24 business hours of knowledge of the participant's death. If the cause of death is unknown at that time, it does not need to be recorded at that time. However, once the cause of death is determined, the Death Form must be updated in Advantage eClinical.",
+      "sectionNumber": "11.2.2",
+      "sectionTitle": "Reporting Participant Deaths"
+    },
+    {
+      "id": "NAR-004",
+      "name": "CIBMTR Data Reporting",
+      "description": "Centers participating in this study must register pre- and post-HCT outcomes to the CIBMTR. Registration is done using procedures and forms of the Stem Cell Transplant Outcomes Database. Federal legislation requires submission of these forms for all United States allotransplant recipients. The CIBMTR forms will be submitted directly to the CIBMTR through routine CIBMTR mechanisms.",
+      "sectionNumber": "11.2.3",
+      "sectionTitle": "Center for International Blood and Marrow Transplant Research Data Reporting"
+    },
+    {
+      "id": "NAR-005",
+      "name": "Primary Safety Objective",
+      "description": "Determine the safety and tolerability of IF001 in previously transplanted recipients of a kidney from a living donor.",
+      "sectionNumber": "2.1",
+      "sectionTitle": "Primary Objectives"
+    },
+    {
+      "id": "NAR-006",
+      "name": "Primary Efficacy Objective",
+      "description": "Evaluate the efficacy of IF001 in preventing graft loss and BPAR following removal of pharmacologic IS.",
+      "sectionNumber": "2.1",
+      "sectionTitle": "Primary Objectives"
+    },
+    {
+      "id": "NAR-007",
+      "name": "Secondary Safety Objectives",
+      "description": "Characterize the incidence and grade of acute GVHD by Day 120 and severity of chronic GVHD by one-year post-IF001 infusion. Characterize the incidence of BK viremia, viruria, infection, and nephropathy by 15 months post-IF001 infusion. Characterize the incidence of proteinuria, neurotoxicity, anemia, diabetes, hypertension, dyslipidemia, major adverse cardiovascular events, and malignancies. Describe the time from IF001 infusion to neutrophil recovery (>500/µL) and platelet recovery (>20K/µL), the number of blood component transfusions, the incidence of engraftment syndrome, the incidence of primary and secondary hematopoietic graft failure, and the incidence and severity of bacterial, fungal, and viral infections.",
+      "sectionNumber": "2.2",
+      "sectionTitle": "Secondary Objectives"
+    },
+    {
+      "id": "NAR-008",
+      "name": "Secondary Efficacy Objectives",
+      "description": "Evaluate changes in renal function (eGFR by CKD-EPI 2021) from Day −9, prior to the first dose of transplantation conditioning, to Month 15. Evaluate the time to the event for the composite of BPAR, graft loss, death, or lost to follow-up and each component. Describe the correlation of donor chimerism with meeting the primary efficacy endpoint, the incidence of donor chimerism (> 50% T cell) and the level of chimerism by visit, and change in participant-perceived quality of life. Evaluate outcomes in participants who are only transiently chimeric and evaluate the incidence of acute rejection, death, renal graft loss, and lost to follow-up in participants who did not achieve durable chimerism.",
+      "sectionNumber": "2.2",
+      "sectionTitle": "Secondary Objectives"
+    },
+    {
+      "id": "NAR-009",
+      "name": "Data Quality Assurance",
+      "description": "Sponsor staff and/or its designee review the data entered in the CRFs by investigational site staff for completeness and accuracy and instruct the site personnel to make any required corrections or additions. Site staff are required to respond to any queries received and confirm or correct the data. Concomitant medications will be coded using the World Health Organization Drug Reference List with Anatomical Therapeutic Chemical classification system. Concomitant procedures, non-drug therapies, and AEs will be coded using MedDRA terminology. Results from laboratory samples tested centrally will be sent electronically to the sponsor.",
+      "sectionNumber": "12.1",
+      "sectionTitle": "Data Quality Assurance"
+    },
+    {
+      "id": "NAR-010",
+      "name": "Protocol Adherence",
+      "description": "This protocol defines the study objectives, the study procedures, and the data to be collected on study participants. Additional assessments required to ensure safety of participants should be conducted if considered necessary on a case-by-case basis. Investigators ascertain they will apply due diligence to avoid protocol deviations; all significant deviations will be recorded and reported in the clinical study report. If an investigator believes that a protocol deviation would improve the conduct of the study for safety reasons, this must be considered a protocol amendment.",
+      "sectionNumber": "12.2",
+      "sectionTitle": "Protocol Adherence"
+    },
+    {
+      "id": "NAR-011",
+      "name": "Protocol Amendments",
+      "description": "Any change or addition to the protocol can only be made in a written protocol amendment that must be approved by the sponsor and the IRB prior to implementation. Only amendments that are intended to eliminate an apparent immediate hazard to participants can be implemented immediately, provided health authorities are subsequently notified by protocol amendment and the reviewing IRB is notified. The investigator is expected to take any immediate action required for the safety of any participant in this study, even if the action represents a deviation from the protocol.",
+      "sectionNumber": "12.3",
+      "sectionTitle": "Protocol Amendments"
+    },
+    {
+      "id": "NAR-012",
+      "name": "Ethics Compliance",
+      "description": "This clinical study was designed and will be implemented and reported in accordance with ethical principles that have their origin in the Declaration of Helsinki, International Conference on Harmonization GCP, and all applicable regulatory requirements.",
+      "sectionNumber": "13",
+      "sectionTitle": "Ethics"
+    },
+    {
+      "id": "NAR-013",
+      "name": "Institutional Review Board",
+      "description": "Before the study starts, the investigator and institution must obtain IRB approval for the protocol, ICF, recruitment materials and procedures, and any other written information provided to potential participants. Written IRB approval must be submitted to the sponsor prior to enrolling a participant into the study. The Principal Investigator must sign the Investigator's Agreement and is responsible for informing the IRB any amendment to the protocol in accordance with local requirements. The protocol must be re-approved by the IRB upon receipt of amendments and annually, as local regulations require.",
+      "sectionNumber": "13.1",
+      "sectionTitle": "Institutional Review Board"
+    },
+    {
+      "id": "NAR-014",
+      "name": "Informed Consent",
+      "description": "The Principal Investigator will ensure that the patient is given full and adequate oral and written information about the nature, purpose, and possible risks and benefits of the study. Patients must also be notified that they are free to discontinue from the study at any time. Women of childbearing potential should be informed that the study treatment may involve unknown risks to the fetus if pregnancy were to occur during the study and agree to adhere to the contraception requirement. The participant's signed and dated informed consent must be obtained before conducting any study procedures. Donor informed consent will be obtained by the NMDP.",
+      "sectionNumber": "13.2",
+      "sectionTitle": "Informed Consent"
+    },
+    {
+      "id": "NAR-015",
+      "name": "Participant and Data Confidentiality",
+      "description": "After the ICF has been signed, each participant will be assigned a unique identifier. To ensure confidentiality of records and personal data of participants, any participant records or datasets transferred to the sponsor will only include the identifier. The names of participants or any information that would make the participant identifiable will not be transferred. The participant must be informed that his/her personal study-related data will be used by the sponsor in accordance with local data protection law and that his/her medical records may be examined by research quality assurance auditors or other authorized personnel appointed by the sponsor, by appropriate IRB members, and by inspectors from regulatory authorities.",
+      "sectionNumber": "13.3",
+      "sectionTitle": "Participant and Data Confidentiality"
+    },
+    {
+      "id": "NAR-016",
+      "name": "Inspection of Records",
+      "description": "The sponsor will be allowed to conduct site visits to the investigation facilities for the purpose of monitoring any aspect of the study. The investigator agrees to allow the monitor to inspect the investigational product storage area and accountability records, participant charts, study source documents, and other records relative to study conduct.",
+      "sectionNumber": "10.1",
+      "sectionTitle": "Inspection of Records"
+    },
+    {
+      "id": "NAR-017",
+      "name": "Site Monitoring",
+      "description": "Before the study starts, at a site initiation visit or at an investigator's meeting, a sponsor representative and/or designee will review the protocol and CRFs with the investigators and their staff. During the study, the sponsor will ensure compliance with the protocol and Good Clinical Practice as well as the quality and integrity of the data at each site. The Clinical Research Associate will visit the site to check the completeness of participant records, the accuracy of entries on the CRFs, the adherence to the protocol, and to GCP, the progress of enrollment, and to ensure that investigational product is being stored, administered, and accounted for according to specifications.",
+      "sectionNumber": "10.2",
+      "sectionTitle": "Site Monitoring"
+    },
+    {
+      "id": "NAR-018",
+      "name": "Study Completion and Site Closure",
+      "description": "Upon completion of the study, the monitor will conduct the following activities in conjunction with the investigator or study site personnel: return of all study data to the sponsor, data queries, accountability and reconciliation of investigational product, review of study records for completeness, and reconciliation of Investigator Site File and Trial Master File.",
+      "sectionNumber": "10.2.1",
+      "sectionTitle": "Study Completion and Site Closure"
+    },
+    {
+      "id": "NAR-019",
+      "name": "Access to Information for Audits and Inspections",
+      "description": "Authorized representatives of the sponsor, a regulatory authority, or an IRB may visit the site to perform audits or inspections, including source data verification. The purpose of a sponsor audit or inspection is to systematically and independently examine all study-related activities and documents to determine whether these activities were conducted, and data were recorded, analyzed, and accurately reported according to the protocol, GCP, and any applicable regulatory requirements. The investigator should contact the sponsor immediately if contacted by a regulatory agency about an inspection.",
+      "sectionNumber": "10.3",
+      "sectionTitle": "Access to Information for Audits and Inspections"
+    },
+    {
+      "id": "NAR-020",
+      "name": "Retention of Records",
+      "description": "The Principal Investigator must maintain all documentation relating to the study for a period of 2 years after the last marketing application approval, or if not approved, 2 years following the discontinuance of the test article for investigation. If it becomes necessary for the sponsor or a regulatory authority to review any documentation relating to the study, the investigator must permit access to such records.",
+      "sectionNumber": "10.4",
+      "sectionTitle": "Retention of Records"
+    },
+    {
+      "id": "NAR-021",
+      "name": "Publication and Data Sharing Policy",
+      "description": "No data collected as part of the study will be utilized in any written work, including publications, without the written consent of the sponsor. The sponsor will post key design elements of this protocol in a publicly accessible database such as clinicaltrials.gov. Upon study completion and finalization of the study report, the results of the trial will be either submitted for publication and/or posted in a publicly accessible database of clinical trial results.",
+      "sectionNumber": "10.5",
+      "sectionTitle": "Publication and Data Sharing Policy"
+    }
+  ],
+  "statisticalAnalysis": {
+    "id": "STA-001",
+    "name": "Primary and Secondary Statistical Analysis",
+    "label": "Statistical Analysis Plan",
+    "description": "Statistical methods were not taken into consideration in determining the sample size. The primary efficacy endpoint will be summarized using a point estimate along with its 95% confidence interval (CI) (exact binomial). Participants who are not free from IS at Month 15 or having BPAR, or graft loss, or death will be considered non-responders. The key secondary efficacy variable is the change in renal function (eGFR by CKD-EPI 2021), from baseline (Day −9, prior to the first dose of transplantation conditioning) to Month 15. Because this is a proof-of-concept study, no hypothesis tests will be conducted on the key secondary efficacy endpoint. Categorical endpoints will be summarized using counts and proportions. Endpoints with continuous variables will be summarized descriptively (non-missing values, means, standard deviations, medians, 25% and 75% quartiles, minimums, and maximums).",
+    "primaryModel": "Descriptive statistics with 95% confidence intervals (exact binomial)",
+    "analysisSet": "Full Analysis Set (FAS)",
+    "sampleSizeJustification": {
+      "id": "SSJ-001",
+      "plannedEnrollment": 15,
+      "dropoutRate": 0.2,
+      "assumptions": [
+        {
+          "id": "ASS-001",
+          "parameter": "Dropout rate",
+          "value": "20",
+          "unit": "percent",
+          "timepoint": null,
+          "effectSize": null,
+          "source": "Empirically determined"
+        }
+      ],
+      "powerEstimates": []
+    }
+  },
+  "concomitantMedications": {
+    "id": "CONMED-001",
+    "name": "Concomitant Medications",
+    "label": "Study Concomitant Medications",
+    "description": "All medications, procedures, and significant non-drug therapies administered after the participant has signed the study informed consent form will be recorded on the relevant case report form. The investigator should instruct the participant to notify the study site about any new medications, including non-prescription supplements, taken after study enrollment. Concomitant medications entered into the database will be coded using the World Health Organization Drug Reference List, which employs the Anatomical Therapeutic Chemical classification system.",
+    "generalWashoutRule": null,
+    "permitted": [
+      {
+        "id": "PERM-001",
+        "name": "Bacterial Prophylaxis",
+        "description": "Bacterial prophylaxis must be provided at least from Day 1 until the absolute neutrophil count (ANC) is >500 cells/µL. Specific antibacterials may be given according to center practice. An example is moxifloxacin 400 mg per day.",
+        "condition": "From Day 1 until ANC >500 cells/µL"
+      },
+      {
+        "id": "PERM-002",
+        "name": "Fungal Prophylaxis",
+        "description": "Fungal prophylaxis must be provided from Day 1 until the ANC is >500 cells/µL. Specific antifungals may be given according to center practice and investigator judgement but must include coverage of molds such as Aspergillus. An example is posaconazole 300 mg daily.",
+        "condition": "From Day 1 until ANC >500 cells/µL"
+      },
+      {
+        "id": "PERM-003",
+        "name": "Viral Prophylaxis",
+        "description": "Herpes simplex virus and varicella zoster virus prophylaxis must be provided from Day 1 until Day 183 and is recommended until Month 12. Specific antivirals may be given according to center practice and investigator judgement. An example is valacyclovir 500 mg twice a day. For participants who are immunoglobulin G (IgG) (+) for CMV and participants who are IgG (−) for CMV but who received a kidney from a donor who is IgG (+), it is recommended that CMV prophylaxis be provided from Day 1 until Day 92. An example is letermovir 480 mg once daily.",
+        "condition": "From Day 1 until Day 183 (recommended until Month 12)"
+      },
+      {
+        "id": "PERM-004",
+        "name": "Pneumocystis Prophylaxis",
+        "description": "Pneumocystis prophylaxis (Pneumocystis jirovecii pneumonia/pneumocystis carinii pneumonia) must be provided starting on Day 22 or after the ANC is >500 cells/µL, whichever occurs later. If the CD4 count at the Day 183 visit is >200 cells/µL, the pneumocystis prophylaxis may be discontinued. If the CD4 count is ≤ 200 cells/µL, the agent should be continued until the CD4 count check at Month 12. Trimethoprim/sulfamethoxazole 1 single strength tablet daily is the preferred example, with atovaquone 1500 mg once daily or dapsone 100 mg once daily as alternatives.",
+        "condition": "Starting Day 22 or after ANC >500 cells/µL, whichever occurs later"
+      },
+      {
+        "id": "PERM-005",
+        "name": "Premedication for IF001 Infusion",
+        "description": "Premedication with corticosteroids (100 mg hydrocortisone), diphenhydramine, and acetaminophen should be performed as prophylaxis against adverse infusion-related side effects per institutional guidelines.",
+        "condition": "Prior to IF001 infusion"
+      },
+      {
+        "id": "PERM-006",
+        "name": "Infusion Reaction Management",
+        "description": "If nausea and/or headache is reported by the recipient due to DMSO, reduce the rate of infusion and administer ondansetron and/or diphenhydramine (if indicated). Wait 10-15 minutes before thawing and infusing subsequent bags of donor cells.",
+        "condition": "During IF001 infusion if reactions occur"
+      },
+      {
+        "id": "PERM-007",
+        "name": "Brief Systemic Corticosteroids",
+        "description": "Brief use of systemic corticosteroids for no more than 8 weeks (total duration) if administered for an indication other than rejection prophylaxis or treatment (such as newly developed or recurrent autoimmune diseases, asthma, hypersensitivity reactions).",
+        "condition": "For indications other than rejection prophylaxis or treatment, maximum 8 weeks total duration"
+      }
+    ],
+    "taperedBeforeBaseline": [],
+    "suspendedBeforeDosing": [],
+    "prohibited": [
+      {
+        "id": "PROH-001",
+        "name": "Non-Thymoglobulin ATG Preparations",
+        "description": "Preparations of anti-thymocyte globulin (ATG) other than Thymoglobulin are excluded from the conditioning regimen and are not permitted during the study.",
+        "washoutRule": null
+      },
+      {
+        "id": "PROH-002",
+        "name": "Pegfilgrastim (Neulasta)",
+        "description": "Pegfilgrastim (Neulasta®) is not permitted during the study. Filgrastim (G-CSF) or a biosimilar should be used instead for granulocyte colony-stimulating factor support.",
+        "washoutRule": null
+      },
+      {
+        "id": "PROH-003",
+        "name": "Granulocyte-macrophage-CSF",
+        "description": "Granulocyte-macrophage-CSF is not permitted during the study. Filgrastim (G-CSF) or a biosimilar should be used instead for granulocyte colony-stimulating factor support.",
+        "washoutRule": null
+      }
+    ]
+  },
+  "dataMonitoringCommittee": {
+    "id": "DMC-001",
+    "name": "Data Safety Monitoring Board",
+    "label": "DSMB",
+    "description": "An independent data safety monitoring board (DSMB) will be instituted at study initiation to advise the sponsor and investigators on matters relating to the safety and conduct of the study. The DSMB will be governed by a charter that includes meeting frequency, stopping rules, and event triggers necessitating unscheduled reviews. The DSMB will oversee the safety and risk/benefit of the study and follow stopping rules as defined in the DSMB Charter. Further enrollment will be temporarily halted for full DSMB safety assessment if specific safety thresholds are met, including severe acute GVHD in participants, BPAR events, Grade 3-4 infusion reactions, prolonged neutropenia, organ toxicity, or any death or graft loss. The DSMB will critically assess the background and clinical course of events leading to study temporary halt as soon as possible.",
+    "type": "Independent",
+    "mandate": "Advise the sponsor and investigators on matters relating to the safety and conduct of the study",
+    "composition": null,
+    "charter": "A charter that will include meeting frequency, stopping rules, and event triggers necessitating an unscheduled review",
+    "reviewFrequency": null
+  },
+  "documentClassification": {
+    "id": "DOC-001",
+    "confidentialityLevel": "Confidential",
+    "label": "Protocol Document",
+    "notes": "Document marked as 'Confidential DRAFT 17 Sept 2025' throughout the protocol pages. This is Protocol Number IF001-CL201 for Investigational Product IF001, Protocol Version 1.0."
+  },
+  "labValueThresholds": [
+    {
+      "id": "LVT-001",
+      "name": "ANC Recovery Threshold",
+      "label": "ANC >500 cells/µL",
+      "test": "Absolute neutrophil count",
+      "excludeIfValue": null,
+      "includeIfValue": ">500 cells/µL",
+      "recordIfValue": null,
+      "interpretation": "Threshold for discontinuing bacterial and fungal prophylaxis",
+      "linkedCriterionId": null
+    },
+    {
+      "id": "LVT-002",
+      "name": "ANC Complete Recovery Threshold",
+      "label": "ANC >1000 cells/µL for 3 days",
+      "test": "Absolute neutrophil count",
+      "excludeIfValue": null,
+      "includeIfValue": ">1000 cells/µL for 3 days",
+      "recordIfValue": null,
+      "interpretation": "Threshold for discontinuing filgrastim (G-CSF) administration and daily tacrolimus level monitoring",
+      "linkedCriterionId": null
+    },
+    {
+      "id": "LVT-003",
+      "name": "Creatinine Increase Threshold",
+      "label": "Serum creatinine ≥20% increase",
+      "test": "Serum creatinine",
+      "excludeIfValue": null,
+      "includeIfValue": null,
+      "recordIfValue": "≥20% increase",
+      "interpretation": "Acute and persistent increase in serum creatinine by ≥20% may indicate suspected acute rejection when other potential causes are ruled out",
+      "linkedCriterionId": null
+    }
+  ],
+  "cellTherapyManufacturing": [
+    {
+      "id": "CTM-001",
+      "name": "IF001 Cell Therapy Manufacturing",
+      "label": "IF001 Manufacturing Process",
+      "description": "IF001 is an investigational cell therapy product containing defined doses of CD34+ hematopoietic stem cells and alpha/beta positive T-cell receptor (αβ TCR) cells for induction of transplantation tolerance in recipients of kidney transplants from the same donor. The cryopreserved product contains a minimum of 3 million CD34+ cells per kg of recipient IBW (no maximum) and a target of 10 million αβ TCR cells per kg of recipient IBW (range 8-12 million per kg). Freshly harvested donor stem cells are immediately transported to the manufacturing center where the IF001 product is manufactured, cryopreserved, and stored prior to shipping to the study center for thawing and infusion into the participant. The IF001 product must pass applicable release criteria and is shipped frozen to the treating center prior to Day −9.",
+      "productId": "IF001",
+      "productName": "IF001",
+      "collectionProcedure": "granulocyte colony-stimulating factor (G-CSF) mobilization and apheresis",
+      "collectionTiming": "The same living kidney donor will undergo G-CSF mobilization and apheresis to generate the IF001 product",
+      "collectionArms": [],
+      "targetAntigen": null,
+      "vectorType": null,
+      "minimumStemCellYield": "minimum of 3 million CD34+ cells per kg of recipient IBW",
+      "manufacturingNotes": "Donors will undergo stem cell mobilization, stem cell collection, and follow-up according to NMDP standard procedures. The sponsor has contracted with the National Marrow Donor Program (NMDP) to manage the donation process and donor follow-up."
+    }
+  ],
+  "lymphodepletingChemotherapy": [
+    {
+      "id": "LDC-001",
+      "name": "Thymoglobulin",
+      "label": "Anti-thymocyte globulin",
+      "description": "Thymoglobulin (anti-thymocyte globulin) is administered as part of the reduced intensity conditioning regimen. Given on Days -9 (0.5 mg/kg intravenously over 6 hours), -8 (2 mg/kg IV over 4 hours), and -7 (2 mg/kg IV over 4 hours). Preparations of anti-thymocyte globulin other than Thymoglobulin are excluded from the study protocol.",
+      "applicableArms": [],
+      "timing": "Days -9, -8, -7",
+      "agents": [
+        {
+          "id": "AGT-001",
+          "interventionId": null,
+          "name": "Thymoglobulin",
+          "dose": "0.5 mg/kg on Day -9, 2 mg/kg on Days -8 and -7",
+          "frequency": "Once daily",
+          "durationDays": 3
+        }
+      ]
+    },
+    {
+      "id": "LDC-002",
+      "name": "Fludarabine",
+      "label": "Fludarabine conditioning",
+      "description": "Fludarabine is administered on Days -6, -5, -4, -3 and -2 at 30 mg/m2 IV daily, with dose adjusted for kidney function. Dosed on body surface area based upon recipient's actual body weight if <125% of IBW. For participants >125% of IBW, dosed on adjusted IBW. For participants with estimated or measured creatinine clearance <70 mL/min/1.73 m2, prior brain radiation, or prior intrathecal chemotherapy, the dose should be reduced by 20%.",
+      "applicableArms": [],
+      "timing": "Days -6 through -2",
+      "agents": [
+        {
+          "id": "AGT-002",
+          "interventionId": null,
+          "name": "Fludarabine",
+          "dose": "30 mg/m2 IV daily (dose adjusted for kidney function)",
+          "frequency": "Once daily",
+          "durationDays": 5
+        }
+      ]
+    },
+    {
+      "id": "LDC-003",
+      "name": "Pre-transplantation Cyclophosphamide",
+      "label": "Pre-transplant cyclophosphamide",
+      "description": "Pre-transplantation cyclophosphamide is administered on Day -6 and Day -5 at 14.5 mg/kg IV daily as a 1- to 2-hour infusion. The total dose received is 29 mg/kg over the two days. This is part of the reduced intensity conditioning regimen administered prior to IF001 infusion.",
+      "applicableArms": [],
+      "timing": "Days -6, -5",
+      "agents": [
+        {
+          "id": "AGT-003",
+          "interventionId": null,
+          "name": "Cyclophosphamide",
+          "dose": "14.5 mg/kg IV daily",
+          "frequency": "Once daily",
+          "durationDays": 2
+        }
+      ]
+    },
+    {
+      "id": "LDC-004",
+      "name": "Total Body Irradiation",
+      "label": "TBI conditioning",
+      "description": "A single fraction of total body irradiation (TBI) treatment is administered on Day -1. The dose is 200 cGy for the HLA-matched cohort and 400 cGy for the partially HLA-matched cohort. This is the final component of the reduced intensity conditioning regimen before IF001 infusion on Day 1.",
+      "applicableArms": [],
+      "timing": "Day -1",
+      "agents": [
+        {
+          "id": "AGT-004",
+          "interventionId": null,
+          "name": "Total Body Irradiation",
+          "dose": "200 cGy (HLA-matched) or 400 cGy (partially HLA-matched)",
+          "frequency": "Single fraction",
+          "durationDays": 1
+        }
+      ]
+    }
+  ],
+  "immuneMediatedToxicityMonitoring": [
+    {
+      "id": "IMT-001",
+      "name": "Acute GVHD Monitoring",
+      "label": "Acute GVHD Assessment",
+      "description": "Monitoring for acute graft-versus-host disease (GVHD) with characterization of incidence and grade by Day 120 post-IF001 infusion. All Grade >2 acute GVHD will be reported within 24 hours of site awareness as an adverse event of special interest (AESI). Evaluation includes assessment at Day 183, Month 12, and Month 15 for incidence and grade of acute GVHD.",
+      "toxicityType": "Acute GVHD",
+      "gradingSystem": null,
+      "endpointId": null,
+      "monitoringPeriod": "Day 120",
+      "applicableInterventions": [
+        "IF001"
+      ],
+      "notes": "Grade >2 acute GVHD reported as AESI within 24 hours"
+    },
+    {
+      "id": "IMT-002",
+      "name": "Chronic GVHD Monitoring",
+      "label": "Chronic GVHD Assessment",
+      "description": "Monitoring for chronic graft-versus-host disease (GVHD) with characterization of incidence and severity by one-year post-IF001 infusion. Any chronic GVHD will be reported within 24 hours of site awareness as an adverse event of special interest (AESI). Evaluation includes assessment at Day 183, Month 12, and Month 15 for incidence and severity of chronic GVHD. Extended evaluation continues at Months 18 and 24.",
+      "toxicityType": "Chronic GVHD",
+      "gradingSystem": null,
+      "endpointId": null,
+      "monitoringPeriod": "One year",
+      "applicableInterventions": [
+        "IF001"
+      ],
+      "notes": "Any chronic GVHD reported as AESI within 24 hours"
+    }
+  ],
+  "priorTherapyRequirements": [
+    {
+      "id": "PTR-001",
+      "name": "No extensive prior T cell-depleting therapy",
+      "label": "Limited T cell depletion",
+      "description": "Participants enrolled in the RELIEF trial will be similar to those treated by DeZern et al. in that they will not have received extensive prior therapy with T cell-depleting agents or received multiple rounds of IS chemotherapies. This requirement ensures that participants have not been heavily pretreated with immunosuppressive agents that could interfere with the tolerance induction protocol.",
+      "minimumCycles": null,
+      "regimen": null,
+      "regimenComponents": [],
+      "regimenAbbreviation": null,
+      "prohibitedPriorEvents": "extensive prior therapy with T cell-depleting agents or received multiple rounds of IS chemotherapies",
+      "linkedCriterionIds": []
+    }
+  ],
+  "stemCellCollectionRequirements": [
+    {
+      "id": "SCR-001",
+      "name": "CD34+ Cell Dose Requirement",
+      "label": "Minimum CD34+ cells",
+      "description": "The cryopreserved IF001 product contains a minimum of 3 million CD34+ cells per kg of recipient ideal body weight (IBW) with no maximum limit. This minimum dose is set above the lowest dose given in the DeZern et al. (2023) trial, where all 20 patients conditioned with 400 cGy TBI achieved engraftment and stable long-term donor chimerism. Higher CD34+ cell doses are associated with faster neutrophil and platelet recovery and lower risk of graft failure, with doses greater than 3.2 million/kg showing significantly lower graft failure rates (11% versus 31%) in aplastic anemia patients receiving HLA-haploidentical grafts.",
+      "collectionType": "Mobilized peripheral blood stem cells",
+      "minimumYield": "3 million CD34+ cells per kg recipient IBW",
+      "minimumYieldNumeric": 3,
+      "minimumYieldUnit": "million cells per kg IBW",
+      "rationaleForMinimum": "Set above lowest dose in DeZern 2023 trial where all patients achieved engraftment; higher doses associated with faster recovery and lower graft failure rates",
+      "timing": "Collection occurs after G-CSF mobilization of living kidney donor",
+      "linkedCriterionId": null
+    },
+    {
+      "id": "SCR-002",
+      "name": "αβ TCR Cell Dose Requirement",
+      "label": "Target αβ TCR cells",
+      "description": "The IF001 product contains a target of 10 million αβ TCR cells per kg of recipient IBW (range 8-12 million per kg). This dose was chosen to minimize the incidence of severe acute or chronic GVHD while simultaneously reducing the incidence of graft failure and opportunistic infection. The dosing considers risks of acute and chronic GVHD with high αβ TCR cell doses versus risks of non-engraftment and infection with low αβ TCR cell doses. In the DeZern 2023 study, patients received a median of 5.1 x 10^7 CD3+ cells/kg with low GVHD rates (7% acute Grade 2, 4% chronic).",
+      "collectionType": "Mobilized peripheral blood stem cells",
+      "minimumYield": "8-12 million αβ TCR cells per kg recipient IBW",
+      "minimumYieldNumeric": 10,
+      "minimumYieldUnit": "million cells per kg IBW",
+      "rationaleForMinimum": "Balance between minimizing GVHD risk and preventing graft failure and opportunistic infections",
+      "timing": "Collection occurs after G-CSF mobilization of living kidney donor",
+      "linkedCriterionId": null
+    }
+  ],
+  "siteManagement": {
+    "id": "SIT-001",
+    "name": "Multicenter Study Site Management",
+    "label": "Multicenter US Sites",
+    "targetNumberOfSites": null,
+    "targetNumberOfSitesLabel": null,
+    "accrualPeriod": null,
+    "siteType": "Multiple centers in the United States",
+    "notes": null,
+    "description": "Study IF001-CL201 is a Phase 2, multicenter, open-label, single-arm proof-of-concept study conducted at multiple centers in the United States. The Principal Investigator and at least 2 staff from each site will need to complete training requirements and obtain access to the electronic data capture system (Advantage eClinical managed by Emmes). Site monitoring includes pre-study site initiation visits, ongoing monitoring visits by Clinical Research Associates to check completeness of participant records, accuracy of CRF entries, adherence to protocol and Good Clinical Practice, progress of enrollment, and proper investigational product storage and administration. Centers participating in this study must register pre- and post-HCT outcomes to the CIBMTR using procedures and forms of the Stem Cell Transplant Outcomes Database."
+  },
+  "longTermFollowUp": {
+    "id": "LTFU-001",
+    "name": "Long-term Follow-up",
+    "label": "Long-term Follow-up",
+    "description": "Study completion is defined as the point at which all ongoing IF001 recipients have completed the Month 15 visit. The investigator must provide follow-up medical care for all participants who are prematurely withdrawn from the study or must refer them for appropriate ongoing care according to local practice. This includes reporting to the Center for International Blood and Marrow Transplant Research (CIBMTR) and follow-up in appropriate national registries (eg, United Network for Organ Sharing, etc.). Centers participating in this study must register pre- and post-HCT outcomes to the CIBMTR. Registration is done using procedures and forms of the Stem Cell Transplant Outcomes Database. Federal legislation requires submission of these forms for all United States allotransplant recipients. The CIBMTR forms will be submitted directly to the CIBMTR through routine CIBMTR mechanisms.",
+    "duration": null,
+    "durationUnit": null,
+    "regulatoryBasis": "Federal legislation requires submission of these forms for all United States allotransplant recipients",
+    "infrastructure": "Center for International Blood and Marrow Transplant Research (CIBMTR) and appropriate national registries (eg, United Network for Organ Sharing, etc.)",
+    "infrastructureId": null,
+    "protocol": "Stem Cell Transplant Outcomes Database procedures and forms",
+    "notes": "CIBMTR forms will be submitted directly to the CIBMTR through routine CIBMTR mechanisms"
+  }
+}

@@ -1,56 +1,46 @@
 # prompt_pipeline/main.py
 #
-# USDM Extraction Pipeline — class-driven iteration
+# USDM Extraction — single document pass.
 #
-# Input : raw_chunking.json      — pre-chunked document (required)
-#          semantic_memory.json   — topic → chunk_ids map (optional, improves precision)
-# Output: output/final_usdm.json
+# Called once per document type (synopsis, protocol, sap, mop, csr)
+# by the top-level run.py orchestrator.
 #
-# Expected shape of raw_chunking.json:
-#   A JSON array of chunk objects, each with at minimum:
-#     { "chunk_id": "chunk_0001", "section": "...", "text": "..." }
+# Three-state class logic
+# ────────────────────────
+# For every USDM class the pass checks the current state in master_usdm:
 #
-# Expected shape of semantic_memory.json:
-#   {
-#     "<topic_key>": {
-#       "summary":   "<string>",
-#       "chunk_ids": ["chunk_0001", "chunk_0005", ...]
-#     }, ...
-#   }
+#   FULL    — every leaf value is already filled → skip, no LLM call
+#   EMPTY   — all leaf values are null/[] → extract and merge normally
+#   PARTIAL — some leaves filled, some null → extract, then LLM judge
+#             picks the more complete version; winner replaces current value
 #
-# Flow:
-#   1. Load chunks → build { chunk_id → chunk } index
-#   2. Load semantic memory (optional; soft-fails to keyword-only mode)
-#   3. For every USDM class (base + custom extension):
-#        a. Fetch empty sub-schema (always — ensures key present even if no data)
-#        b. Retrieve chunks:
-#             PRIMARY   — look up memory keys for this class → resolve chunk IDs
-#             FALLBACK  — keyword score all chunks if memory has no mapping/hits
-#             NONE      — merge empty schema and continue
-#        c. Build concatenated context string from retrieved chunks
-#        d. Send ONE LLM call → filled JSON
-#        e. If LLM all-null → merge empty schema; else merge filled result
-#   4. Validate → save
+# Returns the updated master_usdm dict.
 
 from __future__ import annotations
 
+import copy
 import json
 import os
 import sys
 import time
-from typing import Any
+from typing import Any, Optional
 
-# ── Project root on path so sibling packages resolve ──────────────────────────
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from prompt_pipeline.subsection import (
     get_subschema,
     ALL_USDM_CLASSES,
+    USDM_CLASS_PATHS,
+    CUSTOM_CLASS_SCHEMAS,
+    get_nested_value,
+    set_nested_value,
 )
-from prompt_pipeline.prompt_builder   import build_messages
-from prompt_pipeline.llm_caller       import extract_usdm_section
-from prompt_pipeline.merger           import merge_usdm
-from prompt_pipeline.validator        import validate_usdm, print_validation_report
+from prompt_pipeline.prompt_builder import build_messages
+from prompt_pipeline.llm_caller     import extract_usdm_section
+from prompt_pipeline.judge          import judge_extraction
+from prompt_pipeline.merger         import merge_usdm
+from prompt_pipeline.validator      import validate_usdm, print_validation_report
+from prompt_pipeline.deduplicator   import deduplicate_usdm
 
 from retrieval.retriever import (
     get_relevant_chunks,
@@ -59,23 +49,16 @@ from retrieval.retriever import (
     build_context,
 )
 
-from preprocessing.extractor_text import extract_text
+from preprocessing.extractor_text  import extract_text
+from preprocessing.chunk_manager   import chunk_document
+from preprocessing.memory_builder  import build_semantic_memory
 
-from preprocessing.doc_preprocessing import (
-    preprocess_protocol_text
-)
-
-from preprocessing.chunk_manager import chunk_document
-
-from preprocessing.memory_builder import (
-    build_semantic_memory
-)
 import config
 
-# ── Large extraction classes ─────────────────────────────────────────────
+
+# ── Classes that get a larger token budget and fewer context chunks ────────────
 
 LARGE_CLASSES = {
-
     "eligibilityCriterion",
     "activity",
     "encounter",
@@ -88,139 +71,113 @@ LARGE_CLASSES = {
     "scheduleTimeline",
 }
 
-# Optional:
-# Temporarily skip problematic huge classes
-# to allow stable end-to-end pipeline execution.
 
-# SKIP_CLASSES = {
+# ── Three-state helpers ────────────────────────────────────────────────────────
 
-#     # Uncomment while debugging huge generations
-
-#     "estimand",
-#     "activity",
-#     "encounter",
-#     "eligibilityCriterion",
-# }
-SPLIT_CLASSES = {
-    "endpoint",
-    "objective"
-}
-
-# ── Default paths ──────────────────────────────────────────────────────────────
-
-DEFAULT_DOCUMENT_PATH = "protocol.pdf"
-
-
-# ── Memory loader ──────────────────────────────────────────────────────────────
-
-def load_memory(path: str) -> dict:
+def _count_leaves(obj: Any) -> tuple[int, int]:
     """
-    Load semantic_memory.json.
+    Recursively count (filled_leaves, total_leaves).
 
-    Expected shape:
-      {
-        "<topic_key>": {
-          "summary":   "<string>",
-          "chunk_ids": ["chunk_0001", ...]
-        },
-        ...
-      }
-
-    Returns an empty dict if path is empty string (memory disabled)
-    or the file does not exist (soft failure with a warning).
+    A leaf is filled when it is not None and not an empty string.
+    An empty list or empty dict counts as one unfilled leaf.
     """
-    if not path:
-        return {}
+    if obj is None:
+        return 0, 1
+    if isinstance(obj, bool):
+        return 1, 1          # False is a valid fill value
+    if isinstance(obj, (int, float)):
+        return 1, 1
+    if isinstance(obj, str):
+        return (1, 1) if obj.strip() else (0, 1)
+    if isinstance(obj, list):
+        if not obj:
+            return 0, 1      # empty list = one unfilled slot
+        f, t = 0, 0
+        for item in obj:
+            lf, lt = _count_leaves(item)
+            f += lf
+            t += lt
+        return f, t
+    if isinstance(obj, dict):
+        if not obj:
+            return 0, 1      # empty dict = one unfilled slot
+        f, t = 0, 0
+        for v in obj.values():
+            lf, lt = _count_leaves(v)
+            f += lf
+            t += lt
+        return f, t
+    return 0, 1
 
-    if not os.path.exists(path):
-        print(f"  ⚠  Memory file not found: {path} — running keyword-only mode")
-        return {}
 
-    with open(path, "r", encoding="utf-8") as f:
-        memory = json.load(f)
-
-    if not isinstance(memory, dict):
-        print(f"  ⚠  Memory file is not a JSON object — running keyword-only mode")
-        return {}
-
-    # Validate each entry has expected keys; drop malformed ones with a warning
-    clean: dict = {}
-    for key, entry in memory.items():
-        if not isinstance(entry, dict):
-            print(f"  ⚠  Memory entry '{key}' is not a dict — skipped")
-            continue
-        if "chunk_ids" not in entry:
-            print(f"  ⚠  Memory entry '{key}' missing 'chunk_ids' — skipped")
-            continue
-        clean[key] = entry
-
-    print(f"✅  Memory loaded: {len(clean)} topic entries")
-    return clean
-
-
-# ── Chunk loader ───────────────────────────────────────────────────────────────
-
-def load_chunks(path: str) -> list[dict]:
+def _classify_state(current_value: Any) -> str:
     """
-    Load and validate a pre-chunked JSON file.
-
-    Accepts two shapes:
-      - A bare JSON array:  [ {chunk}, {chunk}, ... ]
-      - A wrapped object:   { "chunks": [ {chunk}, ... ] }
-        (any other top-level key whose value is a list also works)
-
-    Each chunk must have at minimum a "text" key.
-    A missing "section" key is backfilled with "unknown".
-
-    Raises
-    ------
-    ValueError  if the file cannot be parsed as a list of chunk dicts.
-    FileNotFoundError if the path does not exist.
+    Return "empty", "partial", or "full" for a class's current value.
     """
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"Chunks file not found: {path}")
-
-    with open(path, "r", encoding="utf-8") as f:
-        raw: Any = json.load(f)
-
-    # Unwrap if the file is a dict with one list-valued key
-    if isinstance(raw, dict):
-        list_keys = [k for k, v in raw.items() if isinstance(v, list)]
-        if not list_keys:
-            raise ValueError(
-                f"Expected a JSON array or a dict containing a list, got dict "
-                f"with keys: {list(raw.keys())}"
-            )
-        # Prefer "chunks" key; fall back to first list key found
-        key = "chunks" if "chunks" in list_keys else list_keys[0]
-        raw = raw[key]
-        print(f"  ℹ  Unwrapped chunks from key '{key}'")
-
-    if not isinstance(raw, list):
-        raise ValueError(f"Expected a JSON array of chunks, got {type(raw).__name__}")
-
-    # Validate + normalise
-    chunks: list[dict] = []
-    for i, item in enumerate(raw):
-        if not isinstance(item, dict):
-            raise ValueError(f"Chunk at index {i} is not a dict (got {type(item).__name__})")
-        if "text" not in item:
-            raise ValueError(f"Chunk at index {i} is missing required key 'text'")
-        # Backfill missing section so downstream scorer always has one
-        if "section" not in item or not item["section"]:
-            item = {**item, "section": "unknown"}
-        chunks.append(item)
-
-    return chunks
+    if current_value is None:
+        return "empty"
+    filled, total = _count_leaves(current_value)
+    if total == 0 or filled == 0:
+        return "empty"
+    if filled >= total:
+        return "full"
+    return "partial"
 
 
-# ── Helpers ────────────────────────────────────────────────────────────────────
+def _get_class_current_value(
+    usdm_class:  str,
+    master_usdm: dict,
+) -> Any:
+    """
+    Retrieve the current value of a USDM class from master_usdm.
+
+    Custom extension classes sit at the top level of master_usdm.
+    Base USDM classes are nested — their path is in USDM_CLASS_PATHS.
+    """
+    if usdm_class in CUSTOM_CLASS_SCHEMAS:
+        return master_usdm.get(usdm_class)
+
+    if usdm_class in USDM_CLASS_PATHS:
+        return get_nested_value(master_usdm, USDM_CLASS_PATHS[usdm_class])
+
+    return None
+
+
+def _set_class_value(
+    usdm_class:   str,
+    master_usdm:  dict,
+    winner_dict:  dict,
+) -> dict:
+    """
+    Hard-replace the class's value in master_usdm with the judge winner.
+
+    Unlike merge_usdm (which never overwrites a non-null value), this
+    function unconditionally replaces — needed for the PARTIAL path where
+    the judge has chosen a superior version.
+
+    winner_dict is subschema-shaped, e.g.:
+        {"eligibilityCriteria": [...]}
+        {"statisticalAnalysis": {...}}
+        {"study": {"versions": [{"studyDesigns": [{"objectives": [...]}]}]}}
+    """
+    result = copy.deepcopy(master_usdm)
+
+    if usdm_class in CUSTOM_CLASS_SCHEMAS:
+        if usdm_class in winner_dict:
+            result[usdm_class] = winner_dict[usdm_class]
+        return result
+
+    if usdm_class in USDM_CLASS_PATHS:
+        path = USDM_CLASS_PATHS[usdm_class]
+        winner_value = get_nested_value(winner_dict, path)
+        if winner_value is not None:
+            set_nested_value(result, path, winner_value)
+
+    return result
+
 
 def _is_all_null(extracted: dict) -> bool:
-    """
-    Return True if every leaf value in the extracted dict is None, [], or {}.
-    Used to detect when the LLM found nothing meaningful in the context.
-    """
+    """True if every leaf in extracted is None, [], or {}."""
     def _null(v: Any) -> bool:
         if v is None:
             return True
@@ -231,448 +188,240 @@ def _is_all_null(extracted: dict) -> bool:
         if isinstance(v, list):
             return all(_null(x) for x in v)
         return False
-
     return all(_null(v) for v in extracted.values())
 
 
-# ── Pipeline ───────────────────────────────────────────────────────────────────
+# ── Chunk normalizer ───────────────────────────────────────────────────────────
 
-def run_pipeline(
-    document_path: str,
-) -> dict:
-
-    print("\n" + "=" * 70)
-    print("  USDM EXTRACTION PIPELINE  —  class-driven")
-    print("=" * 70)
-
-    # ──────────────────────────────────────────────────────────────────────
-    # STEP 1 — Extract raw text
-    # ──────────────────────────────────────────────────────────────────────
-
-    print(f"\n📄  Extracting text from document")
-
-    raw_text = extract_text(document_path)
-
-    print("✅  Raw text extracted")
-
-
-    # ──────────────────────────────────────────────────────────────────────
-    # STEP 2 — Preprocess text
-    # ──────────────────────────────────────────────────────────────────────
-
-    print(f"\n🧹  Preprocessing protocol text")
-
-    cleaned_text = preprocess_protocol_text(raw_text)
-
-    print("✅  Text preprocessing complete")
-
-
-    # Save cleaned text
-    os.makedirs(config.OUTPUT_DIR, exist_ok=True)
-
-    cleaned_text_path = os.path.join(
-        config.OUTPUT_DIR,
-        "cleaned_protocol_text.txt"
-    )
-
-    with open(cleaned_text_path, "w", encoding="utf-8") as f:
-        f.write(cleaned_text)
-
-    print(f"    Saved cleaned text → {cleaned_text_path}")
-
-
-    # ──────────────────────────────────────────────────────────────────────
-    # STEP 3 — Create chunks
-    # ──────────────────────────────────────────────────────────────────────
-
-    print(f"\n🧩  Creating chunks")
-
-    chunks = chunk_document(cleaned_text)
-    # ─────────────────────────────────────────────────────────
-    # Normalize chunk schema
-    # ─────────────────────────────────────────────────────────
-
-    normalized_chunks = []
-
-    for idx, chunk in enumerate(chunks):
-
-        normalized_chunks.append({
-
-            "chunk_id":
-                f"chunk_{idx+1:04d}",
-
-            "section":
-                chunk.get(
-                    "section",
-                    "UNKNOWN"
-                ),
-
-            "subsection":
-                chunk.get(
-                    "subsection",
-                    ""
-                ),
-
-            "text":
-                chunk.get(
-                    "text",
-                    ""
-                )
+def _normalize_chunks(raw_chunks: list[dict]) -> list[dict]:
+    """Ensure every chunk has chunk_id, section, subsection, text."""
+    normalized = []
+    for idx, chunk in enumerate(raw_chunks):
+        normalized.append({
+            "chunk_id":   chunk.get("chunk_id",   f"chunk_{idx + 1:04d}"),
+            "section":    chunk.get("section",    "UNKNOWN"),
+            "subsection": chunk.get("subsection", ""),
+            "text":       chunk.get("text",       ""),
         })
-
-    chunks = normalized_chunks
-
-    # ─────────────────────────────────────────────────────────
-    # Section statistics
-    # ─────────────────────────────────────────────────────────
-
-    section_counts = {}
-
-    for chunk in chunks:
-
-        section = chunk.get(
-            "section",
-            "UNKNOWN"
-        )
-
-        section_counts[section] = (
-            section_counts.get(section, 0)
-            + 1
-        )
-
-    print(f"✅  {len(chunks)} chunks created")
+    return normalized
 
 
-    # Save chunks
-    chunks_path = os.path.join(
-        config.OUTPUT_DIR,
-        "raw_chunks.json"
-    )
+# ── Main pass ──────────────────────────────────────────────────────────────────
 
+def run_document_pass(
+    document_path: str,
+    doc_type:      str,
+    master_usdm:   dict,
+    strategy:      str = "recursive",
+) -> dict:
+    """
+    Run a full extraction pass for one document and merge results into
+    master_usdm using three-state logic.
+
+    Parameters
+    ----------
+    document_path : path to the PDF/TXT file
+    doc_type      : folder label, e.g. "synopsis", "protocol"
+    master_usdm   : accumulated USDM dict from previous passes (may be empty)
+    strategy      : chunking strategy (recursive | section | hybrid | ...)
+
+    Returns
+    -------
+    Updated master_usdm dict.
+    """
+
+    # Per-document output directory
+    doc_output_dir = os.path.join(config.OUTPUT_DIR, doc_type)
+    os.makedirs(doc_output_dir, exist_ok=True)
+
+    print(f"\n{'─'*70}")
+    print(f"  DOCUMENT PASS: {doc_type.upper()}")
+    print(f"  File   : {document_path}")
+    print(f"  Output : {doc_output_dir}")
+    print(f"{'─'*70}")
+
+    # ── Stage 1: Extract raw text ──────────────────────────────────────────────
+    print("\n📄  Extracting text ...")
+    raw_text = extract_text(document_path)
+    txt_path = os.path.join(doc_output_dir, "raw_text.txt")
+    with open(txt_path, "w", encoding="utf-8") as f:
+        f.write(raw_text)
+    print(f"✅  Raw text saved → {txt_path}")
+
+    # ── Stage 2: Chunk ─────────────────────────────────────────────────────────
+    print(f"\n🧩  Chunking (strategy={strategy}) ...")
+    raw_chunks = chunk_document(raw_text, strategy=strategy)
+    chunks     = _normalize_chunks(raw_chunks)
+
+    chunks_path = os.path.join(doc_output_dir, "raw_chunks.json")
     with open(chunks_path, "w", encoding="utf-8") as f:
         json.dump(chunks, f, indent=2, ensure_ascii=False)
+    print(f"✅  {len(chunks)} chunks saved → {chunks_path}")
 
-    print(f"    Saved chunks → {chunks_path}")
-
-
-    # Build chunk index
     chunk_index = index_chunks_by_id(chunks)
 
+    # Section distribution
+    from collections import Counter
+    section_counts = Counter(c["section"] for c in chunks)
+    print("\n  Section breakdown:")
+    for sec, cnt in sorted(section_counts.items()):
+        print(f"    {cnt:>3}x  {sec}")
 
-    # ──────────────────────────────────────────────────────────────────────
-    # STEP 4 — Build semantic memory
-    # ──────────────────────────────────────────────────────────────────────
-
-    print(f"\n🧠  Building semantic memory")
-
+    # ── Stage 3: Build semantic memory ─────────────────────────────────────────
+    print("\n🧠  Building semantic memory ...")
     memory = build_semantic_memory(chunks)
 
     if not isinstance(memory, dict):
+        print("  ⚠  Memory generation returned non-dict — using empty memory")
+        memory = {}
 
-        raise RuntimeError(
-            "Semantic memory generation failed"
-        )
-
-    memory_path = os.path.join(
-        config.OUTPUT_DIR,
-        "semantic_memory.json"
-    )
-
+    memory_path = os.path.join(doc_output_dir, "semantic_memory.json")
     with open(memory_path, "w", encoding="utf-8") as f:
         json.dump(memory, f, indent=2, ensure_ascii=False)
+    print(f"✅  Memory saved → {memory_path} ({len(memory)} topics)")
 
-    print(f"✅  Semantic memory created")
-
-    print(f"    Saved memory → {memory_path}")
-
-
-    print(f"    Memory topics loaded: {len(memory)}")
-
-    print("\n  Section breakdown:")
-    for section, count in sorted(section_counts.items()):
-        print(f"    {count:>3}x  {section}")
-
-    # ──────────────────────────────────────────────────────────────────────────
-    # STEP 5 — Iterate by USDM class
-    # ──────────────────────────────────────────────────────────────────────────
+    # ── Stage 4: Iterate by USDM class ────────────────────────────────────────
     print(f"\n🔄  Processing {len(ALL_USDM_CLASSES)} USDM classes ...\n")
 
-    master_usdm: dict = {}
-
     stats = {
-        "total":        len(ALL_USDM_CLASSES),
-        "extracted":    0,
-        "null":         0,
-        "error":        0,
-        "empty_llm":    0,
-        "via_memory":   0,
-        "via_keyword":  0,
+        "total":    len(ALL_USDM_CLASSES),
+        "skipped":  0,   # fully filled from a prior pass
+        "empty":    0,   # extracted and merged normally
+        "partial":  0,   # extracted + judged
+        "no_data":  0,   # no relevant chunks or LLM returned nothing
+        "error":    0,   # LLM or parse error
+        "via_mem":  0,
+        "via_kw":   0,
     }
 
-    null_classes:    list[str] = []
-    error_classes:   list[str] = []
-    success_classes: list[str] = []
+    debug_dir = os.path.join(doc_output_dir, "debug")
 
     for i, usdm_class in enumerate(ALL_USDM_CLASSES, 1):
 
-        print(f"  [{i:>3}/{stats['total']}] {usdm_class}")
+        prefix = f"  [{i:>3}/{stats['total']}] {usdm_class:<40}"
 
-        # ── 2a: Fetch sub-schema for this class (needed for both filled and
-        #        empty paths — empty schema is merged so the key always appears
-        #        in the final output even when no source text is found) ─────────
-        subschema = get_subschema(usdm_class, template_path=config.TEMPLATE_PATH)
+        # ── Always fetch empty subschema first ─────────────────────────────────
+        subschema = get_subschema(
+            usdm_class,
+            template_path=config.TEMPLATE_PATH,
+        )
 
-        # ── 2b: Retrieve relevant chunks (memory-first, keyword fallback) ────────
-        # ── Skip extremely large classes if configured ─────────────────────────
+        # ── Classify current state ─────────────────────────────────────────────
+        current_value = _get_class_current_value(usdm_class, master_usdm)
+        state         = _classify_state(current_value)
 
-        # if usdm_class in SKIP_CLASSES:
-        #     stats["null"] += 1
-        #     null_classes.append(usdm_class)
+        if state == "full":
+            print(f"{prefix} ⏭  fully filled — skip")
+            stats["skipped"] += 1
+            continue
 
-        #     print("          ⏭ skipped large class")
-
-        #     continue
-
-        # ── Adaptive retrieval depth ───────────────────────────────────────────
-
+        # ── Retrieve relevant chunks ───────────────────────────────────────────
         adaptive_top_k = (
-            3
+            config.TOP_K_CHUNKS_LARGE
             if usdm_class in LARGE_CLASSES
             else config.TOP_K_CHUNKS
         )
 
         relevant, source = get_relevant_chunks_from_memory(
-            chunk_index  = chunk_index,
-            memory       = memory,
-            usdm_class   = usdm_class,
-            all_chunks   = chunks,
-            threshold    = config.RELEVANCE_THRESHOLD,
-            top_k        = adaptive_top_k,
+            chunk_index = chunk_index,
+            memory      = memory,
+            usdm_class  = usdm_class,
+            all_chunks  = chunks,
+            threshold   = config.RELEVANCE_THRESHOLD,
+            top_k       = adaptive_top_k,
         )
 
         if source == "memory":
-            stats["via_memory"] += 1
-            print(f"          🧠 {len(relevant)} chunk(s) via memory")
-
+            stats["via_mem"] += 1
+            src_label = f"🧠 {len(relevant)} chunk(s) via memory"
         elif source == "keyword":
-            stats["via_keyword"] += 1
-            print(f"          🔑 {len(relevant)} chunk(s) via keyword fallback")
-
+            stats["via_kw"] += 1
+            src_label = f"🔑 {len(relevant)} chunk(s) via keyword"
         else:
-            print(f"          ⬜ no relevant chunks → keeping empty schema")
-
-            master_usdm = merge_usdm(
-                master_usdm,
-                subschema
-            )
-
-            null_classes.append(usdm_class)
-
-            stats["null"] += 1
-
+            print(f"{prefix} ⬜ no relevant chunks — keeping {'empty' if state == 'empty' else 'partial'} schema")
+            # Always keep the class present in output
+            master_usdm = merge_usdm(master_usdm, subschema)
+            master_usdm = deduplicate_usdm(master_usdm)
+            stats["no_data"] += 1
             continue
 
-
-        # ── Reduce context for huge high-cardinality classes ─────────────────
-
-        if usdm_class in SPLIT_CLASSES:
-
-            relevant = relevant[:1]
-
-            print(
-                "          ✂ reduced context "
-                "for high-cardinality class"
-            )
-
-
-        # ── Empty retrieval protection ───────────────────────────────────────
-
-        if not relevant:
-
-            print("          ⬜ empty retrieval")
-
-            master_usdm = merge_usdm(
-                master_usdm,
-                subschema
-            )
-
-            stats["null"] += 1
-
-            continue
-
-        # ── 2c: Build context string ──────────────────────────────────────────
-        if not relevant:
-
-            print("          ⬜ empty retrieval")
-
-            master_usdm = merge_usdm(
-                master_usdm,
-                subschema
-            )
-
-            stats["null"] += 1
-
-            continue
+        # ── LLM call ───────────────────────────────────────────────────────────
         context_text = build_context(relevant)
-
-        # ── 2d: Build prompt ──────────────────────────────────────────────────
-        messages = build_messages(usdm_class, context_text, subschema)
-
-        # ── 2e: LLM call ──────────────────────────────────────────────────────
-        # ── Adaptive token budget ──────────────────────────────────────────────
-
-        max_tokens = (
-            10000
+        messages     = build_messages(usdm_class, context_text, subschema)
+        max_tokens   = (
+            config.LLM_MAX_TOKENS_LARGE
             if usdm_class in LARGE_CLASSES
-            else 4000
+            else config.LLM_MAX_TOKENS
         )
+
         extracted = extract_usdm_section(messages, max_tokens=max_tokens)
 
-        # ── 2f: Handle LLM errors ─────────────────────────────────────────────
+        # ── Handle LLM error ───────────────────────────────────────────────────
         if "error" in extracted:
-
-            try:
-
-                os.makedirs("debug", exist_ok=True)
-
-                raw_response = extracted.get(
-                    "raw_response",
-                    ""
-                )
-
-                with open(
-
-                    f"debug/{usdm_class}_failed.txt",
-
-                    "w",
-
-                    encoding="utf-8"
-
-                ) as f:
-
-                    f.write(raw_response)
-
-            except Exception:
-                pass
-
-            print(
-                f"          ❌ error: "
-                f"{extracted['error']}"
-            )
-
-            error_classes.append(usdm_class)
-
+            print(f"{prefix} ❌ LLM error — {src_label}")
+            os.makedirs(debug_dir, exist_ok=True)
+            with open(
+                os.path.join(debug_dir, f"{usdm_class}_failed.txt"),
+                "w", encoding="utf-8",
+            ) as f:
+                f.write(extracted.get("raw_response", ""))
+            # Keep whatever is already in master_usdm; stamp key if absent
+            master_usdm = merge_usdm(master_usdm, subschema)
             stats["error"] += 1
+            continue
 
-            # merge empty schema instead
+        # ── Handle all-null LLM response ──────────────────────────────────────
+        if _is_all_null(extracted):
+            print(f"{prefix} ⬜ LLM returned no data — {src_label}")
+            master_usdm = merge_usdm(master_usdm, subschema)
+            stats["no_data"] += 1
+            continue
+
+        # ── Apply state-specific merge strategy ───────────────────────────────
+
+        if state == "empty":
             master_usdm = merge_usdm(
                 master_usdm,
-                subschema
+                extracted
             )
 
-            continue
-            
+            master_usdm = deduplicate_usdm(
+                master_usdm
+            )
+            print(f"{prefix} ✅ extracted (empty→filled) — {src_label}")
+            stats["empty"] += 1
 
-        # ── 2g: Detect all-null LLM response ──────────────────────────────────
-        if _is_all_null(extracted):
-            print(f"          ⬜ LLM returned no data → keeping empty schema")
-            # Still merge the empty subschema so the class key is present
-            master_usdm = merge_usdm(master_usdm, subschema)
-            null_classes.append(usdm_class)
-            stats["empty_llm"] += 1
-            continue
+        else:   # state == "partial"
+            winner = judge_extraction(usdm_class, current_value, extracted)
+            master_usdm = _set_class_value(
+                usdm_class,
+                master_usdm,
+                winner
+            )
 
-        # ── 2h: Merge into master USDM ────────────────────────────────────────
-        master_usdm = merge_usdm(master_usdm, extracted)
-        success_classes.append(usdm_class)
-        stats["extracted"] += 1
-        print(f"          ✅ merged")
+            master_usdm = deduplicate_usdm(
+                master_usdm
+            )
+            print(f"{prefix} ⚖  judged (partial→updated) — {src_label}")
+            stats["partial"] += 1
 
-        # Brief pause to stay within API rate limits
-        time.sleep(1)
+        time.sleep(0.3)
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # STEP 3 — Validate
-    # ──────────────────────────────────────────────────────────────────────────
-    print("\n" + "=" * 70)
-    print("🔎  VALIDATING FINAL USDM")
-
+    # ── Validate ──────────────────────────────────────────────────────────────
+    print(f"\n{'='*70}")
+    print(f"  VALIDATION — {doc_type.upper()} PASS")
     validation = validate_usdm(master_usdm)
     print_validation_report(validation)
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # STEP 4 — Save output
-    # ──────────────────────────────────────────────────────────────────────────
-    os.makedirs(config.OUTPUT_DIR, exist_ok=True)
-
-    with open(config.OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(master_usdm, f, indent=2, ensure_ascii=False)
-
-    print(f"\n💾  USDM saved → {config.OUTPUT_FILE}")
-
-    # ──────────────────────────────────────────────────────────────────────────
-    # STEP 5 — Run summary
-    # ──────────────────────────────────────────────────────────────────────────
-    print("\n" + "=" * 70)
-    print("  RUN SUMMARY")
-    print("=" * 70)
-    print(f"  Total classes  : {stats['total']}")
-    print(f"  Extracted      : {stats['extracted']}  ✅")
-    print(f"    via memory   : {stats['via_memory']}")
-    print(f"    via keyword  : {stats['via_keyword']}")
-    print(f"  Empty (no data): {stats['null'] + stats['empty_llm']}  ⬜  (present in output, values null)")
-    print(f"  Errors         : {stats['error']}  ❌  (absent from output)")
-
-    if null_classes:
-        print(f"\n  Classes with no relevant content:")
-        for cls in null_classes:
-            print(f"    ⬜ {cls}")
-
-    if error_classes:
-        print(f"\n  Classes that errored:")
-        for cls in error_classes:
-            print(f"    ❌ {cls}")
-
-    print("\n✅  PIPELINE COMPLETE\n")
+    # ── Pass summary ──────────────────────────────────────────────────────────
+    print(f"\n  PASS SUMMARY — {doc_type.upper()}")
+    print(f"  {'Total classes':25}: {stats['total']}")
+    print(f"  {'Skipped (full)':25}: {stats['skipped']}  ⏭")
+    print(f"  {'Extracted (empty→full)':25}: {stats['empty']}  ✅")
+    print(f"  {'Judged (partial→updated)':25}: {stats['partial']}  ⚖")
+    print(f"  {'No data (kept as-is)':25}: {stats['no_data']}  ⬜")
+    print(f"  {'Errors':25}: {stats['error']}  ❌")
+    print(f"  {'Via memory':25}: {stats['via_mem']}")
+    print(f"  {'Via keyword fallback':25}: {stats['via_kw']}")
 
     return master_usdm
-
-
-# ── Entry point ────────────────────────────────────────────────────────────────
-
-if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Extract USDM JSON from a pre-chunked JSON file."
-    )
-    parser.add_argument(
-        "document",
-        help="Path to protocol PDF/TXT document"
-    )
-    parser.add_argument(
-        "--threshold",
-        type=float,
-        default=config.RELEVANCE_THRESHOLD,
-        help="Minimum relevance score for keyword fallback (default: %(default)s)",
-    )
-    parser.add_argument(
-        "--top-k",
-        type=int,
-        default=config.TOP_K_CHUNKS,
-        help="Max chunks per USDM class (default: %(default)s)",
-    )
-    parser.add_argument(
-        "--output",
-        default=config.OUTPUT_FILE,
-        help=f"Output path for final USDM JSON (default: {config.OUTPUT_FILE})",
-    )
-
-    args = parser.parse_args()
-
-    import config as _cfg
-    _cfg.RELEVANCE_THRESHOLD = args.threshold
-    _cfg.TOP_K_CHUNKS        = args.top_k
-    _cfg.OUTPUT_FILE         = args.output
-
-    run_pipeline(document_path=args.document)

@@ -1,49 +1,84 @@
 import re
 
 
-# =========================================================
-# COMMON HEADER PATTERNS
-# =========================================================
-
-HEADER_PATTERNS = [
-
-    # 1 OBJECTIVES
-    r"^\s*\d+\s+[A-Z][A-Z\s\-]{3,}$",
-
-    # 5.1 STUDY DESIGN
-    r"^\s*\d+(\.\d+)*\s+[A-Z][A-Z\s\-]{3,}$",
-
-    # OBJECTIVES
-    r"^[A-Z][A-Z\s\-]{3,}$",
-]
-
-
-# =========================================================
-# HEADER DETECTION
-# =========================================================
-
-def is_header(line):
+def is_header_like(line):
 
     line = line.strip()
 
     if not line:
         return False
 
-    for pattern in HEADER_PATTERNS:
+    # ---------------------------------------------------
+    # HARD EXCLUSIONS
+    # ---------------------------------------------------
 
-        if re.match(pattern, line):
+    if len(line) > 120:
+        return False
 
-            return True
+    if re.search(r"[.;,:]$", line):
+        return False
 
-    return False
+    # Dosage patterns
+    if re.search(r"\b\d+\s?(mg|g|ml|mcg|kg|mmhg|bpm)\b", line, re.IGNORECASE):
+        return False
 
+    # Clinical IDs
+    if re.search(r"\bNCT\d+\b", line):
+        return False
 
-# =========================================================
-# CLEAN TEXT
-# =========================================================
+    # Address-like
+    if re.search(r"\b(St|Street|Rd|Road|Ave|Avenue|Blvd)\b", line):
+        return False
 
-def clean_text(text):
+    # Mostly numeric
+    alpha_chars = sum(c.isalpha() for c in line)
+    digit_chars = sum(c.isdigit() for c in line)
 
-    text = re.sub(r"\n{3,}", "\n\n", text)
+    if digit_chars > alpha_chars:
+        return False
 
-    return text.strip()
+    # Table fragments
+    if len(line.split()) <= 4 and "(" in line and ")" in line:
+        return False
+
+    # Chemical formulas
+    if re.search(r"[\[\]\(\)\-]{2,}", line):
+        return False
+
+    # ---------------------------------------------------
+    # HEADER SCORING
+    # ---------------------------------------------------
+
+    score = 0
+
+    # Numbered section headers
+    if re.match(r"^\d+(\.\d+)*\s+", line):
+        score += 4
+
+    # ALL CAPS short lines
+    if line.isupper() and len(line.split()) <= 10:
+        score += 3
+
+    # Title Case
+    if line == line.title():
+        score += 2
+
+    # Short lines
+    if len(line.split()) <= 10:
+        score += 1
+
+    # No common verbs
+    common_verbs = {
+        "is", "are", "was", "were",
+        "have", "has", "had",
+        "will", "would", "should",
+        "contains", "administered",
+        "provided", "included"
+    }
+
+    lower_words = set(line.lower().split())
+
+    if not common_verbs.intersection(lower_words):
+        score += 1
+
+    return score >= 4

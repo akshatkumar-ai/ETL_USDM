@@ -58,6 +58,18 @@ from retrieval.retriever import (
     index_chunks_by_id,
     build_context,
 )
+
+from preprocessing.extractor_text import extract_text
+
+from preprocessing.doc_preprocessing import (
+    preprocess_protocol_text
+)
+
+from preprocessing.chunk_manager import chunk_document
+
+from preprocessing.memory_builder import (
+    build_semantic_memory
+)
 import config
 
 # ── Large extraction classes ─────────────────────────────────────────────
@@ -65,23 +77,14 @@ import config
 LARGE_CLASSES = {
 
     "eligibilityCriterion",
-
     "activity",
-
     "encounter",
-
     "objective",
-
     "estimand",
-
     "analysisPopulation",
-
     "studyCell",
-
     "studyElement",
-
     "studyEpoch",
-
     "scheduleTimeline",
 }
 
@@ -89,15 +92,15 @@ LARGE_CLASSES = {
 # Temporarily skip problematic huge classes
 # to allow stable end-to-end pipeline execution.
 
-SKIP_CLASSES = {
+# SKIP_CLASSES = {
 
-    # Uncomment while debugging huge generations
+#     # Uncomment while debugging huge generations
 
-    "estimand",
-    "activity",
-    "encounter",
-    # "eligibilityCriterion",
-}
+#     "estimand",
+#     "activity",
+#     "encounter",
+#     "eligibilityCriterion",
+# }
 SPLIT_CLASSES = {
     "endpoint",
     "objective"
@@ -105,8 +108,7 @@ SPLIT_CLASSES = {
 
 # ── Default paths ──────────────────────────────────────────────────────────────
 
-DEFAULT_CHUNKS_PATH = "raw_chunking.json"
-DEFAULT_MEMORY_PATH = "semantic_memory.json"   # optional — pass "" to disable
+DEFAULT_DOCUMENT_PATH = "protocol.pdf"
 
 
 # ── Memory loader ──────────────────────────────────────────────────────────────
@@ -236,41 +238,162 @@ def _is_all_null(extracted: dict) -> bool:
 # ── Pipeline ───────────────────────────────────────────────────────────────────
 
 def run_pipeline(
-    chunks_path: str = DEFAULT_CHUNKS_PATH,
-    memory_path: str = DEFAULT_MEMORY_PATH,
+    document_path: str,
 ) -> dict:
 
     print("\n" + "=" * 70)
     print("  USDM EXTRACTION PIPELINE  —  class-driven")
     print("=" * 70)
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # STEP 1 — Load pre-chunked JSON + semantic memory
-    # ──────────────────────────────────────────────────────────────────────────
-    print(f"\n📂  Loading chunks from: {chunks_path}")
-    chunks = load_chunks(chunks_path)
-    print(f"✅  {len(chunks)} chunks loaded")
+    # ──────────────────────────────────────────────────────────────────────
+    # STEP 1 — Extract raw text
+    # ──────────────────────────────────────────────────────────────────────
 
-    # Build { chunk_id → chunk } index for O(1) memory-based lookup
+    print(f"\n📄  Extracting text from document")
+
+    raw_text = extract_text(document_path)
+
+    print("✅  Raw text extracted")
+
+
+    # ──────────────────────────────────────────────────────────────────────
+    # STEP 2 — Preprocess text
+    # ──────────────────────────────────────────────────────────────────────
+
+    print(f"\n🧹  Preprocessing protocol text")
+
+    cleaned_text = preprocess_protocol_text(raw_text)
+
+    print("✅  Text preprocessing complete")
+
+
+    # Save cleaned text
+    os.makedirs(config.OUTPUT_DIR, exist_ok=True)
+
+    cleaned_text_path = os.path.join(
+        config.OUTPUT_DIR,
+        "cleaned_protocol_text.txt"
+    )
+
+    with open(cleaned_text_path, "w", encoding="utf-8") as f:
+        f.write(cleaned_text)
+
+    print(f"    Saved cleaned text → {cleaned_text_path}")
+
+
+    # ──────────────────────────────────────────────────────────────────────
+    # STEP 3 — Create chunks
+    # ──────────────────────────────────────────────────────────────────────
+
+    print(f"\n🧩  Creating chunks")
+
+    chunks = chunk_document(cleaned_text)
+    # ─────────────────────────────────────────────────────────
+    # Normalize chunk schema
+    # ─────────────────────────────────────────────────────────
+
+    normalized_chunks = []
+
+    for idx, chunk in enumerate(chunks):
+
+        normalized_chunks.append({
+
+            "chunk_id":
+                f"chunk_{idx+1:04d}",
+
+            "section":
+                chunk.get(
+                    "section",
+                    "UNKNOWN"
+                ),
+
+            "subsection":
+                chunk.get(
+                    "subsection",
+                    ""
+                ),
+
+            "text":
+                chunk.get(
+                    "text",
+                    ""
+                )
+        })
+
+    chunks = normalized_chunks
+
+    # ─────────────────────────────────────────────────────────
+    # Section statistics
+    # ─────────────────────────────────────────────────────────
+
+    section_counts = {}
+
+    for chunk in chunks:
+
+        section = chunk.get(
+            "section",
+            "UNKNOWN"
+        )
+
+        section_counts[section] = (
+            section_counts.get(section, 0)
+            + 1
+        )
+
+    print(f"✅  {len(chunks)} chunks created")
+
+
+    # Save chunks
+    chunks_path = os.path.join(
+        config.OUTPUT_DIR,
+        "raw_chunks.json"
+    )
+
+    with open(chunks_path, "w", encoding="utf-8") as f:
+        json.dump(chunks, f, indent=2, ensure_ascii=False)
+
+    print(f"    Saved chunks → {chunks_path}")
+
+
+    # Build chunk index
     chunk_index = index_chunks_by_id(chunks)
-    print(f"    {len(chunk_index)} chunks indexed by ID")
 
-    print(f"\n🧠  Loading semantic memory from: {memory_path}")
-    memory = load_memory(memory_path)
-    if memory:
-        print(f"    Memory topics loaded: {len(memory)}")
-    else:
-        print(f"    No memory — will use keyword-only retrieval")
 
-    # Quick peek at section distribution
-    from collections import Counter
-    section_counts = Counter(c.get("section", "unknown") for c in chunks)
+    # ──────────────────────────────────────────────────────────────────────
+    # STEP 4 — Build semantic memory
+    # ──────────────────────────────────────────────────────────────────────
+
+    print(f"\n🧠  Building semantic memory")
+
+    memory = build_semantic_memory(chunks)
+
+    if not isinstance(memory, dict):
+
+        raise RuntimeError(
+            "Semantic memory generation failed"
+        )
+
+    memory_path = os.path.join(
+        config.OUTPUT_DIR,
+        "semantic_memory.json"
+    )
+
+    with open(memory_path, "w", encoding="utf-8") as f:
+        json.dump(memory, f, indent=2, ensure_ascii=False)
+
+    print(f"✅  Semantic memory created")
+
+    print(f"    Saved memory → {memory_path}")
+
+
+    print(f"    Memory topics loaded: {len(memory)}")
+
     print("\n  Section breakdown:")
     for section, count in sorted(section_counts.items()):
         print(f"    {count:>3}x  {section}")
 
     # ──────────────────────────────────────────────────────────────────────────
-    # STEP 2 — Iterate by USDM class
+    # STEP 5 — Iterate by USDM class
     # ──────────────────────────────────────────────────────────────────────────
     print(f"\n🔄  Processing {len(ALL_USDM_CLASSES)} USDM classes ...\n")
 
@@ -302,13 +425,13 @@ def run_pipeline(
         # ── 2b: Retrieve relevant chunks (memory-first, keyword fallback) ────────
         # ── Skip extremely large classes if configured ─────────────────────────
 
-        if usdm_class in SKIP_CLASSES:
-            stats["null"] += 1
-            null_classes.append(usdm_class)
+        # if usdm_class in SKIP_CLASSES:
+        #     stats["null"] += 1
+        #     null_classes.append(usdm_class)
 
-            print("          ⏭ skipped large class")
+        #     print("          ⏭ skipped large class")
 
-            continue
+        #     continue
 
         # ── Adaptive retrieval depth ───────────────────────────────────────────
 
@@ -524,16 +647,8 @@ if __name__ == "__main__":
         description="Extract USDM JSON from a pre-chunked JSON file."
     )
     parser.add_argument(
-        "chunks",
-        nargs="?",
-        default=DEFAULT_CHUNKS_PATH,
-        help=f"Path to raw_chunking.json (default: {DEFAULT_CHUNKS_PATH})",
-    )
-    parser.add_argument(
-        "memory",
-        nargs="?",
-        default=DEFAULT_MEMORY_PATH,
-        help=f"Path to semantic_memory.json (default: {DEFAULT_MEMORY_PATH}); omit or pass '' to disable",
+        "document",
+        help="Path to protocol PDF/TXT document"
     )
     parser.add_argument(
         "--threshold",
@@ -560,4 +675,4 @@ if __name__ == "__main__":
     _cfg.TOP_K_CHUNKS        = args.top_k
     _cfg.OUTPUT_FILE         = args.output
 
-    run_pipeline(chunks_path=args.chunks, memory_path=args.memory)
+    run_pipeline(document_path=args.document)

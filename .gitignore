@@ -131,3 +131,6 @@ dmypy.json
 # Project specific
 data/
 chroma_db/
+output/
+output2/
+template2/

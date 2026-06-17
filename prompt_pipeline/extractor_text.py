@@ -34,7 +34,7 @@ def extract_text(pdf_path):
 
 if __name__ == "__main__":
 
-    pdf_path = "Protocol_IF001_CL201_draft_17Sept2025.pdf"
+    pdf_path = "PSIL201_Synopsis.pdf"
 
     text = extract_text(pdf_path)
 

@@ -1,3 +1,6 @@
+import json
+import os
+import copy
 from chunking.section_chunker import section_chunking
 from chunking.semantic_chunker import semantic_chunking
 from chunking.hierarchical_chunker import hierarchical_chunking
@@ -10,7 +13,7 @@ from chunking.hybrid_chunker import hybrid_chunking
 
 
 
-CHUNKING_STRATEGY = "hybrid"
+CHUNKING_STRATEGY = "hybrid"  # Options: section, semantic, hierarchical, recursive, llm_dynamic, hybrid
 
 
 def chunk_document(raw_text,
@@ -49,7 +52,7 @@ def chunk_document(raw_text,
 if __name__ == "__main__":
 
     with open(
-        "raw_protocol_text.txt",
+        "cleaned_protocol_text.txt",
         "r",
         encoding="utf-8"
     ) as f:
@@ -61,14 +64,38 @@ if __name__ == "__main__":
         strategy=CHUNKING_STRATEGY
     )
 
+    print(f"\n Total chunks: {len(chunks)}")
+
+    os.makedirs("output", exist_ok=True)
+
+    with open(
+        "output/proccesed_chunks_recurvsive.json",
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            chunks,
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
+
+    print("\n✅ Raw chunks saved")
+
     for chunk in chunks:
 
         print("=" * 80)
 
-        print("HEADER:")
-        print(chunk["header"])
+        print("SECTION:")
+        print(chunk["section"])
+
+        print("-" * 80)
+
+        print("SUBSECTION:")
+        print(chunk["subsection"])
 
         print("-" * 80)
 
         print("TEXT:")
-        print(chunk["text"])
+        print(chunk["text"][:500])

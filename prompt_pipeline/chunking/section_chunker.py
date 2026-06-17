@@ -1,7 +1,10 @@
-from .base_chunker import is_header
+from .base_chunker import is_header_like
 
 
 def section_chunking(raw_text):
+    """
+    Split document into sections using heuristic header detection.
+    """
 
     lines = raw_text.split("\n")
 
@@ -9,38 +12,82 @@ def section_chunking(raw_text):
 
     current_header = "DOCUMENT_START"
 
-    current_text = []
+    current_content = []
 
+    for raw_line in lines:
 
-    for line in lines:
+        line = raw_line.strip()
 
-        if is_header(line):
+        # -----------------------------------------
+        # Skip empty lines
+        # -----------------------------------------
 
-            if current_text:
+        if not line:
+            continue
 
-                sections.append({
+        # -----------------------------------------
+        # Header Detection
+        # -----------------------------------------
 
-                    "header": current_header,
+        if is_header_like(line):
 
-                    "text": "\n".join(current_text)
-                })
+            # Save previous section
+            if current_content:
 
-            current_header = line.strip()
+                section_text = "\n".join(current_content).strip()
 
-            current_text = []
+                if section_text:
+
+                    sections.append({
+
+                        "header": current_header,
+
+                        "text": section_text
+                    })
+
+            # Start new section
+            current_header = line
+
+            current_content = []
 
         else:
 
-            current_text.append(line)
+            current_content.append(line)
 
+    # -----------------------------------------
+    # Save final section
+    # -----------------------------------------
 
-    if current_text:
+    if current_content:
 
-        sections.append({
+        section_text = "\n".join(current_content).strip()
 
-            "header": current_header,
+        if section_text:
 
-            "text": "\n".join(current_text)
-        })
+            sections.append({
 
-    return sections
+                "header": current_header,
+
+                "text": section_text
+            })
+
+    # -----------------------------------------
+    # Merge tiny OCR-noise sections
+    # -----------------------------------------
+
+    cleaned_sections = []
+
+    for section in sections:
+
+        text = section["text"].strip()
+
+        # Very tiny sections are usually noise
+        if len(text) < 20 and cleaned_sections:
+
+            cleaned_sections[-1]["text"] += "\n" + text
+
+        else:
+
+            cleaned_sections.append(section)
+
+    return cleaned_sections

@@ -1,77 +1,598 @@
-
 {
-  "usdmVersion": "",
-  "systemName": "",
-  "systemVersion": "",
-  "study": {
-    "id": "",
-    "instanceType": "Study",
-    "name": "",
-    "label": "",
-    "description": "",
-    "versions": [
-      {
-        "id": "",
-        "instanceType": "StudyVersion",
-        "versionIdentifier": "",
-        "rationale": "",
-        "dateValues": [],
-        "amendments": [],
-        "businessTherapeuticAreas": [],
-        "studyIdentifiers": [],
-        "referenceIdentifiers": [],
-        "studyDesigns": [
-          {
-            "id": "",
-            "instanceType": "InterventionalStudyDesign",
-            "name": "",
-            "label": "",
-            "description": "",
-            "studyType": {},
-            "studyPhase": {},
-            "therapeuticAreas": [],
-            "characteristics": [],
-            "encounters": [],
-            "activities": [],
-            "arms": [],
-            "studyCells": [],
-            "rationale": "",
-            "epochs": [],
-            "elements": [],
-            "estimands": [],
-            "indications": [],
-            "studyInterventionIds": [],
-            "objectives": [],
-            "population": {
-              "id": "",
-              "instanceType": "StudyDesignPopulation",
-              "name": "",
-              "label": "",
-              "description": "",
-              "includesHealthySubjects": false,
-              "plannedEnrollmentNumber": {},
-              "plannedCompletionNumber": {},
-              "plannedSex": [],
-              "plannedAge": {},
-              "criterionIds": [],
-              "cohorts": []
-            }
-          }
-        ]
-      }
-    ]
+  "Study": {
+    "id": null,
+    "name": null,
+    "label": null,
+    "description": null
   },
-  "organizations": [],
-  "administrableProducts": [],
-  "productOrganizationRoles": [],
-  "studyInterventions": [],
-  "analysisPopulations": [],
-  "eligibilityCriteria": [],
-  "scheduleTimelines": [],
-  "conditions": [],
-  "bcCategories": [],
-  "biomedicalConcepts": [],
-  "dictionaries": [],
-  "documentedBy": [],
-  "notes": []
+  "studyDefinitionDocument": {
+    "id": null,
+    "name": null,
+    "label": null,
+    "description": null,
+    "type": null,
+    "templateName": null,
+    "language": null,
+    "notes": null
+  },
+  "studyVersion": {
+    "id": null,
+    "versionIdentifier": null,
+    "businessTherapeuticAreas": null,
+    "rationale": null,
+    "notes": null
+  },
+  "studyDefinitionDocumentVersion": {
+    "id": null,
+    "status": null,
+    "version": null,
+    "notes": null
+  },
+  "studySite": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "country": null
+    }
+  ],
+  "DocumentContentReference": [
+    {
+      "id": null,
+      "sectionNumber": null,
+      "sectionTitle": null
+    }
+  ],
+  "GovernanceDate": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "type": null,
+      "dateValue": null
+    }
+  ],
+  "GeographicScope": [
+    {
+      "id": null,
+      "type": null,
+      "code": null
+    }
+  ],
+  "studyAmendment": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "number": null,
+      "notes": null,
+      "summary": null
+    }
+  ],
+  "subjectEnrollment": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "quantity": null
+    }
+  ],
+  "studyChange": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "rationale": null,
+      "summary": null
+    }
+  ],
+  "studyAmendmentReason": [
+    {
+      "id": null,
+      "otherReason": null,
+      "code": null
+    }
+  ],
+  "studyAmendmentImpact": [
+    {
+      "id": null,
+      "text": null,
+      "isSubstantial": null,
+      "type": null,
+      "notes": null
+    }
+  ],
+  "studyChange_2": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "rationale": null,
+      "summary": null
+    }
+  ],
+  "studyTitle": [
+    {
+      "id": null,
+      "type": null,
+      "text": null
+    }
+  ],
+  "referenceIdentifier": [
+    {
+      "type": null
+    }
+  ],
+  "Organization": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "identifier": null,
+      "identifierScheme": null,
+      "type": null
+    }
+  ],
+  "address": [
+    {
+      "id": null,
+      "text": null,
+      "lines": null,
+      "district": null,
+      "city": null,
+      "postalCode": null,
+      "state": null,
+      "country": null
+    }
+  ],
+  "identifier": [
+    {
+      "identifier": null,
+      "text": null
+    }
+  ],
+  "studyRole": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "code": null
+    }
+  ],
+  "studyDesign": {
+    "id": null,
+    "name": null,
+    "label": null,
+    "description": null,
+    "rationale": null,
+    "therapeuticAreas": null,
+    "studyType": null,
+    "characteristics": null,
+    "studyPhase": null,
+    "notes": null
+  },
+  "observationalStudyDesign": [
+    {
+      "model": null,
+      "subType": null,
+      "timePerspective": null,
+      "samplingMethod": null
+    }
+  ],
+  "interventionalStudyDesign": [
+    {
+      "model": null,
+      "subTypes": null,
+      "blindingSchema": null,
+      "intentTypes": null
+    }
+  ],
+  "BiospecimenRetention": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "isRetained": null,
+      "includesDNA": null
+    }
+  ],
+  "studyEpoch": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "type": null,
+      "notes": null
+    }
+  ],
+  "scheduledInstance": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null
+    }
+  ],
+  "studyArm": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "type": null,
+      "dataOriginType": null,
+      "dataOriginDescription": null,
+      "notes": null
+    }
+  ],
+  "studyCell": [
+    {
+      "id": null
+    }
+  ],
+  "studyElement": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "notes": null
+    }
+  ],
+  "Encounter": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "type": null,
+      "environmentalSettings": null,
+      "contactModes": null,
+      "note": null
+    }
+  ],
+  "transitionRule": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "text": null
+    }
+  ],
+  "scheduleTimeline": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "entryCondition": null,
+      "mainTimeline": null,
+      "plannedDuration": null
+    }
+  ],
+  "Activity": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "notes": null
+    }
+  ],
+  "BiomedicalConceptSurrogate": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "reference": null,
+      "notes": null
+    }
+  ],
+  "BiomedicalConcept": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "synonyms": null,
+      "references": null,
+      "code": null,
+      "notes": null
+    }
+  ],
+  "BiomedicalConceptCategory": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "code": null,
+      "notes": null
+    }
+  ],
+  "Procedure": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "prodedureType": null,
+      "code": null,
+      "notes": null
+    }
+  ],
+  "BiomedicalConceptProperty": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "isRequired": null,
+      "isEnabled": null,
+      "dataType": null,
+      "code": null,
+      "notes": null
+    }
+  ],
+  "responseCode": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "isEnabled": null,
+      "code": null
+    }
+  ],
+  "conditionAssingment": [
+    {
+      "id": null,
+      "condition": null
+    }
+  ],
+  "timing": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "type": null,
+      "relativeToFrom": null,
+      "value": null,
+      "valueLabel": null,
+      "windowLabel": null,
+      "windowLower": null,
+      "WindowUpper": null
+    }
+  ],
+  "scheduleTimelineExit": [
+    {
+      "id": null
+    }
+  ],
+  "studyIntervention": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "role": null,
+      "type": null,
+      "codes": null,
+      "minimumResponseDuration": null,
+      "notes": null
+    }
+  ],
+  "administrableProduct": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null
+    }
+  ],
+  "administrableDoseForm": [
+    {
+      "sourcing": null,
+      "productDesignation": null,
+      "pharmacologicClass": null,
+      "notes": null
+    }
+  ],
+  "administrableProductProperty": [
+    {
+      "id": null,
+      "name": null,
+      "type": null,
+      "text": null,
+      "quantity": null
+    }
+  ],
+  "ingredient": [
+    {
+      "id": null,
+      "role": null
+    }
+  ],
+  "medicalDevice": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "hardwareVersion": null,
+      "softwareVersion": null,
+      "sourcing": null,
+      "notes": null
+    }
+  ],
+  "administration": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "dose": null,
+      "frequency": null,
+      "route": null,
+      "duration": null,
+      "notes": null
+    }
+  ],
+  "productOrganizationRole": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "notes": null
+    }
+  ],
+  "strength": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "numerator": null,
+      "denominator": null
+    }
+  ],
+  "substance": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "codes": null
+    }
+  ],
+  "medicalDeviceIdentifier": [
+    {
+      "type": null
+    }
+  ],
+  "syntaxTemplate": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "text": null,
+      "notes": null
+    }
+  ],
+  "objective": [
+    {
+      "level": null
+    }
+  ],
+  "endpoint": [
+    {
+      "level": null,
+      "purpose": null
+    }
+  ],
+  "estimand": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "populationSummary": null,
+      "notes": null
+    }
+  ],
+  "intercurrentEvent": [
+    {
+      "strategy": null
+    }
+  ],
+  "analysisPopulation": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "notes": null
+    }
+  ],
+  "populationDefinition": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "plannedSex": null,
+      "includesHealthySubjects": null,
+      "plannedAge": null,
+      "plannedCompletionNumberRange": null,
+      "plannedCompletionNumberQuantity": null,
+      "plannedEnrollmentNumberRange": null,
+      "plannedEnrollmentNumberQuantity": null,
+      "notes": null
+    }
+  ],
+  "eligibilityCriterion": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "identifier": null,
+      "category": null,
+      "notes": null
+    }
+  ],
+  "indication": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null,
+      "isRareDisease": null,
+      "code": null,
+      "notes": null
+    }
+  ],
+  "narrativeContent": [
+    {
+      "id": null,
+      "name": null,
+      "sectionNumber": null,
+      "sectionTitle": null,
+      "displaySectionTitle": null,
+      "displaySectionNumber": null
+    }
+  ],
+  "narrativeContentItem": [
+    {
+      "id": null,
+      "name": null,
+      "text": null
+    }
+  ],
+  "syntaxTemplateDictionary": [
+    {
+      "id": null,
+      "name": null,
+      "label": null,
+      "description": null
+    }
+  ],
+  "parameterMap": [
+    {
+      "id": null,
+      "tag": null,
+      "reference": null
+    }
+  ]
 }

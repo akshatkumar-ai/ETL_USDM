@@ -372,13 +372,6 @@ def get_relevant_chunks_from_memory(
     # Reduce retrieval for huge extraction classes
     # -------------------------------------------------------------------------
 
-    if usdm_class in LARGE_CLASSES:
-
-        top_k = min(
-            top_k,
-            3
-        )
-
     memory_keys = USDM_CLASS_TO_MEMORY_KEYS.get(
         usdm_class,
         []

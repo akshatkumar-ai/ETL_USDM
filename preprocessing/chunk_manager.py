@@ -7,13 +7,13 @@ from chunking.hierarchical_chunker import hierarchical_chunking
 from chunking.llm_dynamic_chunker import llm_dynamic_chunking
 from chunking.recursive_chunker import recursive_chunking
 from chunking.hybrid_chunker import hybrid_chunking
+import config
 
 
 
 
 
-
-CHUNKING_STRATEGY = "recursive"  # Options: section, semantic, hierarchical, recursive, llm_dynamic, hybrid
+CHUNKING_STRATEGY = config.CHUNKING_STRATEGY  # Options: section, semantic, hierarchical, recursive, llm_dynamic, hybrid
 
 
 def chunk_document(raw_text,

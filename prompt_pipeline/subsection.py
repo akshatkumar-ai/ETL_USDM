@@ -632,7 +632,7 @@ def set_nested_value(
 
 def get_subschema(
     usdm_class: str,
-    template_path: str = "prompt_pipeline/template/usdm_schema.json",
+    template_path: str = "/home/riya/USDM/ETL_USDM/template/usdm_schema.json",
 ) -> Dict:
     """
     Return a minimal JSON sub-schema for one USDM class.

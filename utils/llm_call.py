@@ -63,7 +63,7 @@ def get_bedrock_client():
     # -----------------------------------------------------
 
     try:
-        print("REGION:", AWS_REGION)
+        
         client = boto3.client(
             "bedrock-runtime",
 
@@ -128,7 +128,7 @@ def llm_call(
     # -----------------------------------------------------
 
     client = get_bedrock_client()
-    print("MODEL:", repr(model_id))
+    
 
     # -----------------------------------------------------
     # REQUEST BODY
@@ -173,7 +173,7 @@ def llm_call(
     # -----------------------------------------------------
 
     try:
-        print("MODEL:", model_id)
+        
         response = client.invoke_model(
 
             modelId=model_id,

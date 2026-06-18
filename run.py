@@ -227,7 +227,7 @@ def save_checkpoint(
 # ── Orchestrator ───────────────────────────────────────────────────────────────
 
 def run(
-    strategy:   str = "recursive",
+    strategy:   str = config.CHUNKING_STRATEGY,
     output_dir: str = config.OUTPUT_DIR,
 ) -> dict:
     """
@@ -333,7 +333,7 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "--strategy",
-        default   = "recursive",
+        default   = "hybrid",
         choices   = ["section", "semantic", "hierarchical",
                      "recursive", "llm_dynamic", "hybrid"],
         help      = "Chunking strategy to use for all documents (default: recursive)",

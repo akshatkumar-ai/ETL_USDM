@@ -34,7 +34,6 @@ sys.path.insert(
 from typing import Dict, List, Tuple
 
 from retrieval.class_keywords import CLASS_KEYWORDS
-from prompt_pipeline.chunker import SECTION_TO_USDM
 from config import (
     RELEVANCE_THRESHOLD,
     TOP_K_CHUNKS,
@@ -68,6 +67,68 @@ LARGE_CLASSES = {
 
     "scheduleTimeline",
 }
+# =========================================================
+# SECTION → USDM CLASS MAPPING
+# =========================================================
+
+SECTION_TO_USDM = {
+
+    "synopsis": [
+        "study",
+        "studyVersion",
+        "studyTitle",
+        "studyIdentifier"
+    ],
+
+    "background": [
+        "indication",
+        "studyVersion.rationale"
+    ],
+
+    "objectives": [
+        "objective",
+        "endpoint"
+    ],
+
+    "study_design": [
+        "studyDesign",
+        "studyArm",
+        "studyEpoch",
+        "studyCell"
+    ],
+
+    "eligibility": [
+        "eligibilityCriterion",
+        "studyDesignPopulation"
+    ],
+
+    "schedule": [
+        "encounter",
+        "activity",
+        "scheduleTimeline",
+        "timing"
+    ],
+
+    "interventions": [
+        "studyIntervention",
+        "administration"
+    ],
+
+    "statistics": [
+        "estimand",
+        "analysisPopulation"
+    ],
+
+    "amendments": [
+        "studyAmendment"
+    ],
+
+    "organizations": [
+        "organization",
+        "studyRole"
+    ]
+}
+
 
 # =============================================================================
 # SECTION → CLASS MAP

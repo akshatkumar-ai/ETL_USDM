@@ -134,3 +134,4 @@ chroma_db/
 output/
 output2/
 template2/
+*.pdf

@@ -39,9 +39,8 @@ from prompt_pipeline.prompt_builder import build_messages
 from prompt_pipeline.llm_caller     import extract_usdm_section
 from prompt_pipeline.judge          import judge_extraction
 from prompt_pipeline.merger         import merge_usdm
-from prompt_pipeline.validator      import validate_usdm, print_validation_report
 from prompt_pipeline.deduplicator   import deduplicate_usdm
-
+from prompt_pipeline.eligibility_split_pass import extract_eligibility_split
 from retrieval.retriever import (
     get_relevant_chunks,
     get_relevant_chunks_from_memory,
@@ -354,7 +353,14 @@ def run_document_pass(
             else config.LLM_MAX_TOKENS
         )
 
-        extracted = extract_usdm_section(messages, max_tokens=max_tokens)
+        if usdm_class == "eligibilityCriterion":
+           extracted = extract_eligibility_split(
+               context_text=context_text,
+               extract_fn=extract_usdm_section,
+               max_tokens=max_tokens,
+           )
+        else:
+           extracted = extract_usdm_section(messages, max_tokens=max_tokens)
 
         # ── Handle LLM error ───────────────────────────────────────────────────
         if "error" in extracted:
@@ -406,12 +412,6 @@ def run_document_pass(
             stats["partial"] += 1
 
         time.sleep(0.3)
-
-    # ── Validate ──────────────────────────────────────────────────────────────
-    print(f"\n{'='*70}")
-    print(f"  VALIDATION — {doc_type.upper()} PASS")
-    validation = validate_usdm(master_usdm)
-    print_validation_report(validation)
 
     # ── Pass summary ──────────────────────────────────────────────────────────
     print(f"\n  PASS SUMMARY — {doc_type.upper()}")

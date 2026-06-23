@@ -42,8 +42,8 @@ from config import (
 # =============================================================================
 # CONFIG
 # =============================================================================
-
-MAX_CHARS_PER_CHUNK = 2500
+MAX_CHARS_PER_CHUNK = 8000
+MAX_TOTAL_CONTEXT_CHARS = 60000
 
 LARGE_CLASSES = {
 
@@ -491,24 +491,19 @@ def get_relevant_chunks_from_memory(
                 retrieved.append(chunk)
 
         if retrieved:
-
             return (
-                retrieved[:top_k],
+                retrieved,        # send everything memory found — no top_k slicing
                 "memory"
-            )
+            )       # other classes keep the cap
 
     # -------------------------------------------------------------------------
     # KEYWORD FALLBACK
     # -------------------------------------------------------------------------
 
     keyword_hits = get_relevant_chunks(
-
         all_chunks,
-
         usdm_class,
-
         threshold=threshold,
-
         top_k=top_k,
     )
 
@@ -525,54 +520,48 @@ def get_relevant_chunks_from_memory(
 # CONTEXT BUILDER
 # =============================================================================
 
-def build_context(
-    chunks: List[Dict]
-) -> str:
+def build_context(chunks: list) -> str:
     """
     Build bounded prompt context.
+ 
+    Per-chunk truncation is now a generous ceiling (MAX_CHARS_PER_CHUNK) that
+    should rarely fire — it exists only to stop a single pathological chunk
+    from blowing the whole budget on its own.
+ 
+    The real budget control is MAX_TOTAL_CONTEXT_CHARS: if the combined size
+    of all chunks exceeds it, chunks are dropped from the END of the list
+    (lowest-priority / lowest-scored, since callers already sort by
+    relevance before calling this) rather than truncating every chunk's
+    text mid-criterion.
     """
-
     if not chunks:
         return ""
-
+ 
     parts = []
-
     total_chars = 0
-
+    dropped_chunks = 0
+ 
     for i, chunk in enumerate(chunks, 1):
-
-        section = chunk.get(
-            "section",
-            "UNKNOWN"
-        ).upper()
-
-        text = chunk.get(
-            "text",
-            ""
-        ).strip()
-
-        # ---------------------------------------------------------------------
-        # Prevent prompt explosion
-        # ---------------------------------------------------------------------
-
+        section = chunk.get("section", "UNKNOWN").upper()
+        text = chunk.get("text", "").strip()
+ 
+        # Per-chunk ceiling — generous, should rarely trigger
         if len(text) > MAX_CHARS_PER_CHUNK:
-
-            text = (
-                text[:MAX_CHARS_PER_CHUNK]
-                + "\n...[TRUNCATED]"
-            )
-
+            text = text[:MAX_CHARS_PER_CHUNK] + "\n...[TRUNCATED — chunk exceeded per-chunk ceiling]"
+ 
+        # Total budget check — stop adding chunks once we'd exceed it,
+        # rather than silently clipping the chunk that pushes us over
+        if total_chars + len(text) > MAX_TOTAL_CONTEXT_CHARS:
+            dropped_chunks = len(chunks) - i + 1
+            break
+ 
         total_chars += len(text)
-
-        parts.append(
-            f"--- CHUNK {i} [{section}] ---\n{text}"
-        )
-
-    print(
-        f"          📏 Context size: "
-        f"{total_chars:,} chars"
-    )
-
+        parts.append(f"--- CHUNK {i} [{section}] ---\n{text}")
+ 
+    print(f"          📏 Context size: {total_chars:,} chars across {len(parts)} chunk(s)")
+    if dropped_chunks:
+        print(f"          ⚠  {dropped_chunks} chunk(s) dropped — exceeded MAX_TOTAL_CONTEXT_CHARS")
+ 
     return "\n\n".join(parts)
 
 # =============================================================================
